@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Handraiser</fullName>
+        <default>false</default>
+        <label>Handraiser</label>
+    </customValue>
+    <customValue>
+        <fullName>Trial</fullName>
+        <default>false</default>
+        <label>Trial</label>
+    </customValue>
+    <customValue>
+        <fullName>DemandGen</fullName>
+        <default>false</default>
+        <label>DemandGen</label>
+    </customValue>
+    <masterLabel>Campaign Response Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

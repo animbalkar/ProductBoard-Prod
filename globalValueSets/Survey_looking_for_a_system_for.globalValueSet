@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>myself only</fullName>
+        <default>false</default>
+        <label>myself only</label>
+    </customValue>
+    <customValue>
+        <fullName>my team</fullName>
+        <default>false</default>
+        <label>my team</label>
+    </customValue>
+    <customValue>
+        <fullName>several teams</fullName>
+        <default>false</default>
+        <label>several teams</label>
+    </customValue>
+    <customValue>
+        <fullName>my whole company</fullName>
+        <default>false</default>
+        <label>my whole company</label>
+    </customValue>
+    <description>Survey Answer to: Looking for a system for:</description>
+    <masterLabel>Survey looking for a system for</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

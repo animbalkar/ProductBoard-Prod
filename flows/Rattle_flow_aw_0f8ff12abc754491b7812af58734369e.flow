@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>action_outbound_message</name>
+        <label>action outbound message</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <actionName>Opportunity.R_0f8ff12abc754491b7812af58734369e</actionName>
+        <actionType>outboundMessage</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <description>Rattle_SDR Opportunity Stage Change to 3, 4, or 5</description>
+    <interviewLabel>Rattle_SDR Opportunity Stage Change to 3, 4, or 5 {!$Flow.CurrentRecord} {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Rattle_SDR Opportunity Stage Change to 3, 4, or 5</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>action_outbound_message</targetReference>
+        </connector>
+        <filterFormula>AND(AND(ISCHANGED({!$Record.StageName}), OR(ISPICKVAL({!$Record.StageName}, &quot;3.0 Prove&quot;), ISPICKVAL({!$Record.StageName}, &quot;4.0 Proposal&quot;), ISPICKVAL({!$Record.StageName}, &quot;5.0 Closing&quot;))), NOT OR(ISBLANK({!$Record.SDR__c}),ISBLANK({!$Record.SDR__c})), OR(ISPICKVAL({!$Record.Owner.Team__c}, &quot;ESB-AE&quot;), ISPICKVAL({!$Record.Owner.Team__c}, &quot;SMB-AE&quot;), ISPICKVAL({!$Record.Owner.Team__c}, &quot;MM-AE&quot;), ISPICKVAL({!$Record.Owner.Team__c}, &quot;EN-AE&quot;)))</filterFormula>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

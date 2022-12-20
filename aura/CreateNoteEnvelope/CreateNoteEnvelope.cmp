@@ -1,0 +1,19 @@
+<aura:component controller="CreateNote" implements="force:appHostable,flexipage:availableForAllPageTypes,force:hasRecordId">
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="comments" type="String"/>
+
+    <lightning:layout horizontalAlign="space" multipleRows="true">
+        <lightning:layoutItem size="12" mediumDeviceSize="12">
+                              <lightning:card title="Document 'Closed Lost' feedback" iconName="standard:insights">
+                                    <div class="row slds-p-horizontal_medium">
+                                            <lightning:textarea name="noteComments" value="{! v.comments }" placeholder="type here..." label="Provide additional comments"/>
+                                    </div>
+                                  <div class="slds-form slds-p-around_medium">
+                                      <lightning:button
+                                          label="Send to productboard"
+                                          onclick="{!c.handleClick }"/>
+                                  </div>
+                              </lightning:card>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>

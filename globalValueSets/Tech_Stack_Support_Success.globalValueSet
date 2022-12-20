@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Chorus</fullName>
+        <default>false</default>
+        <label>Chorus</label>
+    </customValue>
+    <customValue>
+        <fullName>Drift</fullName>
+        <default>false</default>
+        <label>Drift</label>
+    </customValue>
+    <customValue>
+        <fullName>Freshdesk</fullName>
+        <default>false</default>
+        <label>Freshdesk</label>
+    </customValue>
+    <customValue>
+        <fullName>Front</fullName>
+        <default>false</default>
+        <label>Front</label>
+    </customValue>
+    <customValue>
+        <fullName>Gainsight</fullName>
+        <default>false</default>
+        <label>Gainsight</label>
+    </customValue>
+    <customValue>
+        <fullName>Gong</fullName>
+        <default>false</default>
+        <label>Gong</label>
+    </customValue>
+    <customValue>
+        <fullName>Helpscout</fullName>
+        <default>false</default>
+        <label>Helpscout</label>
+    </customValue>
+    <customValue>
+        <fullName>Intercom</fullName>
+        <default>false</default>
+        <label>Intercom</label>
+    </customValue>
+    <customValue>
+        <fullName>Kayako</fullName>
+        <default>false</default>
+        <label>Kayako</label>
+    </customValue>
+    <customValue>
+        <fullName>Kustomer</fullName>
+        <default>false</default>
+        <label>Kustomer</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Totango</fullName>
+        <default>false</default>
+        <label>Totango</label>
+    </customValue>
+    <customValue>
+        <fullName>Zendesk</fullName>
+        <default>false</default>
+        <label>Zendesk</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce Service Cloud</fullName>
+        <default>false</default>
+        <label>Salesforce Service Cloud</label>
+    </customValue>
+    <description>Support and customer success tools in use by the team or organization</description>
+    <masterLabel>Tech Stack (Support/Success)</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

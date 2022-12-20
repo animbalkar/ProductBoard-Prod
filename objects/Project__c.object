@@ -1,0 +1,2605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Project_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Project</label>
+    <nameField>
+        <label>Project Name</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Projects</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts>
+        <customTabListAdditionalFields>Project_PB_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Account_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Product_Name__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Account_Name__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Current_Backend_Stage__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Chartmogul_MRR__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Project_PB_ID__c</searchFilterFields>
+        <searchFilterFields>Account_Name__c</searchFilterFields>
+        <searchFilterFields>Product_Name__c</searchFilterFields>
+        <searchResultsAdditionalFields>Project_PB_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Current_Backend_Stage__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Chartmogul_MRR__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Chartmogul_Plan__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>ARR__c</fullName>
+        <externalId>false</externalId>
+        <formula>If( Chartmogul_ARR__c &gt;0, Chartmogul_ARR__c,
+If( Prior_ARR__c &gt; 0, Prior_ARR__c,
+IF( Maximum_ARR__c &gt; 0,  Maximum_ARR__c, null)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>User Prior or Max ARR if Chartmogul ARR = 0</inlineHelpText>
+        <label>ARR_Delete</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MRR__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>MRR updated from ETL.</inlineHelpText>
+        <label>MRR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Paid__c</fullName>
+        <externalId>false</externalId>
+        <formula>ARR_New__c  &gt; 0</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Paid?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Self Service</fullName>
+                    <default>true</default>
+                    <label>Self Service</label>
+                </value>
+                <value>
+                    <fullName>Manual</fullName>
+                    <default>false</default>
+                    <label>Manual</label>
+                </value>
+                <value>
+                    <fullName>Subproject</fullName>
+                    <default>false</default>
+                    <label>Subspace</label>
+                </value>
+                <value>
+                    <fullName>Internal</fullName>
+                    <default>false</default>
+                    <label>Internal</label>
+                </value>
+                <value>
+                    <fullName>Custom</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Custom</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Active_Delete</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Current_Backend_Stage__c = &quot;Active Contract&quot; || Current_Backend_Stage__c = &quot;Active Subscription&quot;, 
+if(ARR_New__c&gt;0, Current_Backend_Stage__c,
+IF(Account_Name__r.Account_ARR__c &gt; 0 ||  Parent_Project__r.ARR_New__c &gt; 0, &quot;Subspace&quot;, 
+IF(datevalue( etl_subscription_end_date__c) - today() &gt; 0, &quot;Check Data: 100% Discount?&quot;,&quot;Check Data-Churn?&quot;))),
+
+
+Case ( Current_Backend_Stage__c,
+&quot;Deleted&quot; , IF( Initial_ARR__c &gt; 0, &quot;Churned Customer&quot;,&quot;Deleted&quot;),
+&quot;Churned Customer&quot;, If(Isblank( Parent_Project__c ), &quot;Churned Customer&quot;,&quot;Churned Subspace&quot;),
+&quot;&quot;,IF(now()- CreatedDate &lt;1, &quot;New&quot;,&quot; - Missing&quot;),
+ Current_Backend_Stage__c ))</formula>
+        <inlineHelpText>Based on MRR &amp; Backend stage</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>admins__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText># Active admins in pb backend, updated by ETL pipeline</inlineHelpText>
+        <label># admins</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ARR_New__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Current_Backend_Stage__c = &quot;Deleted&quot; || Current_Backend_Stage__c = &quot;Churned Customer&quot; || Current_Backend_Stage__c = &quot;Expired Contract&quot; , 0 ,
+
+MRR__c * 12)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ARR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>BI_City__c</fullName>
+        <externalId>false</externalId>
+        <label>BI City</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_City__c</fullName>
+        <externalId>false</externalId>
+        <label>CC City</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CS_Tier__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.CS_Tier__c</formula>
+        <label>CS Tier</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Counter__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Counter</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deleted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Deleted</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Updated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Updated</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>editors__c</fullName>
+        <externalId>false</externalId>
+        <label># editors</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>viewers__c</fullName>
+        <externalId>false</externalId>
+        <label># viewers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BI_State__c</fullName>
+        <externalId>false</externalId>
+        <label>BI State</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_State__c</fullName>
+        <externalId>false</externalId>
+        <label>CC State</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>End Date_Delete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Industry__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.ZI_Industry__c</formula>
+        <label>Industry</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Team_URL__c</fullName>
+        <description>URL of project website</description>
+        <externalId>false</externalId>
+        <label>Team URL</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ARR_Delta__c</fullName>
+        <externalId>false</externalId>
+        <formula>ARR_New__c  - Prior_ARR__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Current ARR - Prior ARR</inlineHelpText>
+        <label>ARR Delta</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Cancelled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>not correct? Checked for paying active subscriptions</inlineHelpText>
+        <label>Cancelled_Delete</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>InO_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text(Opportunity__r.StageName)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Stage of the primary (Initial) Opportunity</inlineHelpText>
+        <label>InO Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Prior_ARR__c</fullName>
+        <externalId>false</externalId>
+        <label>Prior ARR</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Account_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.Id</formula>
+        <label>Account ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BI_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>BI Address</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BI_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>BI Country</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>CC Address</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Country__c</fullName>
+        <externalId>false</externalId>
+        <label>CC Country</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Price_Book__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Billing Cycle</label>
+        <referenceTo>Pricebook2</referenceTo>
+        <relationshipLabel>Projects</relationshipLabel>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Prior_Plan__c</fullName>
+        <externalId>false</externalId>
+        <label>Prior Plan</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sort_Order__c</fullName>
+        <externalId>false</externalId>
+        <formula>Round( Chartmogul_MRR__c / 100,0) + 
+Case( Current_Backend_Stage__c ,
+&quot;Deleted&quot;,-10,
+&quot;Trial Expired&quot;,-1,
+&quot;Active Subscription&quot;,10,
+&quot;Active Contract&quot;, 15,
+&quot;Churned Customer&quot;,5,
+&quot;Expired Contract&quot;,6,
+&quot;Trial Active&quot;,1,
+&quot;Badproject&quot;,-5,
+0)
+
+- (today() - datevalue(CreatedDate )) / 365</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sort Order</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Space_Plan__c</fullName>
+        <externalId>false</externalId>
+        <formula>Product_Name__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Space Plan</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Space_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Space Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Space_Project_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Trial_Plan__c</fullName>
+        <description>Customer space current trial plan name</description>
+        <externalId>false</externalId>
+        <label>Trial Plan</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CS_Tier_ARR__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ARR_New__c &gt; 0,  ARR_New__c, 
+IF( Prior_ARR__c &gt; 0, Prior_ARR__c, NULL ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CS Tier ARR</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Initial_ARR__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>First non 0 ARR</inlineHelpText>
+        <label>Initial ARR</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Maximum_ARR__c</fullName>
+        <externalId>false</externalId>
+        <label>Maximum ARR</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Initial Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Projects</relationshipLabel>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status_Copy__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Picklist field replicating Status Formula Field</inlineHelpText>
+        <label>Status-Copy</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Project_Status</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vitally_CSM__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally CSM</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <description>Lookup to Account</description>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Projects</relationshipLabel>
+        <relationshipName>Projects</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>true</trackHistory>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Company_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Account Name from Account Record</inlineHelpText>
+        <label>Company Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Current_Plan__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Current Plan for this project</inlineHelpText>
+        <label>Current Plan</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Initial_Plan__c</fullName>
+        <externalId>false</externalId>
+        <label>Initial Plan</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plan_Version__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Version of the current product plan</inlineHelpText>
+        <label>Current Plan Version</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Prior_Makers__c</fullName>
+        <externalId>false</externalId>
+        <label>Prior Makers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to Product</description>
+        <externalId>false</externalId>
+        <label>Plan</label>
+        <referenceTo>Product2</referenceTo>
+        <relationshipLabel>Projects</relationshipLabel>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Workflow_Log__c</fullName>
+        <externalId>false</externalId>
+        <label>Workflow Log</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>contributors__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText># Active contributors in pb backend, updated by ETL pipeline</inlineHelpText>
+        <label># contributors</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.Owner.Full_Name__c</formula>
+        <label>Account Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BI_VAT_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>BI VAT Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Health_status__c</fullName>
+        <externalId>false</externalId>
+        <label>Health status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Positive</fullName>
+                    <default>false</default>
+                    <label>Positive</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Negative</fullName>
+                    <default>false</default>
+                    <label>Negative</label>
+                </value>
+                <value>
+                    <fullName>Dark</fullName>
+                    <default>false</default>
+                    <label>Dark</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>InO_Max_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Max_Stage_Achieved__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Initial Opportunity Max Stage Achieved</inlineHelpText>
+        <label>InO Max Stage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Maker_Overage__c</fullName>
+        <externalId>false</externalId>
+        <formula>If( Status__c = &quot;Active Contract&quot;,
+  -1* min( Contracted_Makers__c -  Project_makers__c ,0),Null)</formula>
+        <inlineHelpText>Makers in excess of contracted makers, for active contract spaces only.</inlineHelpText>
+        <label>Maker Overage-HIDDEN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_PB_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>ID of project from ProductBoardApp</description>
+        <externalId>true</externalId>
+        <label>Project PB ID</label>
+        <length>150</length>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Users__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Users</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>customer_uuid__c</fullName>
+        <externalId>false</externalId>
+        <label>customer_uuid</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ARR_Delta_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ARR_Delta__c = 0 ,&quot;&quot;,
+IF(ARR_Delta__c&gt;0,
+IF( Prior_ARR__c &gt;0, &quot;Upgrade&quot;,&quot;New Business&quot;),
+IF (  ARR_New__c  &gt; 0, &quot;Contraction&quot;,&quot;Cancellation&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>ARR Event Change Type</inlineHelpText>
+        <label>ARR Delta Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BI_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>BI Postal Code</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CC_Postal_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>CC Postal Code</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CS_Tier_Makers__c</fullName>
+        <externalId>false</externalId>
+        <formula>If( Purchased_Makers__c &gt; 0, Purchased_Makers__c , 
+IF ( Initial_ARR__c &gt; 0, Max( Prior_Makers__c ,  admins__c +  editors__c ,  Initial_Makers__c ),0))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText># Makers for current or churned customers to determine CS tier</inlineHelpText>
+        <label>CS Tier Makers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chartmogul_ARR__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  Current_Backend_Stage__c  = &quot;Deleted&quot; || Current_Backend_Stage__c  = &quot;Churned Customer&quot; ||  Current_Backend_Stage__c  = &quot;Expired Contract&quot; , 0 ,
+
+ Chartmogul_MRR__c  * 12)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Chartmogul ARR Delete</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Chartmogul_MRR__c</fullName>
+        <externalId>false</externalId>
+        <label>Chartmogul MRR Delete</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chartmogul_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Chartmogul URL Delete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Initial_Makers__c</fullName>
+        <externalId>false</externalId>
+        <label>Initial Makers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent_Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent Project</label>
+        <referenceTo>Project__c</referenceTo>
+        <relationshipLabel>Projects</relationshipLabel>
+        <relationshipName>Child_Projects</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Project_makers__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+    or( 
+        Current_Backend_Stage__c = &quot;Trial Expired&quot;, 
+        Current_Backend_Stage__c = &quot;Deleted&quot;, 
+        Current_Backend_Stage__c = &quot;Churned Customer&quot;),
+    0,    
+    admins__c + editors__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText># Active admins + editors (Formula based on PB backend # Admins &amp; Editors)</inlineHelpText>
+        <label># makers in use</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Trial_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Trial End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Account_ID_Long__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Account_Name__r.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account ID Long</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Segment__c</fullName>
+        <description>Returns the Segment of the account the Project is tied to based on employee count + country</description>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.Suggested_Segmentation_employees__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Account Employee # Segment</inlineHelpText>
+        <label>Account Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BI_Company_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>BI Company Name</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chartmogul_Plan__c</fullName>
+        <externalId>false</externalId>
+        <label>Chartmogul Plan Delete</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Correct_Account__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_ID__c =  Master_User_Contact__r.Account.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Account IS same on project account and master user account</inlineHelpText>
+        <label>Correct Account?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Last_ETL_Update__c</fullName>
+        <externalId>false</externalId>
+        <label>Last ETL Update</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>PB_Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>PB Account Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_ID_Long__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>18 digit project id</inlineHelpText>
+        <label>Project ID Long</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Success_Manager__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.Success_Manager__r.Email</formula>
+        <label>Success Manager</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ARR_Last_Updated__c</fullName>
+        <externalId>false</externalId>
+        <label>ARR Last Updated</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CC_Billing_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>CC Billing Email</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>InO_Close_Credit__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Opportunity__r.Close_Credited_To__c = &quot;Sales&quot;,&quot;Sales&quot;, &quot;Self Service&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Initial Opportunity Close Credit to</inlineHelpText>
+        <label>InO Close Credit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Looker_Dashboard__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;https://productboard.looker.com/dashboards/productboard::space_kpi_dashboard?Space=&quot; &amp; Project_Name_Short__c ,&quot;Link to Space KPI Dashboard for &quot; &amp; Project_Name_Short__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Looker Dashboard</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Master_User_Lead__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Master User Lead</label>
+        <referenceTo>Lead</referenceTo>
+        <relationshipLabel>Projects</relationshipLabel>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_admins__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of admins_Delete(Rollup)</label>
+        <summaryFilterItems>
+            <field>Project_User__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Project_User__c.Project_Role__c</field>
+            <operation>equals</operation>
+            <value>admin</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Project_User__c.Project__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Purchased_Makers__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Current_Backend_Stage__c =&quot;Active Contract&quot;,  Contracted_Makers__c  ,
+   IF ( Current_Backend_Stage__c =&quot;Active Subscription&quot;, Project_makers__c ,0))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>for contracts the number is from contracted makers, for subscriptions the # of makers used</inlineHelpText>
+        <label>Purchased Makers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Employees__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.Max_Employees__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Employees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Name_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Account_Name__r.Bad_Account__c ,  Project_Name_Short__c &amp; &quot;(&quot; &amp; Account_Name__r.Name &amp; &quot;)&quot;,
+Account_Name__r.Name)</formula>
+        <inlineHelpText>Account Name Text (for Vitally)</inlineHelpText>
+        <label>Account Name Text</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Not_Found__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Account Not Found_Delete</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Chartmogul_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Chartmogul Status Delete</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Latest contract end date</inlineHelpText>
+        <label>Contract End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contracted_Makers__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of Makers purchased in manual contracts</inlineHelpText>
+        <label>Contracted Makers</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Executive_Sponsor__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.Executive_Sponsor__r.Full_Name__c</formula>
+        <label>Executive Sponsor</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_editors__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of editors_Delete(Rollup)</label>
+        <summaryFilterItems>
+            <field>Project_User__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Project_User__c.Project_Role__c</field>
+            <operation>equals</operation>
+            <value>editor</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Project_User__c.Project__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_viewers__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of viewers_Delete(Rollup)</label>
+        <summaryFilterItems>
+            <field>Project_User__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Project_User__c.Project_Role__c</field>
+            <operation>equals</operation>
+            <value>viewer</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Project_User__c.Project__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Paid_Project_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Paid__c,  Project_Name_Short__c,
+  If( Contains(Status__c ,&quot;Subspace&quot;),
+  IF( ISBlank(Parent_Project__c) ,&quot;Missing Parent Project&quot;, Parent_Project__r.Project_Name_Short__c ),&quot;&quot;))</formula>
+        <inlineHelpText>Parent project name for subspaces, otherwise project name for paid projects</inlineHelpText>
+        <label>Paid Project Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Next_Step__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Next Step</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BI_Additional_Info__c</fullName>
+        <externalId>false</externalId>
+        <label>BI Additional Info</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GoodData_Dashboard__c</fullName>
+        <externalId>false</externalId>
+        <label>GoodData Dashboard</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Project_Name_Short__c</fullName>
+        <externalId>false</externalId>
+        <formula>left(Name,FIND(&quot;.&quot;, Name)-1)</formula>
+        <label>Project Name (Short)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status_Carbon_Copy__c</fullName>
+        <description>Copied version of Status formula field. For use w/ rollup fields on Account Object</description>
+        <externalId>false</externalId>
+        <label>Prior Status</label>
+        <length>99</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ARR_Date_Correction__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case( ARR_Delta_Type__c ,
+&quot;New Business&quot;, datevalue( etl_subscription_start_date__c ),
+&quot;Cancellation&quot;,datevalue( etl_subscription_end_date__c ),
+ datevalue(ARR_Last_Updated__c ))</formula>
+        <label>ARR Date Correction</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Account_Owner_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( IsPickVal(Account_Name__r.Owner.Team__c,&quot;Sales-Manager&quot;) ||  IsPickVal(Account_Name__r.Owner.Team__c,&quot;System/Automation&quot;),&quot;&quot;,Account_Name__r.Owner.Email)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Owner Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Admin_Test_Formuala__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Current_Backend_Stage__c = &quot;Active Contract&quot; || Current_Backend_Stage__c = &quot;Active Subscription&quot;, 
+if(Chartmogul_ARR__c&gt;0, Current_Backend_Stage__c,
+IF(Account_Name__r.Account_ARR__c &gt; 0 ||  Parent_Project__r.Chartmogul_ARR__c &gt; 0, &quot;Subspace&quot;, 
+IF(datevalue( etl_subscription_end_date__c) - today() &gt; 0, &quot;Check Data&quot;,&quot;Check Data-Churn?&quot;))),
+
+
+
+
+Case ( Current_Backend_Stage__c,
+&quot;Deleted&quot; , IF( Initial_ARR__c &gt; 0, &quot;Churned Customer&quot;,&quot;Deleted&quot;),
+&quot;Churned Customer&quot;, If(Isblank( Parent_Project__c ), &quot;Churned Customer&quot;,&quot;Churned Subspace&quot;),
+&quot;Trial Active&quot;,&quot;Trial Active&quot;,
+&quot;Trial Expired&quot;,&quot;Trial Expired&quot;,
+&quot;Expired Contract&quot;,&quot;Expired Contract&quot;,
+&quot;Subspace&quot;,&quot;Subspace&quot;,
+&quot;&quot;,IF(now()- CreatedDate &lt;1, &quot;New&quot;,&quot; - Missing&quot;),
+&quot;What Else: &quot;&amp; Current_Backend_Stage__c  ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Admin Test Formuala</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bad_Project_Account__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.Bad_Account__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Is the account on project marked as &quot;Bad Account&quot;?</inlineHelpText>
+        <label>Bad Project Account?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Earliest Contract start date</inlineHelpText>
+        <label>Contract Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Expansion_Potential__c</fullName>
+        <externalId>false</externalId>
+        <formula>If( Maker_Overage__c &gt; 0,  Maker_Overage__c *   ARR_New__c  /  Purchased_Makers__c ,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Expansion Potential</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Initial_Lead_Source__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text(Master_User_Contact__r.LeadSource)</formula>
+        <inlineHelpText>lead source of the initial trial requester</inlineHelpText>
+        <label>Initial Lead Source</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Master_User_Account__c</fullName>
+        <externalId>false</externalId>
+        <formula>Master_User_Contact__r.Account.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Master User Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Master_User_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Master User Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Projects</relationshipLabel>
+        <relationshipName>Projects</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PB_Account_Searched__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>PB Account Searched</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Project_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Isblank( Parent_Project__c ), Account_Name__r.Name ,Parent_Project__r.Account_Name__r.Name)</formula>
+        <label>Parent Project Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Prior_Billing_Cycle__c</fullName>
+        <externalId>false</externalId>
+        <label>Prior Billing Cycle</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Solutions_Architect__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.Solution_Architect__r.Full_Name__c</formula>
+        <label>Solutions Architect</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subscription_Months__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(IsNull(etl_subscription_start_date__c ),null,
+ CEILING(etl_subscription_end_date__c - etl_subscription_start_date__c ) / 30.416)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Subscription Months</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Project_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Project Score</label>
+        <summarizedField>Project_User__c.User_Score__c</summarizedField>
+        <summaryForeignKey>Project_User__c.Project__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Backend_Company_name__c</fullName>
+        <externalId>false</externalId>
+        <label>Backend Company name</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chartmogul_Plan_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>If( Current_Backend_Stage__c = &quot;Active Contract&quot; || Current_Backend_Stage__c = &quot;Active Subscription&quot; ||  ARR_New__c  &gt;0, 
+If(Contains(  Chartmogul_Type_Hidden__c  , &quot;Business&quot;),&quot;Business&quot;,&quot;&quot;) &amp;
+If(Contains(  Chartmogul_Type_Hidden__c  , &quot;Enterprise&quot;),&quot;Enterprise&quot;,&quot;&quot;) &amp;
+If(Contains( Chartmogul_Type_Hidden__c , &quot;Scaling&quot;),&quot;Enterprise&quot;,&quot;&quot;) &amp;
+If(Contains( Chartmogul_Type_Hidden__c  , &quot;Team&quot;),&quot;Team&quot;,&quot;&quot;) &amp;
+If(Contains( Chartmogul_Type_Hidden__c  , &quot;Startup&quot;),&quot;Team&quot;,&quot;&quot;) &amp;
+If(Contains(Chartmogul_Type_Hidden__c  , &quot;Individual&quot;),&quot;Individual&quot;,&quot;&quot;) &amp;
+If(Contains(Chartmogul_Type_Hidden__c  , &quot;Pro&quot;),&quot;Pro&quot;,&quot;&quot;) &amp;
+If(Contains(Chartmogul_Type_Hidden__c  , &quot;Scale&quot;),&quot;Scale&quot;,&quot;&quot;) &amp;
+If(Contains(Chartmogul_Type_Hidden__c  , &quot;Essentials&quot;),&quot;Essentials&quot;,&quot;&quot;) &amp;
+If(Contains( Chartmogul_Type_Hidden__c , &quot;New idea&quot;),&quot;Individual&quot;,&quot;&quot;) &amp;
+If(Contains( Chartmogul_Type_Hidden__c , &quot;New Idea&quot;),&quot;Individual&quot;,&quot;&quot;) &amp;
+If(Chartmogul_Type_Hidden__c = &quot;&quot;, &quot;Missing&quot;,&quot;&quot;)
+
+,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Looks at chartmogul plan text and decided on the plan category</inlineHelpText>
+        <label>Chartmogul Plan Type_Delete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Child_Project_Makers__c</fullName>
+        <description>Number of active makers on child projects</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of active makers on child projects</inlineHelpText>
+        <label>Child Project Makers</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ETL_Subscription_End__c</fullName>
+        <externalId>false</externalId>
+        <label>ETL Subscription End</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Has_Services_Project__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Box is checked if a related Opportunity contains a Services SKU</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Box is checked if a related Opportunity contains a Services SKU</inlineHelpText>
+        <label>Has Services (Project)</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Vitally_Account_Plan__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Account Plan</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Vitally_Core_Actions__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Core Actions</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Health_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Health Score</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Next_Step_by__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Next Step by</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>current_contributors__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+    or( 
+        Current_Backend_Stage__c = &quot;Trial Expired&quot;, 
+        Current_Backend_Stage__c = &quot;Deleted&quot;, 
+        Current_Backend_Stage__c = &quot;Churned Customer&quot;),
+    0,    
+    contributors__c + viewers__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label># current contributors_Delete</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>customer_external_id__c</fullName>
+        <externalId>false</externalId>
+        <label>customer_external_id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Backend_Stage__c</fullName>
+        <businessStatus>Active</businessStatus>
+        <externalId>true</externalId>
+        <label>Current Backend Stage</label>
+        <length>200</length>
+        <required>false</required>
+        <securityClassification>Internal</securityClassification>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Billing_Cycle__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Current billing cycle, monthly, yearly, etc.</inlineHelpText>
+        <label>Current Billing Cycle</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Initial_Billing_Cycle__c</fullName>
+        <externalId>false</externalId>
+        <label>Initial Billing Cycle</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_Acct_Opp_Acct__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_ID__c =  Opportunity__r.Account.ID_Long__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Project Account Same as Opportunity Account</inlineHelpText>
+        <label>Project Acct = Opp Acct</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Subscription_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Subscription End Date_Delete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Vitally_CSM_Sentiment__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally CSM Sentiment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chartmogul_Type_Hidden__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Isblank(Chartmogul_Plan__c ),
+IF( IsNull(Parent_Project__c ),&quot;&quot;, Parent_Project__r.Chartmogul_Plan__c )
+
+,Chartmogul_Plan__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Hidden field, takes chartmogul plan name from parent if blank</inlineHelpText>
+        <label>Chartmogul Plan - Hidden</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ETL_Subscription_Start__c</fullName>
+        <externalId>false</externalId>
+        <label>ETL Subscription Start</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Initial_Opp_MK_Segment__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Opportunity_MK_Segment__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Initial Opp MK Segment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_contributors__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of contributors_Delete(Rollup)</label>
+        <summaryFilterItems>
+            <field>Project_User__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Project_User__c.Project_Role__c</field>
+            <operation>equals</operation>
+            <value>contributor</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Project_User__c.Project__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Purchased_Contributors__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Current_Backend_Stage__c =&quot;Active Contract&quot;, Contracted_Contributors__c ,
+   IF ( Current_Backend_Stage__c =&quot;Active Subscription&quot;, Project_makers__c ,0))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>for contracts the number is from contracted contributors, for subscriptions the # of makers used</inlineHelpText>
+        <label>Purchased Contributors</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Churn_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Churn Forecast</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>makers_in_use_subspace__c</fullName>
+        <externalId>false</externalId>
+        <formula>Project_makers__c +  Child_Project_Makers__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Total project makers in use across the project and child/subspace projects</inlineHelpText>
+        <label># makers in use + subspace_HIDE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Company_Name_User_Input__c</fullName>
+        <description>company name sent by user when Project was created</description>
+        <externalId>false</externalId>
+        <label>Company Name (User Input)</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contracted_Contributors__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText># allowed contributors from manual contracts</inlineHelpText>
+        <label>Contracted Contributors</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Modified_Date_Time__c</fullName>
+        <description>Formula field that references the Last Modified Date and turns it into date/time for reports/list views. Not on page layout, admin only field.</description>
+        <externalId>false</externalId>
+        <formula>LastModifiedDate</formula>
+        <label>Last Modified Date/Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Project_Activation_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Activation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Subscription_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Subscription Start Date_Delete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Vitally_AM_AE_Sentiment__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally AM/AE Sentiment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Health_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Health Category</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Lifecycle_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Lifecycle Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Customer_Lifecycle_Stage</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vitally_Renewal_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Renewal Contact</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Chartmogul_Billing_Cycle__c</fullName>
+        <externalId>false</externalId>
+        <label>Chartmogul billing cycle Delete</label>
+        <length>200</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_admins_editors__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of admins/editors_Delete(Rollup)</label>
+        <summaryFilterItems>
+            <field>Project_User__c.Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Project_User__c.Project_Role__c</field>
+            <operation>equals</operation>
+            <value>admin, editor</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Project_User__c.Project__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Vitally_Jira_Integration__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Jira Integration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Renewal_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Renewal Forecast</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Renewal_Go_Ahead__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Renewal Go Ahead</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Watchdog_Properly_Active__c</fullName>
+        <externalId>false</externalId>
+        <formula>and(
+Chartmogul_MRR__c &gt;0,
+Status__c &lt;&gt; &quot;Paying&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Watchdog - Properly Active_Delete</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Life_Cycle_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__r.Customer_Status__c</formula>
+        <label>Customer Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Roadmap_Activated__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Roadmap Activated</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>etl_subscription_end_date__c</fullName>
+        <externalId>false</externalId>
+        <label>ETL Subscription End Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>true</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>New_Business_Opportunities__c</fullName>
+        <externalId>false</externalId>
+        <label># New Business Opportunities</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Insights_Activated__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Insights Activated</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Strategy_Activated__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Strategy Activated</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_of_Insights_Created__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally # of Insights Created</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>etl_subscription_start_date__c</fullName>
+        <externalId>false</externalId>
+        <label>ETL Subscription Start Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Days_from_Portal_to_Customer__c</fullName>
+        <externalId>false</externalId>
+        <formula>datevalue( CreatedDate)- Account_Name__r.First_Opportunity_Won_Date__c</formula>
+        <label>Days from Portal to Customer</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_EOY_Review_Conducted__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally EOY Review Conducted</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Enterprise_Activated__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Enterprise Activated</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_of_roadmap_views_L30__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally # of roadmap views L30</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Foundations_Activated__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Foundations Activated</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Has_SatisMeter_ProductLineItem__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Field to capture the opp&apos;s SatisMeter checkbox. Populated for now by Rollup Helper. If one opp is TRUE for respective opp field, then this field will be TRUE also. Also potentially synced to Vitally</description>
+        <externalId>false</externalId>
+        <label>Has SatisMeter ProductLineItem</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Master_User_Latest_Campaign_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Master_User_Contact__r.Latest_Campaign__r.Id</formula>
+        <inlineHelpText>Latest Campaign of Master User Contact</inlineHelpText>
+        <label>Master User Latest Campaign ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subscription_Updated_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The last time ARR, Subscription plan, purchased makers, etc updated</inlineHelpText>
+        <label>Subscription Updated Date/Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Vitally_AM_AE_Renewal_Go_Ahead__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally AM/AE Renewal Go Ahead</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_of_Makers_logged_in_L30__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally % of Makers logged in L30</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Hours_Since_Subscription_Updated__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Now() - Subscription_Updated_Date_Time__c )* 24</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hours Since Subscription Updated</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Initial_Opp_Same_Acct_as_Project__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account_Name__c =  Opportunity__r.Account.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Is the initial opp attached to the same account as project?</inlineHelpText>
+        <label>Initial Opp - Same Acct as Project?</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Vitally_Exclude_from_Round_Robin__c</fullName>
+        <description>When contains &quot;2022move&quot; exclude from LeanData Round Robin</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When contains &quot;2022move&quot; exclude from LeanData Round Robin</inlineHelpText>
+        <label>Vitally Exclude from Round Robin</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Renewal_Forecast_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Renewal Forecast Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>etl_subscription_reactivation_date__c</fullName>
+        <externalId>false</externalId>
+        <label>ETL Subscription Reactivation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Vitally_of_All_users_viewing_Roadmap__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally % of All users viewing Roadmap</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_of_Contributors_Logged_in_L30__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally % of Contributors Logged in L30</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Account_Name__c</columns>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Trial_End_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Product_Name__c</columns>
+        <columns>ARR_New__c</columns>
+        <columns>MRR__c</columns>
+        <columns>Chartmogul_Status__c</columns>
+        <columns>Active__c</columns>
+        <columns>Chartmogul_Billing_Cycle__c</columns>
+        <columns>Prior_Billing_Cycle__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Internal_Spaces</fullName>
+        <columns>NAME</columns>
+        <columns>Account_Name__c</columns>
+        <columns>Active__c</columns>
+        <columns>Master_User_Contact__c</columns>
+        <columns>Created_Date__c</columns>
+        <columns>Trial_End_Date__c</columns>
+        <columns>Product_Name__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Type__c</field>
+            <operation>equals</operation>
+            <value>Internal</value>
+        </filters>
+        <label>Internal Spaces</label>
+    </listViews>
+    <listViews>
+        <fullName>Nathan_Projects</fullName>
+        <columns>NAME</columns>
+        <columns>Project_makers__c</columns>
+        <columns>Customer_Life_Cycle_Stage__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Account_Owner__c</field>
+            <operation>contains</operation>
+            <value>brown,jesus</value>
+        </filters>
+        <filters>
+            <field>Customer_Life_Cycle_Stage__c</field>
+            <operation>notEqual</operation>
+            <value>1.0 Customer</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_90_DAYS</value>
+        </filters>
+        <label>Nathan Projects</label>
+    </listViews>
+    <listViews>
+        <fullName>standalone_portal</fullName>
+        <columns>Account_Name__c</columns>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Trial_End_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Product_Name__c</columns>
+        <columns>ARR_New__c</columns>
+        <columns>MRR__c</columns>
+        <columns>Chartmogul_Status__c</columns>
+        <columns>Active__c</columns>
+        <columns>Chartmogul_Billing_Cycle__c</columns>
+        <columns>Prior_Billing_Cycle__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Space_Type__c</field>
+            <operation>equals</operation>
+            <value>Standalone Portal</value>
+        </filters>
+        <label>standalone_portal</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Could_be_VIPs_test</fullName>
+        <columns>NAME</columns>
+        <columns>Account_Name__c</columns>
+        <columns>Product_Name__c</columns>
+        <columns>Number_of_admins_editors__c</columns>
+        <columns>Number_of_contributors__c</columns>
+        <columns>Number_of_viewers__c</columns>
+        <columns>Health_status__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Product_Name__c</field>
+            <operation>notEqual</operation>
+            <value>Scaling company</value>
+        </filters>
+        <filters>
+            <field>NAME</field>
+            <operation>notContain</operation>
+            <value>deleted</value>
+        </filters>
+        <filters>
+            <field>Product_Name__c</field>
+            <operation>notEqual</operation>
+            <value>Trial</value>
+        </filters>
+        <filters>
+            <field>Number_of_admins_editors__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>4</value>
+        </filters>
+        <filters>
+            <field>Number_of_viewers__c</field>
+            <operation>greaterThan</operation>
+            <value>40</value>
+        </filters>
+        <label>Potential CS VIPs</label>
+    </listViews>
+    <listViews>
+        <fullName>Placeholder_Spaces</fullName>
+        <columns>NAME</columns>
+        <columns>Account_Name__c</columns>
+        <columns>Active__c</columns>
+        <columns>Master_User_Contact__c</columns>
+        <columns>Created_Date__c</columns>
+        <columns>Trial_End_Date__c</columns>
+        <columns>Product_Name__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Current_Backend_Stage__c</field>
+            <operation>equals</operation>
+            <value>Placeholder</value>
+        </filters>
+        <label>Placeholder Spaces</label>
+        <language>en_US</language>
+    </listViews>
+    <recordTypes>
+        <fullName>SatisMeter</fullName>
+        <active>true</active>
+        <label>SatisMeter</label>
+        <picklistValues>
+            <picklist>Health_status__c</picklist>
+            <values>
+                <fullName>Dark</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Negative</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Neutral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Positive</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Space_Type__c</picklist>
+            <values>
+                <fullName>Main</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standalone Portal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status_Copy__c</picklist>
+            <values>
+                <fullName>Active Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Active Subscription</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Churned Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Churned Subspace</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deleted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subspace</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subspace-Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subspace-Subscription</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>missing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Service</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Subproject</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Vitally_Lifecycle_Stage__c</picklist>
+            <values>
+                <fullName>-1%2E0 Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>-1%2E0 Disqualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>0%2E0 Churn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>0%2E1 Non-Convert</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>1%2E0 Onboarding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%2E0 Adoption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%2E0 Expansion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%2E0 Advocacy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%2E0 Renewal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>Do_Not_Change_Placeholder_Project</fullName>
+        <active>true</active>
+        <errorConditionFormula>Id = &quot;a00f400000RepfE&quot;&amp;&amp;
+Not(IsPickVal($User.Team__c,&quot;RevOps&quot;))</errorConditionFormula>
+        <errorMessage>Cannot update Placeholder Project</errorMessage>
+    </validationRules>
+</CustomObject>

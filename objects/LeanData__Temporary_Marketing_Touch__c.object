@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Lifecycle_Stage_First_MQL_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Lifecycle Stage - First MQL Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MQL_CM_create__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATEVALUE(LeanData__Campaign_Member_Created_Date__c)  -  Lifecycle_Stage_First_MQL_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MQL/CM create</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X2_0_to_close_date__c</fullName>
+        <externalId>false</externalId>
+        <formula>LeanData__Opportunity_Close_Date__c - LeanData__Related_Opportunity__r.Date_Transferred_to_2_0__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>2.0 to close date</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

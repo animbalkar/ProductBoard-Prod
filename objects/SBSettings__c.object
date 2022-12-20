@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Stripe Billing flow controls</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Stripe Billing Screen Flow</label>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Disable_Trials__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If true, users will not be able to set &apos;Trial End Date&apos; in the Stripe BIlling flow</inlineHelpText>
+        <label>Disable Trials</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Intro_Screen_Text__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This setting allows you to override the text shown on the first screen of the Stripe Billing flow.</inlineHelpText>
+        <label>Intro Screen Text</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Coupon_Select__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If true, users will not be able to select existing Coupon records in the Stripe Billing flow.</inlineHelpText>
+        <label>Disable Coupon Select</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Default_Days_Until_Due__c</fullName>
+        <defaultValue>30</defaultValue>
+        <externalId>false</externalId>
+        <label>Default Days Until Due</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Disable_Price_Creation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If true, users will not be able to create Price records in the Stripe Billing flow.</inlineHelpText>
+        <label>Disable Price Creation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Push_to_Stripe__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If true, users will not be able to push newly created Subscription records in the Stripe Billing flow.</inlineHelpText>
+        <label>Disable Push to Stripe</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Coupon_Creation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If true, users will not be able to create Coupon records in the Stripe Billing flow.</inlineHelpText>
+        <label>Disable Coupon Creation</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Default_Payment_Gateway_Id__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Record Id of your Default Payment Gateway used in the Stripe Billing Flow - If set, users cannot select a different Payment Gateway.</inlineHelpText>
+        <label>Default Payment Gateway Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Disable_Subscription_Backdating__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If true, users will not be able to backdate Subscription start dates in the Stripe Billing flow</inlineHelpText>
+        <label>Disable Subscription Backdating</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Set_Billing_Cycle_Anchor__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If true, users cannot set a Billing Cycle Anchor in the Stripe Billing Flow</inlineHelpText>
+        <label>Disable Set Billing Cycle Anchor</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Payment_Gateway_Customer_Create__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If true, users will not be able to create Payment Gateway Customer records in the Stripe Billing flow.</inlineHelpText>
+        <label>Disable Payment Gateway Customer Create</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

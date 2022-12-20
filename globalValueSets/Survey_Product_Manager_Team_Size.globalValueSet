@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1 - 2</fullName>
+        <default>false</default>
+        <label>1 - 2</label>
+    </customValue>
+    <customValue>
+        <fullName>3 - 10</fullName>
+        <default>false</default>
+        <label>3 - 10</label>
+    </customValue>
+    <customValue>
+        <fullName>10+</fullName>
+        <default>false</default>
+        <label>10+</label>
+    </customValue>
+    <customValue>
+        <fullName>1 - 3</fullName>
+        <default>false</default>
+        <label>1 - 3</label>
+    </customValue>
+    <customValue>
+        <fullName>4 - 10</fullName>
+        <default>false</default>
+        <label>4 - 10</label>
+    </customValue>
+    <masterLabel>Survey Product Manager Team Size</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Basecamp</fullName>
+        <default>false</default>
+        <label>Basecamp</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Gsuite</fullName>
+        <default>false</default>
+        <label>Gsuite</label>
+    </customValue>
+    <customValue>
+        <fullName>Microsoft Teams</fullName>
+        <default>false</default>
+        <label>Microsoft Teams</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Slack</fullName>
+        <default>false</default>
+        <label>Slack</label>
+    </customValue>
+    <description>Collaboration tools in use by the team or organization</description>
+    <masterLabel>Tech Stack (Collaboration)</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

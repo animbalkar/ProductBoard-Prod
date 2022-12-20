@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Active Contract</fullName>
+        <default>false</default>
+        <label>Active Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Active Subscription</fullName>
+        <default>false</default>
+        <label>Active Subscription</label>
+    </customValue>
+    <customValue>
+        <fullName>Deleted</fullName>
+        <default>false</default>
+        <label>Deleted</label>
+    </customValue>
+    <customValue>
+        <fullName>Expired Contract</fullName>
+        <default>false</default>
+        <label>Expired Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Trial Active</fullName>
+        <default>false</default>
+        <label>Trial Active</label>
+    </customValue>
+    <customValue>
+        <fullName>Trial Expired</fullName>
+        <default>false</default>
+        <label>Trial Expired</label>
+    </customValue>
+    <customValue>
+        <fullName>missing</fullName>
+        <default>false</default>
+        <label>missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Subspace</fullName>
+        <default>false</default>
+        <label>Subspace</label>
+    </customValue>
+    <customValue>
+        <fullName>Subspace-Subscription</fullName>
+        <default>false</default>
+        <label>Subspace-Subscription</label>
+    </customValue>
+    <customValue>
+        <fullName>Churned Customer</fullName>
+        <default>false</default>
+        <label>Churned Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Churned Subspace</fullName>
+        <default>false</default>
+        <label>Churned Subspace</label>
+    </customValue>
+    <customValue>
+        <fullName>Subspace-Contract</fullName>
+        <default>false</default>
+        <label>Subspace-Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Trial Requested</fullName>
+        <default>false</default>
+        <label>Trial Requested</label>
+    </customValue>
+    <masterLabel>Project Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

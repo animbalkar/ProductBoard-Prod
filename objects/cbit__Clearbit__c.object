@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Lika_Company_Domain_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>cbit__CompanyDomain__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Formula Copy of &quot;Company URL&quot;</inlineHelpText>
+        <label>Lika - Company Domain URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lika_Contact_Account_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>cbit__Contact__r.Account.Website</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lika - Contact Account URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lika_Contact_Website_Same_As_Account__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(cbit__Contact__r.Account.Website &lt;&gt;&quot;&quot; &amp;&amp; 
+ cbit__CompanyDomain__c &lt;&gt; &quot;&quot;,
+
+ IF(cbit__Contact__r.Account.Website = cbit__CompanyDomain__c , &quot;Same Domain&quot;,&quot;Different&quot;),&quot;&quot;
+)</formula>
+        <inlineHelpText>Looks if contact company domain same as contact account website</inlineHelpText>
+        <label>Lika Contact Website Same As Account</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lika_Employment_Domain_Copy__c</fullName>
+        <externalId>false</externalId>
+        <formula>cbit__EmploymentDomain__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Copy of Employment Domain, testing to see if visible in reports</inlineHelpText>
+        <label>Lika - Employment Domain Copy</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lika_LD_Routing_Action__c</fullName>
+        <externalId>false</externalId>
+        <formula>cbit__Lead__r.LD_Routing_Action__c &amp;  cbit__Contact__r.LD_Routing_Action__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LD Routing Action</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lika_Latest_Campaign_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISNull( cbit__Lead__c ),cbit__Contact__r.Latest_Campaign_Date__c, cbit__Lead__r.Latest_Campaign_Date__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Latest Campaign Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lika_Latest_Campaign_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>cbit__Lead__r.Latest_Campaign_Status__c &amp;  cbit__Contact__r.Latest_Campaign_Status__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Latest Campaign Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lika_Latest_Campaign__c</fullName>
+        <externalId>false</externalId>
+        <formula>cbit__Lead__r.Latest_Campaign__r.Name  &amp;  cbit__Contact__r.Latest_Campaign__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Latest Campaign</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lika_Lead_Source__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text(cbit__Lead__r.LeadSource ) &amp;  Text(cbit__Contact__r.LeadSource)</formula>
+        <inlineHelpText>Lead or Contact Lead Source</inlineHelpText>
+        <label>Lead Source</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lika_MadKudu_Fit_Segment__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case(cbit__Contact__r.mk_customer_fit_segment__c &amp;  cbit__Lead__r.mk_customer_fit_segment__c,
+&quot;low&quot;,&quot;4. low&quot;,
+&quot;medium&quot;, &quot;3. medium&quot;,
+&quot;good&quot;, &quot;2. good&quot;,
+&quot;very good&quot;, &quot;1. very good&quot;,
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MadKudu Fit Segment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lika_Name_First_Created_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( left( cbit__Lead__r.Id ,1)=&quot;&quot;, cbit__Contact__r.Name_First_Created_Date__c, datevalue(cbit__Lead__r.CreatedDate))</formula>
+        <inlineHelpText>Lead or Contact first created date, lead created date if converted to contact</inlineHelpText>
+        <label>Name First Created Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Lika_Record_Deleted__c</fullName>
+        <externalId>false</externalId>
+        <formula>left(cbit__Account__r.Id,1 )=&quot;&quot; &amp;&amp;  left(cbit__Contact__r.Id,1 )=&quot;&quot; &amp;&amp;  Left(cbit__Lead__r.Id,1 )=&quot;&quot;</formula>
+        <inlineHelpText>Lead, contact and Account IDs are null</inlineHelpText>
+        <label>Record Deleted?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lika_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(left(cbit__Account__r.Id,1 )&lt;&gt;&quot;&quot; ,&quot;Account&quot;,
+IF(left(cbit__Contact__r.Id,1 )&lt;&gt;&quot;&quot; ,&quot;Contact&quot;,
+IF(Left(cbit__Lead__r.Id,1 ) &lt;&gt;&quot;&quot;,
+IF(cbit__Lead__r.IsConverted , &quot;Converted Lead&quot;,
+&quot;Lead&quot;),&quot;Delete&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Record Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MadKudu_Fit_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>cbit__Contact__r.mk_customer_fit_score__c +  cbit__Lead__r.mk_customer_fit_score__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Lead or Contact fit score</inlineHelpText>
+        <label>MadKudu Fit Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

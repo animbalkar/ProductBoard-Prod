@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>a digital product</fullName>
+        <default>false</default>
+        <label>a digital product</label>
+    </customValue>
+    <customValue>
+        <fullName>a non-digital product</fullName>
+        <default>false</default>
+        <label>a non-digital product</label>
+    </customValue>
+    <customValue>
+        <fullName>agency projects</fullName>
+        <default>false</default>
+        <label>agency projects</label>
+    </customValue>
+    <customValue>
+        <fullName>an internal tool</fullName>
+        <default>false</default>
+        <label>an internal tool</label>
+    </customValue>
+    <masterLabel>Survey Product Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

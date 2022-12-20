@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Startup</fullName>
+        <default>false</default>
+        <label>Startup</label>
+    </customValue>
+    <customValue>
+        <fullName>High Growth</fullName>
+        <default>false</default>
+        <label>High Growth</label>
+    </customValue>
+    <customValue>
+        <fullName>Mature</fullName>
+        <default>false</default>
+        <label>Mature</label>
+    </customValue>
+    <customValue>
+        <fullName>Declining</fullName>
+        <default>false</default>
+        <label>Declining</label>
+    </customValue>
+    <masterLabel>Product Maturity</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

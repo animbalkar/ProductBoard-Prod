@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Iqra</fullName>
+        <default>false</default>
+        <label>Iqra</label>
+    </customValue>
+    <customValue>
+        <fullName>Shumit</fullName>
+        <default>false</default>
+        <label>Shumit</label>
+    </customValue>
+    <customValue>
+        <fullName>Sajjad</fullName>
+        <default>false</default>
+        <label>Sajjad</label>
+    </customValue>
+    <customValue>
+        <fullName>Lika</fullName>
+        <default>false</default>
+        <label>Lika</label>
+    </customValue>
+    <masterLabel>DQ Specialist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

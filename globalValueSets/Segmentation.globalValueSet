@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1.0 Growth</fullName>
+        <default>false</default>
+        <label>1.0 Growth</label>
+    </customValue>
+    <customValue>
+        <fullName>2.0 Core</fullName>
+        <default>false</default>
+        <label>2.0 Core</label>
+    </customValue>
+    <customValue>
+        <fullName>3.0 Enterprise</fullName>
+        <default>false</default>
+        <label>3.0 Enterprise</label>
+    </customValue>
+    <description>v2 of our business segmentation</description>
+    <masterLabel>Segmentation</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,5 @@
+<apex:page standardController="Opportunity">
+
+    <apex:iframe src="https://productboard.looker.com/embed/dashboards/530" width="100%" scrolling="true" id="theIframe"/>
+
+</apex:page>

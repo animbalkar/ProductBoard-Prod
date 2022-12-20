@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cold Call</fullName>
+        <default>false</default>
+        <label>Cold Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Email Auto</fullName>
+        <default>false</default>
+        <label>Email Auto</label>
+    </customValue>
+    <customValue>
+        <fullName>Email Loom/Vidyard</fullName>
+        <default>false</default>
+        <label>Email Loom/Vidyard</label>
+    </customValue>
+    <customValue>
+        <fullName>Email WYWYN</fullName>
+        <default>false</default>
+        <label>Email WYWYN</label>
+    </customValue>
+    <customValue>
+        <fullName>LinkedIn Loom/Vidyard</fullName>
+        <default>false</default>
+        <label>LinkedIn Loom/Vidyard</label>
+    </customValue>
+    <customValue>
+        <fullName>LinkedIn Message</fullName>
+        <default>false</default>
+        <label>LinkedIn Message</label>
+    </customValue>
+    <customValue>
+        <fullName>LinkedIn Voicemail</fullName>
+        <default>false</default>
+        <label>LinkedIn Voicemail</label>
+    </customValue>
+    <customValue>
+        <fullName>Qualified/Chat</fullName>
+        <default>false</default>
+        <label>Qualified/Chat</label>
+    </customValue>
+    <customValue>
+        <fullName>Expired Trial</fullName>
+        <default>false</default>
+        <label>Expired Trial</label>
+    </customValue>
+    <customValue>
+        <fullName>Trial Extension</fullName>
+        <default>false</default>
+        <label>Trial Extension</label>
+    </customValue>
+    <customValue>
+        <fullName>Non MQL Lead</fullName>
+        <default>false</default>
+        <label>Non MQL Lead</label>
+    </customValue>
+    <customValue>
+        <fullName>Non Activated Trial</fullName>
+        <default>false</default>
+        <label>Non Activated Trial</label>
+    </customValue>
+    <customValue>
+        <fullName>MQL</fullName>
+        <default>false</default>
+        <label>MQL</label>
+    </customValue>
+    <customValue>
+        <fullName>Trial</fullName>
+        <default>false</default>
+        <label>Trial</label>
+    </customValue>
+    <customValue>
+        <fullName>Handraiser</fullName>
+        <default>false</default>
+        <label>Handraiser</label>
+    </customValue>
+    <customValue>
+        <fullName>Open Lead/Contact</fullName>
+        <default>false</default>
+        <label>Open Lead/Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Routed Trial</fullName>
+        <default>false</default>
+        <label>Non-Routed Trial</label>
+    </customValue>
+    <masterLabel>SDR Meeting Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

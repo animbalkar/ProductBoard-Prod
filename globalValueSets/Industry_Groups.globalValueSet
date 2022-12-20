@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Automobiles &amp; Components</fullName>
+        <default>false</default>
+        <label>Automobiles &amp; Components</label>
+    </customValue>
+    <customValue>
+        <fullName>Banks</fullName>
+        <default>false</default>
+        <label>Banks</label>
+    </customValue>
+    <customValue>
+        <fullName>Capital Goods</fullName>
+        <default>false</default>
+        <label>Capital Goods</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial &amp; Professional Services</fullName>
+        <default>false</default>
+        <label>Commercial &amp; Professional Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Construction Materials</fullName>
+        <default>false</default>
+        <label>Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer Discretionary</fullName>
+        <default>false</default>
+        <label>Consumer Discretionary</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer Durables &amp; Apparel</fullName>
+        <default>false</default>
+        <label>Consumer Durables &amp; Apparel</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer Services</fullName>
+        <default>false</default>
+        <label>Consumer Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer Staples</fullName>
+        <default>false</default>
+        <label>Consumer Staples</label>
+    </customValue>
+    <customValue>
+        <fullName>Diversified Consumer Services</fullName>
+        <default>false</default>
+        <label>Diversified Consumer Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Diversified Financial Services</fullName>
+        <default>false</default>
+        <label>Diversified Financial Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Diversified Financials</fullName>
+        <default>false</default>
+        <label>Diversified Financials</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy Equipment &amp; Services</fullName>
+        <default>false</default>
+        <label>Energy Equipment &amp; Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Food &amp; Staples Retailing</fullName>
+        <default>false</default>
+        <label>Food &amp; Staples Retailing</label>
+    </customValue>
+    <customValue>
+        <fullName>Food, Beverage &amp; Tobacco</fullName>
+        <default>false</default>
+        <label>Food, Beverage &amp; Tobacco</label>
+    </customValue>
+    <customValue>
+        <fullName>Health Care Equipment &amp; Services</fullName>
+        <default>false</default>
+        <label>Health Care Equipment &amp; Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Household &amp; Personal Products</fullName>
+        <default>false</default>
+        <label>Household &amp; Personal Products</label>
+    </customValue>
+    <customValue>
+        <fullName>Independent Power and Renewable Electricity Producers</fullName>
+        <default>false</default>
+        <label>Independent Power and Renewable Electricity Producers</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrials</fullName>
+        <default>false</default>
+        <label>Industrials</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Materials</fullName>
+        <default>false</default>
+        <label>Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>Media</fullName>
+        <default>false</default>
+        <label>Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmaceuticals, Biotechnology &amp; Life Sciences</fullName>
+        <default>false</default>
+        <label>Pharmaceuticals, Biotechnology &amp; Life Sciences</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate</fullName>
+        <default>false</default>
+        <label>Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Retailing</fullName>
+        <default>false</default>
+        <label>Retailing</label>
+    </customValue>
+    <customValue>
+        <fullName>Semiconductors &amp; Semiconductor Equipment</fullName>
+        <default>false</default>
+        <label>Semiconductors &amp; Semiconductor Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Software &amp; Services</fullName>
+        <default>false</default>
+        <label>Software &amp; Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology Hardware &amp; Equipment</fullName>
+        <default>false</default>
+        <label>Technology Hardware &amp; Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Telecommunication Services</fullName>
+        <default>false</default>
+        <label>Telecommunication Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>Utilities</fullName>
+        <default>false</default>
+        <label>Utilities</label>
+    </customValue>
+    <description>https://docs.google.com/spreadsheets/d/1erIdqoy60JwLAnpb91EfoJV5YrXDnbwSaA-aqcBlw48/edit#gid=1561611259</description>
+    <masterLabel>Industry Groups</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

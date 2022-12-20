@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>0.0 New</fullName>
+        <default>true</default>
+        <label>0.0 New</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>0.0 Cold / Not Started</fullName>
+        <default>false</default>
+        <label>0.0 Cold / Not Started</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>0.1 Contacted</fullName>
+        <default>false</default>
+        <label>0.1 Contacted</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>0.2 Replied</fullName>
+        <default>false</default>
+        <label>0.2 Replied</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>1.0 Qualified</fullName>
+        <default>false</default>
+        <label>1.0 Qualified</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Unresponsive</fullName>
+        <default>false</default>
+        <label>Unresponsive</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Do Not Contact</fullName>
+        <default>false</default>
+        <label>Do Not Contact</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Bad Contact Info</fullName>
+        <default>false</default>
+        <label>Bad Contact Info</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Unqualified</fullName>
+        <default>false</default>
+        <label>Unqualified</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Nurture</fullName>
+        <default>false</default>
+        <label>Nurture</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>5.1 Duplicate Contact</fullName>
+        <default>false</default>
+        <label>5.1 Duplicate Contact</label>
+        <converted>true</converted>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>PM&apos;s Only</fullName>
+        <default>false</default>
+        <label>PM&apos;s Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Marketing</fullName>
+        <default>false</default>
+        <label>Product Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Engineering</fullName>
+        <default>false</default>
+        <label>Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>UX/Design</fullName>
+        <default>false</default>
+        <label>UX/Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Facing Teams</fullName>
+        <default>false</default>
+        <label>Customer Facing Teams</label>
+    </customValue>
+    <customValue>
+        <fullName>Execs</fullName>
+        <default>false</default>
+        <label>Execs</label>
+    </customValue>
+    <customValue>
+        <fullName>Entire Company</fullName>
+        <default>false</default>
+        <label>Entire Company</label>
+    </customValue>
+    <masterLabel>Engagement Scope</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

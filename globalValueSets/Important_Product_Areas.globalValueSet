@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Collecting/consolidating customer insights</fullName>
+        <default>false</default>
+        <label>Collecting/consolidating customer insights</label>
+    </customValue>
+    <customValue>
+        <fullName>Collecting feedback via Portal</fullName>
+        <default>false</default>
+        <label>Collecting feedback via Portal</label>
+    </customValue>
+    <customValue>
+        <fullName>Creating/communicating roadmaps</fullName>
+        <default>false</default>
+        <label>Creating/communicating roadmaps</label>
+    </customValue>
+    <customValue>
+        <fullName>Prioritizing what to build next</fullName>
+        <default>false</default>
+        <label>Prioritizing what to build next</label>
+    </customValue>
+    <masterLabel>Important Product Areas</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

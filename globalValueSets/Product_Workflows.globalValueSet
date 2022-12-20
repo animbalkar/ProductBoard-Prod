@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>5. Thriving Product Culture</fullName>
+        <default>false</default>
+        <label>5. Thriving Product Culture</label>
+    </customValue>
+    <customValue>
+        <fullName>4. Aligned on User Needs</fullName>
+        <default>false</default>
+        <label>4. Aligned on User Needs</label>
+    </customValue>
+    <customValue>
+        <fullName>3. Listening to Customers</fullName>
+        <default>false</default>
+        <label>3. Listening to Customers</label>
+    </customValue>
+    <customValue>
+        <fullName>2. Introducing Processes</fullName>
+        <default>false</default>
+        <label>2. Introducing Processes</label>
+    </customValue>
+    <customValue>
+        <fullName>1. Intuition Driven</fullName>
+        <default>false</default>
+        <label>1. Intuition Driven</label>
+    </customValue>
+    <customValue>
+        <fullName>Modernizing (Agile)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Modernizing (Agile)</label>
+    </customValue>
+    <customValue>
+        <fullName>Waterfall</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Waterfall</label>
+    </customValue>
+    <customValue>
+        <fullName>Modern</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Modern</label>
+    </customValue>
+    <description>For ICP</description>
+    <masterLabel>Product Workflows</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

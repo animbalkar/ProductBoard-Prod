@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>B2B</fullName>
+        <default>false</default>
+        <label>B2B</label>
+    </customValue>
+    <customValue>
+        <fullName>B2C</fullName>
+        <default>false</default>
+        <label>B2C</label>
+    </customValue>
+    <customValue>
+        <fullName>E-Commerce</fullName>
+        <default>false</default>
+        <label>E-Commerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise</fullName>
+        <default>false</default>
+        <label>Enterprise</label>
+    </customValue>
+    <customValue>
+        <fullName>ISP</fullName>
+        <default>false</default>
+        <label>ISP</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketplace</fullName>
+        <default>false</default>
+        <label>Marketplace</label>
+    </customValue>
+    <customValue>
+        <fullName>Mobile</fullName>
+        <default>false</default>
+        <label>Mobile</label>
+    </customValue>
+    <customValue>
+        <fullName>SAAS</fullName>
+        <default>false</default>
+        <label>SAAS</label>
+    </customValue>
+    <description>https://docs.google.com/spreadsheets/d/1erIdqoy60JwLAnpb91EfoJV5YrXDnbwSaA-aqcBlw48/edit#gid=373276567</description>
+    <masterLabel>Business Classifications</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

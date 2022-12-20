@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Copper CRM</fullName>
+        <default>false</default>
+        <label>Copper CRM</label>
+    </customValue>
+    <customValue>
+        <fullName>Freshworks</fullName>
+        <default>false</default>
+        <label>Freshworks</label>
+    </customValue>
+    <customValue>
+        <fullName>Hubspot</fullName>
+        <default>false</default>
+        <label>Hubspot</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Pipedrive</fullName>
+        <default>false</default>
+        <label>Pipedrive</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce</fullName>
+        <default>false</default>
+        <label>Salesforce</label>
+    </customValue>
+    <customValue>
+        <fullName>Sheets/Excel</fullName>
+        <default>false</default>
+        <label>Sheets/Excel</label>
+    </customValue>
+    <customValue>
+        <fullName>Zoho</fullName>
+        <default>false</default>
+        <label>Zoho</label>
+    </customValue>
+    <description>CRM system in use by the team or organization</description>
+    <masterLabel>Tech Stack (CRM)</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

@@ -1,0 +1,46 @@
+public class Clearbit_DAO {
+	public static List<cbit__Clearbit__c> getClearbitRecordsByListOfIds(List<Id> clearbitIds) {
+		List<cbit__Clearbit__c> clearbits = [SELECT cbit__AboutmeHandle__c, cbit__Account__c, cbit__ActiveAt__c, cbit__Avatar__c, cbit__Bio__c,
+		                                     cbit__CompanyCategoryIndustryGroup__c, cbit__CompanyCategoryIndustry__c,
+											 cbit__CompanyCategoryNaicsCode__c, cbit__CompanyCategorySector__c, cbit__CompanyCategorySicCode__c,
+											 cbit__CompanyCategorySubIndustry__c, cbit__CompanyCrunchbaseHandle__c, cbit__CompanyDescription__c,
+											 cbit__CompanyDomainAliases__c, cbit__CompanyDomain__c, cbit__CompanyEmailProvider__c,
+											 cbit__CompanyFacebookHandle__c, cbit__CompanyFoundedYear__c, cbit__CompanyGeoCity__c,
+											 cbit__CompanyGeoCountryCode__c, cbit__CompanyGeoCountry__c, cbit__CompanyGeoPostalCode__c,
+											 cbit__CompanyGeoStateCode__c, cbit__CompanyGeoState__c, cbit__CompanyGeoStreetName__c,
+											 cbit__CompanyGeoStreetNumber__c, cbit__CompanyGeoSubPremise__c, cbit__CompanyLegalName__c,
+											 cbit__CompanyLinkedinHandle__c, cbit__CompanyLocation__c, cbit__CompanyLogo__c,
+											 cbit__CompanyMetricsAlexaGlobalRank__c, cbit__CompanyMetricsAlexaUsRank__c,
+											 cbit__CompanyMetricsAnnualRevenue__c, cbit__CompanyMetricsEmployeesRange__c,
+											 cbit__CompanyMetricsEmployees__c, cbit__CompanyMetricsEstimatedAnnualRevenue__c,
+											 cbit__CompanyMetricsFiscalYearEnd__c, cbit__CompanyMetricsGoogleRank__c,
+											 cbit__CompanyMetricsMarketCap__c, cbit__CompanyMetricsRaised__c, cbit__CompanyName__c,
+											 cbit__CompanyParentDomain__c, cbit__CompanyPhone__c, cbit__CompanySiteEmailAddresses__c,
+											 cbit__CompanySitePhoneNumbers__c, cbit__CompanyTags__c, cbit__CompanyTech__c,
+											 cbit__CompanyTicker__c, cbit__CompanyTwitterbio__c, cbit__CompanyTwitterFollowers__c,
+											 cbit__CompanyTwitterHandle__c, cbit__CompanyType__c, cbit__CompanyUrl__c,
+											 cbit__Company_FacebookLikes__c, cbit__Company_TwitterLocation__c, cbit__Contact__c,
+											 cbit__EmailProvider__c, cbit__Email__c, cbit__EmploymentDomain__c, cbit__EmploymentName__c, 
+											 cbit__EmploymentRole__c, cbit__EmploymentSeniority__c, cbit__EmploymentTitle__c,
+											 cbit__Enrichment_Error__c, cbit__FacebookHandle__c, cbit__FlagCompanyId__c, cbit__FlagPersonId__c,
+											 cbit__Fuzzy__c, cbit__Gender__c, cbit__GeoCity__c, cbit__GeoCountryCode__c, cbit__GeoCountry__c,
+											 cbit__GeoStateCode__c, cbit__GeoState__c, cbit__GithubAvatar__c, cbit__GithubFollowers__c,
+											 cbit__GithubHandle__c, cbit__inactiveAt__c, cbit__Lead__c, cbit__LinkedinHandle__c, cbit__Location__c,
+											 cbit__NameFamilyName__c, cbit__NameFullName__c, cbit__NameGivenName__c,
+											 cbit__Phone__c, cbit__Refreshing__c, cbit__RevealCurrPeriodCount__c, cbit__RevealDailyCount__c,
+											 cbit__RevealPathCount_1__c, cbit__RevealPathCount_2__c, cbit__RevealPathCount_3__c,
+											 cbit__RevealPathCount_4__c, cbit__RevealPathCount_5__c, cbit__RevealPathCount_6__c,
+											 cbit__RevealPathCount_7__c, cbit__RevealPathCount_8__c, cbit__RevealPathCount_9__c,
+											 cbit__RevealPathCount_10__c, cbit__RevealPath_1__c, cbit__RevealPath_2__c, cbit__RevealPath_3__c,
+											 cbit__RevealPath_4__c, cbit__RevealPath_5__c, cbit__RevealPath_6__c, cbit__RevealPath_7__c,
+											 cbit__RevealPath_8__c, cbit__RevealPath_9__c, cbit__RevealPath_10__c, cbit__RevealPeriodChange__c,
+											 cbit__RevealPrevPeriodCount__c, cbit__ShortBio__c, cbit__ShortCompanyCategories__c,
+											 cbit__ShortCompanyName__c, cbit__ShortLocation__c, cbit__ShortName__c, cbit__Site__c, cbit__Status__c,
+											 cbit__Tracked__c, cbit__Twitterbio__c, cbit__TwitterFollowers__c, cbit__TwitterHandle__c,
+											 cbit__UtcOffset__c, CreatedById, CreatedDate, Id, IsDeleted, LastModifiedById, LastModifiedDate,
+											 LastReferencedDate, LastViewedDate, Name, OwnerId, SystemModstamp
+		                                     FROM cbit__Clearbit__c
+		                                     WHERE Id IN :clearbitIds];
+		return clearbits;
+	}
+}

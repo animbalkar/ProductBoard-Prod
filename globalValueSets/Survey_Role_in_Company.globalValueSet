@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>customer success</fullName>
+        <default>false</default>
+        <label>customer success</label>
+    </customValue>
+    <customValue>
+        <fullName>customer support</fullName>
+        <default>false</default>
+        <label>customer support</label>
+    </customValue>
+    <customValue>
+        <fullName>design</fullName>
+        <default>false</default>
+        <label>design</label>
+    </customValue>
+    <customValue>
+        <fullName>engineering</fullName>
+        <default>false</default>
+        <label>engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>marketing</fullName>
+        <default>false</default>
+        <label>marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>product management</fullName>
+        <default>false</default>
+        <label>product management</label>
+    </customValue>
+    <customValue>
+        <fullName>project management</fullName>
+        <default>false</default>
+        <label>project management</label>
+    </customValue>
+    <customValue>
+        <fullName>sales</fullName>
+        <default>false</default>
+        <label>sales</label>
+    </customValue>
+    <customValue>
+        <fullName>a role not listed</fullName>
+        <default>false</default>
+        <label>a role not listed</label>
+    </customValue>
+    <masterLabel>Survey Role in Company</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

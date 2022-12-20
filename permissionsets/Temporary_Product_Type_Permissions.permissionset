@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Temporary permission set that grants access to the Product Type - Digital First vs. Digital Transformation field while it&apos;s under development</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Product_Type_Digital_First_v_Transform__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Tags_copy__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Temporary - Product Type Permissions</label>
+</PermissionSet>

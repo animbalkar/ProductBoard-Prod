@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>No Awareness</fullName>
+        <default>false</default>
+        <label>No Awareness</label>
+    </customValue>
+    <customValue>
+        <fullName>Awareness</fullName>
+        <default>false</default>
+        <label>Awareness</label>
+    </customValue>
+    <customValue>
+        <fullName>Adopting</fullName>
+        <default>false</default>
+        <label>Adopting</label>
+    </customValue>
+    <customValue>
+        <fullName>Maturing</fullName>
+        <default>false</default>
+        <label>Maturing</label>
+    </customValue>
+    <customValue>
+        <fullName>Integrated</fullName>
+        <default>false</default>
+        <label>Integrated</label>
+    </customValue>
+    <masterLabel>Product Excellence Maturity</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AzureDevOps</fullName>
+        <default>false</default>
+        <label>AzureDevOps</label>
+    </customValue>
+    <customValue>
+        <fullName>Clubhouse</fullName>
+        <default>false</default>
+        <label>Clubhouse</label>
+    </customValue>
+    <customValue>
+        <fullName>FogBugz</fullName>
+        <default>false</default>
+        <label>FogBugz</label>
+    </customValue>
+    <customValue>
+        <fullName>Github</fullName>
+        <default>false</default>
+        <label>Github</label>
+    </customValue>
+    <customValue>
+        <fullName>Gitlab</fullName>
+        <default>false</default>
+        <label>Gitlab</label>
+    </customValue>
+    <customValue>
+        <fullName>Jira</fullName>
+        <default>false</default>
+        <label>Jira</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Pivotal Tracker</fullName>
+        <default>false</default>
+        <label>Pivotal Tracker</label>
+    </customValue>
+    <customValue>
+        <fullName>Rally</fullName>
+        <default>false</default>
+        <label>Rally</label>
+    </customValue>
+    <customValue>
+        <fullName>TargetProcess</fullName>
+        <default>false</default>
+        <label>TargetProcess</label>
+    </customValue>
+    <customValue>
+        <fullName>ZenHub</fullName>
+        <default>false</default>
+        <label>ZenHub</label>
+    </customValue>
+    <customValue>
+        <fullName>Linear</fullName>
+        <default>false</default>
+        <label>Linear</label>
+    </customValue>
+    <description>Engineering &amp; delivery systems in use by the team</description>
+    <masterLabel>Tech Stack (Engineering)</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

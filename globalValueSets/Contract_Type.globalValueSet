@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Standard MSA</fullName>
+        <default>false</default>
+        <label>Standard MSA</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom</fullName>
+        <default>false</default>
+        <label>Custom</label>
+    </customValue>
+    <customValue>
+        <fullName>NDA</fullName>
+        <default>false</default>
+        <label>NDA</label>
+    </customValue>
+    <customValue>
+        <fullName>POC</fullName>
+        <default>false</default>
+        <label>POC</label>
+    </customValue>
+    <masterLabel>Contract Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

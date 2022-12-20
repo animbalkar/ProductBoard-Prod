@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>A Community Member represents an individual user registered on the community. A Community Member will be created in Salesforce if a Contact can be matched by its email to an inSided community user.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Community Member</label>
+    <nameField>
+        <label>Community Member Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Community Members</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>UserId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>The User ID is the unique identifier for an inSided User account.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>The User ID is the unique identifier for an inSided User account.</inlineHelpText>
+        <label>UserId</label>
+        <length>128</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Community Members are matched to an Account based on the Contact lookup.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Community Members are matched to an Account based on the Contact lookup.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Community Members</relationshipLabel>
+        <relationshipName>Community_Members_Account</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <description>Community Members are matched to a Contact based on email address.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Community Members are matched to a Contact based on email address.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Community Members</relationshipLabel>
+        <relationshipName>Community_Members_Contact</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Replies__c</fullName>
+        <description>The total number of replies posted by a user (includes replies to any and all content types).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of replies posted by a user (includes replies to any and all content types).</inlineHelpText>
+        <label>Replies</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TestField__c</fullName>
+        <description>Testing adding field via soap API.</description>
+        <externalId>false</externalId>
+        <label>TestField</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_posts__c</fullName>
+        <description>The total number of posts this user has made on the community.</description>
+        <externalId>false</externalId>
+        <formula>((Conversations_started__c + Ideas_submitted__c)- Ideas_submitted__c) + Article_replies__c + Questions_asked__c + Conversation_replies__c + Question_replies__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The total number of posts this user has made on the community.</inlineHelpText>
+        <label>Total posts</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_visits__c</fullName>
+        <description>The total number of visits this user has made to the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of visits this user has made to the community.</inlineHelpText>
+        <label>Total visits</label>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>equals</operation>
+            <value>Community visited</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Community_Member_Activity__c.Community_Member__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Last_post_date__c</fullName>
+        <description>The last time this user posted on the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last time this user posted on the community.</inlineHelpText>
+        <label>Last post date</label>
+        <summarizedField>Community_Member_Activity__c.Activity_Date__c</summarizedField>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>notEqual</operation>
+            <value>Community visited</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>notContain</operation>
+            <value>liked</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>notContain</operation>
+            <value>voted</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Community_Member_Activity__c.Community_Member__c</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Article_replies__c</fullName>
+        <description>The total number of replies this user has added to articles.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of replies this user has added to articles.</inlineHelpText>
+        <label>Article replies</label>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>equals</operation>
+            <value>Article replied</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Community_Member_Activity__c.Community_Member__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Ideas_submitted__c</fullName>
+        <description>The total number of ideas submitted by this user.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of ideas submitted by this user.</inlineHelpText>
+        <label>Ideas submitted</label>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>equals</operation>
+            <value>Idea submitted</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Community_Member_Activity__c.Community_Member__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Last_visit_date__c</fullName>
+        <description>The last time this user visited the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last time this user visited the community.</inlineHelpText>
+        <label>Last visit date</label>
+        <summarizedField>Community_Member_Activity__c.Activity_Date__c</summarizedField>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>equals</operation>
+            <value>Community visited</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Community_Member_Activity__c.Community_Member__c</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Questions_asked__c</fullName>
+        <description>The total number of questions asked by this user.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of questions asked by this user.</inlineHelpText>
+        <label>Questions asked</label>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>equals</operation>
+            <value>Question Asked</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Community_Member_Activity__c.Community_Member__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Question_replies__c</fullName>
+        <description>The total number of replies this user has added to questions.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of replies this user has added to questions.</inlineHelpText>
+        <label>Question replies</label>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>equals</operation>
+            <value>Question replied</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Community_Member_Activity__c.Community_Member__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Registration_date__c</fullName>
+        <description>The date this user registered their community account</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date this user registered their community account</inlineHelpText>
+        <label>Registration date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Conversation_replies__c</fullName>
+        <description>The total number of replies this user has added to conversations.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of replies this user has added to conversations.</inlineHelpText>
+        <label>Conversation replies</label>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>equals</operation>
+            <value>Conversation replied</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Community_Member_Activity__c.Community_Member__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Conversations_started__c</fullName>
+        <description>The total number of conversations started by this user.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number of conversations started by this user.</inlineHelpText>
+        <label>Conversations started</label>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>equals</operation>
+            <value>Conversation started</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Community_Member_Activity__c.Community_Member__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Last_ideation_interaction_date__c</fullName>
+        <description>The last time this user submitted or voted for an idea on the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The last time this user submitted or voted for an idea on the community.</inlineHelpText>
+        <label>Last ideation interaction date</label>
+        <summarizedField>Community_Member_Activity__c.Activity_Date__c</summarizedField>
+        <summaryFilterItems>
+            <field>Community_Member_Activity__c.Name</field>
+            <operation>contains</operation>
+            <value>Idea</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Community_Member_Activity__c.Community_Member__c</summaryForeignKey>
+        <summaryOperation>max</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>Contact__c</columns>
+        <columns>Account__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All1</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+</CustomObject>

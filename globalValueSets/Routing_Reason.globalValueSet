@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Self Service</fullName>
+        <default>false</default>
+        <label>Self Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Round Robin</fullName>
+        <default>false</default>
+        <label>Round Robin</label>
+    </customValue>
+    <customValue>
+        <fullName>Ownership</fullName>
+        <default>false</default>
+        <label>Ownership</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Account</fullName>
+        <default>false</default>
+        <label>Internal Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Competitor</fullName>
+        <default>false</default>
+        <label>Competitor</label>
+    </customValue>
+    <customValue>
+        <fullName>Territory</fullName>
+        <default>false</default>
+        <label>Territory</label>
+    </customValue>
+    <customValue>
+        <fullName>Won on Creation</fullName>
+        <default>false</default>
+        <label>Won on Creation</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Holdback</fullName>
+        <default>false</default>
+        <label>Sales Holdback</label>
+    </customValue>
+    <customValue>
+        <fullName>Bad Account</fullName>
+        <default>false</default>
+        <label>Bad Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Dupe Contact</fullName>
+        <default>false</default>
+        <label>Dupe Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Already Engaged (&lt;30)</fullName>
+        <default>false</default>
+        <label>Already Engaged (&lt;30)</label>
+    </customValue>
+    <customValue>
+        <fullName>Unqualified - Growth</fullName>
+        <default>false</default>
+        <label>Unqualified - Growth</label>
+    </customValue>
+    <customValue>
+        <fullName>Unqualified - Low Score</fullName>
+        <default>false</default>
+        <label>Unqualified - Low Score</label>
+    </customValue>
+    <customValue>
+        <fullName>Unqualified - Do not Contact</fullName>
+        <default>false</default>
+        <label>Unqualified - Do not Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Unqualified - Internal</fullName>
+        <default>false</default>
+        <label>Unqualified - Internal</label>
+    </customValue>
+    <customValue>
+        <fullName>Unqualified - Existing Customer</fullName>
+        <default>false</default>
+        <label>Unqualified - Existing Customer</label>
+    </customValue>
+    <customValue>
+        <fullName>Ownership - SDR</fullName>
+        <default>false</default>
+        <label>Ownership - SDR</label>
+    </customValue>
+    <customValue>
+        <fullName>Ownership - AE</fullName>
+        <default>false</default>
+        <label>Ownership - AE</label>
+    </customValue>
+    <customValue>
+        <fullName>Matched Account</fullName>
+        <default>false</default>
+        <label>Matched Account</label>
+    </customValue>
+    <customValue>
+        <fullName>Matched Activity</fullName>
+        <default>false</default>
+        <label>Matched Activity</label>
+    </customValue>
+    <customValue>
+        <fullName>Matched Contact</fullName>
+        <default>false</default>
+        <label>Matched Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Matched Opportuinty</fullName>
+        <default>false</default>
+        <label>Matched Opportuinty</label>
+    </customValue>
+    <customValue>
+        <fullName>ESB Test RR - Self Serve</fullName>
+        <default>false</default>
+        <label>ESB Test RR - Self Serve</label>
+    </customValue>
+    <customValue>
+        <fullName>ESB Test RR</fullName>
+        <default>false</default>
+        <label>ESB Test RR</label>
+    </customValue>
+    <customValue>
+        <fullName>ESB Customer SS</fullName>
+        <default>false</default>
+        <label>ESB Customer SS</label>
+    </customValue>
+    <customValue>
+        <fullName>Spam Email</fullName>
+        <default>false</default>
+        <label>Spam Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Growth RR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Growth RR</label>
+    </customValue>
+    <masterLabel>Routing Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

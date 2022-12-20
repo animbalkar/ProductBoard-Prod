@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Individual PM</fullName>
+        <default>false</default>
+        <label>Individual PM</label>
+    </customValue>
+    <customValue>
+        <fullName>Manager</fullName>
+        <default>false</default>
+        <label>Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Director</fullName>
+        <default>false</default>
+        <label>Director</label>
+    </customValue>
+    <customValue>
+        <fullName>VP</fullName>
+        <default>false</default>
+        <label>VP</label>
+    </customValue>
+    <customValue>
+        <fullName>Chief</fullName>
+        <default>false</default>
+        <label>Chief</label>
+    </customValue>
+    <masterLabel>Seniority of Champion</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

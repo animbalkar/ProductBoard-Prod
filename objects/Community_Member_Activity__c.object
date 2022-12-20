@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Community Member Activity represents an event that takes place on the community related to a particular community member.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Community Member Activity</label>
+    <nameField>
+        <label>Activity Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Community Member Activities</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Community Member Activity is matched to an Account based on the Contact of the Community Member the activity relates to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Community Member Activity is matched to an Account based on the Contact of the Community Member the activity relates to.</inlineHelpText>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Community Member Activities</relationshipLabel>
+        <relationshipName>Community_Member_Activities_Account</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Community Member Activity is matched to a Contact based on the Community Member the activity relates to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Community Member Activity is matched to a Contact based on the Community Member the activity relates to.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Community Member Activities</relationshipLabel>
+        <relationshipName>Community_Member_Activities_Contact</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Topic_ID__c</fullName>
+        <description>The ID of a topic on the inSided community. This ID is unique per content type (question, conversation, article). You can use this when reporting to get data from a single topic even if the topic title has changed. Note: if the content type changes, then the topic ID will also change.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ID of a topic on the inSided community. This ID is unique per content type (question, conversation, article). You can use this when reporting to get data from a single topic even if the topic title has changed. Note: if the content type changes, then</inlineHelpText>
+        <label>Topic ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Request_ID__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <description>A unique ID to identify an activity on the inSided platform.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>A unique ID to identify an activity on the inSided platform.</inlineHelpText>
+        <label>Request ID</label>
+        <length>64</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Topic_Title__c</fullName>
+        <description>The title of a topic on the community. This title can be changed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The title of a topic on the community. This title can be changed.</inlineHelpText>
+        <label>Topic Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Activity_Date__c</fullName>
+        <description>The date/time at which the activity occurred on the community.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date/time at which the activity occurred on the community.</inlineHelpText>
+        <label>Activity Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Reply_Content__c</fullName>
+        <description>The content of the reply (to a question, article, or conversation). This content can change.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The content of the reply (to a question, article, or conversation). This content can change.</inlineHelpText>
+        <label>Reply Content</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Topic_Content__c</fullName>
+        <description>The content of the opening post of the community topic (question, article, conversation). This content can change.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The content of the opening post of the community topic (question, article, conversation). This content can change.</inlineHelpText>
+        <label>Topic Content</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Community_Member__c</fullName>
+        <description>Community Member Activity must be related to a Community Member.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Community Member Activity must be related to a Community Member.</inlineHelpText>
+        <label>Community Member</label>
+        <referenceTo>Community_Member__c</referenceTo>
+        <relationshipLabel>Community Member Activities</relationshipLabel>
+        <relationshipName>Community_Member_Activities</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Reply_URL_Public__c</fullName>
+        <description>A link to the reply in the frontend. If the topic or reply has been trashed, it cannot be viewed via this link.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A link to the reply in the frontend. If the topic or reply has been trashed, it cannot be viewed via this link.</inlineHelpText>
+        <label>Reply URL (Public)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Topic_URL_Public__c</fullName>
+        <description>A link to the topic in the frontend. If the topic has been trashed, it cannot be viewed via this link.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A link to the topic in the frontend. If the topic has been trashed, it cannot be viewed via this link.</inlineHelpText>
+        <label>Topic URL (Public)</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Topic_Category_ID__c</fullName>
+        <description>The unique ID of a category on the inSided community. You can use this when reporting to get data from a single category even if the category name has changed. Note: this ID can change if a topic is moved to another category.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The unique ID of a category on the inSided community. You can use this when reporting to get data from a single category even if the category name has changed. Note: this ID can change if a topic is moved to another category.</inlineHelpText>
+        <label>Topic Category ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Topic_Category_Name__c</fullName>
+        <description>The name of a category on the community. This name can change.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of a category on the community. This name can change.</inlineHelpText>
+        <label>Topic Category Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+</CustomObject>

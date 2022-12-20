@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Maker Addition-Existing Contract</fullName>
+        <default>false</default>
+        <label>Maker Addition-Existing Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Maker Addition-Existing Contract - True Up</fullName>
+        <default>false</default>
+        <label>Maker Addition-Existing Contract - True Up</label>
+    </customValue>
+    <customValue>
+        <fullName>Maker Addition-New Contract</fullName>
+        <default>false</default>
+        <label>Maker Addition-New Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Replacement: SelfServ to Contract</fullName>
+        <default>false</default>
+        <label>Replacement: SelfServ to Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Replacement: Plan Upgrade</fullName>
+        <default>false</default>
+        <label>Replacement: Plan Upgrade</label>
+    </customValue>
+    <customValue>
+        <fullName>Replacement: New Contract</fullName>
+        <default>false</default>
+        <label>Replacement: New Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>Expansion/Upsell w/Renewal</fullName>
+        <default>false</default>
+        <label>Expansion/Upsell w/Renewal</label>
+    </customValue>
+    <customValue>
+        <fullName>Renewal-Uplift</fullName>
+        <default>false</default>
+        <label>Renewal-Uplift</label>
+    </customValue>
+    <customValue>
+        <fullName>Renewal-No Change</fullName>
+        <default>false</default>
+        <label>Renewal-No Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Renewal-Downgrade</fullName>
+        <default>false</default>
+        <label>Renewal-Downgrade</label>
+    </customValue>
+    <customValue>
+        <fullName>Renewal-New Contract</fullName>
+        <default>false</default>
+        <label>Renewal-New Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>New Space</fullName>
+        <default>false</default>
+        <label>New Space</label>
+    </customValue>
+    <customValue>
+        <fullName>Contributor Addition</fullName>
+        <default>false</default>
+        <label>Contributor Addition</label>
+    </customValue>
+    <customValue>
+        <fullName>Professional Services Addition</fullName>
+        <default>false</default>
+        <label>Professional Services Addition</label>
+    </customValue>
+    <customValue>
+        <fullName>Contract to Self Serve</fullName>
+        <default>false</default>
+        <label>Contract to Self Serve</label>
+    </customValue>
+    <customValue>
+        <fullName>Self Service Expansion via CC</fullName>
+        <default>false</default>
+        <label>Self Service Expansion via CC</label>
+    </customValue>
+    <customValue>
+        <fullName>Following year uplift</fullName>
+        <default>false</default>
+        <label>Following year/month uplift</label>
+    </customValue>
+    <customValue>
+        <fullName>SatisMeter Addition</fullName>
+        <default>false</default>
+        <label>SatisMeter Addition</label>
+    </customValue>
+    <customValue>
+        <fullName>Feature Addition</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Feature Addition</label>
+    </customValue>
+    <description>Contract/Opportunity Amendment Type</description>
+    <masterLabel>Amendment Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

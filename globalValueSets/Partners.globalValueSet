@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cprime</fullName>
+        <default>false</default>
+        <label>Cprime</label>
+    </customValue>
+    <customValue>
+        <fullName>Productbox</fullName>
+        <default>false</default>
+        <label>Productbox</label>
+    </customValue>
+    <customValue>
+        <fullName>Product Rocket</fullName>
+        <default>false</default>
+        <label>Product Rocket</label>
+    </customValue>
+    <customValue>
+        <fullName>Umbrage</fullName>
+        <default>false</default>
+        <label>Umbrage</label>
+    </customValue>
+    <customValue>
+        <fullName>Intercom</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Intercom</label>
+    </customValue>
+    <customValue>
+        <fullName>Slack</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Slack</label>
+    </customValue>
+    <customValue>
+        <fullName>Tray.io</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tray.io</label>
+    </customValue>
+    <customValue>
+        <fullName>Zendesk</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Zendesk</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Ventures</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Digital Ventures</label>
+    </customValue>
+    <customValue>
+        <fullName>Heap</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Heap</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlassian</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Atlassian</label>
+    </customValue>
+    <customValue>
+        <fullName>AppCues</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AppCues</label>
+    </customValue>
+    <customValue>
+        <fullName>Amplitude</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Amplitude</label>
+    </customValue>
+    <customValue>
+        <fullName>Thiga (Consulting)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Thiga (Consulting)</label>
+    </customValue>
+    <masterLabel>Partners</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

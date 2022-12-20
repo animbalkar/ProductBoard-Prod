@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Pipeline</label>
+    <nameField>
+        <displayFormat>PI{00000}</displayFormat>
+        <label>Pipeline</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Pipeline</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>As_Of_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Close_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Opportuinty__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Stage_Number__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>As_Of_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Close_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Opportuinty__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>As_Of_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Opportuinty__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Stage_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Amount__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Won__c</fullName>
+        <externalId>false</externalId>
+        <formula>Stage__c = &quot;Closed Won&quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Stage = Closed Won</inlineHelpText>
+        <label>Won?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Stage</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Amount</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Closed__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Stage_Number__c = - 1 || Stage_Number__c = 6,true,false)</formula>
+        <inlineHelpText>is closed</inlineHelpText>
+        <label>Closed?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Pipeline</relationshipLabel>
+        <relationshipName>Pipeline_History</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>Forecast</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Max Stage</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opp_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opp Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Pipeline</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>As_Of_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>As Of Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Close_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Close Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Opportuinty__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Pipeline</relationshipLabel>
+        <relationshipName>Pipeline_History</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Acct_Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Acct Segment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Change_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Stage_Number__c =  Opportuinty__r.Stage_Numeric__c ,&quot;No Change&quot;,
+Case(Opportuinty__r.Stage_Numeric__c ,
+-1,&quot;Lost&quot;,
+6,&quot;Won&quot;,
+IF( Opportuinty__r.Stage_Numeric__c - Stage_Number__c &gt; 0, &quot;Stage Increase&quot;,&quot;Stage Decrease&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Change - Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Created_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Created Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Stage_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Stage Number</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Won_In_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportuinty__r.IsWon &amp;&amp; Month( Close_Date__c ) =  Month(Opportuinty__r.CloseDate)  &amp;&amp; Year(Close_Date__c ) =  Year(Opportuinty__r.CloseDate)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Was Closed Won within the same month?</inlineHelpText>
+        <label>Won In Month</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Change_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Opportuinty__r.Amount - Amount__c &lt; - 1, &quot;Amount Decreased&quot;,
+IF( Opportuinty__r.Amount - Amount__c &gt;  1, &quot;Amount Increased&quot;,&quot;No Change&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Amount change type since snapshot taken</inlineHelpText>
+        <label>Change - Amount</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_PB_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Project PB ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Acct_Territory__c</fullName>
+        <externalId>false</externalId>
+        <label>Acct Territory</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opp_MK_Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Opp MK Segment</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Months_to_Close__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Closed__c ,(Year( Close_Date__c ) - Year( As_Of_Date__c )) * 12  + month(Close_Date__c ) - month(As_Of_Date__c),
+
+
+Max(0,(Year( Close_Date__c ) - Year( As_Of_Date__c )) * 12  + month(Close_Date__c ) - month(As_Of_Date__c)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Months between historical close date and the date of the snapshot (As Of Date)</inlineHelpText>
+        <label># Months to Close</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opp_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Opp Record Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_MK_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact MK Score</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pushed_Out_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>Date_Change_Months__c &gt; 0</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Date pushed our to future months?</inlineHelpText>
+        <label>Pushed Out - Month</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Change_Close_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Date_Change_Months__c = 0, &quot;No Change&quot;,
+ IF(Date_Change_Months__c &lt; 0,
+ IF(Date_Change_Quarters__c &lt; 0, &quot;Pulled In - FQ&quot;,&quot;Pulled In - Month&quot;),
+ IF(Date_Change_Quarters__c &gt; 0, &quot;Pushed out - FQ&quot;,&quot;Pushed out - Month&quot;)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Close Date Movement Type</inlineHelpText>
+        <label>Change - Close Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Change_Overall_FQ__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case(Change_Stage__c ,
+&quot;Won&quot;,&quot;Closed Won&quot;,
+&quot;Lost&quot;,&quot;Closed Lost&quot;,
+IF (Date_Change_Quarters__c &gt; 0,  &quot;Date Pushed&quot;,
+IF (Date_Change_Quarters__c &lt; 0, &quot;Date Pulled&quot;,Change_Amount__c ))
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Overall change to Pipeline</inlineHelpText>
+        <label>Change - Overall-FQ</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Change_Overall_Mo__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case(Change_Stage__c ,
+&quot;Won&quot;,&quot;Closed Won&quot;,
+&quot;Lost&quot;,&quot;Closed Lost&quot;,
+IF (Date_Change_Months__c &gt; 0,  &quot;Date Pushed&quot;,
+IF (Date_Change_Months__c &gt; 0, &quot;Date Pulled&quot;,Change_Amount__c ))
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Change - Overall-Mo</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Forecast_Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Closed__c &amp;&amp; Not(Won__c),&quot;Lost&quot;, Forecast__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Forecast Category</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quarters_to_Close__c</fullName>
+        <externalId>false</externalId>
+        <formula>Max(0,(Year(Close_Date__c) - Year( As_Of_Date__c )) * 4 
++ MCEILING((month(Close_Date__c)/3) - MCEILING(month(As_Of_Date__c) / 3)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText># Quarters between close date and the snapshot date (As of Date).</inlineHelpText>
+        <label># Quarters to Close</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Change_Months__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Year( Opportuinty__r.CloseDate  ) - Year(  Close_Date__c ))* 12  + month(Opportuinty__r.CloseDate  ) - month(Close_Date__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Number of Months between Historical snapshot close date and latest opportunity Close Date</inlineHelpText>
+        <label>Date Change - # Months</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pushed_Out_Quarter__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quarters_to_Close__c &gt; 0</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pushed Out - Quarter</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Amount_Change_Delta__c</fullName>
+        <externalId>false</externalId>
+        <formula>Round(Opportuinty__r.Amount - Amount__c,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Amount value change since snapshot</inlineHelpText>
+        <label>Amount Change Delta</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fiscal_Q_As_of_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Year( As_Of_Date__c )) &amp; &quot;-Q&quot; &amp; 
+Case(month(As_Of_Date__c ),
+1,&quot;1&quot;,
+2,&quot;1&quot;,
+3,&quot;1&quot;,
+4,&quot;2&quot;,
+5,&quot;2&quot;,
+6,&quot;2&quot;,
+7,&quot;3&quot;,
+8,&quot;3&quot;,
+9,&quot;3&quot;,
+10,&quot;4&quot;,
+11,&quot;4&quot;,
+&quot;4&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Fiscal Quarter of the &quot;As Of&quot; date</inlineHelpText>
+        <label>Fiscal Q - As of Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fiscal_Q_Close_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Year( Close_Date__c )) &amp; &quot;-Q&quot; &amp; 
+Case(month( Close_Date__c  ),
+1,&quot;1&quot;,
+2,&quot;1&quot;,
+3,&quot;1&quot;,
+4,&quot;2&quot;,
+5,&quot;2&quot;,
+6,&quot;2&quot;,
+7,&quot;3&quot;,
+8,&quot;3&quot;,
+9,&quot;3&quot;,
+10,&quot;4&quot;,
+11,&quot;4&quot;,
+&quot;4&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Fiscal Quarter of the Historical Close Date</inlineHelpText>
+        <label>Fiscal Q - Close Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Change_Quarters__c</fullName>
+        <externalId>false</externalId>
+        <formula>( Year(  Opportuinty__r.CloseDate  ) - Year(Close_Date__c)) * 4 
++ MCEILING((month( Opportuinty__r.CloseDate )/3) - MCEILING(month(Close_Date__c) / 3))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Change in Fiscal Quarters since Pipeline Snapshot</inlineHelpText>
+        <label>Date Change - # Quarters</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vitally_Health_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Vitally Health Score</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Day_of_Qrt_As_of_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Quarters_to_Close__c = 0,
+Case(month(As_Of_Date__c ),
+1,date(year(Close_Date__c),1,1),
+2,date(year(Close_Date__c),1,1),
+3,date(year(Close_Date__c),1,1),
+4,date(year(Close_Date__c),4,1),
+5,date(year(Close_Date__c),4,1),
+6,date(year(Close_Date__c),4,1),
+7,date(year(Close_Date__c),7,1),
+8,date(year(Close_Date__c),7,1),
+9,date(year(Close_Date__c),7,1),
+date(year(Close_Date__c),10,1))
+
+
+-  As_Of_Date__c,null)</formula>
+        <inlineHelpText>If the close date in the same Q as &quot;As of Date&quot;, # days since quarter started</inlineHelpText>
+        <label>Day of Qrt - As of Date</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Months_to_Close_Admin__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Year( Close_Date__c ) - Year( As_Of_Date__c )) * 12  + month(Close_Date__c ) - month(As_Of_Date__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>has negative month numbers</inlineHelpText>
+        <label># Months to Close - Admin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Day_of_Week_As_of_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case(Weekday(As_Of_Date__c  ),
+1,&quot;1-Sun&quot;,
+2,&quot;2-Mon&quot;,
+3,&quot;3-Tue&quot;,
+4,&quot;4-Wed&quot;,
+5,&quot;5-Thu&quot;,
+6,&quot;6-Fri&quot;,
+7,&quot;7-Sat&quot;,
+&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Day in the month of &quot;As of Date&quot;</inlineHelpText>
+        <label>Day of Week - As of Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Owner_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity Owner (Text)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Day_of_Month_As_Of_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>DAY( As_Of_Date__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Day in the month of the As of Date</inlineHelpText>
+        <label>Day of Month - As Of Date</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pipeline_Amount_Change_FQ__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Abs(Date_Change_Quarters__c) &gt; 0,-1* Amount__c ,
+Case(Change_Stage__c ,
+&quot;Won&quot;, -1* Amount__c ,
+&quot;Lost&quot;, -1* Amount__c ,
+ Amount_Change_Delta__c  ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Overall change to pipeline amount within quarter</inlineHelpText>
+        <label>Pipeline Amount Change - FQ</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pipeline_Amount_Change_Mo__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Abs( Date_Change_Months__c ) &gt; 0,-1* Amount__c ,
+Case(Change_Stage__c ,
+&quot;Won&quot;, -1* Amount__c ,
+&quot;Lost&quot;, -1* Amount__c ,
+ Amount_Change_Delta__c  ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pipeline Amount Change - Mo</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Change_Close_Date_WinLoss_FQ__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Date_Change_Quarters__c  &gt; 0, &quot;Pushed Out&quot;,
+
+IF( Opportuinty__r.IsClosed ,
+   IF ( Opportuinty__r.IsWon , &quot;NC-Won&quot;,&quot;NC-Lost&quot;),&quot;NC-Open&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Change - Close Date &amp; WinLoss-FQ</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Change_Close_Date_WinLoss_Mo__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Date_Change_Months__c &gt; 0, &quot;Pushed Out&quot;,
+
+IF( Opportuinty__r.IsClosed ,
+   IF ( Opportuinty__r.IsWon , &quot;NC-Won&quot;,&quot;NC-Lost&quot;),&quot;NC-Open&quot;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Change - Close Date &amp; WinLoss-Mo</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pipe_Amt_Change_Close_Date_FQ__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case( Change_Close_Date__c ,
+&quot;Pulled In - FQ&quot;, Amount__c ,
+&quot;Pushed out - FQ&quot;, -1 * Amount__c ,
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Changed to the Month&apos;s pipeline due to date changes only</inlineHelpText>
+        <label>Pipe Amt Change - Close Date - FQ</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Pipe_Amt_Change_Close_Date_Mo__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case( Change_Close_Date__c ,
+&quot;Pulled In - Month&quot;, Amount__c ,
+&quot;Pushed out - Month&quot;, -1 * Amount__c ,
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Changed to the Month&apos;s pipeline due to date changes only</inlineHelpText>
+        <label>Pipe Amt Change - Close Date - Mo</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Current_Opportunity_Closed_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportuinty__r.CloseDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Current Opportunity Closed Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>As_Of_Date__c</columns>
+        <columns>Opportuinty__c</columns>
+        <columns>Stage__c</columns>
+        <columns>Amount__c</columns>
+        <columns>Account__c</columns>
+        <columns>Close_Date__c</columns>
+        <columns>Forecast_Category__c</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+</CustomObject>

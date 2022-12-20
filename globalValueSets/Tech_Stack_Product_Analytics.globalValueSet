@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Amplitude</fullName>
+        <default>false</default>
+        <label>Amplitude</label>
+    </customValue>
+    <customValue>
+        <fullName>AppCues</fullName>
+        <default>false</default>
+        <label>AppCues</label>
+    </customValue>
+    <customValue>
+        <fullName>Chameleon</fullName>
+        <default>false</default>
+        <label>Chameleon</label>
+    </customValue>
+    <customValue>
+        <fullName>Churnzero</fullName>
+        <default>false</default>
+        <label>Churnzero</label>
+    </customValue>
+    <customValue>
+        <fullName>Fullstory</fullName>
+        <default>false</default>
+        <label>Fullstory</label>
+    </customValue>
+    <customValue>
+        <fullName>Google Analytics</fullName>
+        <default>false</default>
+        <label>Google Analytics</label>
+    </customValue>
+    <customValue>
+        <fullName>Heap</fullName>
+        <default>false</default>
+        <label>Heap</label>
+    </customValue>
+    <customValue>
+        <fullName>Hotjar</fullName>
+        <default>false</default>
+        <label>Hotjar</label>
+    </customValue>
+    <customValue>
+        <fullName>Mixpanel</fullName>
+        <default>false</default>
+        <label>Mixpanel</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Pendo</fullName>
+        <default>false</default>
+        <label>Pendo</label>
+    </customValue>
+    <customValue>
+        <fullName>Segment</fullName>
+        <default>false</default>
+        <label>Segment</label>
+    </customValue>
+    <description>Tools in use for Product Analytics purposes</description>
+    <masterLabel>Tech Stack (Product Analytics)</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

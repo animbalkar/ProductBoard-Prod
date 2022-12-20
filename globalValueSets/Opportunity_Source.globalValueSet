@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Outbound</fullName>
+        <default>false</default>
+        <label>Sales Outbound</label>
+    </customValue>
+    <customValue>
+        <fullName>Chat</fullName>
+        <default>false</default>
+        <label>Chat</label>
+    </customValue>
+    <customValue>
+        <fullName>Referral</fullName>
+        <default>false</default>
+        <label>Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Partnership</fullName>
+        <default>false</default>
+        <label>Partnership</label>
+    </customValue>
+    <customValue>
+        <fullName>CS Sourced</fullName>
+        <default>false</default>
+        <label>CS Sourced</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Sourced</fullName>
+        <default>false</default>
+        <label>Customer Sourced</label>
+    </customValue>
+    <customValue>
+        <fullName>Exclude</fullName>
+        <default>false</default>
+        <label>Exclude</label>
+    </customValue>
+    <masterLabel>Opportunity Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

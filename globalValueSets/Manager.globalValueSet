@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Conor Dragomanovich</fullName>
+        <default>false</default>
+        <label>Conor Dragomanovich</label>
+    </customValue>
+    <customValue>
+        <fullName>D&apos;Arcy Doyle</fullName>
+        <default>false</default>
+        <label>D&apos;Arcy Doyle</label>
+    </customValue>
+    <customValue>
+        <fullName>Ivana Obstova</fullName>
+        <default>false</default>
+        <label>Ivana Obstova</label>
+    </customValue>
+    <customValue>
+        <fullName>John Henwood</fullName>
+        <default>false</default>
+        <label>John Henwood</label>
+    </customValue>
+    <customValue>
+        <fullName>Kaeli Finlayson</fullName>
+        <default>false</default>
+        <label>Kaeli Finlayson</label>
+    </customValue>
+    <customValue>
+        <fullName>Michael Butler</fullName>
+        <default>false</default>
+        <label>Michael Butler</label>
+    </customValue>
+    <customValue>
+        <fullName>Mike Liranzo</fullName>
+        <default>false</default>
+        <label>Mike Liranzo</label>
+    </customValue>
+    <customValue>
+        <fullName>Stuart Gammon</fullName>
+        <default>false</default>
+        <label>Stuart Gammon</label>
+    </customValue>
+    <customValue>
+        <fullName>Layla Schaper</fullName>
+        <default>false</default>
+        <label>Layla Schaper</label>
+    </customValue>
+    <customValue>
+        <fullName>Vu Nguyen</fullName>
+        <default>false</default>
+        <label>Vu Nguyen</label>
+    </customValue>
+    <customValue>
+        <fullName>Josh Jones</fullName>
+        <default>false</default>
+        <label>Josh Jones</label>
+    </customValue>
+    <customValue>
+        <fullName>Ramen Tegenfeldt</fullName>
+        <default>false</default>
+        <label>Ramen Tegenfeldt</label>
+    </customValue>
+    <customValue>
+        <fullName>Michael Solomon</fullName>
+        <default>false</default>
+        <label>Michael Solomon</label>
+    </customValue>
+    <customValue>
+        <fullName>Greg Bowhay</fullName>
+        <default>false</default>
+        <label>Greg Bowhay</label>
+    </customValue>
+    <customValue>
+        <fullName>Richard Power</fullName>
+        <default>false</default>
+        <label>Richard Power</label>
+    </customValue>
+    <customValue>
+        <fullName>Sam Jefferies</fullName>
+        <default>false</default>
+        <label>Sam Jefferies</label>
+    </customValue>
+    <customValue>
+        <fullName>Michael Parvin</fullName>
+        <default>false</default>
+        <label>Michael Parvin</label>
+    </customValue>
+    <masterLabel>Manager</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

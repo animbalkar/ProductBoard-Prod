@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New Business</fullName>
+        <default>true</default>
+        <label>New Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Expansion - Upsell</fullName>
+        <default>false</default>
+        <label>Expansion - Upsell</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Renewal</fullName>
+        <default>false</default>
+        <label>Renewal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reactivation</fullName>
+        <default>false</default>
+        <label>Reactivation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>POC</fullName>
+        <default>false</default>
+        <label>POC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Free Portal</fullName>
+        <default>false</default>
+        <label>Free Portal</label>
+    </standardValue>
+</StandardValueSet>

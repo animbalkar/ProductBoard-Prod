@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Starter Request</fullName>
+        <default>false</default>
+        <label>Starter Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Starter Owner</fullName>
+        <default>false</default>
+        <label>Starter Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Starter User</fullName>
+        <default>false</default>
+        <label>Starter User</label>
+    </customValue>
+    <masterLabel>Starter Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

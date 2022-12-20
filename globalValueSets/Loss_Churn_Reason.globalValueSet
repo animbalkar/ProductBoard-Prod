@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Adoption (Usage)</fullName>
+        <default>false</default>
+        <label>Adoption (Usage)</label>
+    </customValue>
+    <customValue>
+        <fullName>Champion Change</fullName>
+        <default>false</default>
+        <label>Champion Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Experience</fullName>
+        <default>false</default>
+        <label>Customer Experience</label>
+    </customValue>
+    <customValue>
+        <fullName>Feature Gap</fullName>
+        <default>false</default>
+        <label>Feature Gap</label>
+    </customValue>
+    <customValue>
+        <fullName>Lack of Value (Outcomes)</fullName>
+        <default>false</default>
+        <label>Lack of Value (Outcomes)</label>
+    </customValue>
+    <customValue>
+        <fullName>No Data</fullName>
+        <default>false</default>
+        <label>No Data</label>
+    </customValue>
+    <customValue>
+        <fullName>Out of Business/Acquired</fullName>
+        <default>false</default>
+        <label>Out of Business/Acquired</label>
+    </customValue>
+    <customValue>
+        <fullName>Performance</fullName>
+        <default>false</default>
+        <label>Performance</label>
+    </customValue>
+    <customValue>
+        <fullName>Pricing (Cost)</fullName>
+        <default>false</default>
+        <label>Pricing (Cost)</label>
+    </customValue>
+    <customValue>
+        <fullName>Usability</fullName>
+        <default>false</default>
+        <label>Usability</label>
+    </customValue>
+    <customValue>
+        <fullName>Does not meet ICP</fullName>
+        <default>false</default>
+        <label>Does not meet ICP</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate account/opportunity</fullName>
+        <default>false</default>
+        <label>Duplicate account/opportunity</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Responsive/Ghosting</fullName>
+        <default>false</default>
+        <label>Non-Responsive/Ghosting</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales declined</fullName>
+        <default>false</default>
+        <label>Sales declined</label>
+    </customValue>
+    <customValue>
+        <fullName>DM Declined</fullName>
+        <default>false</default>
+        <label>DM Declined</label>
+    </customValue>
+    <customValue>
+        <fullName>Lost to Competitor</fullName>
+        <default>false</default>
+        <label>Lost to Competitor</label>
+    </customValue>
+    <customValue>
+        <fullName>No Budget / Lost Funding</fullName>
+        <default>false</default>
+        <label>No Budget / Lost Funding</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Decline after/during DM</fullName>
+        <default>false</default>
+        <label>Sales Decline after/during DM</label>
+    </customValue>
+    <customValue>
+        <fullName>Tool Consolidation</fullName>
+        <default>false</default>
+        <label>Tool Consolidation</label>
+    </customValue>
+    <customValue>
+        <fullName>Self Service Subscribed</fullName>
+        <default>false</default>
+        <label>Self Service Subscribed</label>
+    </customValue>
+    <customValue>
+        <fullName>Timing</fullName>
+        <default>false</default>
+        <label>Timing</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Automatic - Space Deleted/Expired</fullName>
+        <default>false</default>
+        <label>Automatic - Space Deleted/Expired</label>
+    </customValue>
+    <customValue>
+        <fullName>No SOC II</fullName>
+        <default>false</default>
+        <label>No SOC II</label>
+    </customValue>
+    <customValue>
+        <fullName>Security</fullName>
+        <default>false</default>
+        <label>Security</label>
+    </customValue>
+    <customValue>
+        <fullName>Reason Missing</fullName>
+        <default>false</default>
+        <label>Reason Missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Left Company</fullName>
+        <default>false</default>
+        <label>Left Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Change Management</fullName>
+        <default>false</default>
+        <label>Change Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Alternate Need</fullName>
+        <default>false</default>
+        <label>Alternate Need</label>
+    </customValue>
+    <customValue>
+        <fullName>Trial Loss Reason</fullName>
+        <default>false</default>
+        <label>Trial Loss Reason</label>
+    </customValue>
+    <masterLabel>Loss/Churn Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

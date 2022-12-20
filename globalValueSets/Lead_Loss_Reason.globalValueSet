@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Just Browsing</fullName>
+        <default>false</default>
+        <label>Just Browsing</label>
+    </customValue>
+    <customValue>
+        <fullName>Language Gap</fullName>
+        <default>false</default>
+        <label>Language Gap</label>
+    </customValue>
+    <customValue>
+        <fullName>No Authority</fullName>
+        <default>false</default>
+        <label>No Authority</label>
+    </customValue>
+    <customValue>
+        <fullName>Non Actionable</fullName>
+        <default>false</default>
+        <label>Non Actionable</label>
+    </customValue>
+    <customValue>
+        <fullName>Partner Request</fullName>
+        <default>false</default>
+        <label>Partner Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Support Request</fullName>
+        <default>false</default>
+        <label>Support Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Timeframe</fullName>
+        <default>false</default>
+        <label>Timeframe</label>
+    </customValue>
+    <customValue>
+        <fullName>Unresponsive/Ghosting</fullName>
+        <default>false</default>
+        <label>Unresponsive/Ghosting</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate</label>
+    </customValue>
+    <customValue>
+        <fullName>Trial Created by Accident</fullName>
+        <default>false</default>
+        <label>Trial Created by Accident</label>
+    </customValue>
+    <customValue>
+        <fullName>Current Customer</fullName>
+        <default>false</default>
+        <label>Current Customer</label>
+    </customValue>
+    <masterLabel>Lead Loss Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

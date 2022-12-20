@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Portal Request</fullName>
+        <default>false</default>
+        <label>Portal Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Portal Owner</fullName>
+        <default>false</default>
+        <label>Portal Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Portal User</fullName>
+        <default>false</default>
+        <label>Portal User</label>
+    </customValue>
+    <masterLabel>Portal Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

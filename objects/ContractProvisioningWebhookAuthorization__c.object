@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Authorization for automated space contract provisioning</description>
+    <enableFeeds>false</enableFeeds>
+    <label>ContractProvisioningWebhookAuthorization</label>
+    <visibility>Protected</visibility>
+    <fields>
+        <fullName>Type__c</fullName>
+        <description>Type of authorization</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Value__c</fullName>
+        <description>Value of the authorization field</description>
+        <externalId>false</externalId>
+        <label>Value</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

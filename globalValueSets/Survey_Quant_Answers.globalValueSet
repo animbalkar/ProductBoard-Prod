@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>critical</fullName>
+        <default>false</default>
+        <label>critical</label>
+    </customValue>
+    <customValue>
+        <fullName>extremely important</fullName>
+        <default>false</default>
+        <label>extremely important</label>
+    </customValue>
+    <customValue>
+        <fullName>important</fullName>
+        <default>false</default>
+        <label>important</label>
+    </customValue>
+    <customValue>
+        <fullName>moderately important</fullName>
+        <default>false</default>
+        <label>moderately important</label>
+    </customValue>
+    <customValue>
+        <fullName>nice to have</fullName>
+        <default>false</default>
+        <label>nice to have</label>
+    </customValue>
+    <customValue>
+        <fullName>not at all important</fullName>
+        <default>false</default>
+        <label>not at all important</label>
+    </customValue>
+    <customValue>
+        <fullName>slightly important</fullName>
+        <default>false</default>
+        <label>slightly important</label>
+    </customValue>
+    <customValue>
+        <fullName>very important</fullName>
+        <default>false</default>
+        <label>very important</label>
+    </customValue>
+    <masterLabel>Survey Quant Answers</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
