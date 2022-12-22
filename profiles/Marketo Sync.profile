@@ -5014,7 +5014,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Starter_Activation_DT__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -5024,7 +5024,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Starter_Source__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>

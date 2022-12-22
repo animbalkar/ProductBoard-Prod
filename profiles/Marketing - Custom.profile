@@ -7514,7 +7514,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Lead.Starter_Source__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>

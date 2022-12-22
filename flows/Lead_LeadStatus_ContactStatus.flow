@@ -90,7 +90,7 @@
             <label>P(L2)-1 Blank or IsChanged</label>
         </rules>
     </decisions>
-    <description>Lisa Updates Last MQL Data, Behavior Score, Source on Opp - LO UPdates Dec 19</description>
+    <description>Lisa Updates Last MQL Data, Behavior Score, Source on Opp - Lo Removed WF logs</description>
     <formulas>
         <processMetadataValues>
             <name>originalFormula</name>
@@ -98,7 +98,7 @@
                 <stringValue>now()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_2_myRule_1_A3_0076174802</name>
+        <name>formula_2_myRule_1_A3_2831351213</name>
         <dataType>DateTime</dataType>
         <expression>now()</expression>
     </formulas>
@@ -109,12 +109,12 @@
                 <stringValue>TODAY()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_3_myRule_1_A1_4497932253</name>
+        <name>formula_3_myRule_1_A1_1558390220</name>
         <dataType>Date</dataType>
         <expression>TODAY()</expression>
     </formulas>
-    <interviewLabel>Lead_LeadStatus_ContactStatus-14_InterviewLabel</interviewLabel>
-    <label>[P(L2)] Lead: Lead Conversion - Sept 2022</label>
+    <interviewLabel>Lead_LeadStatus_ContactStatus-15_InterviewLabel</interviewLabel>
+    <label>[P(L2)] Lead: Lead Conversion - Dec 2022</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
@@ -219,7 +219,7 @@
             </processMetadataValues>
             <field>Lifecycle_Stage_SQL_Date__c</field>
             <value>
-                <elementReference>formula_3_myRule_1_A1_4497932253</elementReference>
+                <elementReference>formula_3_myRule_1_A1_1558390220</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -291,7 +291,7 @@
             </processMetadataValues>
             <field>Workflow_Log__c</field>
             <value>
-                <stringValue>P(L2)-1-1: Set Lead Status to Qualified with Lead conversion; set Lifecycle Stage - SQL Date TODAY()</stringValue>
+                <stringValue>L2:1 Set Lead Status to qualified with Lead conversion</stringValue>
             </value>
         </inputAssignments>
         <object>Contact</object>
@@ -376,42 +376,6 @@
             <field>Type</field>
             <value>
                 <stringValue>New Business</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Workflow Log</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Workflow_Log__c</field>
-            <value>
-                <stringValue>P(L2)-1-2: Set Opportunity Type to New Business</stringValue>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
@@ -544,43 +508,7 @@
             </processMetadataValues>
             <field>LS_SQL_Date__c</field>
             <value>
-                <elementReference>formula_2_myRule_1_A3_0076174802</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Workflow Log</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Workflow_Log__c</field>
-            <value>
-                <stringValue>P(L2)-1-3: Set LS - SQL Date NOW()</stringValue>
+                <elementReference>formula_2_myRule_1_A3_2831351213</elementReference>
             </value>
         </inputAssignments>
         <object>CampaignMember</object>
@@ -716,42 +644,6 @@
                 <elementReference>myVariable_current.Latest_Campaign__r.Id</elementReference>
             </value>
         </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Workflow Log</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Workflow_Log__c</field>
-            <value>
-                <stringValue>P(L2)-1-4: Set Campaign</stringValue>
-            </value>
-        </inputAssignments>
         <object>Opportunity</object>
     </recordUpdates>
     <recordUpdates>
@@ -885,42 +777,6 @@
                 <stringValue>a00f400000RepfE</stringValue>
             </value>
         </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Workflow Log</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Workflow_Log__c</field>
-            <value>
-                <stringValue>P(L2)-1-5: Set Project to Placeholder Project</stringValue>
-            </value>
-        </inputAssignments>
         <object>Opportunity</object>
     </recordUpdates>
     <recordUpdates>
@@ -1051,46 +907,10 @@
                 <elementReference>myVariable_current.ConvertedContactId</elementReference>
             </value>
         </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Workflow Log</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Workflow_Log__c</field>
-            <value>
-                <stringValue>P(L2)-1-6: Set First Contact</stringValue>
-            </value>
-        </inputAssignments>
         <object>Opportunity</object>
     </recordUpdates>
     <startElementReference>myDecision</startElementReference>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>

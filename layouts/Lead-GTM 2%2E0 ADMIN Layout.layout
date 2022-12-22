@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <excludeButtons>CreateSurveyInvitation</excludeButtons>
+    <excludeButtons>DataDotComClean</excludeButtons>
     <excludeButtons>SendEmail</excludeButtons>
     <excludeButtons>Share</excludeButtons>
     <excludeButtons>StartOutboundConversation</excludeButtons>
@@ -68,10 +69,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Deletion_Consideration__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Starter_Activation_DT__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -425,6 +422,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Trial_End_Date__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Starter_Activation_DT__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
