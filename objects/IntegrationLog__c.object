@@ -465,11 +465,7 @@
         <columns>Method__c</columns>
         <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>Class__c</field>
-            <operation>equals</operation>
-            <value>TrialOps</value>
-        </filters>
         <label>All</label>
+        <language>en_US</language>
     </listViews>
 </CustomObject>
