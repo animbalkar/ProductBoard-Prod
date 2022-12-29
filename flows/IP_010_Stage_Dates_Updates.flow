@@ -17,13 +17,13 @@
         <inputParameters>
             <name>emailBody</name>
             <value>
-                <stringValue>The IP_010_Stage_Dates_Updates-3 invocable process failed to start because no records in your org match the record Id specified. In the entities that invoke IP_010_Stage_Dates_Updates-3, such as other processes, check the value for this input: SObjectId.</stringValue>
+                <stringValue>The IP_010_Stage_Dates_Updates-4 invocable process failed to start because no records in your org match the record Id specified. In the entities that invoke IP_010_Stage_Dates_Updates-4, such as other processes, check the value for this input: SObjectId.</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>lika@productboard.com</stringValue>
+                <stringValue>lauren.ott@productboard.com</stringValue>
             </value>
         </inputParameters>
     </actionCalls>
@@ -44,7 +44,7 @@
         <inputParameters>
             <name>emailBody</name>
             <value>
-                <stringValue>The IP_010_Stage_Dates_Updates-3 invocable process failed to start because a valid value wasn&apos;t found. This can happen when entities that invoke IP_010_Stage_Dates_Updates-3, such as other processes, don&apos;t have values for either the SObject or SObjectId. For example: 
+                <stringValue>The IP_010_Stage_Dates_Updates-4 invocable process failed to start because a valid value wasn&apos;t found. This can happen when entities that invoke IP_010_Stage_Dates_Updates-4, such as other processes, don&apos;t have values for either the SObject or SObjectId. For example: 
 -An SObject or SObject ID wasn&apos;t specified.
 -A value might have been included, but it was null at runtime. </stringValue>
             </value>
@@ -52,7 +52,7 @@
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>lika@productboard.com</stringValue>
+                <stringValue>lauren.ott@productboard.com</stringValue>
             </value>
         </inputParameters>
     </actionCalls>
@@ -205,7 +205,7 @@
             <label>SObject Id Not Null</label>
         </rules>
     </decisions>
-    <description>Adding workflow Log UPdate, Lika July 26</description>
+    <description>Adding workflow Log UPdate, lo dec 28 - delete dupe WFL</description>
     <formulas>
         <processMetadataValues>
             <name>originalFormula</name>
@@ -213,7 +213,7 @@
                 <stringValue>Today()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_2_myRule_1_A7_8961652482</name>
+        <name>formula_2_myRule_1_A7_4729807582</name>
         <dataType>Date</dataType>
         <expression>Today()</expression>
     </formulas>
@@ -224,7 +224,7 @@
                 <stringValue>today()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_3_myRule_1_A6_6105454030</name>
+        <name>formula_3_myRule_1_A6_6685466229</name>
         <dataType>Date</dataType>
         <expression>today()</expression>
     </formulas>
@@ -235,7 +235,7 @@
                 <stringValue>today()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_4_myRule_1_A5_3732546484</name>
+        <name>formula_4_myRule_1_A5_8080899173</name>
         <dataType>Date</dataType>
         <expression>today()</expression>
     </formulas>
@@ -246,7 +246,7 @@
                 <stringValue>today()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_5_myRule_1_A4_4011961841</name>
+        <name>formula_5_myRule_1_A4_3849063485</name>
         <dataType>Date</dataType>
         <expression>today()</expression>
     </formulas>
@@ -257,7 +257,7 @@
                 <stringValue>today()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_6_myRule_1_A3_0990565055</name>
+        <name>formula_6_myRule_1_A3_6747355316</name>
         <dataType>Date</dataType>
         <expression>today()</expression>
     </formulas>
@@ -268,7 +268,7 @@
                 <stringValue>today()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_7_myRule_1_A2_7472623701</name>
+        <name>formula_7_myRule_1_A2_5307598224</name>
         <dataType>Date</dataType>
         <expression>today()</expression>
     </formulas>
@@ -279,11 +279,11 @@
                 <stringValue>today()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_8_myRule_1_A1_2214957833</name>
+        <name>formula_8_myRule_1_A1_2548599079</name>
         <dataType>Date</dataType>
         <expression>today()</expression>
     </formulas>
-    <interviewLabel>IP_010_Stage_Dates_Updates-3_InterviewLabel</interviewLabel>
+    <interviewLabel>IP_010_Stage_Dates_Updates-4_InterviewLabel</interviewLabel>
     <label>[IP(09)] Stage Dates Updates - Lo updated july26</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -492,88 +492,7 @@
             </processMetadataValues>
             <field>Date_Transferred_to_0_1__c</field>
             <value>
-                <elementReference>formula_8_myRule_1_A1_2214957833</elementReference>
-            </value>
-        </inputAssignments>
-        <object>Opportunity</object>
-    </recordUpdates>
-    <recordUpdates>
-        <processMetadataValues>
-            <name>evaluationType</name>
-            <value>
-                <stringValue>always</stringValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>extraTypeInfo</name>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>isChildRelationship</name>
-            <value>
-                <booleanValue>false</booleanValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>reference</name>
-            <value>
-                <stringValue>[Opportunity]</stringValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>referenceTargetField</name>
-        </processMetadataValues>
-        <name>myRule_1_A10</name>
-        <label>Workflow Log</label>
-        <locationX>100</locationX>
-        <locationY>1100</locationY>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <processMetadataValues>
-                <name>implicit</name>
-                <value>
-                    <booleanValue>true</booleanValue>
-                </value>
-            </processMetadataValues>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>SObject.Id</elementReference>
-            </value>
-        </filters>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Workflow Log</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Workflow_Log__c</field>
-            <value>
-                <stringValue> [IP(09)]  Stage Date Stamps @ creation</stringValue>
+                <elementReference>formula_8_myRule_1_A1_2548599079</elementReference>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
@@ -755,7 +674,7 @@
             </processMetadataValues>
             <field>Date_Transferred_to_0_2__c</field>
             <value>
-                <elementReference>formula_7_myRule_1_A2_7472623701</elementReference>
+                <elementReference>formula_7_myRule_1_A2_5307598224</elementReference>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
@@ -937,7 +856,7 @@
             </processMetadataValues>
             <field>Date_Transferred_to_1_0__c</field>
             <value>
-                <elementReference>formula_6_myRule_1_A3_0990565055</elementReference>
+                <elementReference>formula_6_myRule_1_A3_6747355316</elementReference>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
@@ -1119,7 +1038,7 @@
             </processMetadataValues>
             <field>Date_Transferred_to_2_0__c</field>
             <value>
-                <elementReference>formula_5_myRule_1_A4_4011961841</elementReference>
+                <elementReference>formula_5_myRule_1_A4_3849063485</elementReference>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
@@ -1301,7 +1220,7 @@
             </processMetadataValues>
             <field>Date_Transferred_to_3_0__c</field>
             <value>
-                <elementReference>formula_4_myRule_1_A5_3732546484</elementReference>
+                <elementReference>formula_4_myRule_1_A5_8080899173</elementReference>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
@@ -1483,7 +1402,7 @@
             </processMetadataValues>
             <field>Date_Transferred_to_4_0__c</field>
             <value>
-                <elementReference>formula_3_myRule_1_A6_6105454030</elementReference>
+                <elementReference>formula_3_myRule_1_A6_6685466229</elementReference>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
@@ -1665,7 +1584,7 @@
             </processMetadataValues>
             <field>Date_Transferred_to_5_0__c</field>
             <value>
-                <elementReference>formula_2_myRule_1_A7_8961652482</elementReference>
+                <elementReference>formula_2_myRule_1_A7_4729807582</elementReference>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
@@ -1783,9 +1702,6 @@
         <label>Stage 2.0 ARR</label>
         <locationX>100</locationX>
         <locationY>1000</locationY>
-        <connector>
-            <targetReference>myRule_1_A10</targetReference>
-        </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <processMetadataValues>

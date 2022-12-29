@@ -116,7 +116,7 @@
         <endpointUrl>https://47759c60-ef21-44a1-8acf-af63870f0179-163227557f91b71.trayapp.io</endpointUrl>
         <fields>Id</fields>
         <includeSessionId>false</includeSessionId>
-        <integrationUser>lika@productboard.com</integrationUser>
+        <integrationUser>lauren@productboard.com</integrationUser>
         <name>TrayOnProjectCreateUpdate_D4fwQ</name>
         <protected>false</protected>
         <useDeadLetterQueue>false</useDeadLetterQueue>
