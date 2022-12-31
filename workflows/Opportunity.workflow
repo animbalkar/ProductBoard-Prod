@@ -1876,7 +1876,7 @@ Not( IsPickVal($User.Team__c ,&quot;Operations&quot;)), $User.Alias &lt;&gt; &qu
             <name>R_3cd5e1ea68cd40358804005dc9aac337</name>
             <type>OutboundMessage</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <formula>AND(AND(ISCHANGED(CloseDate), IF(YEAR((PRIORVALUE(CloseDate)))= YEAR((CloseDate))           ,MCEILING(MONTH(PRIORVALUE(CloseDate)))+1 = MCEILING( MONTH((CloseDate)))           ,13 - MCEILING(MONTH(PRIORVALUE(CloseDate)))= MCEILING(MONTH((CloseDate)))), CASESAFEID(RecordTypeId) = &quot;012f4000000OaBNAA0&quot;, IsClosed = false), OR(LOWER(Owner_Team__c) = &quot;mm-ae&quot;, LOWER(Owner_Team__c) = &quot;en-ae&quot;, LOWER(Owner_Team__c) = &quot;smb-ae&quot;))</formula>
         <triggerType>onAllChanges</triggerType>
     </rules>
