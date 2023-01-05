@@ -776,6 +776,11 @@
         <field>LeanData__Temporary_Marketing_Touch__c.X2_0_to_close_date__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Churn_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Leandata Marketing Touch Permission Set</label>
     <objectPermissions>

@@ -3,6 +3,11 @@
     <description>Modify All Account, Opps, Contacts
 Fields: LD Trigger</description>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Churn_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.LD_Re_Trigger_Field__c</field>
         <readable>true</readable>

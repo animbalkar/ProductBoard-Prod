@@ -55,6 +55,10 @@
                 <behavior>Edit</behavior>
                 <field>Logo_Rights_Removed__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Churn_Amount__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

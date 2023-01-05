@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Temporary permission set for Conor to update his team&apos;s opps since we cannot change his role yet.</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Churn_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Conor - Temp Update Other Users Opps</label>
     <objectPermissions>
