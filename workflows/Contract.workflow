@@ -5,7 +5,7 @@
         <description>Alert When New Contract is Auto Created</description>
         <protected>false</protected>
         <recipients>
-            <recipient>karel.urban@productboard.com</recipient>
+            <recipient>david.reeves@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
