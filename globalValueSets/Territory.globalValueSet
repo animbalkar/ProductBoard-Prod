@@ -451,9 +451,9 @@
         <label>SMB-NA-20-Open</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-21-Open</fullName>
+        <fullName>SMB-NA-21-Assign</fullName>
         <default>false</default>
-        <label>SMB-NA-21-Open</label>
+        <label>SMB-NA-21-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-22-Open</fullName>
