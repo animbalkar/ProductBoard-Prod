@@ -196,10 +196,6 @@
         <recipients>
             <type>owner</type>
         </recipients>
-        <recipients>
-            <recipient>conor@productboard.com</recipient>
-            <type>user</type>
-        </recipients>
         <senderType>CurrentUser</senderType>
         <template>Internal_Notifications/New_Trial_Alert_SDRs</template>
     </alerts>

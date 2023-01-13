@@ -5236,8 +5236,7 @@ IF(OR( Raised__c &gt;=3000000,  NumberOfEmployees &gt;=50),2,1))</formula>
         <fullName>Sales_Segment_Formula_Employees__c</fullName>
         <externalId>false</externalId>
         <formula>IF( Bad_Account__c ,&quot;SMB&quot;,
-IF(Max_Employees__c  &lt; 251,&quot;SMB&quot;,
-IF(Max_Employees__c  &lt; 1001,&quot;MM&quot;,&quot;EN&quot;)))</formula>
+IF(Max_Employees__c  &lt; 1001,&quot;SMB&quot;,&quot;EN&quot;))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Formula field for sales routing to determine Segment: 0 or bad account: SMB, &lt;251=SMB, 251 to 1000=MM,1001+ EN</inlineHelpText>
         <label>Sales Segment Formula (Employees)</label>
