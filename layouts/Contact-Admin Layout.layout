@@ -66,6 +66,10 @@
                 <behavior>Edit</behavior>
                 <field>Lifecycle_Stage_Engaged_Date__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Block_from_Marketo_Sync__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

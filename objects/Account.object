@@ -6682,10 +6682,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-EM-Brazil-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EN-EM-CEE-Open</fullName>
                 <default>false</default>
             </values>
@@ -7755,10 +7751,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-EM-Brazil-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EN-EM-CEE-Open</fullName>
                 <default>false</default>
             </values>
@@ -8239,10 +8231,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-EM-Brazil-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EN-EM-CEE-Open</fullName>
                 <default>false</default>
             </values>
@@ -8583,10 +8571,6 @@ IF(
             <picklist>Sales_territory__c</picklist>
             <values>
                 <fullName>EN-EM-Benelux-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>EN-EM-Brazil-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9999,10 +9983,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-EM-Brazil-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EN-EM-CEE-Open</fullName>
                 <default>false</default>
             </values>
@@ -11076,10 +11056,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-EM-Brazil-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EN-EM-CEE-Open</fullName>
                 <default>false</default>
             </values>
@@ -11560,10 +11536,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-EM-Brazil-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EN-EM-CEE-Open</fullName>
                 <default>false</default>
             </values>
@@ -11948,10 +11920,6 @@ IF(
             <picklist>Sales_territory__c</picklist>
             <values>
                 <fullName>EN-EM-Benelux-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>EN-EM-Brazil-Assign</fullName>
                 <default>false</default>
             </values>
             <values>

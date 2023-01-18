@@ -46,6 +46,10 @@
                 <behavior>Edit</behavior>
                 <field>ICP__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Named_Account_TEMP__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

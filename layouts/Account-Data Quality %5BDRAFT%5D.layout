@@ -54,6 +54,10 @@
                 <behavior>Edit</behavior>
                 <field>Fullcast_Node_H2_ReOrg__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Named_Account_TEMP__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

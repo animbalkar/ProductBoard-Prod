@@ -47,6 +47,10 @@
                 <behavior>Edit</behavior>
                 <field>Community_Opt_In__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Block_from_Marketo_Sync__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
