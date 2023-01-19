@@ -69,6 +69,10 @@
                 <behavior>Readonly</behavior>
                 <field>Starter_Source__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Employee_Segment__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
