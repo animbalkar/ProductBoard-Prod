@@ -3725,7 +3725,7 @@ Unknown: Bad account/Missing URL</inlineHelpText>
     <fields>
         <fullName>Fullcast_Node_H2_ReOrg__c</fullName>
         <externalId>false</externalId>
-        <label>Fullcast Node H2 ReOrg</label>
+        <label>Fullcast ReOrg Territory</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -7114,6 +7114,18 @@ IF(
                 <fullName>ICP ENT - C</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>ICP SMB - A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ICP SMB - B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ICP SMB - C</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Industry</picklist>
@@ -10417,6 +10429,18 @@ IF(
             </values>
             <values>
                 <fullName>ICP ENT - C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ICP SMB - A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ICP SMB - B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ICP SMB - C</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

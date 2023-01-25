@@ -2011,19 +2011,14 @@ please do not delete</description>
         <fullName>Employee_Segment__c</fullName>
         <description>Looks at the employee count and country and returns segment value based on criteria at a given point in time. This is the primary segment field.</description>
         <externalId>false</externalId>
-        <formula>IF(Max_Account_Employees__c &lt; 1001,&quot;SMB&quot;,&quot;EN&quot;)</formula>
+        <formula>IF(Max_Account_Employees__c &lt; 1,&quot;Unknown&quot;,
+IF(Max_Account_Employees__c &lt; 1001,&quot;SMB&quot;,&quot;EN&quot;))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Segmentation by # of Employees in a Company, Source: Clearbit
 NOAM + RoW
-ESB: 1-50
-SMB: 51-1000
+SMB: 1-1000
 EN: &gt; 1,000 +
-
-EMEA
-ESB: 1-50
-SMB: 51-500
-MM: 501-5,000
-EN: &gt; 5,000</inlineHelpText>
+Unknown: 0 or blank</inlineHelpText>
         <label>Employee # Segment</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
