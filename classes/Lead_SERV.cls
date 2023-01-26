@@ -59,6 +59,24 @@ public class Lead_SERV {
 		];
 	}
 
+	public static String activateStarterLead(String userId) {
+		List<Lead> existingLeads = getExistingLeadsByUserId(Double.valueOf(userId));
+		if (existingLeads.size() > 1) {
+			throw new ProductboardException(
+				'There are multiple Leads associated with the userId ' +
+				userId +
+				'. Please dedupe the Salesforce data first.'
+			);
+		} else if (existingLeads.size() < 1) {
+			throw new ProductboardException('No Lead associated with the userId ' + userId + ' found.');
+		} else {
+			Lead lead = existingLeads.get(0);
+			lead.Starter_Activation_DT__c = Datetime.now();
+			Lead_DAO.updateLead(lead);
+			return lead.Id;
+		}
+	}
+
 	public static List<Contact> getExistingContactsByUserId(Double userId) {
 		return [SELECT Id FROM Contact WHERE User_PB_ID__c = :userId];
 	}

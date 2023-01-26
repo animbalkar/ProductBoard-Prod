@@ -311,6 +311,11 @@
                     <default>false</default>
                     <label>updateUserEmail</label>
                 </value>
+                <value>
+                    <fullName>activateStarterLead</fullName>
+                    <default>false</default>
+                    <label>activateStarterLead</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>

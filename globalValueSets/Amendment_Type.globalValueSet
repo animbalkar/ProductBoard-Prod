@@ -31,6 +31,11 @@
         <label>Replacement: New Contract</label>
     </customValue>
     <customValue>
+        <fullName>Replacement: Mid-Term Contraction</fullName>
+        <default>false</default>
+        <label>Replacement: Mid-Term Contraction</label>
+    </customValue>
+    <customValue>
         <fullName>Expansion/Upsell w/Renewal</fullName>
         <default>false</default>
         <label>Expansion/Upsell w/Renewal</label>

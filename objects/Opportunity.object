@@ -5034,7 +5034,8 @@ IF(Contains(Final_Sales_Owner_Team__c,&quot;CM&quot;),&quot;SMB&quot;,
 IF(Contains(Final_Sales_Owner_Team__c,&quot;Online&quot;),&quot;SMB&quot;,
 IF(Contains(Final_Sales_Owner_Team__c,&quot;SMB&quot;),&quot;SMB&quot;,
 IF(Contains(Final_Sales_Owner_Team__c,&quot;SDR&quot;),&quot;SMB&quot;,
-&quot;&quot;))))))))),&quot;&quot;)</formula>
+IF(Contains(Final_Sales_Owner_Team__c,&quot;EN-&quot;),&quot;EN&quot;,
+&quot;&quot;)))))))))),&quot;&quot;)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Close Credit to Team, closed won opps only</inlineHelpText>
         <label>Closed by Team (Formula)</label>
@@ -8017,6 +8018,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Replacement%3A Mid-Term Contraction</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>SatisMeter Addition</fullName>
                 <default>false</default>
             </values>
@@ -8477,6 +8482,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>EnjoyHQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Harvestr</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9125,6 +9134,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Harvestr</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Jira Align</fullName>
                 <default>false</default>
             </values>
@@ -10247,6 +10260,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Tech_Stack_Design_UX_Research__c</picklist>
             <values>
+                <fullName>Adobe XD</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AlphaHQ</fullName>
                 <default>false</default>
             </values>
@@ -10268,6 +10285,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>InVision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mural</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10294,6 +10319,14 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Tech_Stack_Engineering__c</picklist>
             <values>
+                <fullName>Azure DevOps %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azure DevOps %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AzureDevOps</fullName>
                 <default>false</default>
             </values>
@@ -10306,6 +10339,14 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>GitHub %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GitHub %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Github</fullName>
                 <default>false</default>
             </values>
@@ -10315,6 +10356,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Jira</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28On-Prem%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10331,6 +10380,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Rally</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shortcut</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10560,6 +10613,14 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Gainsight PX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GoodData</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Google Analytics</fullName>
                 <default>false</default>
             </values>
@@ -10569,6 +10630,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Hotjar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogRocket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Looker</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10584,7 +10653,23 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Power BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Segment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sisense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableau</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10624,6 +10709,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Jira Align</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira Product Discovery</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11063,6 +11152,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Renewal-Uplift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement%3A Mid-Term Contraction</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11538,6 +11631,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>EnjoyHQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Harvestr</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12231,6 +12328,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>EnjoyHQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Harvestr</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13376,6 +13477,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Tech_Stack_Design_UX_Research__c</picklist>
             <values>
+                <fullName>Adobe XD</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AlphaHQ</fullName>
                 <default>false</default>
             </values>
@@ -13397,6 +13502,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>InVision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mural</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13423,6 +13536,14 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Tech_Stack_Engineering__c</picklist>
             <values>
+                <fullName>Azure DevOps %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azure DevOps %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AzureDevOps</fullName>
                 <default>false</default>
             </values>
@@ -13435,6 +13556,14 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>GitHub %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GitHub %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Github</fullName>
                 <default>false</default>
             </values>
@@ -13444,6 +13573,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Jira</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28On-Prem%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13460,6 +13597,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Rally</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shortcut</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13689,6 +13830,14 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Gainsight PX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GoodData</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Google Analytics</fullName>
                 <default>false</default>
             </values>
@@ -13698,6 +13847,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Hotjar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogRocket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Looker</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13713,7 +13870,23 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Power BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Segment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sisense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableau</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13753,6 +13926,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Jira Align</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira Product Discovery</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14207,6 +14384,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Renewal-Uplift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement%3A Mid-Term Contraction</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14670,6 +14851,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>EnjoyHQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Harvestr</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15342,6 +15527,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Harvestr</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Jira Align</fullName>
                 <default>false</default>
             </values>
@@ -16472,6 +16661,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Tech_Stack_Design_UX_Research__c</picklist>
             <values>
+                <fullName>Adobe XD</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AlphaHQ</fullName>
                 <default>false</default>
             </values>
@@ -16493,6 +16686,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>InVision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mural</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16519,6 +16720,14 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Tech_Stack_Engineering__c</picklist>
             <values>
+                <fullName>Azure DevOps %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azure DevOps %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AzureDevOps</fullName>
                 <default>false</default>
             </values>
@@ -16531,6 +16740,14 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>GitHub %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GitHub %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Github</fullName>
                 <default>false</default>
             </values>
@@ -16540,6 +16757,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Jira</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28On-Prem%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16556,6 +16781,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Rally</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shortcut</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16785,6 +17014,14 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Gainsight PX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GoodData</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Google Analytics</fullName>
                 <default>false</default>
             </values>
@@ -16794,6 +17031,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Hotjar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogRocket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Looker</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16809,7 +17054,23 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Power BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Segment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sisense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableau</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16849,6 +17110,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Jira Align</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira Product Discovery</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17292,6 +17557,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Renewal-Uplift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement%3A Mid-Term Contraction</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17767,6 +18036,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>EnjoyHQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Harvestr</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18488,6 +18761,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>EnjoyHQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Harvestr</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19621,6 +19898,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Tech_Stack_Design_UX_Research__c</picklist>
             <values>
+                <fullName>Adobe XD</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AlphaHQ</fullName>
                 <default>false</default>
             </values>
@@ -19642,6 +19923,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>InVision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mural</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19668,6 +19957,14 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Tech_Stack_Engineering__c</picklist>
             <values>
+                <fullName>Azure DevOps %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azure DevOps %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AzureDevOps</fullName>
                 <default>false</default>
             </values>
@@ -19680,6 +19977,14 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>GitHub %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GitHub %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Github</fullName>
                 <default>false</default>
             </values>
@@ -19689,6 +19994,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Jira</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28On-Prem%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19705,6 +20018,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Rally</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shortcut</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19934,6 +20251,14 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Gainsight PX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GoodData</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Google Analytics</fullName>
                 <default>false</default>
             </values>
@@ -19943,6 +20268,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Hotjar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogRocket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Looker</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19958,7 +20291,23 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Power BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Segment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sisense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableau</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19998,6 +20347,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Jira Align</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira Product Discovery</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20440,6 +20793,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Renewal-Uplift</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replacement%3A Mid-Term Contraction</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20915,6 +21272,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>EnjoyHQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Harvestr</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21612,6 +21973,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>EnjoyHQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Harvestr</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -22757,6 +23122,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Tech_Stack_Design_UX_Research__c</picklist>
             <values>
+                <fullName>Adobe XD</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AlphaHQ</fullName>
                 <default>false</default>
             </values>
@@ -22778,6 +23147,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>InVision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mural</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -22804,6 +23181,14 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Tech_Stack_Engineering__c</picklist>
             <values>
+                <fullName>Azure DevOps %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azure DevOps %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AzureDevOps</fullName>
                 <default>false</default>
             </values>
@@ -22816,6 +23201,14 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>GitHub %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GitHub %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Github</fullName>
                 <default>false</default>
             </values>
@@ -22825,6 +23218,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Jira</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28On-Prem%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -22841,6 +23242,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Rally</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shortcut</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -23070,6 +23475,14 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Gainsight PX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GoodData</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Google Analytics</fullName>
                 <default>false</default>
             </values>
@@ -23079,6 +23492,14 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Hotjar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogRocket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Looker</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -23094,7 +23515,23 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Power BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Segment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sisense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableau</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -23134,6 +23571,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Jira Align</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira Product Discovery</fullName>
                 <default>false</default>
             </values>
             <values>

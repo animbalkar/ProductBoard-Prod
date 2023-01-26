@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
         <fullName>AzureDevOps</fullName>
         <default>false</default>
         <label>AzureDevOps</label>
+    </customValue>
+    <customValue>
+        <fullName>Azure DevOps (Cloud)</fullName>
+        <default>false</default>
+        <label>Azure DevOps (Cloud)</label>
+    </customValue>
+    <customValue>
+        <fullName>Azure DevOps (On-Prem)</fullName>
+        <default>false</default>
+        <label>Azure DevOps (On-Prem)</label>
     </customValue>
     <customValue>
         <fullName>Clubhouse</fullName>
@@ -21,6 +36,16 @@
         <label>Github</label>
     </customValue>
     <customValue>
+        <fullName>GitHub (Cloud)</fullName>
+        <default>false</default>
+        <label>GitHub (Cloud)</label>
+    </customValue>
+    <customValue>
+        <fullName>GitHub (On-Prem)</fullName>
+        <default>false</default>
+        <label>GitHub (On-Prem)</label>
+    </customValue>
+    <customValue>
         <fullName>Gitlab</fullName>
         <default>false</default>
         <label>Gitlab</label>
@@ -31,9 +56,19 @@
         <label>Jira</label>
     </customValue>
     <customValue>
-        <fullName>None</fullName>
+        <fullName>Jira (Cloud)</fullName>
         <default>false</default>
-        <label>None</label>
+        <label>Jira (Cloud)</label>
+    </customValue>
+    <customValue>
+        <fullName>Jira (On-Prem)</fullName>
+        <default>false</default>
+        <label>Jira (On-Prem)</label>
+    </customValue>
+    <customValue>
+        <fullName>Linear</fullName>
+        <default>false</default>
+        <label>Linear</label>
     </customValue>
     <customValue>
         <fullName>Pivotal Tracker</fullName>
@@ -46,6 +81,11 @@
         <label>Rally</label>
     </customValue>
     <customValue>
+        <fullName>Shortcut</fullName>
+        <default>false</default>
+        <label>Shortcut</label>
+    </customValue>
+    <customValue>
         <fullName>TargetProcess</fullName>
         <default>false</default>
         <label>TargetProcess</label>
@@ -55,12 +95,7 @@
         <default>false</default>
         <label>ZenHub</label>
     </customValue>
-    <customValue>
-        <fullName>Linear</fullName>
-        <default>false</default>
-        <label>Linear</label>
-    </customValue>
     <description>Engineering &amp; delivery systems in use by the team</description>
     <masterLabel>Tech Stack (Engineering)</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>

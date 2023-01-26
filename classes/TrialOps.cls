@@ -20,6 +20,39 @@ global class TrialOps {
 		webService List<String> userEmailsToActivate;
 	}
 
+	webService static String activateStarterLead(LeadInfo info) {
+		IntegrationLog__c il = Utils.createIntegrationLog('TrialOps', 'activateStarterLead', JSON.serialize(info));
+		ApiResponse response = new ApiResponse();
+		System.Savepoint sp = Database.setSavepoint();
+
+		try {
+			String leadId = Lead_SERV.activateStarterLead(info.userId);
+
+			response.success(ApiConstants.MSG_SUCCESS_LEAD_UPDATE);
+			response.addResponseData('leadSfId', leadId);
+		} catch (ProductboardException e) {
+			response.error(e);
+			response.addLog(il);
+			Database.rollback(sp);
+		} catch (Exception e) {
+			il.Description__c += '\nFAILED - StackTrace: ' + e.getStackTraceString();
+			response.error(e);
+			response.addLog(il);
+			Database.rollback(sp);
+		} finally {
+			Utils.updateIntegrationLog(il, response);
+			ApiRequestController.logApiRequest(
+				JSON.serialize(info),
+				'LeadInfo',
+				il.Success__c,
+				il.Method__c,
+				il.Description__c,
+				response
+			);
+		}
+		return response.getResponseInString();
+	}
+
 	webService static String createTrialLead(LeadInfo info) {
 		IntegrationLog__c il = Utils.createIntegrationLog('TrialOps', 'createTrialLead', JSON.serialize(info));
 		Datetime now = Datetime.now();

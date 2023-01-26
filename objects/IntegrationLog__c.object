@@ -377,6 +377,16 @@
                     <default>false</default>
                     <label>updateUserFullName</label>
                 </value>
+                <value>
+                    <fullName>addService</fullName>
+                    <default>false</default>
+                    <label>addService</label>
+                </value>
+                <value>
+                    <fullName>activateStarterLead</fullName>
+                    <default>false</default>
+                    <label>activateStarterLead</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>

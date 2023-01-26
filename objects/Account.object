@@ -6322,6 +6322,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>Harvestr</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Jira Align</fullName>
                 <default>false</default>
             </values>
@@ -8969,6 +8973,10 @@ IF(
         <picklistValues>
             <picklist>Tech_Stack_Design_UX_Research__c</picklist>
             <values>
+                <fullName>Adobe XD</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AlphaHQ</fullName>
                 <default>false</default>
             </values>
@@ -8990,6 +8998,14 @@ IF(
             </values>
             <values>
                 <fullName>InVision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mural</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9016,6 +9032,14 @@ IF(
         <picklistValues>
             <picklist>Tech_Stack_Engineering__c</picklist>
             <values>
+                <fullName>Azure DevOps %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azure DevOps %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AzureDevOps</fullName>
                 <default>false</default>
             </values>
@@ -9025,6 +9049,14 @@ IF(
             </values>
             <values>
                 <fullName>FogBugz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GitHub %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GitHub %28On-Prem%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9040,6 +9072,14 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>Jira %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>None</fullName>
                 <default>false</default>
             </values>
@@ -9049,6 +9089,10 @@ IF(
             </values>
             <values>
                 <fullName>Rally</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shortcut</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9083,6 +9127,14 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>Gainsight PX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GoodData</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Google Analytics</fullName>
                 <default>false</default>
             </values>
@@ -9092,6 +9144,14 @@ IF(
             </values>
             <values>
                 <fullName>Hotjar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogRocket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Looker</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9107,7 +9167,23 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>Power BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Segment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sisense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableau</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9147,6 +9223,10 @@ IF(
             </values>
             <values>
                 <fullName>Jira Align</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira Product Discovery</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9632,6 +9712,10 @@ IF(
             </values>
             <values>
                 <fullName>EnjoyHQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Harvestr</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12334,6 +12418,10 @@ IF(
         <picklistValues>
             <picklist>Tech_Stack_Design_UX_Research__c</picklist>
             <values>
+                <fullName>Adobe XD</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AlphaHQ</fullName>
                 <default>false</default>
             </values>
@@ -12355,6 +12443,14 @@ IF(
             </values>
             <values>
                 <fullName>InVision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Miro</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mural</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12381,6 +12477,14 @@ IF(
         <picklistValues>
             <picklist>Tech_Stack_Engineering__c</picklist>
             <values>
+                <fullName>Azure DevOps %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azure DevOps %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AzureDevOps</fullName>
                 <default>false</default>
             </values>
@@ -12390,6 +12494,14 @@ IF(
             </values>
             <values>
                 <fullName>FogBugz</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GitHub %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GitHub %28On-Prem%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12405,6 +12517,14 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>Jira %28Cloud%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira %28On-Prem%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>None</fullName>
                 <default>false</default>
             </values>
@@ -12414,6 +12534,10 @@ IF(
             </values>
             <values>
                 <fullName>Rally</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shortcut</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12448,6 +12572,14 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>Gainsight PX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GoodData</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Google Analytics</fullName>
                 <default>false</default>
             </values>
@@ -12457,6 +12589,14 @@ IF(
             </values>
             <values>
                 <fullName>Hotjar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LogRocket</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Looker</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12472,7 +12612,23 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>Power BI</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Segment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sisense</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snowflake</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tableau</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12512,6 +12668,10 @@ IF(
             </values>
             <values>
                 <fullName>Jira Align</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jira Product Discovery</fullName>
                 <default>false</default>
             </values>
             <values>

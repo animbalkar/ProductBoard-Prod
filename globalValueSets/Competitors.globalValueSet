@@ -61,6 +61,11 @@
         <label>EnjoyHQ</label>
     </customValue>
     <customValue>
+        <fullName>Harvestr</fullName>
+        <default>false</default>
+        <label>Harvestr</label>
+    </customValue>
+    <customValue>
         <fullName>Jira/Atlassian</fullName>
         <default>false</default>
         <label>Jira/Atlassian</label>

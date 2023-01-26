@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
         <fullName>Amplitude</fullName>
         <default>false</default>
         <label>Amplitude</label>
@@ -26,6 +31,16 @@
         <label>Fullstory</label>
     </customValue>
     <customValue>
+        <fullName>Gainsight PX</fullName>
+        <default>false</default>
+        <label>Gainsight PX</label>
+    </customValue>
+    <customValue>
+        <fullName>GoodData</fullName>
+        <default>false</default>
+        <label>GoodData</label>
+    </customValue>
+    <customValue>
         <fullName>Google Analytics</fullName>
         <default>false</default>
         <label>Google Analytics</label>
@@ -41,14 +56,19 @@
         <label>Hotjar</label>
     </customValue>
     <customValue>
+        <fullName>LogRocket</fullName>
+        <default>false</default>
+        <label>LogRocket</label>
+    </customValue>
+    <customValue>
+        <fullName>Looker</fullName>
+        <default>false</default>
+        <label>Looker</label>
+    </customValue>
+    <customValue>
         <fullName>Mixpanel</fullName>
         <default>false</default>
         <label>Mixpanel</label>
-    </customValue>
-    <customValue>
-        <fullName>None</fullName>
-        <default>false</default>
-        <label>None</label>
     </customValue>
     <customValue>
         <fullName>Pendo</fullName>
@@ -56,11 +76,31 @@
         <label>Pendo</label>
     </customValue>
     <customValue>
+        <fullName>Power BI</fullName>
+        <default>false</default>
+        <label>Power BI</label>
+    </customValue>
+    <customValue>
         <fullName>Segment</fullName>
         <default>false</default>
         <label>Segment</label>
     </customValue>
+    <customValue>
+        <fullName>Sisense</fullName>
+        <default>false</default>
+        <label>Sisense</label>
+    </customValue>
+    <customValue>
+        <fullName>Snowflake</fullName>
+        <default>false</default>
+        <label>Snowflake</label>
+    </customValue>
+    <customValue>
+        <fullName>Tableau</fullName>
+        <default>false</default>
+        <label>Tableau</label>
+    </customValue>
     <description>Tools in use for Product Analytics purposes</description>
     <masterLabel>Tech Stack (Product Analytics)</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>

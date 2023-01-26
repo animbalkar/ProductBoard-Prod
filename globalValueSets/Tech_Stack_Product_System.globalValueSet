@@ -46,6 +46,11 @@
         <label>Jira Align</label>
     </customValue>
     <customValue>
+        <fullName>Jira Product Discovery</fullName>
+        <default>false</default>
+        <label>Jira Product Discovery</label>
+    </customValue>
+    <customValue>
         <fullName>Monday.com</fullName>
         <default>false</default>
         <label>Monday.com</label>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Adobe XD</fullName>
+        <default>false</default>
+        <label>Adobe XD</label>
+    </customValue>
+    <customValue>
         <fullName>AlphaHQ</fullName>
         <default>false</default>
         <label>AlphaHQ</label>
@@ -31,9 +41,14 @@
         <label>InVision</label>
     </customValue>
     <customValue>
-        <fullName>None</fullName>
+        <fullName>Miro</fullName>
         <default>false</default>
-        <label>None</label>
+        <label>Miro</label>
+    </customValue>
+    <customValue>
+        <fullName>Mural</fullName>
+        <default>false</default>
+        <label>Mural</label>
     </customValue>
     <customValue>
         <fullName>Qualtrics</fullName>
@@ -57,5 +72,5 @@
     </customValue>
     <description>Tools in use by designers, product, and UX teams to manage their design + UX processes</description>
     <masterLabel>Tech Stack (Design/UX Research)</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>
