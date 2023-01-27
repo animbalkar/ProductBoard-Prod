@@ -70,10 +70,6 @@
                 <behavior>Edit</behavior>
                 <field>Campaign_Hierarchy_Level__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>rm_forsf__rampmetrics_SFDC_Campaign_Sync_ID__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -164,6 +160,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>rm_forsf__Traffic_Source__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>rm_forsf__rampmetrics_SFDC_Campaign_Sync_ID__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

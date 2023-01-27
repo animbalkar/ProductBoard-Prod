@@ -3735,14 +3735,14 @@ Unknown: Bad account/Missing URL</inlineHelpText>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>EN-NA-01-STRAT</fullName>
+                    <fullName>EN-NA-01</fullName>
                     <default>false</default>
-                    <label>EN-NA-01-STRAT</label>
+                    <label>EN-NA-01</label>
                 </value>
                 <value>
-                    <fullName>EN-NA-02-STRAT</fullName>
+                    <fullName>EN-NA-02</fullName>
                     <default>false</default>
-                    <label>EN-NA-02-STRAT</label>
+                    <label>EN-NA-02</label>
                 </value>
                 <value>
                     <fullName>EN-NA-03</fullName>
@@ -3755,9 +3755,9 @@ Unknown: Bad account/Missing URL</inlineHelpText>
                     <label>EN-NA-04</label>
                 </value>
                 <value>
-                    <fullName>EN-NA-05-STRAT</fullName>
+                    <fullName>EN-NA-05</fullName>
                     <default>false</default>
-                    <label>EN-NA-05-STRAT</label>
+                    <label>EN-NA-05</label>
                 </value>
                 <value>
                     <fullName>EN-NA-06</fullName>
@@ -3770,19 +3770,19 @@ Unknown: Bad account/Missing URL</inlineHelpText>
                     <label>EN-NA-07</label>
                 </value>
                 <value>
-                    <fullName>EN-NA-08-STRAT</fullName>
+                    <fullName>EN-NA-08</fullName>
                     <default>false</default>
-                    <label>EN-NA-08-STRAT</label>
+                    <label>EN-NA-08</label>
                 </value>
                 <value>
-                    <fullName>EN-NA-09-STRAT</fullName>
+                    <fullName>EN-NA-09</fullName>
                     <default>false</default>
-                    <label>EN-NA-09-STRAT</label>
+                    <label>EN-NA-09</label>
                 </value>
                 <value>
-                    <fullName>EN-NA-10-STRAT</fullName>
+                    <fullName>EN-NA-10</fullName>
                     <default>false</default>
-                    <label>EN-NA-10-STRAT</label>
+                    <label>EN-NA-10</label>
                 </value>
                 <value>
                     <fullName>EN-NA-11</fullName>
@@ -6523,11 +6523,11 @@ IF(
         <picklistValues>
             <picklist>Fullcast_Node_H2_ReOrg__c</picklist>
             <values>
-                <fullName>EN-NA-01-STRAT</fullName>
+                <fullName>EN-NA-01</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-02-STRAT</fullName>
+                <fullName>EN-NA-02</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6539,7 +6539,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-05-STRAT</fullName>
+                <fullName>EN-NA-05</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6551,15 +6551,15 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-08-STRAT</fullName>
+                <fullName>EN-NA-08</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-09-STRAT</fullName>
+                <fullName>EN-NA-09</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-10-STRAT</fullName>
+                <fullName>EN-NA-10</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9916,11 +9916,11 @@ IF(
         <picklistValues>
             <picklist>Fullcast_Node_H2_ReOrg__c</picklist>
             <values>
-                <fullName>EN-NA-01-STRAT</fullName>
+                <fullName>EN-NA-01</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-02-STRAT</fullName>
+                <fullName>EN-NA-02</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9932,7 +9932,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-05-STRAT</fullName>
+                <fullName>EN-NA-05</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9944,15 +9944,15 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-08-STRAT</fullName>
+                <fullName>EN-NA-08</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-09-STRAT</fullName>
+                <fullName>EN-NA-09</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-10-STRAT</fullName>
+                <fullName>EN-NA-10</fullName>
                 <default>false</default>
             </values>
             <values>
