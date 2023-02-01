@@ -41,14 +41,14 @@
         <label>EN-EM-UKI-Open</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-01-STRAT-Assign</fullName>
+        <fullName>EN-NA-01-Assign</fullName>
         <default>false</default>
-        <label>EN-NA-01-STRAT-Assign</label>
+        <label>EN-NA-01-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-02-STRAT-Assign</fullName>
+        <fullName>EN-NA-02-Assign</fullName>
         <default>false</default>
-        <label>EN-NA-02-STRAT-Assign</label>
+        <label>EN-NA-02-Assign</label>
     </customValue>
     <customValue>
         <fullName>EN-NA-03-Assign</fullName>
@@ -61,9 +61,9 @@
         <label>EN-NA-04-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-05-STRAT-Assign</fullName>
+        <fullName>EN-NA-05-S-Assign</fullName>
         <default>false</default>
-        <label>EN-NA-05-STRAT-Assign</label>
+        <label>EN-NA-05-Assign</label>
     </customValue>
     <customValue>
         <fullName>EN-NA-06-Assign</fullName>
@@ -81,19 +81,19 @@
         <label>EN-NA-07-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-08-STRAT-Assign</fullName>
+        <fullName>EN-NA-08-Assign</fullName>
         <default>false</default>
-        <label>EN-NA-08-STRAT-Assign</label>
+        <label>EN-NA-08-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-09-STRAT-Open</fullName>
+        <fullName>EN-NA-09-Assign</fullName>
         <default>false</default>
-        <label>EN-NA-09-STRAT-Open</label>
+        <label>EN-NA-09-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-10-STRAT-Assign</fullName>
+        <fullName>EN-NA-10-Assign</fullName>
         <default>false</default>
-        <label>EN-NA-10-STRAT-Assign</label>
+        <label>EN-NA-10-Assign</label>
     </customValue>
     <customValue>
         <fullName>EN-NA-11-Assign</fullName>
@@ -346,9 +346,9 @@
         <label>SMB-EM-UKI-Open</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-01-Open</fullName>
+        <fullName>SMB-NA-01-Assign</fullName>
         <default>false</default>
-        <label>SMB-NA-01-Open</label>
+        <label>SMB-NA-01-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-02-Assign</fullName>
@@ -371,9 +371,9 @@
         <label>SMB-NA-05-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-06-Open</fullName>
+        <fullName>SMB-NA-06-Assign</fullName>
         <default>false</default>
-        <label>SMB-NA-06-Open</label>
+        <label>SMB-NA-06-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-07-Assign</fullName>
@@ -411,9 +411,9 @@
         <label>SMB-NA-13-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-14-Open</fullName>
+        <fullName>SMB-NA-14-Assign</fullName>
         <default>false</default>
-        <label>SMB-NA-14-Open</label>
+        <label>SMB-NA-14-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-15-Assign</fullName>
@@ -421,9 +421,9 @@
         <label>SMB-NA-15-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-16-Open</fullName>
+        <fullName>SMB-NA-16-Assign</fullName>
         <default>false</default>
-        <label>SMB-NA-16-Open</label>
+        <label>SMB-NA-16-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-17-Assign</fullName>
@@ -431,9 +431,9 @@
         <label>SMB-NA-17-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-18-Open</fullName>
+        <fullName>SMB-NA-18-Assign</fullName>
         <default>false</default>
-        <label>SMB-NA-18-Open</label>
+        <label>SMB-NA-18-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-19-Assign</fullName>

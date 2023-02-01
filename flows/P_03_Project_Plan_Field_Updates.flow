@@ -79,7 +79,7 @@
                 <leftValueReference>myVariable_current.ARR_New__c</leftValueReference>
                 <operator>GreaterThanOrEqualTo</operator>
                 <rightValue>
-                    <numberValue>7500.0</numberValue>
+                    <numberValue>10000.0</numberValue>
                 </rightValue>
             </conditions>
             <conditions>
@@ -203,7 +203,7 @@
                 <leftValueReference>myVariable_current.ARR_New__c</leftValueReference>
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
-                    <numberValue>24999.0</numberValue>
+                    <numberValue>30000.0</numberValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -388,8 +388,8 @@
             <label>P(P10)-2 Active Backend Stage Updates</label>
         </rules>
     </decisions>
-    <description>Update to Project Plan, Acct and CS Coach assign: LO Updates 12/28/22</description>
-    <interviewLabel>P_03_Project_Plan_Field_Updates-23_InterviewLabel</interviewLabel>
+    <description>Update to Project Plan, Acct and CS Coach assign: PJ Updates to Coach ARR Threshold 1/31</description>
+    <interviewLabel>P_03_Project_Plan_Field_Updates-24_InterviewLabel</interviewLabel>
     <label>[P(03)] Project Plan, Acct &amp; CS Coach assignments</label>
     <processMetadataValues>
         <name>ObjectType</name>

@@ -456,7 +456,7 @@ or(
         <criteriaItems>
             <field>Account.Account_ARR__c</field>
             <operation>lessThan</operation>
-            <value>25000</value>
+            <value>30000</value>
         </criteriaItems>
         <criteriaItems>
             <field>Account.Customer_Status__c</field>
@@ -474,15 +474,15 @@ or(
         </criteriaItems>
         <criteriaItems>
             <field>Account.Account_ARR__c</field>
-            <operation>greaterThan</operation>
-            <value>7500</value>
+            <operation>greaterOrEqual</operation>
+            <value>10000</value>
         </criteriaItems>
         <criteriaItems>
             <field>Account.Projects_with_Contracts__c</field>
             <operation>greaterThan</operation>
             <value>0</value>
         </criteriaItems>
-        <description>Assign RM to APAC, AUNZ, and EMEA customer accounts with ARR $7,500 - $25,000</description>
+        <description>Assign RM to APAC, AUNZ, and EMEA customer accounts with ARR $10-$30k</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <rules>
@@ -496,7 +496,7 @@ or(
         <criteriaItems>
             <field>Account.Account_ARR__c</field>
             <operation>lessThan</operation>
-            <value>25000</value>
+            <value>30000</value>
         </criteriaItems>
         <criteriaItems>
             <field>Account.Customer_Status__c</field>
@@ -515,14 +515,14 @@ or(
         <criteriaItems>
             <field>Account.Account_ARR__c</field>
             <operation>greaterOrEqual</operation>
-            <value>7500</value>
+            <value>10000</value>
         </criteriaItems>
         <criteriaItems>
             <field>Account.Projects_with_Contracts__c</field>
             <operation>greaterThan</operation>
             <value>0</value>
         </criteriaItems>
-        <description>Assign RMs to NOAM, LATAM and Other customer accounts with $7,500 - $25,000 ARR</description>
+        <description>Assign RMs to NOAM, LATAM and Other customer accounts with 10-$30k ARR.</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <rules>
