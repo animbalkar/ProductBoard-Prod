@@ -1933,25 +1933,30 @@ NumberOfEmployees ))</formula>
     </fields>
     <fields>
         <fullName>CS_Tier_New_del__c</fullName>
+        <description>Tier 5: &lt;10k
+Tier 4: 10K-30K
+Tier 3: 30-75K
+Tier 2: 75-150K
+Tier 1: &gt;150K</description>
         <externalId>false</externalId>
-        <formula>IF( Account_ARR__c &gt;75000,&quot;Tier 1: $75K+&quot;,
-IF( Account_ARR__c &gt;25000,&quot;Tier 2: $25K-$74,999&quot;,
-IF( Account_ARR__c &gt;10000,&quot;Tier 3: $10K-$24,999&quot;,
-IF( Account_ARR__c &gt;3000,&quot;Tier 4: $3K-$9,999&quot;,
+        <formula>IF( Account_ARR__c &gt;150000,&quot;Tier 1: $150K+&quot;,
+IF( Account_ARR__c &gt;75000,&quot;Tier 2: $75K-$149,999&quot;,
+IF( Account_ARR__c &gt;30000,&quot;Tier 3: $30K-$74,999&quot;,
+IF( Account_ARR__c &gt;10000,&quot;Tier 4: $10K-$29,999&quot;,
 IF( Account_ARR__c &gt; 0,&quot;Tier 5: &lt;$3K&quot;,
-IF( Max_ARR__c &gt; 75000,&quot;Tier 1: $75K+&quot;,
-IF( Max_ARR__c &gt;25000,&quot;Tier 2: $25K-$74,999&quot;,
-IF( Max_ARR__c &gt;10000,&quot;Tier 3: $10K-$24,999&quot;,
-IF( Max_ARR__c &gt;3000,&quot;Tier 4: $3K-$9,999&quot;,
-IF( Max_ARR__c &gt; 0,&quot;Tier 5: &lt;$3K&quot;,
+IF( Max_ARR__c &gt; 150000,&quot;Tier 1: $150K+&quot;,
+IF( Max_ARR__c &gt;75000,&quot;Tier 2: $75K-$149,999&quot;,
+IF( Max_ARR__c &gt;30000,&quot;Tier 3: $30K-$74,999&quot;,
+IF( Max_ARR__c &gt;10000,&quot;Tier 4: $10K-$29,999&quot;,
+IF( Max_ARR__c &gt; 0,&quot;Tier 5: &lt;$10K&quot;,
 &quot;&quot;))))))))))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Customer Success Tier depending on the Account ARR.
-Tier 5: &lt; $3k
-Tier 4: $3k - $9,999
-Tier 3:$10k - $24,999
-Tier 2: $25k - $74,999
-Tier 1: $75k+</inlineHelpText>
+Tier 5: &lt;10k
+Tier 4: 10K-30K
+Tier 3: 30-75K
+Tier 2: 75-150K
+Tier 1: &gt;150K</inlineHelpText>
         <label>CS Tier (New)</label>
         <required>false</required>
         <trackHistory>false</trackHistory>

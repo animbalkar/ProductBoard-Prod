@@ -85,6 +85,11 @@
         <default>false</default>
         <label>Michael Parvin</label>
     </customValue>
+    <customValue>
+        <fullName>Gary Putlock</fullName>
+        <default>false</default>
+        <label>Gary Putlock</label>
+    </customValue>
     <masterLabel>Manager</masterLabel>
     <sorted>true</sorted>
 </GlobalValueSet>

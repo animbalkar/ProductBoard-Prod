@@ -583,23 +583,17 @@ or(
             <type>FieldUpdate</type>
         </actions>
         <active>true</active>
-        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <booleanFilter>1 AND 2</booleanFilter>
         <criteriaItems>
             <field>Account.Renewal_Manager__c</field>
-            <operation>equals</operation>
-            <value>Julie Seymour</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Account.Renewal_Manager__c</field>
-            <operation>equals</operation>
-            <value>Annie Kingston</value>
+            <operation>notEqual</operation>
         </criteriaItems>
         <criteriaItems>
             <field>Account.Account_ARR__c</field>
             <operation>greaterThan</operation>
-            <value>25000</value>
+            <value>30000</value>
         </criteriaItems>
-        <description>Remove Renewal Manager in case of expansion beyond $25k ARR</description>
+        <description>Remove Renewal Manager in case of expansion beyond $30k ARR</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <rules>
@@ -608,7 +602,7 @@ or(
             <name>Remove_Renewal_Manager</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <booleanFilter>(1 OR 2) AND 3 AND 4</booleanFilter>
         <criteriaItems>
             <field>Account.Renewal_Manager__c</field>
