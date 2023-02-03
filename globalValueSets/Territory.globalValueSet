@@ -61,7 +61,7 @@
         <label>EN-NA-04-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-05-S-Assign</fullName>
+        <fullName>EN-NA-05-Assign</fullName>
         <default>false</default>
         <label>EN-NA-05-Assign</label>
     </customValue>

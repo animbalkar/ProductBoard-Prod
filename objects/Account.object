@@ -446,24 +446,23 @@
     <fields>
         <fullName>CS_Tier__c</fullName>
         <externalId>false</externalId>
-        <formula>IF( Account_ARR__c &gt;99999,&quot;Tier 1: $100K+&quot;,
-IF( Account_ARR__c &gt;49999,&quot;Tier 2: $50K-$99,999&quot;,
-IF( Account_ARR__c &gt;24999,&quot;Tier 3: $25K-$49,999&quot;,
-IF( Account_ARR__c &gt;7499,&quot;Tier 4: $7500-$24,999&quot;,
-IF( Account_ARR__c &gt; 0,&quot;Tier 5: &lt;$7499&quot;,
-IF(  Max_ARR__c  &gt; 99999,&quot;Tier 1: $100K+&quot;,
-IF( Max_ARR__c &gt;49999,&quot;Tier 2: $50K-$99,999&quot;,
-IF( Max_ARR__c  &gt;24999,&quot;Tier 3: $25K-$49,999&quot;,
-IF( Max_ARR__c &gt;7499,&quot;Tier 4: $7500-$24,999&quot;,
-IF( Max_ARR__c &gt; 0,&quot;Tier 5: &lt;$7499&quot;,
-IF( Max_ARR__c &lt; 0,&quot;Tier 5: &lt;$7499&quot;,
-&quot;&quot;)))))))))))</formula>
+        <formula>IF( Account_ARR__c &gt;150000,&quot;Tier 1: $150K+&quot;,
+IF( Account_ARR__c &gt;75000,&quot;Tier 2: $75K-$149,999&quot;,
+IF( Account_ARR__c &gt;30000,&quot;Tier 3: $30K-$74,999&quot;,
+IF( Account_ARR__c &gt;10000,&quot;Tier 4: $10K-$29,999&quot;,
+IF( Account_ARR__c &gt; 0,&quot;Tier 5: &lt;$10K&quot;,
+IF( Max_ARR__c &gt; 150000,&quot;Tier 1: $150K+&quot;,
+IF( Max_ARR__c &gt;75000,&quot;Tier 2: $75K-$149,999&quot;,
+IF( Max_ARR__c &gt;30000,&quot;Tier 3: $30K-$74,999&quot;,
+IF( Max_ARR__c &gt;10000,&quot;Tier 4: $10K-$29,999&quot;,
+IF( Max_ARR__c &gt; 0,&quot;Tier 5: &lt;$10K&quot;,
+&quot;&quot;))))))))))</formula>
         <inlineHelpText>Customer Success Tier depending on the Account ARR.
-Tier 5: &lt; $7.5k
-Tier 4: $7.5k - $24,999
-Tier 3:$25k - $49,999
-Tier 2: $50k - $99,999
-Tier 1: $100k+</inlineHelpText>
+Tier 5: &lt;$10k
+Tier 4: $10K-$30K
+Tier 3: $30-$75K
+Tier 2: $75-$150K
+Tier 1: &gt;$150K</inlineHelpText>
         <label>CS Tier</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
@@ -6731,7 +6730,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-05-S-Assign</fullName>
+                <fullName>EN-NA-05-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7816,7 +7815,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-05-S-Assign</fullName>
+                <fullName>EN-NA-05-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8284,7 +8283,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-05-S-Assign</fullName>
+                <fullName>EN-NA-05-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8639,7 +8638,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-05-S-Assign</fullName>
+                <fullName>EN-NA-05-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10128,7 +10127,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-05-S-Assign</fullName>
+                <fullName>EN-NA-05-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11213,7 +11212,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-05-S-Assign</fullName>
+                <fullName>EN-NA-05-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11693,7 +11692,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-05-S-Assign</fullName>
+                <fullName>EN-NA-05-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12080,7 +12079,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-05-S-Assign</fullName>
+                <fullName>EN-NA-05-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
