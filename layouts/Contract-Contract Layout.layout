@@ -112,6 +112,10 @@
                 <behavior>Edit</behavior>
                 <field>Invoiced_By__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Account_Billing_City__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>

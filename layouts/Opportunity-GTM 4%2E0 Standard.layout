@@ -656,6 +656,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Value_Manager__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Solution_Architect__c</field>
             </layoutItems>
             <layoutItems>
