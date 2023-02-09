@@ -59,6 +59,10 @@
                 <behavior>Readonly</behavior>
                 <field>Automatic_Reply__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>No_Show__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

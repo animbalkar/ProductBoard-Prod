@@ -75,6 +75,10 @@
                 <behavior>Readonly</behavior>
                 <field>Assigned_to_Manager__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>No_Show__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
