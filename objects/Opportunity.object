@@ -4295,54 +4295,68 @@ Account.Name &lt;&gt; &quot;productboard&quot;,
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>We struggled to adopt Productboard</fullName>
+                    <fullName>Adoption: Productboard wasn&apos;t adopted by team</fullName>
                     <default>false</default>
-                    <label>We struggled to adopt Productboard</label>
+                    <label>Adoption: Productboard wasn&apos;t adopted by team</label>
                 </value>
                 <value>
-                    <fullName>We don&apos;t see the value in a Product Management system</fullName>
+                    <fullName>Value: Not seeing results with Productboard</fullName>
                     <default>false</default>
-                    <label>We don&apos;t see the value in a Product Management system</label>
+                    <label>Value: Not seeing results with Productboard</label>
                 </value>
                 <value>
-                    <fullName>There were product gaps preventing us getting value</fullName>
+                    <fullName>Product: Missing product features</fullName>
                     <default>false</default>
-                    <label>There were product gaps preventing us getting value</label>
+                    <label>Product: Missing product features</label>
                 </value>
                 <value>
-                    <fullName>The person who championed Productboard left</fullName>
+                    <fullName>Budget: Price too high for value</fullName>
                     <default>false</default>
-                    <label>The person who championed Productboard left</label>
+                    <label>Budget: Price too high for value</label>
                 </value>
                 <value>
-                    <fullName>Our budget has been cut for all products like this</fullName>
+                    <fullName>Competition: Moving to a new system</fullName>
                     <default>false</default>
-                    <label>Our budget has been cut for all products like this</label>
+                    <label>Competition: Moving to a new system</label>
                 </value>
                 <value>
-                    <fullName>We made a company wide decision to invest in another product</fullName>
+                    <fullName>Acquisition: Company was acquired</fullName>
                     <default>false</default>
-                    <label>We made a company wide decision to invest in another product</label>
+                    <label>Acquisition: Company was acquired</label>
                 </value>
                 <value>
-                    <fullName>Acquisition</fullName>
+                    <fullName>Non-Payment</fullName>
                     <default>false</default>
-                    <label>Acquisition</label>
+                    <label>Non-Payment</label>
+                </value>
+                <value>
+                    <fullName>Lack of Support: Didn&apos;t have enough services or support from Productboard</fullName>
+                    <default>false</default>
+                    <label>Lack of Support: Didn&apos;t have enough services or support from Productboard</label>
                 </value>
                 <value>
                     <fullName>Budget cut due to economy (product/workforce)</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Budget cut due to economy (product/workforce)</label>
                 </value>
                 <value>
                     <fullName>Price point too high</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Price point too high</label>
                 </value>
                 <value>
                     <fullName>Shifted priorities/Change Management</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Shifted priorities/Change Management</label>
+                </value>
+                <value>
+                    <fullName>The person who championed Productboard left</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>The person who championed Productboard left</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -9537,43 +9551,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Primary_lost_reason__c</picklist>
             <values>
-                <fullName>Acquisition</fullName>
+                <fullName>Acquisition%3A Company was acquired</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Budget cut due to economy %28product%2Fworkforce%29</fullName>
+                <fullName>Adoption%3A Productboard wasn%27t adopted by team</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Our budget has been cut for all products like this</fullName>
+                <fullName>Budget%3A Price too high for value</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Price point too high</fullName>
+                <fullName>Competition%3A Moving to a new system</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Shifted priorities%2FChange Management</fullName>
+                <fullName>Lack of Support%3A Didn%27t have enough services or support from Productboard</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>The person who championed Productboard left</fullName>
+                <fullName>Non-Payment</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>There were product gaps preventing us getting value</fullName>
+                <fullName>Product%3A Missing product features</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>We don%27t see the value in a Product Management system</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We made a company wide decision to invest in another product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We struggled to adopt Productboard</fullName>
+                <fullName>Value%3A Not seeing results with Productboard</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12738,27 +12744,23 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Primary_lost_reason__c</picklist>
             <values>
-                <fullName>Our budget has been cut for all products like this</fullName>
+                <fullName>Adoption%3A Productboard wasn%27t adopted by team</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>The person who championed Productboard left</fullName>
+                <fullName>Budget%3A Price too high for value</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>There were product gaps preventing us getting value</fullName>
+                <fullName>Competition%3A Moving to a new system</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>We don%27t see the value in a Product Management system</fullName>
+                <fullName>Product%3A Missing product features</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>We made a company wide decision to invest in another product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We struggled to adopt Productboard</fullName>
+                <fullName>Value%3A Not seeing results with Productboard</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -15922,27 +15924,23 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Primary_lost_reason__c</picklist>
             <values>
-                <fullName>Our budget has been cut for all products like this</fullName>
+                <fullName>Adoption%3A Productboard wasn%27t adopted by team</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>The person who championed Productboard left</fullName>
+                <fullName>Budget%3A Price too high for value</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>There were product gaps preventing us getting value</fullName>
+                <fullName>Competition%3A Moving to a new system</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>We don%27t see the value in a Product Management system</fullName>
+                <fullName>Product%3A Missing product features</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>We made a company wide decision to invest in another product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We struggled to adopt Productboard</fullName>
+                <fullName>Value%3A Not seeing results with Productboard</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19159,27 +19157,23 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Primary_lost_reason__c</picklist>
             <values>
-                <fullName>Our budget has been cut for all products like this</fullName>
+                <fullName>Adoption%3A Productboard wasn%27t adopted by team</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>The person who championed Productboard left</fullName>
+                <fullName>Budget%3A Price too high for value</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>There were product gaps preventing us getting value</fullName>
+                <fullName>Competition%3A Moving to a new system</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>We don%27t see the value in a Product Management system</fullName>
+                <fullName>Product%3A Missing product features</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>We made a company wide decision to invest in another product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We struggled to adopt Productboard</fullName>
+                <fullName>Value%3A Not seeing results with Productboard</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -22383,27 +22377,23 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Primary_lost_reason__c</picklist>
             <values>
-                <fullName>Our budget has been cut for all products like this</fullName>
+                <fullName>Adoption%3A Productboard wasn%27t adopted by team</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>The person who championed Productboard left</fullName>
+                <fullName>Budget%3A Price too high for value</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>There were product gaps preventing us getting value</fullName>
+                <fullName>Competition%3A Moving to a new system</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>We don%27t see the value in a Product Management system</fullName>
+                <fullName>Product%3A Missing product features</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>We made a company wide decision to invest in another product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We struggled to adopt Productboard</fullName>
+                <fullName>Value%3A Not seeing results with Productboard</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
