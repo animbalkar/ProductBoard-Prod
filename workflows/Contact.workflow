@@ -398,7 +398,7 @@
             <name>Cancellation_Request_Sent</name>
             <type>Task</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Contact.Email</field>
             <operation>contains</operation>
@@ -420,7 +420,7 @@
             <name>Workflow_Log_10</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <description>Updates Unknown LastName to allow for Add/Append</description>
         <formula>OR( 
 LastName=&quot;Unknown&quot;, 
@@ -434,7 +434,7 @@ LastName=&quot;[not provided]&quot;)</formula>
             <name>Update_Marketing_Opt_Out</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Contact.HasOptedOutOfEmail</field>
             <operation>equals</operation>
@@ -456,7 +456,7 @@ LastName=&quot;[not provided]&quot;)</formula>
             <name>Workflow_Log_C12</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Contact.LeadSource</field>
             <operation>equals</operation>
@@ -479,7 +479,7 @@ LastName=&quot;[not provided]&quot;)</formula>
             <name>Workflow_Log_C13</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Contact.LeadSource</field>
             <operation>equals</operation>
@@ -502,7 +502,7 @@ LastName=&quot;[not provided]&quot;)</formula>
             <name>Workflow_Log_C14</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Contact.LeadSource</field>
             <operation>equals</operation>
@@ -525,7 +525,7 @@ LastName=&quot;[not provided]&quot;)</formula>
             <name>Workflow_Log_C15</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Contact.Lead_Source_Detail__c</field>
             <operation>equals</operation>
@@ -553,7 +553,7 @@ LastName=&quot;[not provided]&quot;)</formula>
             <name>Workflow_Log_C16</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Contact.Lead_Source_Detail__c</field>
             <operation>equals</operation>
@@ -653,7 +653,7 @@ LastName=&quot;[not provided]&quot;)</formula>
             <name>Alert_on_Empty_Lead_Source</name>
             <type>OutboundMessage</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <formula>and(
 ischanged( LeadSource ),
 ISPICKVAL(LeadSource,&quot;&quot;))</formula>

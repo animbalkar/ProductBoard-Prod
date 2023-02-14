@@ -744,7 +744,7 @@ PRIORVALUE( {!myVariable_current.Marketing_Notes__c} ))</expression>
         <object>Contact</object>
     </recordUpdates>
     <startElementReference>isChangedDecision2_myRule_1_Marketing_Notes_c</startElementReference>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>

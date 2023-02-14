@@ -849,7 +849,7 @@ PRIORVALUE({!myVariable_current.mk_customer_fit_segment__c} )=&quot;low&quot;
         <object>Opportunity</object>
     </recordUpdates>
     <startElementReference>isChangedDecision4_myRule_3_Stage_Outreach_c</startElementReference>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>

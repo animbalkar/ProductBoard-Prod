@@ -3968,12 +3968,11 @@ IF(ISPICKVAL(Business_Segment__c , &quot;3. Solution Sales&quot;), 3,0)))</formu
         <fullName>Routing_Segment_Formula__c</fullName>
         <externalId>false</externalId>
         <formula>IF(mk_customer_fit_segment__c=&quot;&quot;,&quot;&quot;,
-Account.Suggested_Segmentation_employees__c &amp; &quot;-&quot; &amp;
 Case(mk_customer_fit_segment__c,
-&quot;very good&quot;, &quot;1. very good&quot;,
-&quot;good&quot;,&quot;2. good&quot;,
-&quot;medium&quot;,&quot;3. medium&quot;,
-&quot;low&quot;,&quot;4. low&quot;,
+&quot;very good&quot;, Account.Suggested_Segmentation_employees__c &amp; &quot;-1. very good&quot;,
+&quot;good&quot;,Account.Suggested_Segmentation_employees__c &amp; &quot;-2. good&quot;,
+&quot;medium&quot;,Account.Suggested_Segmentation_employees__c &amp; &quot;-3. medium&quot;,
+&quot;low&quot;,Account.Suggested_Segmentation_employees__c &amp; &quot;-4. low&quot;,
 &quot;&quot;))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Formula based on employee # and MadKudu Score
