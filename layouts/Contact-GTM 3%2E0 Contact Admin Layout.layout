@@ -915,6 +915,9 @@
         <fields>CM.RESPONDED</fields>
         <fields>CAMPAIGN.STATUS</fields>
         <fields>CM.FIRST_RESPONDED_DATE</fields>
+        <fields>LD_Routing_Status__c</fields>
+        <fields>Member_Created_Date__c</fields>
+        <fields>LD_Routing_Action_on_Lead_Contact__c</fields>
         <relatedList>RelatedCampaignList</relatedList>
     </relatedLists>
     <relatedLists>

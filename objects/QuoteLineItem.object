@@ -108,6 +108,7 @@
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Item</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -116,6 +117,7 @@
         <externalId>false</externalId>
         <label>Description</label>
         <length>50000</length>
+        <trackHistory>false</trackHistory>
         <type>LongTextArea</type>
         <visibleLines>20</visibleLines>
     </fields>
@@ -125,6 +127,7 @@
         <inlineHelpText>You must add exactly 8 lines.</inlineHelpText>
         <label>Cost Breakdown</label>
         <length>50000</length>
+        <trackHistory>false</trackHistory>
         <type>LongTextArea</type>
         <visibleLines>20</visibleLines>
     </fields>

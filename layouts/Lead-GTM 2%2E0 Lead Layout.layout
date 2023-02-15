@@ -666,7 +666,10 @@
         <fields>CAMPAIGN.CAMPAIGN_TYPE</fields>
         <fields>CM.STATUS</fields>
         <fields>CM.RESPONDED</fields>
+        <fields>Member_Type__c</fields>
         <fields>CM.FIRST_RESPONDED_DATE</fields>
+        <fields>LD_Routing_Status_Formula__c</fields>
+        <fields>Routing_Action_Taken__c</fields>
         <relatedList>RelatedCampaignList</relatedList>
         <sortField>CM.FIRST_RESPONDED_DATE</sortField>
         <sortOrder>Desc</sortOrder>
