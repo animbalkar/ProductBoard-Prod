@@ -794,16 +794,6 @@
         <columns>CORE.USERS.FIRST_NAME</columns>
         <columns>CORE.USERS.LAST_NAME</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>Response_Type__c</field>
-            <operation>notEqual</operation>
-            <value>Handraiser,Trial,Demand Gen,Operational,Portal,Trial Abandoner</value>
-        </filters>
-        <filters>
-            <field>CAMPAIGN.NAME</field>
-            <operation>contains</operation>
-            <value>Responses,Unspecified</value>
-        </filters>
         <label>All Active Campaigns</label>
     </listViews>
     <listViews>
