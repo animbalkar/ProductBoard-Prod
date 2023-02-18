@@ -7299,54 +7299,72 @@ Stamped by process builder at Opp Creation</description>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>We struggled to adopt Productboard</fullName>
+                    <fullName>Lack of ownership: The internal champion left</fullName>
                     <default>false</default>
-                    <label>We struggled to adopt Productboard</label>
+                    <label>Lack of ownership: The internal champion left</label>
                 </value>
                 <value>
-                    <fullName>We don&apos;t see the value in a Product Management system</fullName>
+                    <fullName>Shifted priorities: No longer a product-led organization</fullName>
                     <default>false</default>
-                    <label>We don&apos;t see the value in a Product Management system</label>
+                    <label>Shifted priorities: No longer a product-led organization</label>
                 </value>
                 <value>
-                    <fullName>There were product gaps preventing us getting value</fullName>
+                    <fullName>Economic Impact 2023: Budget cut or product team laid off</fullName>
                     <default>false</default>
-                    <label>There were product gaps preventing us getting value</label>
+                    <label>Economic Impact 2023: Budget cut or product team laid off</label>
                 </value>
                 <value>
-                    <fullName>The person who championed Productboard left</fullName>
+                    <fullName>Poor experience with onboarding/support/CSM</fullName>
                     <default>false</default>
-                    <label>The person who championed Productboard left</label>
-                </value>
-                <value>
-                    <fullName>Our budget has been cut for all products like this</fullName>
-                    <default>false</default>
-                    <label>Our budget has been cut for all products like this</label>
-                </value>
-                <value>
-                    <fullName>We made a company wide decision to invest in another product</fullName>
-                    <default>false</default>
-                    <label>We made a company wide decision to invest in another product</label>
+                    <label>Poor experience with onboarding/support/CSM</label>
                 </value>
                 <value>
                     <fullName>Acquisition</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Acquisition</label>
                 </value>
                 <value>
                     <fullName>Budget cut due to economy (product/workforce)</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Budget cut due to economy (product/workforce)</label>
+                </value>
+                <value>
+                    <fullName>Our budget has been cut for all products like this</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Our budget has been cut for all products like this</label>
                 </value>
                 <value>
                     <fullName>Price point too high</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Price point too high</label>
                 </value>
                 <value>
-                    <fullName>Shifted priorities/Change Management</fullName>
+                    <fullName>There were product gaps preventing us getting value</fullName>
                     <default>false</default>
-                    <label>Shifted priorities/Change Management</label>
+                    <isActive>false</isActive>
+                    <label>There were product gaps preventing us getting value</label>
+                </value>
+                <value>
+                    <fullName>We don&apos;t see the value in a Product Management system</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>We don&apos;t see the value in a Product Management system</label>
+                </value>
+                <value>
+                    <fullName>We made a company wide decision to invest in another product</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>We made a company wide decision to invest in another product</label>
+                </value>
+                <value>
+                    <fullName>We struggled to adopt Productboard</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>We struggled to adopt Productboard</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -9945,43 +9963,19 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Secondary_Renewal_Lost_Reason_optional__c</picklist>
             <values>
-                <fullName>Acquisition</fullName>
+                <fullName>Economic Impact 2023%3A Budget cut or product team laid off</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Budget cut due to economy %28product%2Fworkforce%29</fullName>
+                <fullName>Lack of ownership%3A The internal champion left</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Our budget has been cut for all products like this</fullName>
+                <fullName>Poor experience with onboarding%2Fsupport%2FCSM</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Price point too high</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Shifted priorities%2FChange Management</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>The person who championed Productboard left</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>There were product gaps preventing us getting value</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We don%27t see the value in a Product Management system</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We made a company wide decision to invest in another product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We struggled to adopt Productboard</fullName>
+                <fullName>Shifted priorities%3A No longer a product-led organization</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13174,27 +13168,7 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Secondary_Renewal_Lost_Reason_optional__c</picklist>
             <values>
-                <fullName>Our budget has been cut for all products like this</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>The person who championed Productboard left</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>There were product gaps preventing us getting value</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We don%27t see the value in a Product Management system</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We made a company wide decision to invest in another product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We struggled to adopt Productboard</fullName>
+                <fullName>Lack of ownership%3A The internal champion left</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16354,27 +16328,7 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Secondary_Renewal_Lost_Reason_optional__c</picklist>
             <values>
-                <fullName>Our budget has been cut for all products like this</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>The person who championed Productboard left</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>There were product gaps preventing us getting value</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We don%27t see the value in a Product Management system</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We made a company wide decision to invest in another product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We struggled to adopt Productboard</fullName>
+                <fullName>Lack of ownership%3A The internal champion left</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19587,27 +19541,7 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Secondary_Renewal_Lost_Reason_optional__c</picklist>
             <values>
-                <fullName>Our budget has been cut for all products like this</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>The person who championed Productboard left</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>There were product gaps preventing us getting value</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We don%27t see the value in a Product Management system</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We made a company wide decision to invest in another product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We struggled to adopt Productboard</fullName>
+                <fullName>Lack of ownership%3A The internal champion left</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -22807,27 +22741,7 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Secondary_Renewal_Lost_Reason_optional__c</picklist>
             <values>
-                <fullName>Our budget has been cut for all products like this</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>The person who championed Productboard left</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>There were product gaps preventing us getting value</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We don%27t see the value in a Product Management system</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We made a company wide decision to invest in another product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>We struggled to adopt Productboard</fullName>
+                <fullName>Lack of ownership%3A The internal champion left</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
