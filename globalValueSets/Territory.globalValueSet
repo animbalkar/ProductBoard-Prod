@@ -331,9 +331,9 @@
         <label>SMB-EM-Nordics-Open</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-Other-Assign</fullName>
+        <fullName>SMB-EM-Other-Open</fullName>
         <default>false</default>
-        <label>SMB-EM-Other-Assign</label>
+        <label>SMB-EM-Other-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-EM-Switzerland-Assign</fullName>
