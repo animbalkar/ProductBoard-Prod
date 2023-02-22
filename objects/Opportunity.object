@@ -24159,12 +24159,13 @@ Contains( $User.Department,&quot;Sales&quot;))</errorConditionFormula>
         <fullName>Canot_Edit_Close_Date_on_Won_Opp</fullName>
         <active>false</active>
         <errorConditionFormula>AND(
-ISCHANGED(  CloseDate  ),
+ISCHANGED(  CloseDate  )||
+ISCHANGED( StageName ),
 Not(IsWon),
 NOT
-IsPickVal( Owner.Team__c ,&quot;RevOps&quot;)
+IsPickVal( Owner.Team__c ,&quot;System/Automation&quot;)
 )</errorConditionFormula>
-        <errorMessage>Cannot change Close Date on a Closed Won Opp.</errorMessage>
+        <errorMessage>Cannot change Close Date or Stage on a Closed Won Opp.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>OP002Cannot_edit_Closed_Won_Opps</fullName>
