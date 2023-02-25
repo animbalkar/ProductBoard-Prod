@@ -24156,18 +24156,6 @@ Contains( $User.Department,&quot;Sales&quot;))</errorConditionFormula>
         <errorMessage>Please provide Competitors and notes on why this deal was lost. [OP006]</errorMessage>
     </validationRules>
     <validationRules>
-        <fullName>Canot_Edit_Close_Date_on_Won_Opp</fullName>
-        <active>false</active>
-        <errorConditionFormula>AND(
-ISCHANGED(  CloseDate  )||
-ISCHANGED( StageName ),
-Not(IsWon),
-NOT
-IsPickVal( Owner.Team__c ,&quot;System/Automation&quot;)
-)</errorConditionFormula>
-        <errorMessage>Cannot change Close Date or Stage on a Closed Won Opp.</errorMessage>
-    </validationRules>
-    <validationRules>
         <fullName>OP002Cannot_edit_Closed_Won_Opps</fullName>
         <active>false</active>
         <errorConditionFormula>ISCHANGED(   CloseDate   )&amp;&amp;
