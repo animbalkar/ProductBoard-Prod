@@ -24196,7 +24196,6 @@ ISCHANGED(StageName),
 IsPickVal(Type,&quot;New Business&quot;)||
 ISPICKVAL( Amendment_Type__c , &quot;Replacement: SelfServ to Contract&quot;),
 Stage_Numeric__c &gt; 2,
-ISPICKVAL(Account.Priority_Account__c, &quot;P3 ICP Experiment - Prospects&quot;),
 Not(IsClosed),
 AND( 
 ISBLANK(    Tech_Stack_Design_UX_Research__c  )||
@@ -24219,7 +24218,7 @@ ISCHANGED(StageName),
 IsPickVal(Type,&quot;New Business&quot;)||
 ISPICKVAL( Amendment_Type__c , &quot;Replacement: SelfServ to Contract&quot;),
 Stage_Numeric__c &gt; 3,
-ISPICKVAL(Account.Priority_Account__c, &quot;P3 ICP Experiment - Prospects&quot;),
+
 Not(IsClosed),
 AND( 
 ISBLANK(  Economic_Buyer_Contact__r.Title  ),
