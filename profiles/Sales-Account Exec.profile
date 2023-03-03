@@ -7062,7 +7062,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Lead.Marketing_Notes__c</field>
         <readable>true</readable>
     </fieldPermissions>
