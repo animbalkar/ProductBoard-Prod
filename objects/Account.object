@@ -5532,9 +5532,7 @@ IF(
         <fullName>Suggested_Segmentation_employees__c</fullName>
         <description>Looks at the employee count in Estimated Employees field and returns segment value based on criteria at a given point in time. This is the primary segment field.</description>
         <externalId>false</externalId>
-        <formula>IF( Bad_Account__c ||
-( Website = &quot;&quot; &amp;&amp; NumberOfEmployees &lt;0) , &quot;Unknown&quot;,
-
+        <formula>IF( Bad_Account__c || Max_Employees__c &lt;1,&quot;Unknown&quot;,
 IF(Max_Employees__c &lt; 1001,&quot;SMB&quot;,&quot;EN&quot;))</formula>
         <inlineHelpText>Looks at the employee count in Estimated Employees field and returns segment value based on criteria at a given point in time. This is the primary segment field.</inlineHelpText>
         <label>Employee # Segment</label>

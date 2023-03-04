@@ -362,6 +362,11 @@
         <label>Booth Suspension</label>
     </standardValue>
     <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </standardValue>
+    <standardValue>
         <fullName>Claimed</fullName>
         <default>false</default>
         <label>Claimed</label>
@@ -557,6 +562,11 @@
         <label>Opened Email</label>
     </standardValue>
     <standardValue>
+        <fullName>Processed</fullName>
+        <default>false</default>
+        <label>Processed</label>
+    </standardValue>
+    <standardValue>
         <fullName>Reached out to by sales</fullName>
         <default>false</default>
         <label>Reached out to by sales</label>
@@ -690,6 +700,11 @@
         <fullName>Sent Email</fullName>
         <default>false</default>
         <label>Sent Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Shipped</fullName>
+        <default>false</default>
+        <label>Shipped</label>
     </standardValue>
     <standardValue>
         <fullName>Signed-up</fullName>

@@ -788,6 +788,11 @@
         <columns>CORE.USERS.FIRST_NAME</columns>
         <columns>CORE.USERS.LAST_NAME</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+            <operation>equals</operation>
+            <value>Direct Mail</value>
+        </filters>
         <label>All Active Campaigns</label>
     </listViews>
     <listViews>

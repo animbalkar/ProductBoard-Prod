@@ -2720,6 +2720,11 @@ NOT(ISBLANK( Opportunity__c )),
         <columns>Case_Requester__c</columns>
         <columns>CASES.CLOSED_DATE</columns>
         <filterScope>Mine</filterScope>
+        <filters>
+            <field>Sub_Type__c</field>
+            <operation>equals</operation>
+            <value>Sales Credit Request</value>
+        </filters>
         <label>My Cases</label>
     </listViews>
     <listViews>
