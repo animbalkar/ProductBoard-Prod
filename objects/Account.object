@@ -8973,6 +8973,21 @@ IF(
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Signals_Research_State__c</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Tech_Stack_Design_UX_Research__c</picklist>
             <values>
                 <fullName>Adobe XD</fullName>
@@ -12414,6 +12429,21 @@ IF(
             </values>
             <values>
                 <fullName>SMB-World-RR-Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Signals_Research_State__c</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

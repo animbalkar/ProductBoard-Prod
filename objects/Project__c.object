@@ -1794,7 +1794,7 @@ If(Chartmogul_Type_Hidden__c = &quot;&quot;, &quot;Missing&quot;,&quot;&quot;)
     <fields>
         <fullName>Vitally_CSM_Sentiment__c</fullName>
         <externalId>false</externalId>
-        <label>Vitally CSM Sentiment</label>
+        <label>Vitally CSM Renewal Risk</label>
         <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
