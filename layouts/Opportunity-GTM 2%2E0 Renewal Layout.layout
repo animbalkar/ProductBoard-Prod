@@ -84,7 +84,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Vitally_CSM_Sentiment__c</field>
+                <field>CSM_Renewal_Risk__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
