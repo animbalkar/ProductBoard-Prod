@@ -87,12 +87,6 @@
         <label>Diversified Financials</label>
     </customValue>
     <customValue>
-        <fullName>Health Care Equipment &amp; Services</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Health Care Equipment &amp; Services</label>
-    </customValue>
-    <customValue>
         <fullName>Energy Equipment &amp; Services</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -109,6 +103,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Food, Beverage &amp; Tobacco</label>
+    </customValue>
+    <customValue>
+        <fullName>Health Care Equipment &amp; Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Health Care Equipment &amp; Services</label>
     </customValue>
     <customValue>
         <fullName>Household &amp; Personal Products</fullName>
