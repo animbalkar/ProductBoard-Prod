@@ -4000,6 +4000,10 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Solutions Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>System%2FAutomation</fullName>
                 <default>false</default>
             </values>
@@ -4925,6 +4929,10 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Scale-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solutions Architect</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5909,6 +5917,10 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Solutions Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>System%2FAutomation</fullName>
                 <default>false</default>
             </values>
@@ -6884,6 +6896,10 @@ NOT(ISBLANK( Opportunity__c )),
                 <fullName>Scale-CSM</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>Solutions Architect</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Type</picklist>
@@ -7770,6 +7786,10 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Scale-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solutions Architect</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8755,6 +8775,10 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Scale-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solutions Architect</fullName>
                 <default>false</default>
             </values>
             <values>

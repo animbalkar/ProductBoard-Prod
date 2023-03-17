@@ -8428,6 +8428,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Solutions Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>System%2FAutomation</fullName>
                 <default>false</default>
             </values>
@@ -11542,6 +11546,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Scale-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solutions Architect</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14741,6 +14749,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Solutions Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>System%2FAutomation</fullName>
                 <default>false</default>
             </values>
@@ -17899,6 +17911,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Scale-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solutions Architect</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21111,6 +21127,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Scale-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solutions Architect</fullName>
                 <default>false</default>
             </values>
             <values>

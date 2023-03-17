@@ -4958,6 +4958,19 @@ IF(Max_Account_Employees__c  &lt; 5001,
         <columns>LEAD.STATUS</columns>
         <columns>Business_Segment__c</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_territory__c</field>
+            <operation>equals</operation>
+        </filters>
+        <filters>
+            <field>LEAD.COUNTRY</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>Matched_Account_Status__c</field>
+            <operation>notEqual</operation>
+            <value>1.0 Customer</value>
+        </filters>
         <label>All leads</label>
     </listViews>
     <listViews>

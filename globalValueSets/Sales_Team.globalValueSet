@@ -81,6 +81,11 @@
         <label>System/Automation</label>
     </customValue>
     <customValue>
+        <fullName>Solutions Architect</fullName>
+        <default>false</default>
+        <label>Solutions Architect</label>
+    </customValue>
+    <customValue>
         <fullName>CSM-4</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -99,12 +104,6 @@
         <label>CSM-2</label>
     </customValue>
     <customValue>
-        <fullName>CSM-1</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>CSM-1</label>
-    </customValue>
-    <customValue>
         <fullName>Sales-AE-Velocity</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -115,6 +114,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Solution Architect</label>
+    </customValue>
+    <customValue>
+        <fullName>CSM-1</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CSM-1</label>
     </customValue>
     <customValue>
         <fullName>Comm-CSM-Team</fullName>

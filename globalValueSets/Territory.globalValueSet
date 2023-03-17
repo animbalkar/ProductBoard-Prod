@@ -356,9 +356,9 @@
         <label>SMB-NA-02-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-03-Assign</fullName>
+        <fullName>SMB-NA-03-Open</fullName>
         <default>false</default>
-        <label>SMB-NA-03-Assign</label>
+        <label>SMB-NA-03-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-04-Assign</fullName>

@@ -34,15 +34,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Vitally_EOY_Review_Conducted__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Trial_Plan__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Vitally_Exclude_from_Round_Robin__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -341,6 +333,14 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Vitally_CSM__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Vitally_EOY_Review_Conducted__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Vitally_Exclude_from_Round_Robin__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
