@@ -165,11 +165,17 @@
             <label>RRecordtypeNullCheck</label>
         </rules>
     </decisions>
+    <description>With NRR line item exclusion</description>
     <environments>Default</environments>
     <formulas>
         <name>forD_RenewalOpportunityCloseDate</name>
         <dataType>Date</dataType>
         <expression>{!$Record.CloseDate} + 365</expression>
+    </formulas>
+    <formulas>
+        <name>ForServiceStartDate</name>
+        <dataType>Date</dataType>
+        <expression>{!$Record.Service_End_Date__c} + 1</expression>
     </formulas>
     <interviewLabel>Renewal Line Items Creation Test {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Renewal Line Items Creation Test</label>
@@ -294,6 +300,12 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Service_Start_Date__c</field>
+            <value>
+                <elementReference>ForServiceStartDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Special_Terms__c</field>
             <value>
                 <elementReference>$Record.Special_Terms__c</elementReference>
@@ -329,6 +341,13 @@
             <operator>EqualTo</operator>
             <value>
                 <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>NRR__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
