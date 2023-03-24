@@ -1282,7 +1282,7 @@ IF(Max_Employees__c &lt; 5001,&quot;MM&quot;,&quot;EN&quot;)))))</formula>
         <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -2154,7 +2154,7 @@ IF(of_paid_users__c &gt; 2,&quot;Core&quot;, &quot;Growth&quot;))</formula>
         <relationshipName>AccountsXUHk</relationshipName>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>

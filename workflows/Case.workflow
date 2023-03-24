@@ -2,7 +2,7 @@
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <alerts>
         <fullName>CS_New_Resource_Request</fullName>
-        <ccEmails>lauren@productboard.com</ccEmails>
+        <ccEmails>t-services-requests-aaaagkybgvcoj44xucoxiaggwu@productboard.slack.com</ccEmails>
         <description>CS: New Resource Request</description>
         <protected>false</protected>
         <recipients>
