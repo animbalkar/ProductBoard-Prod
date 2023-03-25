@@ -165,12 +165,18 @@
             <label>RRecordtypeNullCheck</label>
         </rules>
     </decisions>
-    <description>With NRR line item exclusion</description>
+    <description>With NRR line item exclusion. Fixed Close Date (match YEAR of record.service_end_date) + name to match close date (from service end date)</description>
     <environments>Default</environments>
+    <formulas>
+        <description>Adds Renewal Year + &quot;Renewal&quot; + Account Name</description>
+        <name>AutoRenewalOppNameV2</name>
+        <dataType>String</dataType>
+        <expression>TEXT(YEAR({!$Record.service_end_date__c})) &amp; &quot; Renewal &quot; &amp; {!$Record.Account_Name__c}</expression>
+    </formulas>
     <formulas>
         <name>forD_RenewalOpportunityCloseDate</name>
         <dataType>Date</dataType>
-        <expression>{!$Record.CloseDate} + 365</expression>
+        <expression>{!$Record.Service_End_Date__c}</expression>
     </formulas>
     <formulas>
         <name>ForServiceStartDate</name>
@@ -254,7 +260,7 @@
         <inputAssignments>
             <field>Name</field>
             <value>
-                <elementReference>$Record.Account_Name__c</elementReference>
+                <elementReference>AutoRenewalOppNameV2</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
