@@ -74,6 +74,10 @@
                 <behavior>Edit</behavior>
                 <field>Block_from_Marketo_Sync__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Last_Substantial_Engagement_Date__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

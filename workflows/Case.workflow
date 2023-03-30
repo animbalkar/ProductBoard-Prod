@@ -333,7 +333,7 @@ ISCHANGED(Implementation_Type__c))</formula>
         <criteriaItems>
             <field>Case.CreatedDate</field>
             <operation>greaterThan</operation>
-            <value>9/20/2020 3:00 AM</value>
+            <value>9/20/2020</value>
         </criteriaItems>
         <criteriaItems>
             <field>Case.IsClosed</field>

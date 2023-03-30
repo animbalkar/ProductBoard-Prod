@@ -75,6 +75,10 @@
                 <behavior>Readonly</behavior>
                 <field>Employee_Segment__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Last_Substantial_Engagement_Date__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
