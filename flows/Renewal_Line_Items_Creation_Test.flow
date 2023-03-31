@@ -69,7 +69,7 @@
         <defaultConnectorLabel>Lost &amp; Open</defaultConnectorLabel>
         <rules>
             <name>Closed_Won</name>
-            <conditionLogic>1 AND 2 AND (3 OR 5 OR 6) AND 4</conditionLogic>
+            <conditionLogic>1 AND 2 AND (3 OR 5 OR 6 OR 7) AND 4</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.StageName</leftValueReference>
                 <operator>EqualTo</operator>
@@ -110,6 +110,13 @@
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>Replacement: SelfServ to Contract</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Amendment_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>New Space</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -165,7 +172,9 @@
             <label>RRecordtypeNullCheck</label>
         </rules>
     </decisions>
-    <description>With NRR line item exclusion. Fixed Close Date (match YEAR of record.service_end_date) + name to match close date (from service end date)</description>
+    <description>With NRR line item exclusion. Fixed Close Date (match YEAR of record.service_end_date) + name to match close date (from service end date)
+
+- add amendment type = New Space to flow</description>
     <environments>Default</environments>
     <formulas>
         <description>Adds Renewal Year + &quot;Renewal&quot; + Account Name</description>

@@ -96,6 +96,11 @@
         <label>SatisMeter Addition</label>
     </customValue>
     <customValue>
+        <fullName>New Subspace</fullName>
+        <default>false</default>
+        <label>New Subspace</label>
+    </customValue>
+    <customValue>
         <fullName>Feature Addition</fullName>
         <default>false</default>
         <isActive>false</isActive>
