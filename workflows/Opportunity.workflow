@@ -1546,7 +1546,7 @@ Not( IsPickVal($User.Team__c ,&quot;Operations&quot;)), $User.Alias &lt;&gt; &qu
             <name>Alert_CS_of_Stage_3_50K_Deal</name>
             <type>Alert</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Opportunity.ARR__c</field>
             <operation>greaterOrEqual</operation>
@@ -1772,7 +1772,7 @@ $User.Email &lt;&gt; &quot;technical-pb@enehano.cz&quot;
             <name>Email_Alert_to_SA</name>
             <type>Alert</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Opportunity.Solution_Architect__c</field>
             <operation>notEqual</operation>

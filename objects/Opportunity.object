@@ -8169,6 +8169,141 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Close_Date_Push_Reason__c</picklist>
+            <values>
+                <fullName>Adoption %28Usage%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alternate Need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Champion Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DM Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Does not meet ICP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate account%2Fopportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of Value %28Outcomes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No SOC II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Responsive%2FGhosting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of Business%2FAcquired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing %28Cost%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reason Missing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Decline after%2Fduring DM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Service Subscribed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tool Consolidation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usability</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Communicating_the_Roadmap__c</picklist>
             <values>
                 <fullName>Critical</fullName>
@@ -8320,6 +8455,17 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Single product within a larger product org</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Digital_Transformation_Project__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9079,7 +9225,15 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9120,6 +9274,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9920,7 +10078,15 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9961,6 +10127,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11294,6 +11464,141 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Close_Date_Push_Reason__c</picklist>
+            <values>
+                <fullName>Adoption %28Usage%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alternate Need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Champion Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DM Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Does not meet ICP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate account%2Fopportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of Value %28Outcomes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No SOC II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Responsive%2FGhosting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of Business%2FAcquired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing %28Cost%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reason Missing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Decline after%2Fduring DM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Service Subscribed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tool Consolidation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usability</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Communicating_the_Roadmap__c</picklist>
             <values>
                 <fullName>Critical</fullName>
@@ -11445,6 +11750,17 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Single product within a larger product org</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Digital_Transformation_Project__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12232,6 +12548,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Does not meet ICP</fullName>
                 <default>false</default>
             </values>
@@ -12241,6 +12561,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12297,6 +12621,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13093,6 +13421,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Does not meet ICP</fullName>
                 <default>false</default>
             </values>
@@ -13102,6 +13434,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13174,6 +13510,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14510,6 +14850,141 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Close_Date_Push_Reason__c</picklist>
+            <values>
+                <fullName>Adoption %28Usage%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alternate Need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Champion Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DM Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Does not meet ICP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate account%2Fopportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of Value %28Outcomes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No SOC II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Responsive%2FGhosting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of Business%2FAcquired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing %28Cost%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reason Missing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Decline after%2Fduring DM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Service Subscribed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tool Consolidation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usability</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Communicating_the_Roadmap__c</picklist>
             <values>
                 <fullName>Critical</fullName>
@@ -14649,6 +15124,17 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Single product within a larger product org</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Digital_Transformation_Project__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -15392,6 +15878,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Does not meet ICP</fullName>
                 <default>false</default>
             </values>
@@ -15401,6 +15891,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15473,6 +15967,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16261,6 +16759,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Does not meet ICP</fullName>
                 <default>false</default>
             </values>
@@ -16270,6 +16772,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16342,6 +16848,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17667,6 +18177,141 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Close_Date_Push_Reason__c</picklist>
+            <values>
+                <fullName>Adoption %28Usage%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alternate Need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Champion Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DM Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Does not meet ICP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate account%2Fopportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of Value %28Outcomes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No SOC II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Responsive%2FGhosting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of Business%2FAcquired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing %28Cost%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reason Missing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Decline after%2Fduring DM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Service Subscribed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tool Consolidation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usability</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Communicating_the_Roadmap__c</picklist>
             <values>
                 <fullName>Critical</fullName>
@@ -17818,6 +18463,17 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Single product within a larger product org</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Digital_Transformation_Project__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -18613,6 +19269,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Does not meet ICP</fullName>
                 <default>false</default>
             </values>
@@ -18622,6 +19282,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -18694,6 +19358,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19482,6 +20150,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Does not meet ICP</fullName>
                 <default>false</default>
             </values>
@@ -19491,6 +20163,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19563,6 +20239,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20887,6 +21567,141 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Close_Date_Push_Reason__c</picklist>
+            <values>
+                <fullName>Adoption %28Usage%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alternate Need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Champion Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DM Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Does not meet ICP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate account%2Fopportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of Value %28Outcomes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Left Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost to Competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Budget %2F Lost Funding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No SOC II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Responsive%2FGhosting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of Business%2FAcquired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing %28Cost%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reason Missing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Decline after%2Fduring DM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Service Subscribed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tool Consolidation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Usability</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Communicating_the_Roadmap__c</picklist>
             <values>
                 <fullName>Critical</fullName>
@@ -21038,6 +21853,17 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Single product within a larger product org</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Digital_Transformation_Project__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -21829,6 +22655,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Does not meet ICP</fullName>
                 <default>false</default>
             </values>
@@ -21838,6 +22668,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21894,6 +22728,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -22690,6 +23528,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal execution</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Does not meet ICP</fullName>
                 <default>false</default>
             </values>
@@ -22699,6 +23541,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Feature Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Increased deal scope</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -22771,6 +23617,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Trial Loss Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
             <values>

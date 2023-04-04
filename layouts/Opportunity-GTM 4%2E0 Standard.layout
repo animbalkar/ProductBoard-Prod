@@ -191,6 +191,10 @@
                 <behavior>Edit</behavior>
                 <field>Negative_Consequences__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Digital_Transformation_Project__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -622,6 +626,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Lost_to_Competition__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Close_Date_Push_Reason__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

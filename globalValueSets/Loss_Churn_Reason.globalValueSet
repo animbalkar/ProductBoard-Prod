@@ -150,6 +150,21 @@
         <default>false</default>
         <label>Trial Loss Reason</label>
     </customValue>
+    <customValue>
+        <fullName>Increased deal scope</fullName>
+        <default>false</default>
+        <label>Increased deal scope</label>
+    </customValue>
+    <customValue>
+        <fullName>Deal execution</fullName>
+        <default>false</default>
+        <label>Deal execution</label>
+    </customValue>
+    <customValue>
+        <fullName>Unable to prove mission critical</fullName>
+        <default>false</default>
+        <label>Unable to prove mission critical</label>
+    </customValue>
     <masterLabel>Loss/Churn Reason</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>
