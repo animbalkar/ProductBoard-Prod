@@ -11321,22 +11321,6 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Renewal-Downgrade</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Renewal-New Contract</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Renewal-No Change</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Renewal-Uplift</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Replacement%3A Mid-Term Contraction</fullName>
                 <default>false</default>
             </values>

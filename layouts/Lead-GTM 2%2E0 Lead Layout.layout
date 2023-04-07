@@ -73,6 +73,10 @@
                 <behavior>Edit</behavior>
                 <field>Last_Substantial_Engagement_Date__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>First_MQL_Campaign_Response_Type__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
