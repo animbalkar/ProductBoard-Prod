@@ -2109,6 +2109,11 @@ customer’s issues and pains&quot;</inlineHelpText>
                     <default>false</default>
                     <label>Other</label>
                 </value>
+                <value>
+                    <fullName>AWS Marketplace</fullName>
+                    <default>false</default>
+                    <label>AWS Marketplace</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
         <visibleLines>4</visibleLines>
@@ -2551,6 +2556,11 @@ customer’s organization</inlineHelpText>
                     <fullName>Positive brand affinity</fullName>
                     <default>false</default>
                     <label>Positive brand affinity</label>
+                </value>
+                <value>
+                    <fullName>Solves existing internal pain points</fullName>
+                    <default>false</default>
+                    <label>Solves existing internal pain points</label>
                 </value>
                 <value>
                     <fullName>No single reason</fullName>
@@ -9421,6 +9431,13 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Marketplace__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Meeting_Held_for_Stage_1_0__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -9642,6 +9659,10 @@ Stamped by process builder at Opp Creation</description>
         </picklistValues>
         <picklistValues>
             <picklist>Partner_Intel__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Amplitude</fullName>
                 <default>false</default>
@@ -12748,6 +12769,13 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Marketplace__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Meeting_Held_for_Stage_1_0__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -12973,6 +13001,10 @@ Stamped by process builder at Opp Creation</description>
         </picklistValues>
         <picklistValues>
             <picklist>Partner_Intel__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Amplitude</fullName>
                 <default>false</default>
@@ -14415,6 +14447,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Positive brand affinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solves existing internal pain points</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16094,6 +16130,13 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Zoho</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Marketplace__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19481,6 +19524,13 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Marketplace__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Meeting_Held_for_Stage_1_0__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -19702,6 +19752,10 @@ Stamped by process builder at Opp Creation</description>
         </picklistValues>
         <picklistValues>
             <picklist>Partner_Intel__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Amplitude</fullName>
                 <default>false</default>
@@ -21144,6 +21198,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Positive brand affinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solves existing internal pain points</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -22855,6 +22913,13 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Marketplace__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Meeting_Held_for_Stage_1_0__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -23080,6 +23145,10 @@ Stamped by process builder at Opp Creation</description>
         </picklistValues>
         <picklistValues>
             <picklist>Partner_Intel__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Amplitude</fullName>
                 <default>false</default>
@@ -24522,6 +24591,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Positive brand affinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Solves existing internal pain points</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
