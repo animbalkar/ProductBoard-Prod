@@ -5,27 +5,11 @@
         <description>Alert CS Leads of new High Touch Accounts</description>
         <protected>false</protected>
         <recipients>
-            <recipient>ami.heller@productboard.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>boge.sotirovski@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>dorota.ziakova@productboard.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>gillian.kershaw@productboard.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>kate.villanueva@productboard.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>keith.wong@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -38,10 +22,6 @@
         </recipients>
         <recipients>
             <recipient>samantha.chikmoroff@productboard.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>taylor.mcguire@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>DefaultWorkflowUser</senderType>

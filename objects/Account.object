@@ -1218,7 +1218,7 @@ IF(Max_Employees__c &lt; 5001,&quot;MM&quot;,&quot;EN&quot;)))))</formula>
         <fullName>Territory_AE__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <inlineHelpText>AE assigned to sales territory (using for FY 2021)</inlineHelpText>
+        <inlineHelpText>AE assigned to this sales territory</inlineHelpText>
         <label>Territory AE</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts2</relationshipName>

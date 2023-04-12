@@ -607,27 +607,6 @@
                 <identifier>flexipage_visualforcePage5</identifier>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>height</name>
-                    <value>300</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>label</name>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>pageName</name>
-                    <value>commonroom__Common_Room</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showLabel</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:visualforcePage</componentName>
-                <identifier>flexipage_visualforcePage6</identifier>
-            </componentInstance>
-        </itemInstances>
         <name>rightsidebar</name>
         <type>Region</type>
     </flexiPageRegions>
