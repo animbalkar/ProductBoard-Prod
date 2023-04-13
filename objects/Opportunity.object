@@ -8540,6 +8540,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Digital-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-AE</fullName>
                 <default>false</default>
             </values>
@@ -11827,6 +11831,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Comm-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital-CSM</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15219,6 +15227,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Digital-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-AE</fullName>
                 <default>false</default>
             </values>
@@ -18562,6 +18574,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Comm-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital-CSM</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21967,6 +21983,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Comm-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital-CSM</fullName>
                 <default>false</default>
             </values>
             <values>

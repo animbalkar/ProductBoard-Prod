@@ -522,7 +522,15 @@ Tier 1: &gt;$150K</inlineHelpText>
     <fields>
         <fullName>CSM_Team__c</fullName>
         <externalId>false</externalId>
-        <formula>TEXT(Success_Manager__r.Team__c)</formula>
+        <formula>IF(
+    CONTAINS(Customer_Status__c, &quot;Customer&quot;),
+    IF(
+        ISBLANK(Success_Manager__c),
+        &quot;Digital-CSM&quot;,
+        TEXT(Success_Manager__r.Team__c)
+    ),
+    null
+)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>CSM Team</label>
         <required>false</required>

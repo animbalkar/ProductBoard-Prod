@@ -3952,6 +3952,10 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Digital-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-AE</fullName>
                 <default>false</default>
             </values>
@@ -4881,6 +4885,10 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Comm-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital-CSM</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5869,6 +5877,10 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Digital-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-AE</fullName>
                 <default>false</default>
             </values>
@@ -6849,6 +6861,10 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Digital-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-AE</fullName>
                 <default>false</default>
             </values>
@@ -7738,6 +7754,10 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Comm-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital-CSM</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8727,6 +8747,10 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Comm-CSM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital-CSM</fullName>
                 <default>false</default>
             </values>
             <values>
