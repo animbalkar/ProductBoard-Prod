@@ -3984,6 +3984,10 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RevOps</fullName>
                 <default>false</default>
             </values>
@@ -4917,6 +4921,10 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partnerships</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5909,6 +5917,10 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RevOps</fullName>
                 <default>false</default>
             </values>
@@ -6893,6 +6905,10 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RevOps</fullName>
                 <default>false</default>
             </values>
@@ -7786,6 +7802,10 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partnerships</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8779,6 +8799,10 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partnerships</fullName>
                 <default>false</default>
             </values>
             <values>

@@ -63,10 +63,6 @@
                 <behavior>Edit</behavior>
                 <field>No_Show__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Meeting_Completed__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -254,6 +250,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>IsRecurrence</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>HVA_Meeting_Type__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

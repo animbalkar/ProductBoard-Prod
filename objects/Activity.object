@@ -451,6 +451,16 @@ IF( ActivityDate &gt; DATEVALUE( &quot;2020-04-30&quot;) &amp;&amp; Sequence_Nam
                     <default>false</default>
                     <label>LinkedIn Message</label>
                 </value>
+                <value>
+                    <fullName>Webinar</fullName>
+                    <default>false</default>
+                    <label>Webinar</label>
+                </value>
+                <value>
+                    <fullName>PB Event</fullName>
+                    <default>false</default>
+                    <label>PB Event</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>

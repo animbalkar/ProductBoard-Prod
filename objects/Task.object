@@ -856,7 +856,15 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>PB Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Slack %28Community%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

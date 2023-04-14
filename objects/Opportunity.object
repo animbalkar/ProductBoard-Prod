@@ -8572,6 +8572,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RevOps</fullName>
                 <default>false</default>
             </values>
@@ -11863,6 +11867,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partnerships</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15259,6 +15267,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RevOps</fullName>
                 <default>false</default>
             </values>
@@ -18606,6 +18618,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partnerships</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -22015,6 +22031,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partnerships</fullName>
                 <default>false</default>
             </values>
             <values>
