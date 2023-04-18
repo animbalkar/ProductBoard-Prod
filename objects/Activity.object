@@ -377,6 +377,31 @@ IF( ActivityDate &gt; DATEVALUE( &quot;2020-04-30&quot;) &amp;&amp; Sequence_Nam
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
+                    <fullName>Discovery Meeting</fullName>
+                    <default>false</default>
+                    <label>Discovery Meeting</label>
+                </value>
+                <value>
+                    <fullName>Demo</fullName>
+                    <default>false</default>
+                    <label>Demo</label>
+                </value>
+                <value>
+                    <fullName>Connect</fullName>
+                    <default>false</default>
+                    <label>Connect</label>
+                </value>
+                <value>
+                    <fullName>Webinar</fullName>
+                    <default>false</default>
+                    <label>Webinar</label>
+                </value>
+                <value>
+                    <fullName>PB Event</fullName>
+                    <default>false</default>
+                    <label>PB Event</label>
+                </value>
+                <value>
                     <fullName>Call</fullName>
                     <default>false</default>
                     <label>Call</label>
@@ -397,29 +422,19 @@ IF( ActivityDate &gt; DATEVALUE( &quot;2020-04-30&quot;) &amp;&amp; Sequence_Nam
                     <label>Chat (Intercom)</label>
                 </value>
                 <value>
-                    <fullName>Meeting</fullName>
-                    <default>false</default>
-                    <label>Meeting</label>
-                </value>
-                <value>
                     <fullName>Slack (Community)</fullName>
                     <default>false</default>
                     <label>Slack (Community)</label>
                 </value>
                 <value>
-                    <fullName>Chorus Recording</fullName>
+                    <fullName>Meeting</fullName>
                     <default>false</default>
-                    <label>Chorus Recording</label>
+                    <label>Meeting</label>
                 </value>
                 <value>
                     <fullName>Enterprise Pricing</fullName>
                     <default>false</default>
                     <label>Enterprise Pricing</label>
-                </value>
-                <value>
-                    <fullName>Intercom Chat</fullName>
-                    <default>false</default>
-                    <label>Intercom Chat</label>
                 </value>
                 <value>
                     <fullName>Email (Out)</fullName>
@@ -452,14 +467,19 @@ IF( ActivityDate &gt; DATEVALUE( &quot;2020-04-30&quot;) &amp;&amp; Sequence_Nam
                     <label>LinkedIn Message</label>
                 </value>
                 <value>
-                    <fullName>Webinar</fullName>
+                    <fullName>Intercom Chat</fullName>
                     <default>false</default>
-                    <label>Webinar</label>
+                    <label>Intercom Chat</label>
                 </value>
                 <value>
-                    <fullName>PB Event</fullName>
+                    <fullName>Chorus Recording</fullName>
                     <default>false</default>
-                    <label>PB Event</label>
+                    <label>Chorus Recording</label>
+                </value>
+                <value>
+                    <fullName>Internal</fullName>
+                    <default>false</default>
+                    <label>Internal</label>
                 </value>
             </valueSetDefinition>
         </valueSet>

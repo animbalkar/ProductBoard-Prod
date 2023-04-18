@@ -327,7 +327,7 @@ ISPICKVAL(Stage_Outreach__c, &quot;Unresponsive&quot;)
             <name>Workflow_Log_6</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <description>Changes &quot;Not Provided&quot; Name to [[unknown]], so clearbit can add/append it.</description>
         <formula>OR(
 LastName=&quot;Unknown&quot;,
@@ -346,7 +346,7 @@ LastName=&quot;[not provided]&quot;)</formula>
             <name>Workflow_Log_7</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <description>Temporary fix - for leads created via the Newsletter email collection form, populate the Legacy Lead Source (March 2019) field with value of Newsletter, because Marketo is overwriting Lead Source of these leads with Website Direct value</description>
         <formula>ISPICKVAL(LeadSource,&quot;Newsletter&quot;)</formula>
         <triggerType>onCreateOnly</triggerType>
@@ -357,7 +357,7 @@ LastName=&quot;[not provided]&quot;)</formula>
             <name>Update_Marketing_oupt_out</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Lead.HasOptedOutOfEmail</field>
             <operation>equals</operation>

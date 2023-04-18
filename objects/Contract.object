@@ -1277,8 +1277,12 @@ Document details in Special Terms field</inlineHelpText>
     <validationRules>
         <fullName>Contract_PB_ID_cannot_be_0</fullName>
         <active>true</active>
-        <errorConditionFormula>AND(Contract_PB_ID__c = 0,  TEXT(Status) = &quot;Activated&quot;)</errorConditionFormula>
-        <errorMessage>Contract PB ID cannot be 0!</errorMessage>
+        <errorConditionFormula>AND(
+Contract_PB_ID__c = 0|| 
+ISPICKVAL(Plan_Group__c, &quot;&quot;)||
+ISPICKVAL( Plan_Version__c,&quot;&quot; ),
+TEXT(Status) = &quot;Activated&quot;)</errorConditionFormula>
+        <errorMessage>Contract PB ID cannot be 0. And Plan Group or Plan Version cannot be blank</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>End_date_is_after_Start_date</fullName>

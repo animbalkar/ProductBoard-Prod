@@ -828,6 +828,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Connect</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Email %28In%29</fullName>
                 <default>false</default>
             </values>
@@ -849,6 +853,10 @@
             </values>
             <values>
                 <fullName>Intercom Chat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal</fullName>
                 <default>false</default>
             </values>
             <values>
