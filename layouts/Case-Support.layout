@@ -199,6 +199,9 @@
         <quickActionListItems>
             <quickActionName>Sales_Ops_RequestCase</quickActionName>
         </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Case.SendEmail</quickActionName>
+        </quickActionListItems>
     </quickActionList>
     <relatedContent>
         <relatedContentItems>

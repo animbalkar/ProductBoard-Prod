@@ -2899,14 +2899,9 @@ IF( Projects_with_Contracts__c =0,&quot;Subscription&quot;,&quot;Contract&quot;)
     <fields>
         <fullName>Renewal_Close_Date__c</fullName>
         <externalId>false</externalId>
-        <inlineHelpText>Close date of an open renewal opportuinty</inlineHelpText>
+        <inlineHelpText>Close date of any renewal opportunity</inlineHelpText>
         <label>Renewal Close Date</label>
         <summarizedField>Opportunity.CloseDate</summarizedField>
-        <summaryFilterItems>
-            <field>Opportunity.IsClosed</field>
-            <operation>equals</operation>
-            <value>False</value>
-        </summaryFilterItems>
         <summaryFilterItems>
             <field>Opportunity.Type</field>
             <operation>equals</operation>
