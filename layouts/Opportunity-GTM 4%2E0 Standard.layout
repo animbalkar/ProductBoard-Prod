@@ -49,6 +49,10 @@
                 <behavior>Edit</behavior>
                 <field>Economic_Impact_2022__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Vitally_Key_Risk__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

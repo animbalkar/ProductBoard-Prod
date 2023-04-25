@@ -4988,18 +4988,6 @@ Text(Campaign.Type)
         <type>Date</type>
     </fields>
     <fields>
-        <fullName>Vitally_CSM_Sentiment__c</fullName>
-        <externalId>false</externalId>
-        <formula>Project__r.Vitally_CSM_Sentiment__c</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <inlineHelpText>CSM Sentiment from Project</inlineHelpText>
-        <label>Vitally CSM Sentiment</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>tmp_Master_User_Email__c</fullName>
         <externalId>false</externalId>
         <label>tmp Master User Email</label>
@@ -6021,19 +6009,6 @@ Stamped by process builder at Opp Creation.</description>
         <scale>2</scale>
         <trackHistory>false</trackHistory>
         <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Vitally_Renewal_Forecast__c</fullName>
-        <externalId>false</externalId>
-        <formula>Project__r.Vitally_Renewal_Forecast__c</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Vitally Renewal Forecast</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Vitally_Renewal_Go_Ahead__c</fullName>
@@ -7651,7 +7626,7 @@ Stamped by process builder at Opp Creation</description>
         <columns>OPPORTUNITY.AMOUNT</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>OPPORTUNITY.TYPE</columns>
-        <columns>Vitally_CSM_Sentiment__c</columns>
+        <columns>Vitally_At_Risk_Type__c</columns>
         <columns>Vitally_Health_Category__c</columns>
         <columns>Vitally_Renewal_Go_Ahead__c</columns>
         <columns>Price_Book__c</columns>

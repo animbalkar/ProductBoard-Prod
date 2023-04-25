@@ -470,7 +470,7 @@ or(
         <criteriaItems>
             <field>Account.Region__c</field>
             <operation>contains</operation>
-            <value>EMEA,APAC,AUNZ</value>
+            <value>EMEA,APAC,AUNZ,Missing,Exclude,Blacklisted</value>
         </criteriaItems>
         <criteriaItems>
             <field>Account.Account_ARR__c</field>
@@ -482,7 +482,7 @@ or(
             <operation>greaterThan</operation>
             <value>0</value>
         </criteriaItems>
-        <description>Assign RM to APAC, AUNZ, and EMEA customer accounts with ARR $10-$30k</description>
+        <description>Assign RM to APAC, AUNZ, and EMEA customer accounts with ARR $10-$30k (+ &quot;other)</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
     <rules>
@@ -510,7 +510,7 @@ or(
         <criteriaItems>
             <field>Account.Region__c</field>
             <operation>equals</operation>
-            <value>NOAM,LATAM,Missing,Exclude,Blacklisted</value>
+            <value>NOAM,LATAM</value>
         </criteriaItems>
         <criteriaItems>
             <field>Account.Account_ARR__c</field>

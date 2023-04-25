@@ -10237,11 +10237,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Opportunity.Vitally_CSM_Sentiment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Opportunity.Vitally_Churn_Forecast__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -10263,11 +10258,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Vitally_Renewal_Contact__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Opportunity.Vitally_Renewal_Forecast__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

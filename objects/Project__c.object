@@ -1382,13 +1382,12 @@ Account_Name__r.Name)</formula>
     </fields>
     <fields>
         <fullName>Vitally_Next_Step__c</fullName>
+        <description>Next Step re: Renewal (Risk Mitigation)</description>
         <externalId>false</externalId>
         <label>Vitally Next Step</label>
-        <length>255</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>BI_Additional_Info__c</fullName>
@@ -2552,6 +2551,49 @@ Status__c &lt;&gt; &quot;Paying&quot;)</formula>
             </values>
             <values>
                 <fullName>Subproject</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Vitally_At_Risk_Type__c</picklist>
+            <values>
+                <fullName>Bad Fit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Budget</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Champion Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Competitor Pressure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low Utilization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merger %2F Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Value%2FROI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product %2F Use Case Gaps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unresponsive</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
