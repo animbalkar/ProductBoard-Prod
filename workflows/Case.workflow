@@ -99,7 +99,7 @@
         <description>SE: New Resource Request EMEA</description>
         <protected>false</protected>
         <recipients>
-            <recipient>ivana.obstova@productboard.com</recipient>
+            <recipient>tesh@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

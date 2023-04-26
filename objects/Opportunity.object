@@ -3267,6 +3267,16 @@ Max(0,Date_Transferred_to_2_0__c - Datevalue(CreatedDate)))</formula>
                     <default>false</default>
                     <label>Other</label>
                 </value>
+                <value>
+                    <fullName>Sourced</fullName>
+                    <default>false</default>
+                    <label>Sourced</label>
+                </value>
+                <value>
+                    <fullName>Marketplace Credits</fullName>
+                    <default>false</default>
+                    <label>Marketplace Credits</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
         <visibleLines>4</visibleLines>
@@ -9414,13 +9424,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Marketplace__c</picklist>
-            <values>
-                <fullName>AWS Marketplace</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Meeting_Held_for_Stage_1_0__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -9620,6 +9623,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Partner_Activity__c</picklist>
             <values>
+                <fullName>Marketplace Credits</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Other</fullName>
                 <default>false</default>
             </values>
@@ -9633,6 +9640,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Partner Workshop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sourced</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9928,6 +9939,13 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reseller__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12760,13 +12778,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Marketplace__c</picklist>
-            <values>
-                <fullName>AWS Marketplace</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Meeting_Held_for_Stage_1_0__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -12970,6 +12981,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Partner_Activity__c</picklist>
             <values>
+                <fullName>Marketplace Credits</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Other</fullName>
                 <default>false</default>
             </values>
@@ -12983,6 +12998,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Partner Workshop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sourced</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13266,6 +13285,13 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reseller__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16133,13 +16159,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Marketplace__c</picklist>
-            <values>
-                <fullName>AWS Marketplace</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Meeting_Held_for_Stage_1_0__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -16623,6 +16642,13 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reseller__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19531,13 +19557,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Marketplace__c</picklist>
-            <values>
-                <fullName>AWS Marketplace</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Meeting_Held_for_Stage_1_0__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -19737,6 +19756,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Partner_Activity__c</picklist>
             <values>
+                <fullName>Marketplace Credits</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Other</fullName>
                 <default>false</default>
             </values>
@@ -19750,6 +19773,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Partner Workshop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sourced</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20033,6 +20060,13 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reseller__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -22928,13 +22962,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Marketplace__c</picklist>
-            <values>
-                <fullName>AWS Marketplace</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Meeting_Held_for_Stage_1_0__c</picklist>
             <values>
                 <fullName>No</fullName>
@@ -23138,6 +23165,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Partner_Activity__c</picklist>
             <values>
+                <fullName>Marketplace Credits</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Other</fullName>
                 <default>false</default>
             </values>
@@ -23151,6 +23182,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Partner Workshop</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sourced</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -23434,6 +23469,13 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reseller__c</picklist>
+            <values>
+                <fullName>AWS Marketplace</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -25225,7 +25267,7 @@ Stage_Numeric__c &gt;1,
 OR(
 CONTAINS(TEXT($User.Team__c),&quot;SDR&quot;),
 CONTAINS($UserRole.Name,&quot;SDR&quot;)))</errorConditionFormula>
-        <errorDisplayField>Date_Transferred_to_2_0__c</errorDisplayField>
+        <errorDisplayField>StageName</errorDisplayField>
         <errorMessage>SDR&apos;s cannot move to stage 2.</errorMessage>
     </validationRules>
     <validationRules>

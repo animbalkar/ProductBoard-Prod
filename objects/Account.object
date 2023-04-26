@@ -1969,7 +1969,7 @@ Tier 4: 10K-30K
 Tier 3: 30-75K
 Tier 2: 75-150K
 Tier 1: &gt;150K</inlineHelpText>
-        <label>CS Tier (New)</label>
+        <label>CS Tier (Deprecated)</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Text</type>
