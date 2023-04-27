@@ -1286,11 +1286,6 @@ Max_Stage_Achieved__c &gt;= 1
                     <label>Trial Created Unintentionally</label>
                 </value>
                 <value>
-                    <fullName>Rolls up to an existing opportunity</fullName>
-                    <default>false</default>
-                    <label>Rolls up to an existing opportunity</label>
-                </value>
-                <value>
                     <fullName>PB does not have an EU Data Center</fullName>
                     <default>false</default>
                     <label>PB does not have an EU Data Center</label>
@@ -1399,10 +1394,6 @@ Max_Stage_Achieved__c &gt;= 1
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
                 <valueName>Trial Created Unintentionally</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Rolls up to an existing opportunity</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
@@ -9185,10 +9176,6 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Rolls up to an existing opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Security %5Bpb%5D</fullName>
                 <default>false</default>
             </values>
@@ -12508,10 +12495,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Rolls up to an existing opportunity</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15873,10 +15856,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Rolls up to an existing opportunity</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19271,10 +19250,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Rolls up to an existing opportunity</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -22691,10 +22666,6 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Rolls up to an existing opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Sales Decline after%2Fduring DM</fullName>
                 <default>false</default>
             </values>
@@ -25280,11 +25251,12 @@ IsPickVal(Type,&quot;New Business&quot;),
 Stage_Numeric__c &gt; 0.2,
 Not(IsClosed),
 ISPICKVAL(   Opportunity_Source__c   , &quot;&quot;), 
+ISBLANK( NextStep ),
 Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;)),
 DATEVALUE (CreatedDate) &gt;= DATE (2019,08,01)
 )</errorConditionFormula>
         <errorDisplayField>Opportunity_Source__c</errorDisplayField>
-        <errorMessage>Please make sure the following fields are filled out before moving to Stage 1 or higher: Opportunity Source.</errorMessage>
+        <errorMessage>Please make sure the following fields are filled out before moving to Stage 1 or higher: Opportunity Source and Next Step.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Forbid_DM_Date_Change_When_DM_Complete</fullName>
