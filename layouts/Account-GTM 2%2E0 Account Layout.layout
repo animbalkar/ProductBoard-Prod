@@ -81,10 +81,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Industry</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Industry__c</field>
             </layoutItems>
             <layoutItems>
@@ -407,6 +403,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Economic_Buyer_Contact_Title__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Product_Type_Digital_First_v_Transform__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
