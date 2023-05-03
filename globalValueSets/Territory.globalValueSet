@@ -306,9 +306,9 @@
         <label>SMB-EM-Benelux-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-CEE-Assign</fullName>
+        <fullName>SMB-EM-CEE-Open</fullName>
         <default>false</default>
-        <label>SMB-EM-CEE-Assign</label>
+        <label>SMB-EM-CEE-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-EM-France-Assign</fullName>
@@ -426,9 +426,9 @@
         <label>SMB-NA-15-Open</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-16-Assign</fullName>
+        <fullName>SMB-NA-16-Open</fullName>
         <default>false</default>
-        <label>SMB-NA-16-Assign</label>
+        <label>SMB-NA-16-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-17-Assign</fullName>

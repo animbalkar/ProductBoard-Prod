@@ -1669,7 +1669,7 @@ If(Chartmogul_Type_Hidden__c = &quot;&quot;, &quot;Missing&quot;,&quot;&quot;)
         <externalId>false</externalId>
         <inlineHelpText>Box is checked if a related Opportunity contains a Services SKU</inlineHelpText>
         <label>Has Services (Project)</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
