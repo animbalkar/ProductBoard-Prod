@@ -2037,7 +2037,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.Territory_Governance__c</field>
         <readable>true</readable>
     </fieldPermissions>

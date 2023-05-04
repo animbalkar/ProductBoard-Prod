@@ -3,6 +3,11 @@
     <description>Modify All Account, Opps, Contacts
 Fields: LD Trigger</description>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Territory_Governance__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Churn_Amount__c</field>
         <readable>true</readable>
@@ -58,6 +63,15 @@ Fields: LD Trigger</description>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Project__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>linkedin_si__Persona__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabSettings>

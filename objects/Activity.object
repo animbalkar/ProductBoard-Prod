@@ -402,14 +402,24 @@ IF( ActivityDate &gt; DATEVALUE( &quot;2020-04-30&quot;) &amp;&amp; Sequence_Nam
                     <label>PB Event</label>
                 </value>
                 <value>
-                    <fullName>Call</fullName>
+                    <fullName>Internal</fullName>
                     <default>false</default>
-                    <label>Call</label>
+                    <label>Internal</label>
                 </value>
                 <value>
-                    <fullName>Email (Sent)</fullName>
+                    <fullName>LinkedIn Message</fullName>
                     <default>false</default>
-                    <label>Email (Sent)</label>
+                    <label>LinkedIn Message</label>
+                </value>
+                <value>
+                    <fullName>LinkedIn InMail</fullName>
+                    <default>false</default>
+                    <label>LinkedIn InMail</label>
+                </value>
+                <value>
+                    <fullName>Intercom Chat</fullName>
+                    <default>false</default>
+                    <label>Intercom Chat</label>
                 </value>
                 <value>
                     <fullName>Email (Received)</fullName>
@@ -427,14 +437,14 @@ IF( ActivityDate &gt; DATEVALUE( &quot;2020-04-30&quot;) &amp;&amp; Sequence_Nam
                     <label>Slack (Community)</label>
                 </value>
                 <value>
-                    <fullName>Meeting</fullName>
-                    <default>false</default>
-                    <label>Meeting</label>
-                </value>
-                <value>
                     <fullName>Enterprise Pricing</fullName>
                     <default>false</default>
                     <label>Enterprise Pricing</label>
+                </value>
+                <value>
+                    <fullName>Meeting</fullName>
+                    <default>false</default>
+                    <label>Meeting</label>
                 </value>
                 <value>
                     <fullName>Email (Out)</fullName>
@@ -457,29 +467,19 @@ IF( ActivityDate &gt; DATEVALUE( &quot;2020-04-30&quot;) &amp;&amp; Sequence_Nam
                     <label>Call Outbound (Not Answered)</label>
                 </value>
                 <value>
-                    <fullName>LinkedIn InMail</fullName>
-                    <default>false</default>
-                    <label>LinkedIn InMail</label>
-                </value>
-                <value>
-                    <fullName>LinkedIn Message</fullName>
-                    <default>false</default>
-                    <label>LinkedIn Message</label>
-                </value>
-                <value>
-                    <fullName>Intercom Chat</fullName>
-                    <default>false</default>
-                    <label>Intercom Chat</label>
-                </value>
-                <value>
                     <fullName>Chorus Recording</fullName>
                     <default>false</default>
                     <label>Chorus Recording</label>
                 </value>
                 <value>
-                    <fullName>Internal</fullName>
+                    <fullName>Call</fullName>
                     <default>false</default>
-                    <label>Internal</label>
+                    <label>Call</label>
+                </value>
+                <value>
+                    <fullName>Email (Sent)</fullName>
+                    <default>false</default>
+                    <label>Email (Sent)</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
