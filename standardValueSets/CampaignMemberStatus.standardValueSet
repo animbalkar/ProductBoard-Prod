@@ -352,6 +352,11 @@
         <label>Attended Virtual</label>
     </standardValue>
     <standardValue>
+        <fullName>Booked</fullName>
+        <default>false</default>
+        <label>Booked</label>
+    </standardValue>
+    <standardValue>
         <fullName>Booth Submission</fullName>
         <default>false</default>
         <label>Booth Submission</label>
@@ -425,6 +430,11 @@
         <fullName>Did Not Attend</fullName>
         <default>false</default>
         <label>Did Not Attend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Did Not Book</fullName>
+        <default>false</default>
+        <label>Did Not Book</label>
     </standardValue>
     <standardValue>
         <fullName>Did not request demo - Attended</fullName>
