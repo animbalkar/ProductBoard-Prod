@@ -845,10 +845,10 @@
         <label>rampmetrics</label>
         <layoutColumns>
             <layoutItems>
-                <height>500</height>
+                <height>800</height>
                 <page>rm_forsf__rampmetrics_Opportunity_rm_user</page>
                 <showLabel>false</showLabel>
-                <showScrollbars>true</showScrollbars>
+                <showScrollbars>false</showScrollbars>
                 <width>100%</width>
             </layoutItems>
         </layoutColumns>
@@ -856,6 +856,11 @@
     </layoutSections>
     <platformActionList>
         <actionListContext>Record</actionListContext>
+        <platformActionListItems>
+            <actionName>Edit</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>0</sortOrder>
+        </platformActionListItems>
         <platformActionListItems>
             <actionName>Log_A_Call</actionName>
             <actionType>QuickAction</actionType>
@@ -935,11 +940,6 @@
             <actionName>Opportunity.Launch_Subscription_Flow</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>16</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Edit</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>0</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedContent>

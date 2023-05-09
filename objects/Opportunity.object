@@ -4300,7 +4300,7 @@ Account.Name &lt;&gt; &quot;productboard&quot;,
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <type>MultiselectPicklist</type>
+        <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
@@ -4346,6 +4346,11 @@ Account.Name &lt;&gt; &quot;productboard&quot;,
                     <label>Lack of Support: Didn&apos;t have enough services or support from Productboard</label>
                 </value>
                 <value>
+                    <fullName>Champion Loss : The person who championed Productboard left</fullName>
+                    <default>false</default>
+                    <label>Champion Loss : The person who championed Productboard left</label>
+                </value>
+                <value>
                     <fullName>Budget cut due to economy (product/workforce)</fullName>
                     <default>false</default>
                     <isActive>false</isActive>
@@ -4371,7 +4376,6 @@ Account.Name &lt;&gt; &quot;productboard&quot;,
                 </value>
             </valueSetDefinition>
         </valueSet>
-        <visibleLines>6</visibleLines>
     </fields>
     <fields>
         <fullName>Product_Gaps_if_any__c</fullName>
@@ -5781,18 +5785,6 @@ unfavorable to us
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Vitally_Renewal_Contact__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>Contact for Renewals</inlineHelpText>
-        <label>Vitally Renewal Contact</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Week_of_Quarter_S2_Date__c</fullName>
         <externalId>false</externalId>
         <formula>IF( S_2_0__c ,
@@ -6010,20 +6002,6 @@ Stamped by process builder at Opp Creation.</description>
         <scale>2</scale>
         <trackHistory>false</trackHistory>
         <type>Currency</type>
-    </fields>
-    <fields>
-        <fullName>Vitally_Renewal_Go_Ahead__c</fullName>
-        <externalId>false</externalId>
-        <formula>IF( ISNull(Account.Success_Manager__c ) ,&quot;No CSM&quot;,
-
-Project__r.Vitally_Renewal_Go_Ahead__c)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <inlineHelpText>Project Vitally Renewal Go Ahead from CSM</inlineHelpText>
-        <label>Vitally Renewal Go Ahead</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Week_Number_Created_Date__c</fullName>
@@ -6722,17 +6700,6 @@ Project__r.Vitally_Health_Score__c ))</formula>
             <valueSetName>Tech_Stack_Product_Analytics</valueSetName>
         </valueSet>
         <visibleLines>4</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Vitally_EOY_Review_Conducted__c</fullName>
-        <externalId>false</externalId>
-        <formula>Project__r.Vitally_EOY_Review_Conducted__c</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Vitally EOY Review Conducted</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Watchdog_Project_Opp_Account__c</fullName>
@@ -7629,7 +7596,6 @@ Stamped by process builder at Opp Creation</description>
         <columns>OPPORTUNITY.TYPE</columns>
         <columns>Vitally_At_Risk_Type__c</columns>
         <columns>Vitally_Health_Category__c</columns>
-        <columns>Vitally_Renewal_Go_Ahead__c</columns>
         <columns>Price_Book__c</columns>
         <columns>Project_PB_ID__c</columns>
         <columns>Project_Backend_Stage__c</columns>
@@ -9746,6 +9712,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Budget%3A Price too high for value</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Champion Loss %3A The person who championed Productboard left</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13096,6 +13066,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Budget%3A Price too high for value</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Champion Loss %3A The person who championed Productboard left</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19866,6 +19840,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Champion Loss %3A The person who championed Productboard left</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Competition%3A Moving to a new system</fullName>
                 <default>false</default>
             </values>
@@ -23268,6 +23246,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Budget%3A Price too high for value</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Champion Loss %3A The person who championed Productboard left</fullName>
                 <default>false</default>
             </values>
             <values>

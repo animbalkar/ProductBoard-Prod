@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>DataDotComClean</excludeButtons>
     <excludeButtons>DisableCustomerPortal</excludeButtons>
     <excludeButtons>DisablePartnerPortal</excludeButtons>
     <excludeButtons>DisablePrmSuperUser</excludeButtons>
     <excludeButtons>EnablePrmSuperUser</excludeButtons>
+    <excludeButtons>RequestUseSfdc</excludeButtons>
     <excludeButtons>Share</excludeButtons>
     <headers>PersonalTagging</headers>
     <layoutSections>
@@ -572,8 +574,8 @@
         <label>rampmetrics</label>
         <layoutColumns>
             <layoutItems>
-                <height>200</height>
-                <page>rm_forsf__rampmetrics_Contact_rm_Insights</page>
+                <height>800</height>
+                <page>rm_forsf__rampmetrics_Contact_rm_user</page>
                 <showLabel>false</showLabel>
                 <showScrollbars>false</showScrollbars>
                 <width>100%</width>
