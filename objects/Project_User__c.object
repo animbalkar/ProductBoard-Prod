@@ -607,6 +607,11 @@ if( ISPICKVAL(Project_Role__c, &quot;viewer&quot;),0.3,0)</formula>
         <columns>User_Status__c</columns>
         <columns>Project_Status__c</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>Project_Status__c</field>
+            <operation>equals</operation>
+            <value>Active Subscription</value>
+        </filters>
         <label>All</label>
     </listViews>
 </CustomObject>

@@ -370,7 +370,7 @@ MRR__c * 12)</formula>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
         <label>Updated</label>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
     <fields>
@@ -838,7 +838,7 @@ IF( Prior_ARR__c &gt; 0, Prior_ARR__c, NULL ))</formula>
         <externalId>false</externalId>
         <label>Health status</label>
         <required>false</required>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
@@ -1071,7 +1071,7 @@ IF ( Initial_ARR__c &gt; 0, Max( Prior_Makers__c ,  admins__c +  editors__c ,  I
         <externalId>false</externalId>
         <label>Trial End Date</label>
         <required>false</required>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Date</type>
     </fields>
     <fields>
@@ -1875,7 +1875,7 @@ IF( IsNull(Parent_Project__c ),&quot;&quot;, Parent_Project__r.Chartmogul_Plan__
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Number</type>
         <unique>false</unique>
     </fields>

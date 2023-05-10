@@ -212,10 +212,6 @@
                 <behavior>Edit</behavior>
                 <field>Vitally_Renewal_Forecast_Category__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Vitally_Churn_Forecast__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -251,20 +247,38 @@
     </layoutSections>
     <layoutSections>
         <customLabel>true</customLabel>
-        <detailHeading>false</detailHeading>
-        <editHeading>false</editHeading>
-        <label>Next Step</label>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Risk and Renewal</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Vitally_Next_Step_by__c</field>
+                <field>Vitally_CSM_Sentiment__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Vitally_Churn_Forecast__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Vitally_Key_Risk__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Vitally_At_Risk_Type__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Vitally_Next_Step__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Vitally_Next_Step_by__c</field>
+            </layoutItems>
         </layoutColumns>
-        <style>OneColumn</style>
+        <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
         <customLabel>true</customLabel>
@@ -333,10 +347,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Vitally_CSM__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Vitally_EOY_Review_Conducted__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
