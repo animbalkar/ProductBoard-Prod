@@ -1385,9 +1385,10 @@ Account_Name__r.Name)</formula>
         <description>Next Step re: Renewal (Risk Mitigation)</description>
         <externalId>false</externalId>
         <label>Vitally Next Step</label>
-        <required>false</required>
+        <length>50000</length>
         <trackHistory>false</trackHistory>
-        <type>TextArea</type>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
     </fields>
     <fields>
         <fullName>BI_Additional_Info__c</fullName>

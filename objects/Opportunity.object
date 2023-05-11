@@ -3664,7 +3664,7 @@ Max(0,Date_Transferred_to_2_0__c - Date_Transferred_to_1_0__c)
     <fields>
         <fullName>Vitally_Next_Step__c</fullName>
         <externalId>false</externalId>
-        <formula>Project__r.Vitally_Next_Step__c</formula>
+        <formula>Project__r.Vitally_Key_Risk__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Project Vitally Next Step</inlineHelpText>
         <label>Vitally Next Step</label>
