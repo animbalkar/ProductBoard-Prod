@@ -6506,12 +6506,12 @@ OwnerId =  Account.Owner.SDR__r.Id</formula>
         <filters>
             <field>ACCOUNT.NAME</field>
             <operation>equals</operation>
-            <value>Telenor Group</value>
+            <value>able</value>
         </filters>
         <filters>
             <field>CONTACT.EMAIL</field>
             <operation>contains</operation>
-            <value>telenordigital.com</value>
+            <value>able.co</value>
         </filters>
         <label>Reassign Contacts</label>
     </listViews>
