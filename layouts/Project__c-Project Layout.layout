@@ -468,6 +468,10 @@
                 <behavior>Edit</behavior>
                 <field>etl_subscription_end_date__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Initial_ARR__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>

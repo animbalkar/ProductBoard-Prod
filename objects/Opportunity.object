@@ -3662,18 +3662,6 @@ Max(0,Date_Transferred_to_2_0__c - Date_Transferred_to_1_0__c)
         </valueSet>
     </fields>
     <fields>
-        <fullName>Vitally_Next_Step__c</fullName>
-        <externalId>false</externalId>
-        <formula>Project__r.Vitally_Key_Risk__c</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <inlineHelpText>Project Vitally Next Step</inlineHelpText>
-        <label>Vitally Next Step (Delete)</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>tmp_Project_PB_ID__c</fullName>
         <externalId>false</externalId>
         <label>tmp Project PB ID</label>
@@ -6872,19 +6860,6 @@ Stamped at opp creation, unless the opp was not created from a contact. In this 
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
-        <fullName>Account_Business_Segment_number__c</fullName>
-        <externalId>false</externalId>
-        <formula>Account.Business_Segment_Number__c</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>zz Account Business Segment # - Delete</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Prioritizing_what_to_build_next__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>How important is prioritizing what to build next?</inlineHelpText>
@@ -7886,16 +7861,10 @@ Stamped by process builder at Opp Creation</description>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>CORE.USERS.ALIAS</columns>
         <columns>Account_Owner_Alias__c</columns>
-        <columns>Account_Business_Segment_number__c</columns>
         <columns>Account_Funding__c</columns>
         <columns>Account_Employee__c</columns>
         <columns>Date_Self_Service_Subscribed__c</columns>
         <filterScope>Everything</filterScope>
-        <filters>
-            <field>Account_Business_Segment_number__c</field>
-            <operation>greaterThan</operation>
-            <value>1</value>
-        </filters>
         <filters>
             <field>ACCOUNT.NAME</field>
             <operation>notContain</operation>

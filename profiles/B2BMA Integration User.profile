@@ -8093,11 +8093,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Opportunity.Account_Business_Segment_number__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Opportunity.Account_Country__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -10239,11 +10234,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Vitally_Health_Category__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Opportunity.Vitally_Next_Step__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

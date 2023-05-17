@@ -5754,7 +5754,7 @@ IF(
    ISPICKVAL(Industry, &quot;Credit Cards &amp; Transaction Processing&quot;),
    ISPICKVAL(Industry, &quot;Software, Media &amp; Internet&quot;),
    ISPICKVAL(Industry, &quot;Business Intelligence Software&quot;), */
-    CONTAINS( &quot;SAAS:E-commerce:Technology:E-Learning:Information Technology &amp; Services&quot;,Tags_copy__c)),
+    CONTAINS( &quot;SAAS:Technology:E-Learning:Information Technology &amp; Services&quot;,Tags_copy__c)),
        &apos;Digital First&apos;,
        &apos;Digital Transformation&apos;))</formula>
         <label>Product Type - Digital First v Transform</label>
