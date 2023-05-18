@@ -6946,7 +6946,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Assign</fullName>
+                <fullName>SMB-EM-Israel-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8035,7 +8035,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Assign</fullName>
+                <fullName>SMB-EM-Israel-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8491,7 +8491,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Assign</fullName>
+                <fullName>SMB-EM-Israel-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8866,7 +8866,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Assign</fullName>
+                <fullName>SMB-EM-Israel-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10374,7 +10374,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Assign</fullName>
+                <fullName>SMB-EM-Israel-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11463,7 +11463,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Assign</fullName>
+                <fullName>SMB-EM-Israel-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11947,7 +11947,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Assign</fullName>
+                <fullName>SMB-EM-Israel-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12342,7 +12342,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Assign</fullName>
+                <fullName>SMB-EM-Israel-Open</fullName>
                 <default>false</default>
             </values>
             <values>

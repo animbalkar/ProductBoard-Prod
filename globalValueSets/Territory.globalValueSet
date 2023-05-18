@@ -326,9 +326,9 @@
         <label>SMB-EM-Iberia-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-Israel-Assign</fullName>
+        <fullName>SMB-EM-Israel-Open</fullName>
         <default>false</default>
-        <label>SMB-EM-Israel-Assign</label>
+        <label>SMB-EM-Israel-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-EM-Nordics-Open</fullName>
