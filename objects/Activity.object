@@ -377,6 +377,11 @@ IF( ActivityDate &gt; DATEVALUE( &quot;2020-04-30&quot;) &amp;&amp; Sequence_Nam
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
+                    <fullName>Qualification</fullName>
+                    <default>false</default>
+                    <label>Qualification</label>
+                </value>
+                <value>
                     <fullName>Discovery Meeting</fullName>
                     <default>false</default>
                     <label>Discovery Meeting</label>

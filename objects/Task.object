@@ -868,6 +868,10 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>Qualification</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Slack %28Community%29</fullName>
                 <default>false</default>
             </values>
