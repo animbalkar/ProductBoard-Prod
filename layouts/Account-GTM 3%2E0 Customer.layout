@@ -50,6 +50,10 @@
                 <behavior>Edit</behavior>
                 <field>SatisMeter_Customer__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Lighthouse_Admin__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

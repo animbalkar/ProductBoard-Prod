@@ -7553,6 +7553,25 @@ IF(
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Lighthouse_Admin__c</picklist>
+            <values>
+                <fullName>DT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ICP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NOAM EN</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Manual_Re_Route__c</picklist>
             <values>
                 <fullName>1%2E Self Service</fullName>
@@ -10977,6 +10996,25 @@ IF(
             </values>
             <values>
                 <fullName>Website - Google Search</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lighthouse_Admin__c</picklist>
+            <values>
+                <fullName>DT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ICP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NOAM EN</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
