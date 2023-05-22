@@ -101,12 +101,6 @@
         <label>ESB-4. low</label>
     </customValue>
     <customValue>
-        <fullName>S-3</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>S-3</label>
-    </customValue>
-    <customValue>
         <fullName>X-4</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -129,6 +123,18 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>V-3</label>
+    </customValue>
+    <customValue>
+        <fullName>Missing MK Score</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Missing MK Score</label>
+    </customValue>
+    <customValue>
+        <fullName>S-3</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>S-3</label>
     </customValue>
     <customValue>
         <fullName>S-2</fullName>
@@ -237,12 +243,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>A-1</label>
-    </customValue>
-    <customValue>
-        <fullName>Missing MK Score</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Missing MK Score</label>
     </customValue>
     <customValue>
         <fullName>S-4</fullName>
