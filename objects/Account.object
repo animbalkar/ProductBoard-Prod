@@ -7559,6 +7559,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>EMEA EN</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>ICP</fullName>
                 <default>false</default>
             </values>
@@ -11003,6 +11007,10 @@ IF(
             <picklist>Lighthouse_Admin__c</picklist>
             <values>
                 <fullName>DT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EMEA EN</fullName>
                 <default>false</default>
             </values>
             <values>
