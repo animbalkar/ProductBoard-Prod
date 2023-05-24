@@ -2556,49 +2556,6 @@ Status__c &lt;&gt; &quot;Paying&quot;)</formula>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Vitally_At_Risk_Type__c</picklist>
-            <values>
-                <fullName>Bad Fit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Budget</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Champion Change</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Competitor Pressure</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Customer Experience</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Low Utilization</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Merger %2F Acquisition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Value%2FROI</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Product %2F Use Case Gaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unresponsive</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Vitally_Lifecycle_Stage__c</picklist>
             <values>
                 <fullName>-1%2E0 Competitor</fullName>

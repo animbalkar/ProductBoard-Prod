@@ -64,6 +64,10 @@
                 <behavior>Edit</behavior>
                 <field>bt_stripe__Product_Type__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Discount__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>

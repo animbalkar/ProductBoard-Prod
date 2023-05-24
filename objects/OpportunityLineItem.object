@@ -135,7 +135,7 @@
         <description>Calculates the discount ($) of the product using the following formula: 
 (List Price * Quantity) - ( Sales Price * Quantity)</description>
         <externalId>false</externalId>
-        <formula>( ListPrice * Quantity) - ( UnitPrice * Quantity)</formula>
+        <formula>IF(Quantity &lt; 0, 0, ( ListPrice * Quantity) - ( UnitPrice * Quantity))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Calculates the discount ($) of the product using the following formula: 
 (List Price * Quantity) - ( Sales Price * Quantity)</inlineHelpText>

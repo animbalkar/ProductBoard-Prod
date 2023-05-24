@@ -7574,7 +7574,6 @@ Stamped by process builder at Opp Creation</description>
         <columns>OPPORTUNITY.AMOUNT</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>OPPORTUNITY.TYPE</columns>
-        <columns>Vitally_At_Risk_Type__c</columns>
         <columns>Vitally_Health_Category__c</columns>
         <columns>Price_Book__c</columns>
         <columns>Project_PB_ID__c</columns>
@@ -7940,10 +7939,6 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Amendment_Type__c</picklist>
             <values>
-                <fullName>Contract to Self Serve</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Expansion%2FUpsell w%2FRenewal</fullName>
                 <default>false</default>
             </values>
@@ -7952,15 +7947,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Maker Addition-Existing Contract - True Up</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>New Subspace</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Professional Services Addition</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7985,10 +7972,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>SatisMeter Addition</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Expansion via CC</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
