@@ -2538,14 +2538,14 @@ BillingStreet = cbit__Clearbit__r.cbit__CompanyGeoStreetName__c)*/
                     <label>P3 ICP Experiment - Prospects - 2</label>
                 </value>
                 <value>
-                    <fullName>P1 - Lighthouse</fullName>
+                    <fullName>P1</fullName>
                     <default>false</default>
-                    <label>P1 - Lighthouse</label>
+                    <label>P1</label>
                 </value>
                 <value>
-                    <fullName>P2 - Lighthouse</fullName>
+                    <fullName>P2</fullName>
                     <default>false</default>
-                    <label>P2 - Lighthouse</label>
+                    <label>P2</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -7680,7 +7680,7 @@ IF(
         <picklistValues>
             <picklist>Priority_Account__c</picklist>
             <values>
-                <fullName>P1 - Lighthouse</fullName>
+                <fullName>P1</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7688,7 +7688,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>P2 - Lighthouse</fullName>
+                <fullName>P2</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11139,7 +11139,7 @@ IF(
         <picklistValues>
             <picklist>Priority_Account__c</picklist>
             <values>
-                <fullName>P1 - Lighthouse</fullName>
+                <fullName>P1</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11147,7 +11147,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>P2 - Lighthouse</fullName>
+                <fullName>P2</fullName>
                 <default>false</default>
             </values>
             <values>
