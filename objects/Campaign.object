@@ -795,9 +795,9 @@
         <columns>CORE.USERS.LAST_NAME</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>CAMPAIGN.NAME</field>
-            <operation>contains</operation>
-            <value>Field_Productboard Roadtrip</value>
+            <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+            <operation>equals</operation>
+            <value>Community</value>
         </filters>
         <label>All Active Campaigns</label>
     </listViews>
