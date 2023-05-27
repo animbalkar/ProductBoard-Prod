@@ -155,10 +155,6 @@
         <description>Email Alert to SA Assigned</description>
         <protected>false</protected>
         <recipients>
-            <recipient>ami.heller@productboard.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
             <recipient>boge.sotirovski@productboard.com</recipient>
             <type>user</type>
         </recipients>
