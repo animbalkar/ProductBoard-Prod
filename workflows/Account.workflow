@@ -452,7 +452,7 @@ or(
             <type>FieldUpdate</type>
         </actions>
         <active>true</active>
-        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 and 6 and 7</booleanFilter>
         <criteriaItems>
             <field>Account.Account_ARR__c</field>
             <operation>lessThan</operation>
@@ -478,9 +478,14 @@ or(
             <value>10000</value>
         </criteriaItems>
         <criteriaItems>
-            <field>Account.Projects_with_Contracts__c</field>
-            <operation>greaterThan</operation>
-            <value>0</value>
+            <field>Account.CSM_Team__c</field>
+            <operation>notContain</operation>
+            <value>ent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.CSM_Team__c</field>
+            <operation>notContain</operation>
+            <value>comm</value>
         </criteriaItems>
         <description>Assign RM to APAC, AUNZ, and EMEA customer accounts with ARR $10-$30k (+ &quot;other)</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
@@ -492,7 +497,7 @@ or(
             <type>FieldUpdate</type>
         </actions>
         <active>true</active>
-        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 and 7 and 8</booleanFilter>
         <criteriaItems>
             <field>Account.Account_ARR__c</field>
             <operation>lessThan</operation>
@@ -521,6 +526,16 @@ or(
             <field>Account.Projects_with_Contracts__c</field>
             <operation>greaterThan</operation>
             <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.CSM_Team__c</field>
+            <operation>notContain</operation>
+            <value>ent</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.CSM_Team__c</field>
+            <operation>notContain</operation>
+            <value>comm</value>
         </criteriaItems>
         <description>Assign RMs to NOAM, LATAM and Other customer accounts with 10-$30k ARR.</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>

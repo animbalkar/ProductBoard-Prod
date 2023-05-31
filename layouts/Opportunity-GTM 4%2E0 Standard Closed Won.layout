@@ -153,6 +153,10 @@
                 <behavior>Edit</behavior>
                 <field>Services_Partner_SA__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Final_Success_Manager__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -170,6 +174,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Trainer__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Final_Renewal_Manager__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
