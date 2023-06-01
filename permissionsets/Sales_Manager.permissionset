@@ -8,6 +8,11 @@ Fields: LD Trigger</description>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Sales_territory__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Churn_Amount__c</field>
         <readable>true</readable>

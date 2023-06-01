@@ -7447,7 +7447,7 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Lead.Sales_territory__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -8959,7 +8959,7 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.LD_Routing_Segment_and_Fit__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
