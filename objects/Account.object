@@ -6740,7 +6740,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-03-Assign</fullName>
+                <fullName>EN-NA-03-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6996,7 +6996,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-06-Assign</fullName>
+                <fullName>SMB-NA-06-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7860,7 +7860,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-03-Assign</fullName>
+                <fullName>EN-NA-03-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8116,7 +8116,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-06-Assign</fullName>
+                <fullName>SMB-NA-06-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8332,7 +8332,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-03-Assign</fullName>
+                <fullName>EN-NA-03-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8560,7 +8560,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-06-Assign</fullName>
+                <fullName>SMB-NA-06-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8691,7 +8691,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-03-Assign</fullName>
+                <fullName>EN-NA-03-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8947,7 +8947,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-06-Assign</fullName>
+                <fullName>SMB-NA-06-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10199,7 +10199,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-03-Assign</fullName>
+                <fullName>EN-NA-03-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10455,7 +10455,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-06-Assign</fullName>
+                <fullName>SMB-NA-06-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11319,7 +11319,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-03-Assign</fullName>
+                <fullName>EN-NA-03-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11575,7 +11575,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-06-Assign</fullName>
+                <fullName>SMB-NA-06-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11803,7 +11803,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-03-Assign</fullName>
+                <fullName>EN-NA-03-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12059,7 +12059,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-06-Assign</fullName>
+                <fullName>SMB-NA-06-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12194,7 +12194,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-03-Assign</fullName>
+                <fullName>EN-NA-03-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12454,7 +12454,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-06-Assign</fullName>
+                <fullName>SMB-NA-06-Open</fullName>
                 <default>false</default>
             </values>
             <values>

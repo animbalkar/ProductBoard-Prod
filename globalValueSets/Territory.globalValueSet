@@ -51,9 +51,9 @@
         <label>EN-NA-02-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-03-Assign</fullName>
+        <fullName>EN-NA-03-Open</fullName>
         <default>false</default>
-        <label>EN-NA-03-Assign</label>
+        <label>EN-NA-03-Open</label>
     </customValue>
     <customValue>
         <fullName>EN-NA-04-Assign</fullName>
@@ -376,9 +376,9 @@
         <label>SMB-NA-05-Open</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-06-Assign</fullName>
+        <fullName>SMB-NA-06-Open</fullName>
         <default>false</default>
-        <label>SMB-NA-06-Assign</label>
+        <label>SMB-NA-06-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-07-Assign</fullName>
