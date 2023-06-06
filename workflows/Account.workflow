@@ -307,7 +307,7 @@
         <fullName>Update_RM_on_customer_account</fullName>
         <description>Update RM on customer accounts</description>
         <field>Renewal_Manager__c</field>
-        <lookupValue>julie.seymour@productboard.com</lookupValue>
+        <lookupValue>kevin.horkan@productboard.com</lookupValue>
         <lookupValueType>User</lookupValueType>
         <name>Update RM on customer account</name>
         <notifyAssignee>false</notifyAssignee>
