@@ -4328,7 +4328,7 @@ $User.Id =  Owner.ManagerId )</formula>
         <fullName>Customer_Support_Advisor__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>Customer Support Advisor</label>
+        <label>Premium Support Advisor</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Accounts9</relationshipName>
         <required>false</required>
