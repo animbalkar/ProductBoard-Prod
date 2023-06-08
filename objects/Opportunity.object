@@ -2956,7 +2956,7 @@ X-4: Self-service (low-quality leads)</inlineHelpText>
         <label>LD Routing Segment</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
@@ -6900,7 +6900,7 @@ Stamped at opp creation, unless the opp was not created from a contact. In this 
         <label>LD Routing Segment and Fit Stamp</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>

@@ -797,6 +797,11 @@
         <label>Visited Booth - Virtual</label>
     </standardValue>
     <standardValue>
+        <fullName>Visited the booth</fullName>
+        <default>false</default>
+        <label>Visited the booth</label>
+    </standardValue>
+    <standardValue>
         <fullName>Waitlisted</fullName>
         <default>false</default>
         <label>Waitlisted</label>
