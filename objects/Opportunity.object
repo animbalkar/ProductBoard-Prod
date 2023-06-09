@@ -602,17 +602,6 @@ Has Hit Stage 3.0 or higher</inlineHelpText>
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>F_Sort__c</fullName>
-        <externalId>false</externalId>
-        <formula>Account_Customer_Status__c + &quot; &quot; + text( StageName ) + text( CreatedDate )</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>[F] Sort</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Unique__c</fullName>
         <externalId>false</externalId>
         <formula>1</formula>
@@ -726,19 +715,6 @@ IF(MEDDICC_Score__c&gt;42,&quot;Moderate&quot;,
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Urgency__c</fullName>
-        <externalId>false</externalId>
-        <label>Urgency</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>Urgency</valueSetName>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Won_ARR__c</fullName>
         <externalId>false</externalId>
         <formula>If(IsWon,1,0) *  ARR__c</formula>
@@ -802,36 +778,6 @@ If(  CloseDate - Today () &lt; 0,True,false))</formula>
         <trackHistory>false</trackHistory>
         <type>LongTextArea</type>
         <visibleLines>3</visibleLines>
-    </fields>
-    <fields>
-        <fullName>Top_Need__c</fullName>
-        <externalId>false</externalId>
-        <label>Top Need</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Consolidate insights</fullName>
-                    <default>false</default>
-                    <label>Consolidate insights</label>
-                </value>
-                <value>
-                    <fullName>Prioritization</fullName>
-                    <default>false</default>
-                    <label>Prioritization</label>
-                </value>
-                <value>
-                    <fullName>Roadmapping</fullName>
-                    <default>false</default>
-                    <label>Roadmapping</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>AE_Tenure__c</fullName>
@@ -1536,37 +1482,6 @@ CONTAINS(UPPER(Text(Owner.Team__c )), &quot;AM-&quot;)</formula>
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Zapier_test__c</fullName>
-        <description>Created for Zapier test and will be deleted on Friday Oct 4th</description>
-        <externalId>false</externalId>
-        <label>Zapier test</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>New feedback</fullName>
-                    <default>false</default>
-                    <label>New feedback</label>
-                </value>
-                <value>
-                    <fullName>Discovery</fullName>
-                    <default>false</default>
-                    <label>Discovery</label>
-                </value>
-                <value>
-                    <fullName>Post-discovery</fullName>
-                    <default>false</default>
-                    <label>Post-discovery</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>of_Products__c</fullName>
         <externalId>false</externalId>
         <label># of Opp Products</label>
@@ -1822,31 +1737,6 @@ IF(Max_Stage_Achieved__c &gt;= 0.2, &quot;Replied&quot;,&quot;No Reply&quot;)))<
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Sales_Motion__c</fullName>
-        <externalId>false</externalId>
-        <label>Deal Motion</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Top-Down</fullName>
-                    <default>false</default>
-                    <label>Top-Down</label>
-                </value>
-                <value>
-                    <fullName>Bottom-Up</fullName>
-                    <default>false</default>
-                    <label>Bottom-Up</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>True_Up_Date__c</fullName>
@@ -2228,14 +2118,6 @@ CreatedDate &gt;= (NOW()-5)
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>Test_Not_Null__c</fullName>
-        <externalId>false</externalId>
-        <formula>Opportunity_Date_Assigned__c &lt;&gt; null</formula>
-        <label>Test Not Null</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Won_ARR_Sales__c</fullName>
         <externalId>false</externalId>
         <formula>IF( IsPickVal(Type ,&quot;Renewal&quot;),null,
@@ -2597,20 +2479,6 @@ customer’s organization</inlineHelpText>
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Account_Funding__c</fullName>
-        <externalId>false</externalId>
-        <formula>if(Account.Raised__c &gt; 0,
-Account.Raised__c,
-NULL)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Account Funding</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackHistory>false</trackHistory>
-        <type>Currency</type>
     </fields>
     <fields>
         <fullName>Account_ID_Long__c</fullName>
@@ -3273,20 +3141,6 @@ Max(0,Date_Transferred_to_2_0__c - Datevalue(CreatedDate)))</formula>
         <visibleLines>4</visibleLines>
     </fields>
     <fields>
-        <fullName>Product_Maturity__c</fullName>
-        <description>Old field not in use</description>
-        <externalId>false</externalId>
-        <label>Product Maturity OLD</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetName>Product_Maturity</valueSetName>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Purchased_Makers__c</fullName>
         <externalId>false</externalId>
         <formula>Project__r.Purchased_Makers__c</formula>
@@ -3324,7 +3178,7 @@ Max(0,Date_Transferred_to_2_0__c - Datevalue(CreatedDate)))</formula>
     <fields>
         <fullName>S_0_1_or_Disqual__c</fullName>
         <externalId>false</externalId>
-        <formula>Max_Stage_Achieved__c &gt;= 0.1  ||  Not(IsPickVal(Trial_Loss_Reason__c ,&quot;&quot;)) ||  Not(IsPickVal(Loss_Reason__c ,&quot;&quot;)) ||  IsPickVal(Opportunity_Source__c ,&quot;Exclude&quot;)</formula>
+        <formula>Max_Stage_Achieved__c &gt;= 0.1   ||  Not(IsPickVal(Loss_Reason__c ,&quot;&quot;)) ||  IsPickVal(Opportunity_Source__c ,&quot;Exclude&quot;)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Checked if reached stage 0.1 or was disqualified</inlineHelpText>
         <label>S-0.1 or Disqual</label>
@@ -6010,18 +5864,6 @@ Stamped by process builder at Opp Creation.</description>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>X60_Days_Since_Trial_End__c</fullName>
-        <description>True if The Trial End date is greater or equal to 60 days from today</description>
-        <externalId>false</externalId>
-        <formula>IF(
-TODAY() -  Project__r.Trial_End_Date__c &gt;=60, TRUE, FALSE)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <inlineHelpText>True if The Trial End date is greater or equal to 60 days from today</inlineHelpText>
-        <label>60 Days Since Trial End</label>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>Check_Assigned_to_sol_vel__c</fullName>
         <externalId>false</externalId>
         <formula>TS_Assigned_to_Solution_Sales__c - TS_Assigned_to_Velocity_Sales__c</formula>
@@ -7451,7 +7293,6 @@ Stamped by process builder at Opp Creation</description>
         <columns>ACCOUNT.NAME</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>Account_Business_Segment__c</columns>
-        <columns>Account_Funding__c</columns>
         <columns>Account_Employee__c</columns>
         <columns>CORE.USERS.ALIAS</columns>
         <columns>Account_Owner_Alias__c</columns>
@@ -7478,7 +7319,6 @@ Stamped by process builder at Opp Creation</description>
         <columns>ACCOUNT.NAME</columns>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>Account_Business_Segment__c</columns>
-        <columns>Account_Funding__c</columns>
         <columns>Account_Employee__c</columns>
         <filterScope>Mine</filterScope>
         <filters>
@@ -7548,7 +7388,6 @@ Stamped by process builder at Opp Creation</description>
     </listViews>
     <listViews>
         <fullName>Default_My_Opportunities</fullName>
-        <columns>F_Sort__c</columns>
         <columns>OPPORTUNITY.CREATED_DATE</columns>
         <columns>Account_Customer_Status__c</columns>
         <columns>OPPORTUNITY.NAME</columns>
@@ -7559,7 +7398,6 @@ Stamped by process builder at Opp Creation</description>
         <columns>OPPORTUNITY.TYPE</columns>
         <columns>Account_Business_Segment__c</columns>
         <columns>Account_Employee__c</columns>
-        <columns>Account_Funding__c</columns>
         <filterScope>Mine</filterScope>
         <label>Default - My Opportunities</label>
     </listViews>
@@ -7860,7 +7698,6 @@ Stamped by process builder at Opp Creation</description>
         <columns>OPPORTUNITY.STAGE_NAME</columns>
         <columns>CORE.USERS.ALIAS</columns>
         <columns>Account_Owner_Alias__c</columns>
-        <columns>Account_Funding__c</columns>
         <columns>Account_Employee__c</columns>
         <columns>Date_Self_Service_Subscribed__c</columns>
         <filterScope>Everything</filterScope>
@@ -8364,6 +8201,49 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Single product within a larger product org</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Digital_Customer_Experience_Details__c</picklist>
+            <values>
+                <fullName>Customer analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital customer%2Fpatient onboarding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ecommerce platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education%2FResource repository</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loyalty program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile customer application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omnichannel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Customer%2FPatient scheduling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online ordering platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telehealth solution</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9033,6 +8913,25 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Sales Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Legal_Security_Privacy_Issues_Details__c</picklist>
+            <values>
+                <fullName>Lack of EU Data Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of compliance%2Fprivacy certifications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of non-AWS Cloud Provider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9755,25 +9654,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Product_Maturity__c</picklist>
-            <values>
-                <fullName>Declining</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High Growth</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mature</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Startup</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Product_Type__c</picklist>
             <values>
                 <fullName>Adjacent Digital Product</fullName>
@@ -9812,6 +9692,25 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>5%2E Thriving Product Culture</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Productivity_Application_Details__c</picklist>
+            <values>
+                <fullName>Chatbots%2FRobo advisors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistics application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workforce management%2FScheduling</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9962,17 +9861,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Unknown-4%2E low</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Sales_Motion__c</picklist>
-            <values>
-                <fullName>Bottom-Up</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Top-Down</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10950,21 +10838,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Top_Need__c</picklist>
-            <values>
-                <fullName>Consolidate insights</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritization</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Roadmapping</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Top_Win_Reason__c</picklist>
             <values>
                 <fullName>Bargain price</fullName>
@@ -11062,21 +10935,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Urgency__c</picklist>
-            <values>
-                <fullName>Actively Evaluating</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Browsing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Budget Secured</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Urgency_of_Deal__c</picklist>
             <values>
                 <fullName>Closing End of Month</fullName>
@@ -11126,21 +10984,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Prioritizing what to build next</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Zapier_test__c</picklist>
-            <values>
-                <fullName>Discovery</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Post-discovery</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11674,6 +11517,49 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Single product within a larger product org</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Digital_Customer_Experience_Details__c</picklist>
+            <values>
+                <fullName>Customer analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital customer%2Fpatient onboarding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ecommerce platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education%2FResource repository</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loyalty program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile customer application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omnichannel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Customer%2FPatient scheduling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online ordering platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telehealth solution</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12367,6 +12253,25 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Sales Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Legal_Security_Privacy_Issues_Details__c</picklist>
+            <values>
+                <fullName>Lack of EU Data Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of compliance%2Fprivacy certifications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of non-AWS Cloud Provider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13105,25 +13010,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Product_Maturity__c</picklist>
-            <values>
-                <fullName>Declining</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High Growth</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mature</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Startup</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Product_Type__c</picklist>
             <values>
                 <fullName>Adjacent Digital Product</fullName>
@@ -13162,6 +13048,25 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>5%2E Thriving Product Culture</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Productivity_Application_Details__c</picklist>
+            <values>
+                <fullName>Chatbots%2FRobo advisors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistics application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workforce management%2FScheduling</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13312,17 +13217,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Unknown-4%2E low</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Sales_Motion__c</picklist>
-            <values>
-                <fullName>Bottom-Up</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Top-Down</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -14336,21 +14230,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Top_Need__c</picklist>
-            <values>
-                <fullName>Consolidate insights</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritization</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Roadmapping</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Top_Win_Reason__c</picklist>
             <values>
                 <fullName>Bargain price</fullName>
@@ -14468,21 +14347,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Urgency__c</picklist>
-            <values>
-                <fullName>Actively Evaluating</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Browsing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Budget Secured</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Urgency_of_Deal__c</picklist>
             <values>
                 <fullName>Closing End of Month</fullName>
@@ -14532,21 +14396,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Prioritizing what to build next</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Zapier_test__c</picklist>
-            <values>
-                <fullName>Discovery</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Post-discovery</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -15083,6 +14932,49 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Single product within a larger product org</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Digital_Customer_Experience_Details__c</picklist>
+            <values>
+                <fullName>Customer analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital customer%2Fpatient onboarding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ecommerce platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education%2FResource repository</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loyalty program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile customer application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omnichannel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Customer%2FPatient scheduling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online ordering platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telehealth solution</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -15744,6 +15636,25 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Legal_Security_Privacy_Issues_Details__c</picklist>
+            <values>
+                <fullName>Lack of EU Data Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of compliance%2Fprivacy certifications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of non-AWS Cloud Provider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Loss_Reason__c</picklist>
             <values>
                 <fullName>Alternate Need</fullName>
@@ -16458,25 +16369,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Product_Maturity__c</picklist>
-            <values>
-                <fullName>Declining</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High Growth</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mature</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Startup</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Product_Type__c</picklist>
             <values>
                 <fullName>Adjacent Digital Product</fullName>
@@ -16515,6 +16407,25 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>5%2E Thriving Product Culture</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Productivity_Application_Details__c</picklist>
+            <values>
+                <fullName>Chatbots%2FRobo advisors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistics application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workforce management%2FScheduling</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16665,17 +16576,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Unknown-4%2E low</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Sales_Motion__c</picklist>
-            <values>
-                <fullName>Bottom-Up</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Top-Down</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -17689,21 +17589,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Top_Need__c</picklist>
-            <values>
-                <fullName>Consolidate insights</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritization</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Roadmapping</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Top_Win_Reason__c</picklist>
             <values>
                 <fullName>Bargain price</fullName>
@@ -17805,21 +17690,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Urgency__c</picklist>
-            <values>
-                <fullName>Actively Evaluating</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Browsing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Budget Secured</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Urgency_of_Deal__c</picklist>
             <values>
                 <fullName>Closing End of Month</fullName>
@@ -17869,21 +17739,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Prioritizing what to build next</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Zapier_test__c</picklist>
-            <values>
-                <fullName>Discovery</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Post-discovery</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -18433,6 +18288,49 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Single product within a larger product org</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Digital_Customer_Experience_Details__c</picklist>
+            <values>
+                <fullName>Customer analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital customer%2Fpatient onboarding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ecommerce platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education%2FResource repository</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loyalty program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile customer application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omnichannel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Customer%2FPatient scheduling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online ordering platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telehealth solution</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19126,6 +19024,25 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Sales Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Legal_Security_Privacy_Issues_Details__c</picklist>
+            <values>
+                <fullName>Lack of EU Data Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of compliance%2Fprivacy certifications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of non-AWS Cloud Provider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19880,25 +19797,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Product_Maturity__c</picklist>
-            <values>
-                <fullName>Declining</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High Growth</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mature</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Startup</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Product_Type__c</picklist>
             <values>
                 <fullName>Adjacent Digital Product</fullName>
@@ -19937,6 +19835,25 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>5%2E Thriving Product Culture</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Productivity_Application_Details__c</picklist>
+            <values>
+                <fullName>Chatbots%2FRobo advisors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistics application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workforce management%2FScheduling</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -20087,17 +20004,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Unknown-4%2E low</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Sales_Motion__c</picklist>
-            <values>
-                <fullName>Bottom-Up</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Top-Down</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -21111,21 +21017,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Top_Need__c</picklist>
-            <values>
-                <fullName>Consolidate insights</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritization</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Roadmapping</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Top_Win_Reason__c</picklist>
             <values>
                 <fullName>Bargain price</fullName>
@@ -21231,21 +21122,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Urgency__c</picklist>
-            <values>
-                <fullName>Actively Evaluating</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Browsing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Budget Secured</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Urgency_of_Deal__c</picklist>
             <values>
                 <fullName>Closing End of Month</fullName>
@@ -21295,21 +21171,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Prioritizing what to build next</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Zapier_test__c</picklist>
-            <values>
-                <fullName>Discovery</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Post-discovery</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -21858,6 +21719,49 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Single product within a larger product org</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Digital_Customer_Experience_Details__c</picklist>
+            <values>
+                <fullName>Customer analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Digital customer%2Fpatient onboarding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ecommerce platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education%2FResource repository</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Loyalty program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile customer application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Omnichannel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Customer%2FPatient scheduling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online ordering platform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telehealth solution</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -22551,6 +22455,25 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Sales Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Legal_Security_Privacy_Issues_Details__c</picklist>
+            <values>
+                <fullName>Lack of EU Data Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of compliance%2Fprivacy certifications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of non-AWS Cloud Provider</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -23293,25 +23216,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Product_Maturity__c</picklist>
-            <values>
-                <fullName>Declining</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High Growth</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mature</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Startup</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Product_Type__c</picklist>
             <values>
                 <fullName>Adjacent Digital Product</fullName>
@@ -23350,6 +23254,25 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>5%2E Thriving Product Culture</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Productivity_Application_Details__c</picklist>
+            <values>
+                <fullName>Chatbots%2FRobo advisors</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistics application</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workforce management%2FScheduling</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -23500,17 +23423,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Unknown-4%2E low</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Sales_Motion__c</picklist>
-            <values>
-                <fullName>Bottom-Up</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Top-Down</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -24524,21 +24436,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Top_Need__c</picklist>
-            <values>
-                <fullName>Consolidate insights</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritization</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Roadmapping</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Top_Win_Reason__c</picklist>
             <values>
                 <fullName>Bargain price</fullName>
@@ -24656,21 +24553,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Urgency__c</picklist>
-            <values>
-                <fullName>Actively Evaluating</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Browsing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Budget Secured</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Urgency_of_Deal__c</picklist>
             <values>
                 <fullName>Closing End of Month</fullName>
@@ -24720,21 +24602,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Prioritizing what to build next</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Zapier_test__c</picklist>
-            <values>
-                <fullName>Discovery</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Post-discovery</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
