@@ -1438,7 +1438,7 @@ IF(Today() - DQ_Last_Updated__c &gt; 183,&quot;Expired&quot; ,&quot;Completed&qu
         <label>Status Reason</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
@@ -1766,7 +1766,7 @@ IF(Today() - DQ_Last_Updated__c &gt; 183,&quot;Expired&quot; ,&quot;Completed&qu
         <label>Trial End Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Date</type>
     </fields>
     <fields>
@@ -4071,7 +4071,7 @@ X-4 (all w low score)</inlineHelpText>
         <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>

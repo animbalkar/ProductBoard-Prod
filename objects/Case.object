@@ -3561,7 +3561,7 @@ NOT(ISBLANK( Opportunity__c )),
         <filters>
             <field>CORE.USERS.FIRST_NAME</field>
             <operation>notEqual</operation>
-            <value>Lauren,Lika,Andrea,Shreyasi,Kevin,Lisa,Paula,Harrison</value>
+            <value>Miles B,Lauren,Lika,Andrea,Shreyasi,Kevin,Lisa,Paula,Harrison</value>
         </filters>
         <filters>
             <field>CASES.CREATED_DATE_DATE_ONLY</field>

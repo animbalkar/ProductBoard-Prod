@@ -1071,7 +1071,7 @@ IF ( Initial_ARR__c &gt; 0, Max( Prior_Makers__c ,  admins__c +  editors__c ,  I
         <externalId>false</externalId>
         <label>Trial End Date</label>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Date</type>
     </fields>
     <fields>
