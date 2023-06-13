@@ -131,6 +131,11 @@
         <label>Spam Email</label>
     </customValue>
     <customValue>
+        <fullName>Unqualified - Less Than 100 EE</fullName>
+        <default>false</default>
+        <label>Unqualified - Less Than 100 EE</label>
+    </customValue>
+    <customValue>
         <fullName>Growth RR</fullName>
         <default>false</default>
         <isActive>false</isActive>

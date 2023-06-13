@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>Core Digital Product</fullName>
+        <fullName>Agency</fullName>
         <default>false</default>
-        <label>Core Digital Product</label>
+        <label>Agency</label>
     </customValue>
     <customValue>
-        <fullName>Adjacent Digital Product</fullName>
+        <fullName>B2B Saas/Software product</fullName>
         <default>false</default>
-        <label>Adjacent Digital Product</label>
+        <label>B2B Saas/Software product</label>
     </customValue>
     <customValue>
-        <fullName>Internal Digital Product</fullName>
+        <fullName>B2C Saas/Software product</fullName>
         <default>false</default>
-        <label>Internal Digital Product</label>
+        <label>B2C Saas/Software product</label>
     </customValue>
     <customValue>
-        <fullName>Digital Agency</fullName>
+        <fullName>Digital customer experience</fullName>
         <default>false</default>
-        <label>Digital Agency</label>
+        <label>Digital customer experience</label>
+    </customValue>
+    <customValue>
+        <fullName>eCommerce</fullName>
+        <default>false</default>
+        <label>eCommerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal productivity solution</fullName>
+        <default>false</default>
+        <label>Internal productivity solution</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
     </customValue>
     <masterLabel>Product Type</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>

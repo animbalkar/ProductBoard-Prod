@@ -1658,8 +1658,10 @@ IF(IsPickVal(Competition_Score__c,&quot;&quot;),0, 1)</formula>
     </fields>
     <fields>
         <fullName>Product_Type__c</fullName>
+        <description>What is the customer building?</description>
         <externalId>false</externalId>
-        <label>Product Type</label>
+        <inlineHelpText>What is the customer building?</inlineHelpText>
+        <label>Primary Product Type</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -3187,12 +3189,10 @@ Max(0,Date_Transferred_to_2_0__c - Datevalue(CreatedDate)))</formula>
     </fields>
     <fields>
         <fullName>Scope_of_Account__c</fullName>
+        <description>How many people are in the Product Management (PM) department at the organization?</description>
         <externalId>false</externalId>
-        <inlineHelpText>Tier 1 (25+ potential makers on this account)
-Tier 2 (10-24 potential makers on this account)
-Tier 3 (5-10 potential makers on this account)
-Tier 4 (Less than 5 potential makers on this account)</inlineHelpText>
-        <label>Scope of Account</label>
+        <inlineHelpText>How many people are in the Product Management (PM) department at the organization?</inlineHelpText>
+        <label># people in PM Organization</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -3202,24 +3202,31 @@ Tier 4 (Less than 5 potential makers on this account)</inlineHelpText>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Tier 1</fullName>
+                    <fullName>&lt; 10</fullName>
                     <default>false</default>
-                    <label>Tier 1 Tier 1 (25+ potential makers )</label>
+                    <label>&lt; 10</label>
                 </value>
                 <value>
-                    <fullName>Tier 2</fullName>
+                    <fullName>10-50</fullName>
                     <default>false</default>
-                    <label>Tier 2 (10-24 potential makers)</label>
+                    <label>10-50</label>
+                </value>
+                <value>
+                    <fullName>51+</fullName>
+                    <default>false</default>
+                    <label>51+</label>
+                </value>
+                <value>
+                    <fullName>Tier 1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Tier 1 Tier 1 (25+ potential makers )</label>
                 </value>
                 <value>
                     <fullName>Tier 3</fullName>
                     <default>false</default>
+                    <isActive>false</isActive>
                     <label>Tier 3 (5-10 potential makers)</label>
-                </value>
-                <value>
-                    <fullName>Tier 4</fullName>
-                    <default>false</default>
-                    <label>Tier 4 (&lt; 5 potential makers)</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -6797,10 +6804,10 @@ Stamped at opp creation, unless the opp was not created from a contact. In this 
     </fields>
     <fields>
         <fullName>What_is_the_customer_using_PB_for__c</fullName>
-        <description>July 22, 2022 changed label from &quot;What is the customer using PB for?&quot; to &quot;What product(s) is PB being used for?&quot;</description>
+        <description>What is the customer building?</description>
         <externalId>false</externalId>
         <inlineHelpText>What product(s) is the customer using PB to build? Highlight specific products, teams (internal or external), hardware, software, etc. that the customer will use PB to build out.</inlineHelpText>
-        <label>What product(s) is PB being used for?</label>
+        <label>Primary Product type Details</label>
         <length>32768</length>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -8592,6 +8599,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Unqualified - Less Than 100 EE</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Won on Creation</fullName>
                 <default>false</default>
             </values>
@@ -9621,19 +9632,31 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Product_Type__c</picklist>
             <values>
-                <fullName>Adjacent Digital Product</fullName>
+                <fullName>Agency</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Core Digital Product</fullName>
+                <fullName>B2B Saas%2FSoftware product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Agency</fullName>
+                <fullName>B2C Saas%2FSoftware product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Internal Digital Product</fullName>
+                <fullName>Digital customer experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal productivity solution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9832,19 +9855,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Scope_of_Account__c</picklist>
             <values>
-                <fullName>Tier 1</fullName>
+                <fullName>%3C 10</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Tier 2</fullName>
+                <fullName>10-50</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Tier 3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tier 4</fullName>
+                <fullName>51%2B</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11936,6 +11955,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Unqualified - Less Than 100 EE</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Unqualified - Low Score</fullName>
                 <default>false</default>
             </values>
@@ -12977,19 +13000,31 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Product_Type__c</picklist>
             <values>
-                <fullName>Adjacent Digital Product</fullName>
+                <fullName>Agency</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Core Digital Product</fullName>
+                <fullName>B2B Saas%2FSoftware product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Agency</fullName>
+                <fullName>B2C Saas%2FSoftware product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Internal Digital Product</fullName>
+                <fullName>Digital customer experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal productivity solution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13188,19 +13223,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Scope_of_Account__c</picklist>
             <values>
-                <fullName>Tier 1</fullName>
+                <fullName>%3C 10</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Tier 2</fullName>
+                <fullName>10-50</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Tier 3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tier 4</fullName>
+                <fullName>51%2B</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -15323,6 +15354,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Unqualified - Less Than 100 EE</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Won on Creation</fullName>
                 <default>false</default>
             </values>
@@ -16336,19 +16371,31 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Product_Type__c</picklist>
             <values>
-                <fullName>Adjacent Digital Product</fullName>
+                <fullName>Agency</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Core Digital Product</fullName>
+                <fullName>B2B Saas%2FSoftware product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Agency</fullName>
+                <fullName>B2C Saas%2FSoftware product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Internal Digital Product</fullName>
+                <fullName>Digital customer experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal productivity solution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16547,19 +16594,11 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Scope_of_Account__c</picklist>
             <values>
-                <fullName>Tier 1</fullName>
+                <fullName>%3C 10</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Tier 2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tier 3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tier 4</fullName>
+                <fullName>10-50</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -18707,6 +18746,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Unqualified - Less Than 100 EE</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Unqualified - Low Score</fullName>
                 <default>false</default>
             </values>
@@ -19764,19 +19807,31 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Product_Type__c</picklist>
             <values>
-                <fullName>Adjacent Digital Product</fullName>
+                <fullName>Agency</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Core Digital Product</fullName>
+                <fullName>B2B Saas%2FSoftware product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Agency</fullName>
+                <fullName>B2C Saas%2FSoftware product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Internal Digital Product</fullName>
+                <fullName>Digital customer experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal productivity solution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19975,19 +20030,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Scope_of_Account__c</picklist>
             <values>
-                <fullName>Tier 1</fullName>
+                <fullName>%3C 10</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Tier 2</fullName>
+                <fullName>10-50</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Tier 3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tier 4</fullName>
+                <fullName>51%2B</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -22138,6 +22189,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Unqualified - Less Than 100 EE</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Unqualified - Low Score</fullName>
                 <default>false</default>
             </values>
@@ -23183,19 +23238,31 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Product_Type__c</picklist>
             <values>
-                <fullName>Adjacent Digital Product</fullName>
+                <fullName>Agency</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Core Digital Product</fullName>
+                <fullName>B2B Saas%2FSoftware product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Digital Agency</fullName>
+                <fullName>B2C Saas%2FSoftware product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Internal Digital Product</fullName>
+                <fullName>Digital customer experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Internal productivity solution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -23394,19 +23461,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Scope_of_Account__c</picklist>
             <values>
-                <fullName>Tier 1</fullName>
+                <fullName>%3C 10</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Tier 2</fullName>
+                <fullName>10-50</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Tier 3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tier 4</fullName>
+                <fullName>51%2B</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -24654,7 +24717,7 @@ ISBLANK( Product_Team_Time_Zone__c )||
 ISPICKVAL( Top_Win_Reason__c, &quot;&quot;)||
 ISBLANK( What_is_the_customer_using_PB_for__c ))</errorConditionFormula>
         <errorDisplayField>Top_Win_Reason__c</errorDisplayField>
-        <errorMessage>Need Product Team Time Zone, Top Win Reason, Win Reason, What the customer is using PB For, Who Helped to win this opportunity [OP03-2]</errorMessage>
+        <errorMessage>Need Product Team Time Zone, Top Win Reason, Win Reason, Primary Product Type details Who Helped to win this opportunity [OP03-2]</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>OP03_5_Won_Opp_Amend_Type</fullName>

@@ -7387,6 +7387,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>Unqualified - Less Than 100 EE</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Unqualified - Low Score</fullName>
                 <default>false</default>
             </values>
@@ -10843,6 +10847,10 @@ IF(
             </values>
             <values>
                 <fullName>Unqualified - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unqualified - Less Than 100 EE</fullName>
                 <default>false</default>
             </values>
             <values>
