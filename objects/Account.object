@@ -6368,15 +6368,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7646,19 +7638,15 @@ IF(
         <picklistValues>
             <picklist>Most_important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9827,15 +9815,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11109,19 +11089,15 @@ IF(
         <picklistValues>
             <picklist>Most_important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

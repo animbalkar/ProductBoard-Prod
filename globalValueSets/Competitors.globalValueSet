@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>None</fullName>
-        <default>false</default>
-        <label>None</label>
-    </customValue>
-    <customValue>
         <fullName>Aha!</fullName>
         <default>false</default>
         <label>Aha!</label>
@@ -163,7 +158,14 @@
     <customValue>
         <fullName>Other</fullName>
         <default>false</default>
+        <isActive>false</isActive>
         <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>None</label>
     </customValue>
     <description>https://docs.google.com/spreadsheets/d/1erIdqoy60JwLAnpb91EfoJV5YrXDnbwSaA-aqcBlw48/edit#gid=1561611259</description>
     <masterLabel>Competitors</masterLabel>

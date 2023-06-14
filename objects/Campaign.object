@@ -795,9 +795,9 @@
         <columns>CORE.USERS.LAST_NAME</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>CAMPAIGN.CAMPAIGN_TYPE</field>
+            <field>CORE.USERS.FIRST_NAME</field>
             <operation>equals</operation>
-            <value>Community</value>
+            <value>ramp</value>
         </filters>
         <label>All Active Campaigns</label>
     </listViews>

@@ -1082,39 +1082,34 @@ Max_Stage_Achieved__c &gt;= 1
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Lost to Competitor [pb]</fullName>
+                    <fullName>Business: No budget/lost funding</fullName>
                     <default>false</default>
-                    <label>Lost to Competitor [pb]</label>
+                    <label>Business: No budget/lost funding</label>
                 </value>
                 <value>
-                    <fullName>No Decision / Ghosting</fullName>
+                    <fullName>Business: Out of business/Reduction in Force/Acquisition</fullName>
                     <default>false</default>
-                    <label>No Decision / Ghosting</label>
+                    <label>Business: Out of business/Reduction in Force/Acquisition</label>
                 </value>
                 <value>
-                    <fullName>No Budget / Lost Funding</fullName>
+                    <fullName>Business: Purchased self service</fullName>
                     <default>false</default>
-                    <label>No Budget / Lost Funding</label>
+                    <label>Business: Purchased self service</label>
                 </value>
                 <value>
-                    <fullName>Price</fullName>
+                    <fullName>Business: Too expensive for the value/Pricing</fullName>
                     <default>false</default>
-                    <label>Pricing (Cost)</label>
+                    <label>Business: Too expensive for the value/Pricing</label>
                 </value>
                 <value>
-                    <fullName>Feature Gap [pb]</fullName>
+                    <fullName>Deal Dynamic: Lack of buy-in from key stakeholders</fullName>
                     <default>false</default>
-                    <label>Feature Gap [pb]</label>
+                    <label>Deal Dynamic: Lack of buy-in from key stakeholders</label>
                 </value>
                 <value>
-                    <fullName>Tool Consolidation [pb]</fullName>
+                    <fullName>Deal Dynamic: Stakeholder change</fullName>
                     <default>false</default>
-                    <label>Tool Consolidation [pb]</label>
-                </value>
-                <value>
-                    <fullName>Timing</fullName>
-                    <default>false</default>
-                    <label>Timing</label>
+                    <label>Deal Dynamic: Stakeholder change</label>
                 </value>
                 <value>
                     <fullName>Duplicate account_opportunity</fullName>
@@ -1122,148 +1117,69 @@ Max_Stage_Achieved__c &gt;= 1
                     <label>Duplicate account/opportunity</label>
                 </value>
                 <value>
-                    <fullName>Sales declined</fullName>
+                    <fullName>Need: Doesn&apos;t have the need/Value not proven</fullName>
                     <default>false</default>
-                    <label>Sales declined</label>
+                    <label>Need: Doesn&apos;t have the need/Value not proven</label>
                 </value>
                 <value>
-                    <fullName>Does not meet ICP</fullName>
+                    <fullName>Operational: Not qualified</fullName>
                     <default>false</default>
-                    <label>Does not meet ICP</label>
+                    <label>Operational: Not qualified</label>
                 </value>
                 <value>
-                    <fullName>Self Service Subscribed</fullName>
+                    <fullName>Operational: Unresponsive trial</fullName>
                     <default>false</default>
-                    <label>Self Service Subscribed</label>
+                    <label>Operational: Unresponsive trial</label>
                 </value>
                 <value>
-                    <fullName>Sales Decline after/during DM</fullName>
+                    <fullName>Product: Gap</fullName>
                     <default>false</default>
-                    <label>Sales Decline after/during DM</label>
+                    <label>Product: Gap</label>
+                </value>
+                <value>
+                    <fullName>Product: Legal/Security/Privacy Issue</fullName>
+                    <default>false</default>
+                    <label>Product: Legal/Security/Privacy Issue</label>
+                </value>
+                <value>
+                    <fullName>Product: Too complex for their need</fullName>
+                    <default>false</default>
+                    <label>Product: Too complex for their need</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
                 </value>
                 <value>
                     <fullName>Automatic - Space Deleted/Expired</fullName>
                     <default>false</default>
                     <label>Automatic - Space Deleted/Expired</label>
                 </value>
-                <value>
-                    <fullName>Adoption (Usage) [pb]</fullName>
-                    <default>false</default>
-                    <label>Adoption (Usage) [pb]</label>
-                </value>
-                <value>
-                    <fullName>Lack of Value (Outcomes) [pb]</fullName>
-                    <default>false</default>
-                    <label>Lack of Value (Outcomes) [pb]</label>
-                </value>
-                <value>
-                    <fullName>Out of Business/Acquired</fullName>
-                    <default>false</default>
-                    <label>Out of Business/Acquired</label>
-                </value>
-                <value>
-                    <fullName>Champion Change</fullName>
-                    <default>false</default>
-                    <label>Champion Change</label>
-                </value>
-                <value>
-                    <fullName>Performance [pb]</fullName>
-                    <default>false</default>
-                    <label>Performance [pb]</label>
-                </value>
-                <value>
-                    <fullName>Usability [pb]</fullName>
-                    <default>false</default>
-                    <label>Usability [pb]</label>
-                </value>
-                <value>
-                    <fullName>Customer Experience [pb]</fullName>
-                    <default>false</default>
-                    <label>Customer Experience [pb]</label>
-                </value>
-                <value>
-                    <fullName>No Data</fullName>
-                    <default>false</default>
-                    <label>No Data</label>
-                </value>
-                <value>
-                    <fullName>Security [pb]</fullName>
-                    <default>false</default>
-                    <label>Security [pb]</label>
-                </value>
-                <value>
-                    <fullName>Project on hold</fullName>
-                    <default>false</default>
-                    <label>Project on hold</label>
-                </value>
-                <value>
-                    <fullName>Reason Missing</fullName>
-                    <default>false</default>
-                    <label>Reason Missing</label>
-                </value>
-                <value>
-                    <fullName>Legal/Security Issue [pb]</fullName>
-                    <default>false</default>
-                    <label>Legal/Security Issue [pb]</label>
-                </value>
-                <value>
-                    <fullName>Left Company</fullName>
-                    <default>false</default>
-                    <label>Left Company</label>
-                </value>
-                <value>
-                    <fullName>Change Management</fullName>
-                    <default>false</default>
-                    <label>Change Management</label>
-                </value>
-                <value>
-                    <fullName>Alternate Need</fullName>
-                    <default>false</default>
-                    <label>Alternate Need</label>
-                </value>
-                <value>
-                    <fullName>Trial Loss Reason</fullName>
-                    <default>false</default>
-                    <label>Trial Loss Reason</label>
-                </value>
-                <value>
-                    <fullName>Trial Created Unintentionally</fullName>
-                    <default>false</default>
-                    <label>Trial Created Unintentionally</label>
-                </value>
-                <value>
-                    <fullName>PB does not have an EU Data Center</fullName>
-                    <default>false</default>
-                    <label>PB does not have an EU Data Center</label>
-                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Lost to Competitor [pb]</valueName>
+                <valueName>Business: No budget/lost funding</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>No Decision / Ghosting</valueName>
+                <valueName>Business: Out of business/Reduction in Force/Acquisition</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>No Budget / Lost Funding</valueName>
+                <valueName>Business: Purchased self service</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Price</valueName>
+                <valueName>Business: Too expensive for the value/Pricing</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Feature Gap [pb]</valueName>
+                <valueName>Deal Dynamic: Lack of buy-in from key stakeholders</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Tool Consolidation [pb]</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Timing</valueName>
+                <valueName>Deal Dynamic: Stakeholder change</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
@@ -1271,79 +1187,23 @@ Max_Stage_Achieved__c &gt;= 1
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Sales declined</valueName>
+                <valueName>Need: Doesn&apos;t have the need/Value not proven</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Does not meet ICP</valueName>
+                <valueName>Operational: Not qualified</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Self Service Subscribed</valueName>
+                <valueName>Product: Gap</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Sales Decline after/during DM</valueName>
+                <valueName>Product: Legal/Security/Privacy Issue</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
                 <valueName>Automatic - Space Deleted/Expired</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Adoption (Usage) [pb]</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Lack of Value (Outcomes) [pb]</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Out of Business/Acquired</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Champion Change</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Performance [pb]</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Usability [pb]</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Customer Experience [pb]</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Reason Missing</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Legal/Security Issue [pb]</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Left Company</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Change Management</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Alternate Need</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Trial Created Unintentionally</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>PB does not have an EU Data Center</valueName>
             </valueSettings>
         </valueSet>
     </fields>
@@ -2398,54 +2258,60 @@ customer’s organization</inlineHelpText>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>High feature fit</fullName>
+                    <fullName>Product: Strong fit</fullName>
                     <default>false</default>
-                    <label>High feature fit</label>
+                    <label>Product: Strong fit</label>
                 </value>
                 <value>
-                    <fullName>Bargain price</fullName>
+                    <fullName>Business: Pricing vs. alternative</fullName>
                     <default>false</default>
-                    <label>Bargain price</label>
+                    <label>Business: Pricing vs. alternative</label>
                 </value>
                 <value>
-                    <fullName>Beat competitor propositions</fullName>
+                    <fullName>Deal Dynamic: Strong sales process</fullName>
                     <default>false</default>
-                    <label>Beat competitor propositions</label>
-                </value>
-                <value>
-                    <fullName>Highly motivated buyer</fullName>
-                    <default>false</default>
-                    <label>Highly motivated buyer</label>
-                </value>
-                <value>
-                    <fullName>Excellent sales skill</fullName>
-                    <default>false</default>
-                    <label>Excellent sales skill</label>
-                </value>
-                <value>
-                    <fullName>Confident social proof</fullName>
-                    <default>false</default>
-                    <label>Confident social proof</label>
-                </value>
-                <value>
-                    <fullName>Positive brand affinity</fullName>
-                    <default>false</default>
-                    <label>Positive brand affinity</label>
-                </value>
-                <value>
-                    <fullName>Solves existing internal pain points</fullName>
-                    <default>false</default>
-                    <label>Solves existing internal pain points</label>
-                </value>
-                <value>
-                    <fullName>No single reason</fullName>
-                    <default>false</default>
-                    <label>No single reason</label>
+                    <label>Deal Dynamic: Strong sales process</label>
                 </value>
                 <value>
                     <fullName>Other</fullName>
                     <default>false</default>
                     <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Beat competitor propositions</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Beat competitor propositions</label>
+                </value>
+                <value>
+                    <fullName>Confident social proof</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Confident social proof</label>
+                </value>
+                <value>
+                    <fullName>Excellent sales skill</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Excellent sales skill</label>
+                </value>
+                <value>
+                    <fullName>No single reason</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>No single reason</label>
+                </value>
+                <value>
+                    <fullName>Positive brand affinity</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Positive brand affinity</label>
+                </value>
+                <value>
+                    <fullName>Solves existing internal pain points</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Solves existing internal pain points</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -4122,12 +3988,11 @@ Account.Name &lt;&gt; &quot;productboard&quot;,
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
-        <type>MultiselectPicklist</type>
+        <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
             <valueSetName>Competitors</valueSetName>
         </valueSet>
-        <visibleLines>3</visibleLines>
     </fields>
     <fields>
         <fullName>Open_Transfer_Count__c</fullName>
@@ -4155,9 +4020,59 @@ Account.Name &lt;&gt; &quot;productboard&quot;,
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
-                    <fullName>Adoption: Productboard wasn&apos;t adopted by team</fullName>
+                    <fullName>Business: No payment</fullName>
                     <default>false</default>
-                    <label>Adoption: Productboard wasn&apos;t adopted by team</label>
+                    <label>Business: No payment</label>
+                </value>
+                <value>
+                    <fullName>Business: Out of business/Reduction in Force/Acquisition</fullName>
+                    <default>false</default>
+                    <label>Business: Out of business/Reduction in Force/Acquisition</label>
+                </value>
+                <value>
+                    <fullName>Business: Too expensive for the value/Pricing</fullName>
+                    <default>false</default>
+                    <label>Business: Too expensive for the value/Pricing</label>
+                </value>
+                <value>
+                    <fullName>Deal Dynamic: Lack of buy-in from key stakeholders</fullName>
+                    <default>false</default>
+                    <label>Deal Dynamic: Lack of buy-in from key stakeholders</label>
+                </value>
+                <value>
+                    <fullName>Deal Dynamic: Stakeholder change</fullName>
+                    <default>false</default>
+                    <label>Deal Dynamic: Stakeholder change</label>
+                </value>
+                <value>
+                    <fullName>Product: Gap</fullName>
+                    <default>false</default>
+                    <label>Product: Gap</label>
+                </value>
+                <value>
+                    <fullName>Product: Legal/Security/Privacy Issue</fullName>
+                    <default>false</default>
+                    <label>Product: Legal/Security/Privacy Issue</label>
+                </value>
+                <value>
+                    <fullName>Product: Low adoption/Value</fullName>
+                    <default>false</default>
+                    <label>Product: Low adoption/Value</label>
+                </value>
+                <value>
+                    <fullName>Product: Too complex for their need</fullName>
+                    <default>false</default>
+                    <label>Product: Too complex for their need</label>
+                </value>
+                <value>
+                    <fullName>Service: Not enough support</fullName>
+                    <default>false</default>
+                    <label>Service: Not enough support</label>
+                </value>
+                <value>
+                    <fullName>Unresponsive / No Feedback</fullName>
+                    <default>false</default>
+                    <label>Unresponsive / No Feedback</label>
                 </value>
                 <value>
                     <fullName>Value: Not seeing results with Productboard</fullName>
@@ -4165,44 +4080,9 @@ Account.Name &lt;&gt; &quot;productboard&quot;,
                     <label>Value: Not seeing results with Productboard</label>
                 </value>
                 <value>
-                    <fullName>Product: Missing product features</fullName>
+                    <fullName>Other</fullName>
                     <default>false</default>
-                    <label>Product: Missing product features</label>
-                </value>
-                <value>
-                    <fullName>Budget: Price too high for value</fullName>
-                    <default>false</default>
-                    <label>Budget: Price too high for value</label>
-                </value>
-                <value>
-                    <fullName>Competition: Moving to a new system</fullName>
-                    <default>false</default>
-                    <label>Competition: Moving to a new system</label>
-                </value>
-                <value>
-                    <fullName>Acquisition: Company was acquired</fullName>
-                    <default>false</default>
-                    <label>Acquisition: Company was acquired</label>
-                </value>
-                <value>
-                    <fullName>Non-Payment</fullName>
-                    <default>false</default>
-                    <label>Non-Payment</label>
-                </value>
-                <value>
-                    <fullName>Lack of Support: Didn&apos;t have enough services or support from Productboard</fullName>
-                    <default>false</default>
-                    <label>Lack of Support: Didn&apos;t have enough services or support from Productboard</label>
-                </value>
-                <value>
-                    <fullName>Champion Loss : The person who championed Productboard left</fullName>
-                    <default>false</default>
-                    <label>Champion Loss : The person who championed Productboard left</label>
-                </value>
-                <value>
-                    <fullName>Unresponsive / No Feedback</fullName>
-                    <default>false</default>
-                    <label>Unresponsive / No Feedback</label>
+                    <label>Other</label>
                 </value>
                 <value>
                     <fullName>Budget cut due to economy (product/workforce)</fullName>
@@ -6829,10 +6709,10 @@ Stamped at opp creation, unless the opp was not created from a contact. In this 
     </fields>
     <fields>
         <fullName>Most_Important_area_of_the_product__c</fullName>
+        <description>How will the customer use PB?</description>
         <externalId>false</externalId>
-        <inlineHelpText>- what would the customer like to tackle first?
-- top pain point(s)</inlineHelpText>
-        <label>Most important area of the product?</label>
+        <inlineHelpText>How will the customer use PB?</inlineHelpText>
+        <label>Use Case</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -7889,135 +7769,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Close_Date_Push_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Security</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8464,15 +8244,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8914,162 +8686,66 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Loss_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29 %5Bpb%5D</fullName>
+                <fullName>Business%3A Out of business%2FReduction in Force%2FAcquisition</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience %5Bpb%5D</fullName>
+                <fullName>Need%3A Doesn%27t have the need%2FValue not proven</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Feature Gap %5Bpb%5D</fullName>
+                <fullName>Operational%3A Unresponsive trial</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Lack of Value %28Outcomes%29 %5Bpb%5D</fullName>
+                <fullName>Product%3A Gap</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Left Company</fullName>
+                <fullName>Product%3A Legal%2FSecurity%2FPrivacy Issue</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Legal%2FSecurity Issue %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>PB does not have an EU Data Center</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Price</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Security %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Created Unintentionally</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability %5Bpb%5D</fullName>
+                <fullName>Product%3A Too complex for their need</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
             <picklist>Lost_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9144,15 +8820,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9308,19 +8976,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Most_Important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9535,35 +9199,47 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Primary_lost_reason__c</picklist>
             <values>
-                <fullName>Acquisition%3A Company was acquired</fullName>
+                <fullName>Business%3A No payment</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Adoption%3A Productboard wasn%27t adopted by team</fullName>
+                <fullName>Business%3A Out of business%2FReduction in Force%2FAcquisition</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Budget%3A Price too high for value</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Loss %3A The person who championed Productboard left</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Competition%3A Moving to a new system</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Lack of Support%3A Didn%27t have enough services or support from Productboard</fullName>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Non-Payment</fullName>
+                <fullName>Product%3A Gap</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Product%3A Missing product features</fullName>
+                <fullName>Product%3A Legal%2FSecurity%2FPrivacy Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Low adoption%2FValue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Too complex for their need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service%3A Not enough support</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9870,83 +9546,27 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Secondary_Lost_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10824,31 +10444,11 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Top_Win_Reason__c</picklist>
             <values>
-                <fullName>Bargain price</fullName>
+                <fullName>Business%3A Pricing vs%2E alternative</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Beat competitor propositions</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Confident social proof</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Excellent sales skill</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High feature fit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Highly motivated buyer</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No single reason</fullName>
+                <fullName>Deal Dynamic%3A Strong sales process</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10856,7 +10456,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Positive brand affinity</fullName>
+                <fullName>Product%3A Strong fit</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10955,19 +10555,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>X2nd_most_important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11217,135 +10813,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Close_Date_Push_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Security</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11792,15 +11288,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12266,15 +11754,19 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Loss_Reason__c</picklist>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Business%3A Purchased self service</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Does not meet ICP</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12282,170 +11774,54 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Feature Gap %5Bpb%5D</fullName>
+                <fullName>Need%3A Doesn%27t have the need%2FValue not proven</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Left Company</fullName>
+                <fullName>Operational%3A Not qualified</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Legal%2FSecurity Issue %5Bpb%5D</fullName>
+                <fullName>Operational%3A Unresponsive trial</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Lost to Competitor %5Bpb%5D</fullName>
+                <fullName>Product%3A Gap</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
+                <fullName>Product%3A Legal%2FSecurity%2FPrivacy Issue</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>No Decision %2F Ghosting</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>PB does not have an EU Data Center</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Price</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Project on hold</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Security %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Created Unintentionally</fullName>
+                <fullName>Product%3A Too complex for their need</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
             <picklist>Lost_Reason__c</picklist>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12520,15 +11896,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12684,19 +12052,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Most_Important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12915,23 +12279,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Primary_lost_reason__c</picklist>
             <values>
-                <fullName>Adoption%3A Productboard wasn%27t adopted by team</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Budget%3A Price too high for value</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Loss %3A The person who championed Productboard left</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Competition%3A Moving to a new system</fullName>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Product%3A Missing product features</fullName>
+                <fullName>Product%3A Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Legal%2FSecurity%2FPrivacy Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Low adoption%2FValue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Too complex for their need</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -13238,131 +12614,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Secondary_Lost_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -14228,31 +13508,11 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Top_Win_Reason__c</picklist>
             <values>
-                <fullName>Bargain price</fullName>
+                <fullName>Business%3A Pricing vs%2E alternative</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Beat competitor propositions</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Confident social proof</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Excellent sales skill</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High feature fit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Highly motivated buyer</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No single reason</fullName>
+                <fullName>Deal Dynamic%3A Strong sales process</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14260,11 +13520,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Positive brand affinity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Solves existing internal pain points</fullName>
+                <fullName>Product%3A Strong fit</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -14379,19 +13635,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>X2nd_most_important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -14656,135 +13908,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Close_Date_Push_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Security</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -15219,15 +14371,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15657,15 +14801,19 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Loss_Reason__c</picklist>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Business%3A Out of business%2FReduction in Force%2FAcquisition</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Does not meet ICP</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15673,182 +14821,54 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Feature Gap %5Bpb%5D</fullName>
+                <fullName>Need%3A Doesn%27t have the need%2FValue not proven</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Left Company</fullName>
+                <fullName>Operational%3A Not qualified</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Legal%2FSecurity Issue %5Bpb%5D</fullName>
+                <fullName>Product%3A Gap</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Lost to Competitor %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Decision %2F Ghosting</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Price</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
+                <fullName>Product%3A Legal%2FSecurity%2FPrivacy Issue</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
             <picklist>Lost_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -15923,15 +14943,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16087,19 +15099,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Most_Important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16294,19 +15302,19 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Primary_lost_reason__c</picklist>
             <values>
-                <fullName>Adoption%3A Productboard wasn%27t adopted by team</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Budget%3A Price too high for value</fullName>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Competition%3A Moving to a new system</fullName>
+                <fullName>Product%3A Gap</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Product%3A Missing product features</fullName>
+                <fullName>Product%3A Low adoption%2FValue</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -16605,131 +15613,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Secondary_Lost_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -17595,31 +16507,11 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Top_Win_Reason__c</picklist>
             <values>
-                <fullName>Bargain price</fullName>
+                <fullName>Business%3A Pricing vs%2E alternative</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Beat competitor propositions</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Confident social proof</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Excellent sales skill</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High feature fit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Highly motivated buyer</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No single reason</fullName>
+                <fullName>Deal Dynamic%3A Strong sales process</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17627,7 +16519,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Positive brand affinity</fullName>
+                <fullName>Product%3A Strong fit</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -17730,19 +16622,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>X2nd_most_important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -18008,135 +16896,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Close_Date_Push_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Security</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -18583,15 +17371,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19057,19 +17837,19 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Loss_Reason__c</picklist>
             <values>
-                <fullName>Alternate Need</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Automatic - Space Deleted%2FExpired</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Does not meet ICP</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19077,194 +17857,62 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Feature Gap %5Bpb%5D</fullName>
+                <fullName>Need%3A Doesn%27t have the need%2FValue not proven</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Left Company</fullName>
+                <fullName>Operational%3A Not qualified</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Legal%2FSecurity Issue %5Bpb%5D</fullName>
+                <fullName>Operational%3A Unresponsive trial</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Lost to Competitor %5Bpb%5D</fullName>
+                <fullName>Product%3A Gap</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
+                <fullName>Product%3A Legal%2FSecurity%2FPrivacy Issue</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>No Decision %2F Ghosting</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>PB does not have an EU Data Center</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Price</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Project on hold</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Security %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Created Unintentionally</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
+                <fullName>Product%3A Too complex for their need</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
             <picklist>Lost_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19340,10 +17988,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -19495,19 +18139,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Most_Important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19722,23 +18362,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Primary_lost_reason__c</picklist>
             <values>
-                <fullName>Adoption%3A Productboard wasn%27t adopted by team</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Budget%3A Price too high for value</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Loss %3A The person who championed Productboard left</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Competition%3A Moving to a new system</fullName>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Product%3A Missing product features</fullName>
+                <fullName>Product%3A Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Legal%2FSecurity%2FPrivacy Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Low adoption%2FValue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Too complex for their need</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20045,131 +18697,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Secondary_Lost_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -21035,31 +19591,11 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Top_Win_Reason__c</picklist>
             <values>
-                <fullName>Bargain price</fullName>
+                <fullName>Business%3A Pricing vs%2E alternative</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Beat competitor propositions</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Confident social proof</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Excellent sales skill</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High feature fit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Highly motivated buyer</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No single reason</fullName>
+                <fullName>Deal Dynamic%3A Strong sales process</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21067,11 +19603,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Positive brand affinity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Solves existing internal pain points</fullName>
+                <fullName>Product%3A Strong fit</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -21174,19 +19706,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>X2nd_most_important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -21451,135 +19979,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Close_Date_Push_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Security</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -22026,15 +20454,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -22500,15 +20920,19 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Loss_Reason__c</picklist>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Business%3A Purchased self service</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Does not meet ICP</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -22516,174 +20940,54 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Feature Gap %5Bpb%5D</fullName>
+                <fullName>Need%3A Doesn%27t have the need%2FValue not proven</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Left Company</fullName>
+                <fullName>Operational%3A Not qualified</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Legal%2FSecurity Issue %5Bpb%5D</fullName>
+                <fullName>Operational%3A Unresponsive trial</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Lost to Competitor %5Bpb%5D</fullName>
+                <fullName>Product%3A Gap</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
+                <fullName>Product%3A Legal%2FSecurity%2FPrivacy Issue</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>No Decision %2F Ghosting</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>PB does not have an EU Data Center</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Price</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Project on hold</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Security %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation %5Bpb%5D</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Created Unintentionally</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
+                <fullName>Product%3A Too complex for their need</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
             <picklist>Lost_Reason__c</picklist>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -22758,15 +21062,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>None</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Notion</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -22922,19 +21218,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Most_Important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -23153,23 +21445,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Primary_lost_reason__c</picklist>
             <values>
-                <fullName>Adoption%3A Productboard wasn%27t adopted by team</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Budget%3A Price too high for value</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Loss %3A The person who championed Productboard left</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Competition%3A Moving to a new system</fullName>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Product%3A Missing product features</fullName>
+                <fullName>Product%3A Gap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Legal%2FSecurity%2FPrivacy Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Low adoption%2FValue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product%3A Too complex for their need</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -23476,131 +21780,35 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Secondary_Lost_Reason__c</picklist>
             <values>
-                <fullName>Adoption %28Usage%29</fullName>
+                <fullName>Business%3A No budget%2Flost funding</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Alternate Need</fullName>
+                <fullName>Business%3A Out of business%2FLayoff%2FBusiness consolidation</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Automatic - Space Deleted%2FExpired</fullName>
+                <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Champion Change</fullName>
+                <fullName>Deal Dynamic%3A Growth in scope</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Change Management</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Customer Experience</fullName>
+                <fullName>Deal Dynamic%3A Procurement%2FIT blocked</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DM Declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Deal execution</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Does not meet ICP</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Duplicate account%2Fopportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Feature Gap</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Increased deal scope</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lack of Value %28Outcomes%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Left Company</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Lost to Competitor</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Budget %2F Lost Funding</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No Data</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No SOC II</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Non-Responsive%2FGhosting</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Out of Business%2FAcquired</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Performance</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pricing %28Cost%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Reason Missing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales Decline after%2Fduring DM</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales declined</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Self Service Subscribed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Timing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Tool Consolidation</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Trial Loss Reason</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Unable to prove mission critical</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Usability</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -24466,31 +22674,11 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>Top_Win_Reason__c</picklist>
             <values>
-                <fullName>Bargain price</fullName>
+                <fullName>Business%3A Pricing vs%2E alternative</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Beat competitor propositions</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Confident social proof</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Excellent sales skill</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>High feature fit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Highly motivated buyer</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>No single reason</fullName>
+                <fullName>Deal Dynamic%3A Strong sales process</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -24498,11 +22686,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Positive brand affinity</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Solves existing internal pain points</fullName>
+                <fullName>Product%3A Strong fit</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -24617,19 +22801,15 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>X2nd_most_important_area_of_the_product__c</picklist>
             <values>
-                <fullName>Collecting feedback via Portal</fullName>
+                <fullName>Co-create with customers</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Collecting%2Fconsolidating customer insights</fullName>
+                <fullName>Unite the Business</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Creating%2Fcommunicating roadmaps</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Prioritizing what to build next</fullName>
+                <fullName>Up-level Product Teams</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -24974,8 +23154,7 @@ IsClosed,
 Not( IsWon ),
 Max_Stage_Achieved__c &gt; 0.1,
 isBLank( Loss_Reason_Long__c ) ||
-ISPICKVAL( Loss_Reason__c, &quot;&quot;)||
-ISBLANK( Lost_to_Competition__c ),
+ISPICKVAL( Loss_Reason__c, &quot;&quot;),
 Contains( $User.Department,&quot;Sales&quot;))</errorConditionFormula>
         <errorDisplayField>Loss_Reason_Long__c</errorDisplayField>
         <errorMessage>Please provide Competitors and notes on why this deal was lost. [OP006]</errorMessage>
