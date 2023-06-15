@@ -1388,7 +1388,7 @@ Account_Name__r.Name)</formula>
         <length>50000</length>
         <trackHistory>false</trackHistory>
         <type>LongTextArea</type>
-        <visibleLines>25</visibleLines>
+        <visibleLines>50</visibleLines>
     </fields>
     <fields>
         <fullName>BI_Additional_Info__c</fullName>

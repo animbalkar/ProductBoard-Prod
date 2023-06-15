@@ -6,14 +6,14 @@
         <label>Agency</label>
     </customValue>
     <customValue>
-        <fullName>B2B Saas/Software product</fullName>
+        <fullName>B2B Saas Software product</fullName>
         <default>false</default>
-        <label>B2B Saas/Software product</label>
+        <label>B2B Saas Software product</label>
     </customValue>
     <customValue>
-        <fullName>B2C Saas/Software product</fullName>
+        <fullName>B2C Saas Software product</fullName>
         <default>false</default>
-        <label>B2C Saas/Software product</label>
+        <label>B2C Saas Software product</label>
     </customValue>
     <customValue>
         <fullName>Digital customer experience</fullName>

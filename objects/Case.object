@@ -3782,11 +3782,11 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -4714,11 +4714,11 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5687,11 +5687,11 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6719,11 +6719,11 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7663,11 +7663,11 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8604,11 +8604,11 @@ NOT(ISBLANK( Opportunity__c )),
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>

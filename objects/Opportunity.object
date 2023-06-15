@@ -7995,6 +7995,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Telehealth solution</fullName>
                 <default>false</default>
             </values>
@@ -9312,11 +9316,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11039,6 +11043,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Telehealth solution</fullName>
                 <default>false</default>
             </values>
@@ -12380,11 +12388,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14122,6 +14130,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Telehealth solution</fullName>
                 <default>false</default>
             </values>
@@ -15383,11 +15395,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17122,6 +17134,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Telehealth solution</fullName>
                 <default>false</default>
             </values>
@@ -18463,11 +18479,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20205,6 +20221,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Telehealth solution</fullName>
                 <default>false</default>
             </values>
@@ -21546,11 +21566,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2B Saas%2FSoftware product</fullName>
+                <fullName>B2B Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>B2C Saas%2FSoftware product</fullName>
+                <fullName>B2C Saas Software product</fullName>
                 <default>false</default>
             </values>
             <values>
