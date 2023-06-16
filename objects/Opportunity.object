@@ -1092,11 +1092,6 @@ Max_Stage_Achieved__c &gt;= 1
                     <label>Business: Out of business/Reduction in Force/Acquisition</label>
                 </value>
                 <value>
-                    <fullName>Business: Purchased self service</fullName>
-                    <default>false</default>
-                    <label>Business: Purchased self service</label>
-                </value>
-                <value>
                     <fullName>Business: Too expensive for the value/Pricing</fullName>
                     <default>false</default>
                     <label>Business: Too expensive for the value/Pricing</label>
@@ -1112,11 +1107,6 @@ Max_Stage_Achieved__c &gt;= 1
                     <label>Deal Dynamic: Stakeholder change</label>
                 </value>
                 <value>
-                    <fullName>Duplicate account_opportunity</fullName>
-                    <default>false</default>
-                    <label>Duplicate account/opportunity</label>
-                </value>
-                <value>
                     <fullName>Need: Doesn&apos;t have the need/Value not proven</fullName>
                     <default>false</default>
                     <label>Need: Doesn&apos;t have the need/Value not proven</label>
@@ -1125,6 +1115,11 @@ Max_Stage_Achieved__c &gt;= 1
                     <fullName>Operational: Not qualified</fullName>
                     <default>false</default>
                     <label>Operational: Not qualified</label>
+                </value>
+                <value>
+                    <fullName>Operational: Purchased self service</fullName>
+                    <default>false</default>
+                    <label>Operational: Purchased self service</label>
                 </value>
                 <value>
                     <fullName>Operational: Unresponsive trial</fullName>
@@ -1152,9 +1147,19 @@ Max_Stage_Achieved__c &gt;= 1
                     <label>Other</label>
                 </value>
                 <value>
+                    <fullName>Trial Created Unintentionally</fullName>
+                    <default>false</default>
+                    <label>Trial Created Unintentionally</label>
+                </value>
+                <value>
                     <fullName>Automatic - Space Deleted/Expired</fullName>
                     <default>false</default>
                     <label>Automatic - Space Deleted/Expired</label>
+                </value>
+                <value>
+                    <fullName>Operational: Duplicate account_opportunity</fullName>
+                    <default>false</default>
+                    <label>Operational: Duplicate account/opportunity</label>
                 </value>
             </valueSetDefinition>
             <valueSettings>
@@ -1164,10 +1169,6 @@ Max_Stage_Achieved__c &gt;= 1
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
                 <valueName>Business: Out of business/Reduction in Force/Acquisition</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Business: Purchased self service</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
@@ -1183,15 +1184,19 @@ Max_Stage_Achieved__c &gt;= 1
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
-                <valueName>Duplicate account_opportunity</valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue>Closed Lost</controllingFieldValue>
                 <valueName>Need: Doesn&apos;t have the need/Value not proven</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
                 <valueName>Operational: Not qualified</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Operational: Purchased self service</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Operational: Unresponsive trial</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
@@ -1203,7 +1208,23 @@ Max_Stage_Achieved__c &gt;= 1
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Product: Too complex for their need</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Trial Created Unintentionally</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
                 <valueName>Automatic - Space Deleted/Expired</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <valueName>Operational: Duplicate account_opportunity</valueName>
             </valueSettings>
         </valueSet>
     </fields>
@@ -1995,9 +2016,10 @@ IF( IsWon, ARR__c * Min( Max_Stage_Achieved__c ,1),null))</formula>
     </fields>
     <fields>
         <fullName>num_of_PMs_UX__c</fullName>
+        <description>Updated 6/15/23 from scope of opp to # people in PM organization - exact, filled in by AE</description>
         <externalId>false</externalId>
-        <inlineHelpText>How many makers they want to purchase in this opportunity</inlineHelpText>
-        <label>Scope of Opp - # of Makers</label>
+        <inlineHelpText>How many people are in the Product Management (PM) department at the organization?</inlineHelpText>
+        <label># people in PM Organization - Exact</label>
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
@@ -2276,6 +2298,11 @@ customer’s organization</inlineHelpText>
                     <fullName>Other</fullName>
                     <default>false</default>
                     <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Deal Dynamic: Previous PB user involved in purchase</fullName>
+                    <default>false</default>
+                    <label>Deal Dynamic: Previous PB user involved in purchase</label>
                 </value>
                 <value>
                     <fullName>Beat competitor propositions</fullName>
@@ -2568,8 +2595,9 @@ If(IsClosed,
 Case(Text(Loss_Reason__c),
 &quot;Does not meet ICP&quot;,-1,
 &quot;Duplicate account_opportunity&quot;,-1,
+&quot;Operational: Duplicate account_opportunity&quot;,-1,
 &quot;Sales declined&quot;,-1,
-&quot;Out of Business/Acquired&quot;,-1,
+&quot;Business: Out of business/Reduction in Force/Acquisition&quot;,-1,
 
 IF(ISPICKVAL( Trial_Loss_Reason__c,&quot;&quot;),0,-1)),Max_Stage_Achieved__c)))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
@@ -3078,9 +3106,14 @@ Max(0,Date_Transferred_to_2_0__c - Datevalue(CreatedDate)))</formula>
                     <label>10-50</label>
                 </value>
                 <value>
-                    <fullName>51+</fullName>
+                    <fullName>51-200</fullName>
                     <default>false</default>
-                    <label>51+</label>
+                    <label>51-200</label>
+                </value>
+                <value>
+                    <fullName>201+</fullName>
+                    <default>false</default>
+                    <label>201+</label>
                 </value>
                 <value>
                     <fullName>Tier 1</fullName>
@@ -4008,9 +4041,10 @@ Account.Name &lt;&gt; &quot;productboard&quot;,
     </fields>
     <fields>
         <fullName>Primary_lost_reason__c</fullName>
+        <description>Mandatory for churn and contraction</description>
         <externalId>false</externalId>
-        <inlineHelpText>Mandatory for loss</inlineHelpText>
-        <label>Primary lost reason</label>
+        <inlineHelpText>Mandatory for churn and contraction</inlineHelpText>
+        <label>Primary Churn/Contraction reason</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -4070,11 +4104,6 @@ Account.Name &lt;&gt; &quot;productboard&quot;,
                     <label>Service: Not enough support</label>
                 </value>
                 <value>
-                    <fullName>Unresponsive / No Feedback</fullName>
-                    <default>false</default>
-                    <label>Unresponsive / No Feedback</label>
-                </value>
-                <value>
                     <fullName>Value: Not seeing results with Productboard</fullName>
                     <default>false</default>
                     <label>Value: Not seeing results with Productboard</label>
@@ -4107,6 +4136,12 @@ Account.Name &lt;&gt; &quot;productboard&quot;,
                     <default>false</default>
                     <isActive>false</isActive>
                     <label>The person who championed Productboard left</label>
+                </value>
+                <value>
+                    <fullName>Unresponsive / No Feedback</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Unresponsive / No Feedback</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -7979,10 +8014,6 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Mobile customer application</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Omnichannel</fullName>
                 <default>false</default>
             </values>
@@ -9247,10 +9278,6 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Unresponsive %2F No Feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Value%3A Not seeing results with Productboard</fullName>
                 <default>false</default>
             </values>
@@ -9333,10 +9360,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -9543,7 +9566,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>51%2B</fullName>
+                <fullName>201%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>51-200</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10452,6 +10479,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal Dynamic%3A Previous PB user involved in purchase</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Deal Dynamic%3A Strong sales process</fullName>
                 <default>false</default>
             </values>
@@ -10534,6 +10565,45 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Not Closing End of Month</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>Co-create with Customers%3A De-risk product bets earlier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Co-create with Customers%3A Deepen relationships with VIP customers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Co-create with Customers%3A Deliver faster on needs of core customers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Be a trusted partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Keep everyone aligned and informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Secure product buy-in and investment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Allocate resources to the right bets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Improve outcomes with standardized processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Increase efficiency across eng%2C product%2C design</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -11024,10 +11094,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Loyalty program</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mobile customer application</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11766,7 +11832,7 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Business%3A Purchased self service</fullName>
+                <fullName>Business%3A Out of business%2FReduction in Force%2FAcquisition</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11774,11 +11840,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Duplicate account_opportunity</fullName>
+                <fullName>Deal Dynamic%3A Stakeholder change</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11786,11 +11852,23 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Operational%3A Duplicate account_opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Operational%3A Not qualified</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Operational%3A Purchased self service</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Operational%3A Unresponsive trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11803,6 +11881,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Product%3A Too complex for their need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Created Unintentionally</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12319,10 +12401,6 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Unresponsive %2F No Feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Value%3A Not seeing results with Productboard</fullName>
                 <default>false</default>
             </values>
@@ -12405,10 +12483,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -12615,7 +12689,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>51%2B</fullName>
+                <fullName>201%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>51-200</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13520,6 +13598,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal Dynamic%3A Previous PB user involved in purchase</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Deal Dynamic%3A Strong sales process</fullName>
                 <default>false</default>
             </values>
@@ -13618,6 +13700,45 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Not Closing End of Month</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>Co-create with Customers%3A De-risk product bets earlier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Co-create with Customers%3A Deepen relationships with VIP customers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Co-create with Customers%3A Deliver faster on needs of core customers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Be a trusted partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Keep everyone aligned and informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Secure product buy-in and investment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Allocate resources to the right bets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Improve outcomes with standardized processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Increase efficiency across eng%2C product%2C design</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -14111,10 +14232,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Loyalty program</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mobile customer application</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14829,11 +14946,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Duplicate account_opportunity</fullName>
+                <fullName>Need%3A Doesn%27t have the need%2FValue not proven</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Need%3A Doesn%27t have the need%2FValue not proven</fullName>
+                <fullName>Operational%3A Duplicate account_opportunity</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -15412,10 +15529,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -16613,6 +16726,45 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>Co-create with Customers%3A De-risk product bets earlier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Co-create with Customers%3A Deepen relationships with VIP customers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Co-create with Customers%3A Deliver faster on needs of core customers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Be a trusted partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Keep everyone aligned and informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Secure product buy-in and investment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Allocate resources to the right bets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Improve outcomes with standardized processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Increase efficiency across eng%2C product%2C design</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>What_value_have_we_helped_them_create__c</picklist>
             <values>
                 <fullName>Accelerate Innovation by Building Better Products</fullName>
@@ -17115,10 +17267,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Loyalty program</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mobile customer application</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17861,7 +18009,15 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Business%3A Out of business%2FReduction in Force%2FAcquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Dynamic%3A Lack of buy-in from key stakeholders</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17869,11 +18025,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Duplicate account_opportunity</fullName>
+                <fullName>Need%3A Doesn%27t have the need%2FValue not proven</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Need%3A Doesn%27t have the need%2FValue not proven</fullName>
+                <fullName>Operational%3A Duplicate account_opportunity</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17881,7 +18037,15 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Operational%3A Purchased self service</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Operational%3A Unresponsive trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -17894,6 +18058,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Product%3A Too complex for their need</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trial Created Unintentionally</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -18410,10 +18578,6 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Unresponsive %2F No Feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Value%3A Not seeing results with Productboard</fullName>
                 <default>false</default>
             </values>
@@ -18496,10 +18660,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -18706,7 +18866,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>51%2B</fullName>
+                <fullName>201%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>51-200</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -19611,6 +19775,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal Dynamic%3A Previous PB user involved in purchase</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Deal Dynamic%3A Strong sales process</fullName>
                 <default>false</default>
             </values>
@@ -19697,6 +19865,45 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Not Closing End of Month</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>Co-create with Customers%3A De-risk product bets earlier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Co-create with Customers%3A Deepen relationships with VIP customers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Co-create with Customers%3A Deliver faster on needs of core customers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Be a trusted partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Keep everyone aligned and informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Secure product buy-in and investment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Allocate resources to the right bets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Improve outcomes with standardized processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Increase efficiency across eng%2C product%2C design</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -20202,10 +20409,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Loyalty program</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Mobile customer application</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20944,10 +21147,6 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Business%3A Purchased self service</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Business%3A Too expensive for the value%2FPricing</fullName>
                 <default>false</default>
             </values>
@@ -20956,15 +21155,19 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Duplicate account_opportunity</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Need%3A Doesn%27t have the need%2FValue not proven</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Operational%3A Duplicate account_opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Operational%3A Not qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Operational%3A Purchased self service</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -21497,10 +21700,6 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Unresponsive %2F No Feedback</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Value%3A Not seeing results with Productboard</fullName>
                 <default>false</default>
             </values>
@@ -21583,10 +21782,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -21793,7 +21988,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>51%2B</fullName>
+                <fullName>201%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>51-200</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -22698,6 +22897,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Deal Dynamic%3A Previous PB user involved in purchase</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Deal Dynamic%3A Strong sales process</fullName>
                 <default>false</default>
             </values>
@@ -22796,6 +22999,45 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Not Closing End of Month</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Use_Case__c</picklist>
+            <values>
+                <fullName>Co-create with Customers%3A De-risk product bets earlier</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Co-create with Customers%3A Deepen relationships with VIP customers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Co-create with Customers%3A Deliver faster on needs of core customers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Be a trusted partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Keep everyone aligned and informed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unite the Business%3A Secure product buy-in and investment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Allocate resources to the right bets</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Improve outcomes with standardized processes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Up-level Product Teams%3A Increase efficiency across eng%2C product%2C design</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -23028,7 +23270,7 @@ LIKA ONLY</description>
         <description>Required fields need to be filled out before moving to stage 2.</description>
         <errorConditionFormula>AND(
 ISCHANGED(StageName),
- ARR__c &gt; 5000,
+ ARR__c &gt; 1000,
 NOT(IsPickVal(Type,&quot;Renewal&quot;)),
 Stage_Numeric__c &gt; 1,
 Not(IsClosed),
@@ -23038,10 +23280,13 @@ ISBLANK (ChampionContact__c)||
 ISBLANK( Positive_Business_Outcomes__c )||
 ISBLANK( Negative_Consequences__c )||
 ISBLANK(  After_Scenario_Future_Ideal_State__c  )||
+ISPICKVAL( Most_Important_area_of_the_product__c, &quot;&quot; )||
+ISPICKVAL(  Product_Type__c , &quot;&quot; )||
+ISBLANK(What_is_the_customer_using_PB_for__c)||
 ISBLANK( Current_State__c ), 
 Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;))
 ))</errorConditionFormula>
-        <errorMessage>Please make sure the following fields are filled out before moving to Stage 2: Identify Pain,  Champion, Positive Outcomes, Negative Consequences, Current State, and Future state. [OP03_9]</errorMessage>
+        <errorMessage>Please make sure the following fields are filled out before moving to Stage 2: Identify Pain,  Champion, Positive Outcomes, Negative Consequences, Current State, Future state, Primary Product Type, Primary Product type details, Use Case. [OP03_9]</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>OP03_10_Cannot_Move_to_Stage_3</fullName>
@@ -23050,20 +23295,20 @@ Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;))
         <errorConditionFormula>AND(
 ISCHANGED(StageName),
  ARR__c &gt; 5000,
-IsPickVal(Type,&quot;New Business&quot;),
+IsPickVal(Type,&quot;New Business&quot;)||
+IsPickVal(Type,&quot;Expansion - Upsell&quot;),
 Stage_Numeric__c &gt; 2,
 Not(IsClosed),
 AND(ISBLANK( Metrics__c )||
 ISBLANK(  Required_Capabilties__c  )||
 ISBLANK(   Mutual_Evaluation_Plan__c  )||
-ISPICKVAL(   Depth_of_Opportunity__c,&quot;&quot;  )||
 ISBLANK( Initial_Competitors__c )||
 ISBLANK(num_of_PMs_UX__c ),
 
 Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;)
 )))</errorConditionFormula>
         <errorDisplayField>Required_Capabilties__c</errorDisplayField>
-        <errorMessage>Please make sure the following fields are filled out before moving to Stage 3 or higher: Competitors, Metrics, Required Capabilities, Mutual Evaluation Plan, Scope of Opp, Depth of Opp, Deal Cycle Type.[OP03_10]</errorMessage>
+        <errorMessage>Please make sure the following fields are filled out before moving to Stage 3 or higher: Competitors, Metrics, Required Capabilities, Mutual Evaluation Plan, # people in PM org - Exact.[OP03_10]</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>OP03_12_Cannot_Move_to_Stage_5</fullName>
@@ -23112,14 +23357,13 @@ ISBLANK(  We_prioritize_what_to_build_next_by__c  )||
 ISBLANK(   We_create_and_communicate_our_roadmap_by__c  )||
 ISBLANK( Product_Team_Time_Zone__c )||
 ISPICKVAL(   Product_Type__c, &quot;&quot;  )||
-ISPICKVAL(   Most_Important_area_of_the_product__c  ,&quot;&quot;  )||
-ISPICKVAL(  X2nd_most_important_area_of_the_product__c   ,&quot;&quot;  ),
+ISPICKVAL(   Most_Important_area_of_the_product__c  ,&quot;&quot;  ),
 
 Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;)||
 NOT(ISPICKVAL($User.Team__c, &quot;AM-NA&quot;)
 ))))</errorConditionFormula>
         <errorDisplayField>We_collect_customer_insight_by__c</errorDisplayField>
-        <errorMessage>Please make sure the following fields are filled out before moving to Stage 5 or higher: Current Insights, Current Roadmap, Current Prioritization, Product Type, Tech stack not competition, important areas of the product, Product team time zone.[OP03_21]</errorMessage>
+        <errorMessage>Please make sure the following fields are filled out before moving to Stage 5 or higher: Current Insights, Current Roadmap, Current Prioritization, Product Type, Tech stack not competition, important area of the product, Product team time zone.[OP03_21]</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>OP03_22_Cannot_Move_to_Stage_4</fullName>
@@ -23139,8 +23383,7 @@ ISBLANK(   Tech_Stack_Engineering__c  )||
 ISBLANK(    Tech_Stack_Product_Analytics__c  )||
 ISBLANK(    Tech_Stack_Product_System__c  )||
 ISBLANK(    Tech_Stack_Support_Success__c   )||
-ISBLANK(   of_Products_managed_by_this_team__c   )||
-ISPICKVAL(    Bottoms_up_vs_Top_Down__c , &quot;&quot;  ),
+ISBLANK(   of_Products_managed_by_this_team__c   ),
 
 Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;)
 )))</errorConditionFormula>
@@ -23226,8 +23469,8 @@ ISBLANK(    Tech_Stack_Design_UX_Research__c  )||
 ISBLANK(   Tech_Stack_Engineering__c  )||
 ISBLANK(    Tech_Stack_Product_Analytics__c  )||
 ISBLANK(    Tech_Stack_Product_System__c  )||
-ISPICKVAL(  Product_Workflows__c, &quot;&quot; )||
-ISPICKVAL(   Most_Important_area_of_the_product__c, &quot;&quot; ),
+ISPICKVAL(  Product_Workflows__c, &quot;&quot; ),
+
 
 Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;)
 )))</errorConditionFormula>

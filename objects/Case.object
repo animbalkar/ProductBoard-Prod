@@ -3801,10 +3801,6 @@ NOT(ISBLANK( Opportunity__c )),
                 <fullName>Other</fullName>
                 <default>false</default>
             </values>
-            <values>
-                <fullName>eCommerce</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Provisioning_Type__c</picklist>
@@ -4731,10 +4727,6 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -5704,10 +5696,6 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -6738,10 +6726,6 @@ NOT(ISBLANK( Opportunity__c )),
                 <fullName>Other</fullName>
                 <default>false</default>
             </values>
-            <values>
-                <fullName>eCommerce</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Provisioning_Type__c</picklist>
@@ -7682,10 +7666,6 @@ NOT(ISBLANK( Opportunity__c )),
                 <fullName>Other</fullName>
                 <default>false</default>
             </values>
-            <values>
-                <fullName>eCommerce</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Provisioning_Type__c</picklist>
@@ -8621,10 +8601,6 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>eCommerce</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

@@ -21,11 +21,6 @@
         <label>Digital customer experience</label>
     </customValue>
     <customValue>
-        <fullName>eCommerce</fullName>
-        <default>false</default>
-        <label>eCommerce</label>
-    </customValue>
-    <customValue>
         <fullName>Internal productivity solution</fullName>
         <default>false</default>
         <label>Internal productivity solution</label>
@@ -34,6 +29,12 @@
         <fullName>Other</fullName>
         <default>false</default>
         <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>eCommerce</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>eCommerce</label>
     </customValue>
     <masterLabel>Product Type</masterLabel>
     <sorted>true</sorted>
