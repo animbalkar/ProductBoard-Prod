@@ -196,6 +196,14 @@
                 <behavior>Edit</behavior>
                 <field>Economic_Buyer_Contact_Title__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>people_in_PM_organization__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>people_in_PM_Organization_Exact__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -576,10 +584,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Owner_Last_Changed_Date__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>clearbit_prospector_number_product_ppl__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>

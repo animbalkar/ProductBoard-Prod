@@ -9517,6 +9517,25 @@ IF(
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>people_in_PM_organization__c</picklist>
+            <values>
+                <fullName>%3C 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10-50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>201%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>51-200</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Prospect</fullName>
@@ -13013,6 +13032,25 @@ IF(
             </values>
             <values>
                 <fullName>Understanding user needs</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>people_in_PM_organization__c</picklist>
+            <values>
+                <fullName>%3C 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10-50</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>201%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>51-200</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

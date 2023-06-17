@@ -2,16 +2,144 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>55.0</apiVersion>
     <decisions>
-        <name>isChangedDecision10_myRule_4_Economic_Buyer_Title_c</name>
-        <label>isChangedDecision10_myRule_4_Economic_Buyer_Title_c</label>
+        <name>isChangedDecision10_myRule_8_Tech_Stack_Product_System_c</name>
+        <label>isChangedDecision10_myRule_8_Tech_Stack_Product_System_c</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>isChangedDecision11_myRule_4_Most_Important_area_of_the_product_c</targetReference>
+            <targetReference>isChangedDecision11_myRule_8_Tech_Stack_Design_UX_Research_c</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
-            <name>isChangedRule_10_myRule_4_Economic_Buyer_Title_c</name>
+            <name>isChangedRule_10_myRule_8_Tech_Stack_Product_System_c</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>myVariable_old</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>myVariable_old.Tech_Stack_Product_System__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>myVariable_current.Tech_Stack_Product_System__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>isChangedDecision11_myRule_8_Tech_Stack_Design_UX_Research_c</targetReference>
+            </connector>
+            <label>isChangedRule_10_myRule_8_Tech_Stack_Product_System_c</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>isChangedDecision11_myRule_8_Tech_Stack_Design_UX_Research_c</name>
+        <label>isChangedDecision11_myRule_8_Tech_Stack_Design_UX_Research_c</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>isChangedDecision12_myRule_8_Tech_Stack_Engineering_c</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>isChangedRule_11_myRule_8_Tech_Stack_Design_UX_Research_c</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>myVariable_old</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>myVariable_old.Tech_Stack_Design_UX_Research__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>myVariable_current.Tech_Stack_Design_UX_Research__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>isChangedDecision12_myRule_8_Tech_Stack_Engineering_c</targetReference>
+            </connector>
+            <label>isChangedRule_11_myRule_8_Tech_Stack_Design_UX_Research_c</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>isChangedDecision12_myRule_8_Tech_Stack_Engineering_c</name>
+        <label>isChangedDecision12_myRule_8_Tech_Stack_Engineering_c</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>isChangedDecision13_myRule_8_Tech_Stack_Product_Analytics_c</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>isChangedRule_12_myRule_8_Tech_Stack_Engineering_c</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>myVariable_old</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>myVariable_old.Tech_Stack_Engineering__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>myVariable_current.Tech_Stack_Engineering__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>isChangedDecision13_myRule_8_Tech_Stack_Product_Analytics_c</targetReference>
+            </connector>
+            <label>isChangedRule_12_myRule_8_Tech_Stack_Engineering_c</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>isChangedDecision13_myRule_8_Tech_Stack_Product_Analytics_c</name>
+        <label>isChangedDecision13_myRule_8_Tech_Stack_Product_Analytics_c</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>isChangedDecision14_myRule_8_Economic_Buyer_Title_c</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>isChangedRule_13_myRule_8_Tech_Stack_Product_Analytics_c</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>myVariable_old</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>myVariable_old.Tech_Stack_Product_Analytics__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>myVariable_current.Tech_Stack_Product_Analytics__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>isChangedDecision14_myRule_8_Economic_Buyer_Title_c</targetReference>
+            </connector>
+            <label>isChangedRule_13_myRule_8_Tech_Stack_Product_Analytics_c</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>isChangedDecision14_myRule_8_Economic_Buyer_Title_c</name>
+        <label>isChangedDecision14_myRule_8_Economic_Buyer_Title_c</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>isChangedDecision15_myRule_8_Most_Important_area_of_the_product_c</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>isChangedRule_14_myRule_8_Economic_Buyer_Title_c</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>myVariable_old</leftValueReference>
@@ -28,22 +156,22 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>isChangedDecision11_myRule_4_Most_Important_area_of_the_product_c</targetReference>
+                <targetReference>isChangedDecision15_myRule_8_Most_Important_area_of_the_product_c</targetReference>
             </connector>
-            <label>isChangedRule_10_myRule_4_Economic_Buyer_Title_c</label>
+            <label>isChangedRule_14_myRule_8_Economic_Buyer_Title_c</label>
         </rules>
     </decisions>
     <decisions>
-        <name>isChangedDecision11_myRule_4_Most_Important_area_of_the_product_c</name>
-        <label>isChangedDecision11_myRule_4_Most_Important_area_of_the_product_c</label>
+        <name>isChangedDecision15_myRule_8_Most_Important_area_of_the_product_c</name>
+        <label>isChangedDecision15_myRule_8_Most_Important_area_of_the_product_c</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>isChangedDecision12_myRule_4_Product_Workflows_c</targetReference>
+            <targetReference>isChangedDecision16_myRule_8_Product_Workflows_c</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
-            <name>isChangedRule_11_myRule_4_Most_Important_area_of_the_product_c</name>
+            <name>isChangedRule_15_myRule_8_Most_Important_area_of_the_product_c</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>myVariable_old</leftValueReference>
@@ -60,14 +188,14 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>isChangedDecision12_myRule_4_Product_Workflows_c</targetReference>
+                <targetReference>isChangedDecision16_myRule_8_Product_Workflows_c</targetReference>
             </connector>
-            <label>isChangedRule_11_myRule_4_Most_Important_area_of_the_product_c</label>
+            <label>isChangedRule_15_myRule_8_Most_Important_area_of_the_product_c</label>
         </rules>
     </decisions>
     <decisions>
-        <name>isChangedDecision12_myRule_4_Product_Workflows_c</name>
-        <label>isChangedDecision12_myRule_4_Product_Workflows_c</label>
+        <name>isChangedDecision16_myRule_8_Product_Workflows_c</name>
+        <label>isChangedDecision16_myRule_8_Product_Workflows_c</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
@@ -75,7 +203,7 @@
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
-            <name>isChangedRule_12_myRule_4_Product_Workflows_c</name>
+            <name>isChangedRule_16_myRule_8_Product_Workflows_c</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>myVariable_old</leftValueReference>
@@ -94,7 +222,7 @@
             <connector>
                 <targetReference>myDecision</targetReference>
             </connector>
-            <label>isChangedRule_12_myRule_4_Product_Workflows_c</label>
+            <label>isChangedRule_16_myRule_8_Product_Workflows_c</label>
         </rules>
     </decisions>
     <decisions>
@@ -103,7 +231,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>isChangedDecision5_myRule_4_Product_Workflows_c</targetReference>
+            <targetReference>isChangedDecision5_myRule_4_Scope_of_Account_c</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
@@ -124,22 +252,86 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>isChangedDecision5_myRule_4_Product_Workflows_c</targetReference>
+                <targetReference>isChangedDecision5_myRule_4_Scope_of_Account_c</targetReference>
             </connector>
             <label>isChangedRule_2_myRule_1_StageName</label>
         </rules>
     </decisions>
     <decisions>
-        <name>isChangedDecision5_myRule_4_Product_Workflows_c</name>
-        <label>isChangedDecision5_myRule_4_Product_Workflows_c</label>
+        <name>isChangedDecision5_myRule_4_Scope_of_Account_c</name>
+        <label>isChangedDecision5_myRule_4_Scope_of_Account_c</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>isChangedDecision6_myRule_4_Tech_Stack_Product_System_c</targetReference>
+            <targetReference>isChangedDecision6_myRule_4_num_of_PMs_UX_c</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
-            <name>isChangedRule_5_myRule_4_Product_Workflows_c</name>
+            <name>isChangedRule_5_myRule_4_Scope_of_Account_c</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>myVariable_old</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>myVariable_old.Scope_of_Account__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>myVariable_current.Scope_of_Account__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>isChangedDecision6_myRule_4_num_of_PMs_UX_c</targetReference>
+            </connector>
+            <label>isChangedRule_5_myRule_4_Scope_of_Account_c</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>isChangedDecision6_myRule_4_num_of_PMs_UX_c</name>
+        <label>isChangedDecision6_myRule_4_num_of_PMs_UX_c</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>isChangedDecision9_myRule_8_Product_Workflows_c</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>isChangedRule_6_myRule_4_num_of_PMs_UX_c</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>myVariable_old</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>myVariable_old.num_of_PMs_UX__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>myVariable_current.num_of_PMs_UX__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>isChangedDecision9_myRule_8_Product_Workflows_c</targetReference>
+            </connector>
+            <label>isChangedRule_6_myRule_4_num_of_PMs_UX_c</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>isChangedDecision9_myRule_8_Product_Workflows_c</name>
+        <label>isChangedDecision9_myRule_8_Product_Workflows_c</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>isChangedDecision10_myRule_8_Tech_Stack_Product_System_c</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>isChangedRule_9_myRule_8_Product_Workflows_c</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>myVariable_old</leftValueReference>
@@ -156,137 +348,9 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>isChangedDecision6_myRule_4_Tech_Stack_Product_System_c</targetReference>
+                <targetReference>isChangedDecision10_myRule_8_Tech_Stack_Product_System_c</targetReference>
             </connector>
-            <label>isChangedRule_5_myRule_4_Product_Workflows_c</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>isChangedDecision6_myRule_4_Tech_Stack_Product_System_c</name>
-        <label>isChangedDecision6_myRule_4_Tech_Stack_Product_System_c</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
-        <defaultConnector>
-            <targetReference>isChangedDecision7_myRule_4_Tech_Stack_Design_UX_Research_c</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>default</defaultConnectorLabel>
-        <rules>
-            <name>isChangedRule_6_myRule_4_Tech_Stack_Product_System_c</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>myVariable_old</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>myVariable_old.Tech_Stack_Product_System__c</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <elementReference>myVariable_current.Tech_Stack_Product_System__c</elementReference>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>isChangedDecision7_myRule_4_Tech_Stack_Design_UX_Research_c</targetReference>
-            </connector>
-            <label>isChangedRule_6_myRule_4_Tech_Stack_Product_System_c</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>isChangedDecision7_myRule_4_Tech_Stack_Design_UX_Research_c</name>
-        <label>isChangedDecision7_myRule_4_Tech_Stack_Design_UX_Research_c</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
-        <defaultConnector>
-            <targetReference>isChangedDecision8_myRule_4_Tech_Stack_Engineering_c</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>default</defaultConnectorLabel>
-        <rules>
-            <name>isChangedRule_7_myRule_4_Tech_Stack_Design_UX_Research_c</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>myVariable_old</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>myVariable_old.Tech_Stack_Design_UX_Research__c</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <elementReference>myVariable_current.Tech_Stack_Design_UX_Research__c</elementReference>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>isChangedDecision8_myRule_4_Tech_Stack_Engineering_c</targetReference>
-            </connector>
-            <label>isChangedRule_7_myRule_4_Tech_Stack_Design_UX_Research_c</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>isChangedDecision8_myRule_4_Tech_Stack_Engineering_c</name>
-        <label>isChangedDecision8_myRule_4_Tech_Stack_Engineering_c</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
-        <defaultConnector>
-            <targetReference>isChangedDecision9_myRule_4_Tech_Stack_Product_Analytics_c</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>default</defaultConnectorLabel>
-        <rules>
-            <name>isChangedRule_8_myRule_4_Tech_Stack_Engineering_c</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>myVariable_old</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>myVariable_old.Tech_Stack_Engineering__c</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <elementReference>myVariable_current.Tech_Stack_Engineering__c</elementReference>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>isChangedDecision9_myRule_4_Tech_Stack_Product_Analytics_c</targetReference>
-            </connector>
-            <label>isChangedRule_8_myRule_4_Tech_Stack_Engineering_c</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>isChangedDecision9_myRule_4_Tech_Stack_Product_Analytics_c</name>
-        <label>isChangedDecision9_myRule_4_Tech_Stack_Product_Analytics_c</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
-        <defaultConnector>
-            <targetReference>isChangedDecision10_myRule_4_Economic_Buyer_Title_c</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>default</defaultConnectorLabel>
-        <rules>
-            <name>isChangedRule_9_myRule_4_Tech_Stack_Product_Analytics_c</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>myVariable_old</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>myVariable_old.Tech_Stack_Product_Analytics__c</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <elementReference>myVariable_current.Tech_Stack_Product_Analytics__c</elementReference>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>isChangedDecision10_myRule_4_Economic_Buyer_Title_c</targetReference>
-            </connector>
-            <label>isChangedRule_9_myRule_4_Tech_Stack_Product_Analytics_c</label>
+            <label>isChangedRule_9_myRule_8_Product_Workflows_c</label>
         </rules>
     </decisions>
     <decisions>
@@ -417,9 +481,95 @@
         <label>myDecision3</label>
         <locationX>50</locationX>
         <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision7</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
             <name>myRule_4</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>isChangedRule_5_myRule_4_Scope_of_Account_c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Number</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>Number</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>isChangedRule_6_myRule_4_num_of_PMs_UX_c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_4_A1</targetReference>
+            </connector>
+            <label>[P07-03] Update from Opp to Acct</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>2.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision7</name>
+        <label>myDecision7</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_8</name>
             <conditionLogic>((1 OR 2 OR 7 OR 8 OR 9 OR 10 OR 11 OR 13)and (4 and (3 or 5) and 6 AND 12))</conditionLogic>
             <conditions>
                 <processMetadataValues>
@@ -446,7 +596,7 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_5_myRule_4_Product_Workflows_c</leftValueReference>
+                <leftValueReference>isChangedRule_9_myRule_8_Product_Workflows_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -477,7 +627,7 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_6_myRule_4_Tech_Stack_Product_System_c</leftValueReference>
+                <leftValueReference>isChangedRule_10_myRule_8_Tech_Stack_Product_System_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -632,7 +782,7 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_7_myRule_4_Tech_Stack_Design_UX_Research_c</leftValueReference>
+                <leftValueReference>isChangedRule_11_myRule_8_Tech_Stack_Design_UX_Research_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -663,7 +813,7 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_8_myRule_4_Tech_Stack_Engineering_c</leftValueReference>
+                <leftValueReference>isChangedRule_12_myRule_8_Tech_Stack_Engineering_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -694,7 +844,7 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_9_myRule_4_Tech_Stack_Product_Analytics_c</leftValueReference>
+                <leftValueReference>isChangedRule_13_myRule_8_Tech_Stack_Product_Analytics_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -725,7 +875,7 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_10_myRule_4_Economic_Buyer_Title_c</leftValueReference>
+                <leftValueReference>isChangedRule_14_myRule_8_Economic_Buyer_Title_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -756,7 +906,7 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_11_myRule_4_Most_Important_area_of_the_product_c</leftValueReference>
+                <leftValueReference>isChangedRule_15_myRule_8_Most_Important_area_of_the_product_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -818,20 +968,21 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_12_myRule_4_Product_Workflows_c</leftValueReference>
+                <leftValueReference>isChangedRule_16_myRule_8_Product_Workflows_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>myRule_4_A1</targetReference>
+                <targetReference>myRule_8_A1</targetReference>
             </connector>
             <label>[P07-02] Updated Opp - ICP updates to Acct</label>
         </rules>
     </decisions>
-    <interviewLabel>P_O7_Closed_Won_Opp_Update_Project_fileds-3_InterviewLabel</interviewLabel>
-    <label>[P(O7)] Closed Won Or Updated Opp - Update Project fields - LO Update 11.29</label>
+    <description>Updates Opp fields on Account</description>
+    <interviewLabel>P_O7_Closed_Won_Opp_Update_Project_fileds-4_InterviewLabel</interviewLabel>
+    <label>[P(O7)] Closed Won Or Updated Opp - Update Project fields - LO Update 6.16.23</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
@@ -967,8 +1118,164 @@
             <name>referenceTargetField</name>
         </processMetadataValues>
         <name>myRule_4_A1</name>
-        <label>(P07-02-1) Update Account</label>
+        <label>(P07-03-1) Update Acct fields</label>
         <locationX>400</locationX>
+        <locationY>200</locationY>
+        <connector>
+            <targetReference>myDecision7</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.AccountId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Workflow Log</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>Workflow_Log__c</field>
+            <value>
+                <stringValue>[P07-03] Updates from Opp to acct</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Number</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue># people in PM Organization - Exact</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>people_in_PM_Organization_Exact__c</field>
+            <value>
+                <elementReference>myVariable_current.num_of_PMs_UX__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue># people in PM organization</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>people_in_PM_organization__c</field>
+            <value>
+                <elementReference>myVariable_current.Scope_of_Account__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity].Account ID</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_8_A1</name>
+        <label>(P07-02-1) Update Account</label>
+        <locationX>800</locationX>
         <locationY>200</locationY>
         <filterLogic>and</filterLogic>
         <filters>

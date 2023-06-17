@@ -23281,12 +23281,13 @@ ISBLANK( Positive_Business_Outcomes__c )||
 ISBLANK( Negative_Consequences__c )||
 ISBLANK(  After_Scenario_Future_Ideal_State__c  )||
 ISPICKVAL( Most_Important_area_of_the_product__c, &quot;&quot; )||
+ISPICKVAL(  Use_Case__c , &quot;&quot; )||
 ISPICKVAL(  Product_Type__c , &quot;&quot; )||
 ISBLANK(What_is_the_customer_using_PB_for__c)||
 ISBLANK( Current_State__c ), 
 Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;))
 ))</errorConditionFormula>
-        <errorMessage>Please make sure the following fields are filled out before moving to Stage 2: Identify Pain,  Champion, Positive Outcomes, Negative Consequences, Current State, Future state, Primary Product Type, Primary Product type details, Use Case. [OP03_9]</errorMessage>
+        <errorMessage>Fields required before moving to Stage 2: Identify Pain,  Champion, Positive Outcomes, Negative Consequences, Current State, Future state, Primary Product Type, Primary Product type details, Use Case and Use Case Details. [OP03_9]</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>OP03_10_Cannot_Move_to_Stage_3</fullName>
