@@ -156,16 +156,16 @@
         <label>Zoho</label>
     </customValue>
     <customValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Other</label>
-    </customValue>
-    <customValue>
         <fullName>None</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
     </customValue>
     <description>https://docs.google.com/spreadsheets/d/1erIdqoy60JwLAnpb91EfoJV5YrXDnbwSaA-aqcBlw48/edit#gid=1561611259</description>
     <masterLabel>Competitors</masterLabel>
