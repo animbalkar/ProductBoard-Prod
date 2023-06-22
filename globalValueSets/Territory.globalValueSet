@@ -391,9 +391,9 @@
         <label>SMB-NA-08-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-09-Assign</fullName>
+        <fullName>SMB-NA-09-Open</fullName>
         <default>false</default>
-        <label>SMB-NA-09-Assign</label>
+        <label>SMB-NA-09-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-10-Assign</fullName>
@@ -436,9 +436,9 @@
         <label>SMB-NA-17-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-18-Assign</fullName>
+        <fullName>SMB-NA-18-Open</fullName>
         <default>false</default>
-        <label>SMB-NA-18-Assign</label>
+        <label>SMB-NA-18-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-19-Assign</fullName>

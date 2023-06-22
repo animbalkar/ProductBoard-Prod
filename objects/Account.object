@@ -7000,7 +7000,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-09-Assign</fullName>
+                <fullName>SMB-NA-09-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7036,7 +7036,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-18-Assign</fullName>
+                <fullName>SMB-NA-18-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8120,7 +8120,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-09-Assign</fullName>
+                <fullName>SMB-NA-09-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8156,7 +8156,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-18-Assign</fullName>
+                <fullName>SMB-NA-18-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8564,7 +8564,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-09-Assign</fullName>
+                <fullName>SMB-NA-09-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8596,7 +8596,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-18-Assign</fullName>
+                <fullName>SMB-NA-18-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8951,7 +8951,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-09-Assign</fullName>
+                <fullName>SMB-NA-09-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8987,7 +8987,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-18-Assign</fullName>
+                <fullName>SMB-NA-18-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10470,7 +10470,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-09-Assign</fullName>
+                <fullName>SMB-NA-09-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10506,7 +10506,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-18-Assign</fullName>
+                <fullName>SMB-NA-18-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11590,7 +11590,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-09-Assign</fullName>
+                <fullName>SMB-NA-09-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11626,7 +11626,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-18-Assign</fullName>
+                <fullName>SMB-NA-18-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12074,7 +12074,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-09-Assign</fullName>
+                <fullName>SMB-NA-09-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12110,7 +12110,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-18-Assign</fullName>
+                <fullName>SMB-NA-18-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12469,7 +12469,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-09-Assign</fullName>
+                <fullName>SMB-NA-09-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12505,7 +12505,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-18-Assign</fullName>
+                <fullName>SMB-NA-18-Open</fullName>
                 <default>false</default>
             </values>
             <values>
