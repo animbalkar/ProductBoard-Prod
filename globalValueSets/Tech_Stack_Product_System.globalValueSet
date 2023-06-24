@@ -66,6 +66,11 @@
         <label>Notion</label>
     </customValue>
     <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
         <fullName>Pendo</fullName>
         <default>false</default>
         <label>Pendo</label>
@@ -99,6 +104,11 @@
         <fullName>Roadmunk</fullName>
         <default>false</default>
         <label>Roadmunk</label>
+    </customValue>
+    <customValue>
+        <fullName>Savio</fullName>
+        <default>false</default>
+        <label>Savio</label>
     </customValue>
     <customValue>
         <fullName>Smartsheet</fullName>

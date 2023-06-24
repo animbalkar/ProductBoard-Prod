@@ -9318,6 +9318,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Pendo</fullName>
                 <default>false</default>
             </values>
@@ -9343,6 +9347,10 @@ IF(
             </values>
             <values>
                 <fullName>Roadmunk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Savio</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12836,6 +12844,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Pendo</fullName>
                 <default>false</default>
             </values>
@@ -12861,6 +12873,10 @@ IF(
             </values>
             <values>
                 <fullName>Roadmunk</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Savio</fullName>
                 <default>false</default>
             </values>
             <values>

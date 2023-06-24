@@ -96,12 +96,6 @@
         <label>Partnerships</label>
     </customValue>
     <customValue>
-        <fullName>Sales-AE-Velocity</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Sales-AE-Velocity</label>
-    </customValue>
-    <customValue>
         <fullName>Sales-AE-Solution</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -130,6 +124,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>CSM-1</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales-AE-Velocity</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sales-AE-Velocity</label>
     </customValue>
     <customValue>
         <fullName>Solution Architect</fullName>
