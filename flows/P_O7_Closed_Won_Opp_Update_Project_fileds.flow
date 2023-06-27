@@ -981,8 +981,8 @@
         </rules>
     </decisions>
     <description>Updates Opp fields on Account</description>
-    <interviewLabel>P_O7_Closed_Won_Opp_Update_Project_fileds-4_InterviewLabel</interviewLabel>
-    <label>[P(O7)] Closed Won Or Updated Opp - Update Project fields - LO Update 6.16.23</label>
+    <interviewLabel>P_O7_Closed_Won_Opp_Update_Project_fileds-5_InterviewLabel</interviewLabel>
+    <label>[P(O7)] Closed Won Or Updated Opp - Update Project fields - LO Update 6.26.23</label>
     <processMetadataValues>
         <name>ObjectType</name>
         <value>
@@ -1142,6 +1142,42 @@
             <processMetadataValues>
                 <name>dataType</name>
                 <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue># People in PM Org (from opp)</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>People_in_PM__c</field>
+            <value>
+                <elementReference>myVariable_current.Scope_of_Account__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
                     <stringValue>String</stringValue>
                 </value>
             </processMetadataValues>
@@ -1208,42 +1244,6 @@
             <field>people_in_PM_Organization_Exact__c</field>
             <value>
                 <elementReference>myVariable_current.num_of_PMs_UX__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>Picklist</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue># people in PM organization</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Reference</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>people_in_PM_organization__c</field>
-            <value>
-                <elementReference>myVariable_current.Scope_of_Account__c</elementReference>
             </value>
         </inputAssignments>
         <object>Account</object>

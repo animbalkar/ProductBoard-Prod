@@ -121,6 +121,11 @@
         <label>Roadmunk</label>
     </customValue>
     <customValue>
+        <fullName>Savio</fullName>
+        <default>false</default>
+        <label>Savio</label>
+    </customValue>
+    <customValue>
         <fullName>Smartsheet</fullName>
         <default>false</default>
         <label>Smartsheet</label>
@@ -158,7 +163,6 @@
     <customValue>
         <fullName>Other</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>Other</label>
     </customValue>
     <customValue>
