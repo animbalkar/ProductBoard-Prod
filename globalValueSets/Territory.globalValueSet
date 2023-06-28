@@ -91,9 +91,9 @@
         <label>EN-NA-09-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-10-Assign</fullName>
+        <fullName>EN-NA-10-Open</fullName>
         <default>false</default>
-        <label>EN-NA-10-Assign</label>
+        <label>EN-NA-10-Open</label>
     </customValue>
     <customValue>
         <fullName>EN-NA-11-Assign</fullName>
