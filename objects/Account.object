@@ -7678,25 +7678,6 @@ IF(
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>People_in_PM__c</picklist>
-            <values>
-                <fullName>%3C 10</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>10-50</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>201%2B</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>51-200</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Priority_Account__c</picklist>
             <values>
                 <fullName>P1</fullName>
@@ -11179,25 +11160,6 @@ IF(
             </values>
             <values>
                 <fullName>Subsidiary</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>People_in_PM__c</picklist>
-            <values>
-                <fullName>%3C 10</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>10-50</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>201%2B</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>51-200</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

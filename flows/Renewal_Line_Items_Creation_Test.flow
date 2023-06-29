@@ -172,9 +172,10 @@
             <label>RRecordtypeNullCheck</label>
         </rules>
     </decisions>
-    <description>With NRR line item exclusion. Fixed Close Date (match YEAR of record.service_end_date) + name to match close date (from service end date)
+    <description>Fixed Close Date (match YEAR of record.service_end_date) + name to match close date (from service end date)
 
-- add amendment type = New Space to flow</description>
+- add amendment type = New Space to flow
+Removed NRR exclusion</description>
     <environments>Default</environments>
     <formulas>
         <description>Adds Renewal Year + &quot;Renewal&quot; + Account Name</description>
@@ -358,13 +359,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </filters>
-        <filters>
-            <field>NRR__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <booleanValue>false</booleanValue>
-            </value>
-        </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>OpportunityLineItem</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -425,7 +419,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>caR_OpportunityLineItem</name>
         <dataType>SObject</dataType>
