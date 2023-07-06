@@ -552,6 +552,11 @@
         <label>No Show</label>
     </standardValue>
     <standardValue>
+        <fullName>No Showed</fullName>
+        <default>false</default>
+        <label>No Showed</label>
+    </standardValue>
+    <standardValue>
         <fullName>On Demand</fullName>
         <default>false</default>
         <label>On Demand</label>
