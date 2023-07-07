@@ -23704,7 +23704,7 @@ Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;)))</errorConditionFor
         <errorConditionFormula>AND(
 ARR__c &gt; 49999, 
 NOT(IsPickVAL(Type,&quot;Renewal&quot;)),
-NOT(ISPICKVAL(Type, &quot;Expansion - Upsells&quot;)),
+NOT(ISPICKVAL(Type, &quot;Expansion - Upsell&quot;)),
 Stage_Numeric__c&gt;2,
 NOT(IsClosed),
 AND(
