@@ -301,9 +301,9 @@
         <label>SMB-EM-Austria-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-Benelux-Assign</fullName>
+        <fullName>SMB-EM-Benelux-Open</fullName>
         <default>false</default>
-        <label>SMB-EM-Benelux-Assign</label>
+        <label>SMB-EM-Benelux-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-EM-CEE-Open</fullName>

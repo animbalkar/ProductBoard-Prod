@@ -3552,7 +3552,7 @@ IF( NumberOfEmployees &gt; 49,&quot;-Vel&quot;,&quot;-Gro&quot;))</formula>
         <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>true</trackHistory>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>
