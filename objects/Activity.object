@@ -397,6 +397,11 @@ IF( ActivityDate &gt; DATEVALUE( &quot;2020-04-30&quot;) &amp;&amp; Sequence_Nam
                     <label>Connect</label>
                 </value>
                 <value>
+                    <fullName>Chat</fullName>
+                    <default>false</default>
+                    <label>Chat</label>
+                </value>
+                <value>
                     <fullName>Webinar</fullName>
                     <default>false</default>
                     <label>Webinar</label>
@@ -430,11 +435,6 @@ IF( ActivityDate &gt; DATEVALUE( &quot;2020-04-30&quot;) &amp;&amp; Sequence_Nam
                     <fullName>Email (Received)</fullName>
                     <default>false</default>
                     <label>Email (Received)</label>
-                </value>
-                <value>
-                    <fullName>Chat (Intercom)</fullName>
-                    <default>false</default>
-                    <label>Chat (Intercom)</label>
                 </value>
                 <value>
                     <fullName>Slack (Community)</fullName>
