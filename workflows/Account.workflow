@@ -452,7 +452,7 @@ or(
             <type>FieldUpdate</type>
         </actions>
         <active>true</active>
-        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 and 6 and 7 and 8</booleanFilter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 and 6 and 7 and 8 and 9</booleanFilter>
         <criteriaItems>
             <field>Account.Account_ARR__c</field>
             <operation>lessThan</operation>
@@ -491,6 +491,11 @@ or(
             <field>Account.CSM_Team__c</field>
             <operation>notContain</operation>
             <value>other</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Projects_with_Contracts__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
         </criteriaItems>
         <description>Assign RM to APAC, AUNZ, and EMEA customer accounts with ARR $10-$30k (+ &quot;other)</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
