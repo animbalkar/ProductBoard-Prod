@@ -319,7 +319,7 @@
         <fullName>Update_RM_to</fullName>
         <description>Update RM non EMEA APAC</description>
         <field>Renewal_Manager__c</field>
-        <lookupValue>annie.kingston@productboard.com</lookupValue>
+        <lookupValue>elizabeth.keiter@productboard.com</lookupValue>
         <lookupValueType>User</lookupValueType>
         <name>Update RM non EMEA APAC</name>
         <notifyAssignee>false</notifyAssignee>
