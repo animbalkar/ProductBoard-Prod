@@ -7667,14 +7667,6 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Following year uplift</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>New Subspace</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Renewal-Downgrade</fullName>
                 <default>false</default>
             </values>
@@ -7692,10 +7684,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Replacement%3A Mid-Term Contraction</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SatisMeter Addition</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -23391,7 +23379,7 @@ LIKA ONLY</description>
         <errorConditionFormula>AND(
 ISCHANGED(StageName),
  ARR__c &gt; 1000,
-NOT(IsPickVal(Type,&quot;Renewal&quot;)),
+IsPickVal(Type,&quot;New Business&quot;),
 Stage_Numeric__c &gt; 1,
 Not(IsClosed),
 AND( 

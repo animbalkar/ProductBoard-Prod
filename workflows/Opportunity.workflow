@@ -98,7 +98,7 @@
         <ccEmails>hubert@productboard.com,</ccEmails>
         <ccEmails>customersuccess@productboard.com,</ccEmails>
         <ccEmails>oxygen-revenue-aaaaaavft6pgjcfyrpvya5c6ia@productboard.slack.com,</ccEmails>
-        <ccEmails>lisa.larson@productboard.com</ccEmails>
+        <ccEmails>lauren@productboard.com</ccEmails>
         <description>Deal Won Notification</description>
         <protected>false</protected>
         <recipients>
@@ -115,14 +115,6 @@
         <recipients>
             <recipient>Head_of_Sales</recipient>
             <type>role</type>
-        </recipients>
-        <recipients>
-            <recipient>darcy.doyle@productboard.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>michael.solomon@productboard.com.mm</recipient>
-            <type>user</type>
         </recipients>
         <recipients>
             <field>SDR__c</field>
@@ -186,11 +178,7 @@
             <type>owner</type>
         </recipients>
         <recipients>
-            <recipient>kaeli.finlayson@productboard.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>mike.liranzo@productboard.com</recipient>
+            <recipient>michael.vansickle@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

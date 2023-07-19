@@ -90,6 +90,11 @@
         <default>false</default>
         <label>Gary Putlock</label>
     </customValue>
+    <customValue>
+        <fullName>Michael VanSickle</fullName>
+        <default>false</default>
+        <label>Michael VanSickle</label>
+    </customValue>
     <masterLabel>Manager</masterLabel>
     <sorted>true</sorted>
 </GlobalValueSet>
