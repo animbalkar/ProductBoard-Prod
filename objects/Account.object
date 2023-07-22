@@ -2917,6 +2917,11 @@ IF( Projects_with_Contracts__c =0,&quot;Subscription&quot;,&quot;Contract&quot;)
             <operation>equals</operation>
             <value>Renewal</value>
         </summaryFilterItems>
+        <summaryFilterItems>
+            <field>Opportunity.IsClosed</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </summaryFilterItems>
         <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
         <summaryOperation>max</summaryOperation>
         <trackHistory>false</trackHistory>
