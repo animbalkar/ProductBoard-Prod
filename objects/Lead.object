@@ -5268,7 +5268,7 @@ IF(Max_Account_Employees__c  &lt; 5001,
         <columns>LEAD.EMAIL</columns>
         <columns>LEAD.PHONE</columns>
         <columns>mk_customer_fit_segment__c</columns>
-        <columns>LG_Source__c</columns>
+        <columns>Latest_Handraiser_Date__c</columns>
         <columns>Matched_Account_Status__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
@@ -5285,6 +5285,7 @@ IF(Max_Account_Employees__c  &lt; 5001,
             <operation>notEqual</operation>
         </filters>
         <label>3.0 All New Marketing Leads</label>
+        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>X6_0_My_New_Job_Changer_Leads</fullName>

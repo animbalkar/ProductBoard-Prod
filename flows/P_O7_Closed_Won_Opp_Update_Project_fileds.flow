@@ -980,8 +980,8 @@
             <label>[P07-02] Updated Opp - ICP updates to Acct</label>
         </rules>
     </decisions>
-    <description>Updates Opp fields on Account</description>
-    <interviewLabel>P_O7_Closed_Won_Opp_Update_Project_fileds-6_InterviewLabel</interviewLabel>
+    <description>Updates Opp fields on Account - LO updates Jul 26</description>
+    <interviewLabel>P_O7_Closed_Won_Opp_Update_Project_fileds-7_InterviewLabel</interviewLabel>
     <label>[P(O7)] Closed Won Or Updated Opp - Update Project fields - LO Update 6.26.23</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -1096,7 +1096,7 @@
         <processMetadataValues>
             <name>evaluationType</name>
             <value>
-                <stringValue>always</stringValue>
+                <stringValue>criteria</stringValue>
             </value>
         </processMetadataValues>
         <processMetadataValues>
@@ -1122,7 +1122,7 @@
         <locationX>400</locationX>
         <locationY>200</locationY>
         <connector>
-            <targetReference>myDecision7</targetReference>
+            <targetReference>myRule_4_A2</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -1136,6 +1136,55 @@
             <operator>EqualTo</operator>
             <value>
                 <elementReference>myVariable_current.AccountId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>inputDataType</name>
+                <value>
+                    <stringValue>Boolean</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue># people in PM Organization - Exact</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideType</name>
+                <value>
+                    <stringValue>Number</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>operatorDataType</name>
+                <value>
+                    <stringValue>Number</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Boolean</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>people_in_PM_Organization_Exact__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
             </value>
         </filters>
         <inputAssignments>
@@ -1210,6 +1259,139 @@
                 <elementReference>myVariable_current.num_of_PMs_UX__c</elementReference>
             </value>
         </inputAssignments>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue># people in PM organization</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>people_in_PM_organization__c</field>
+            <value>
+                <elementReference>myVariable_current.Scope_of_Account__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>criteria</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[Opportunity].Account ID</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_4_A2</name>
+        <label>(P07-03-2) Update Acct fields PMs</label>
+        <locationX>400</locationX>
+        <locationY>300</locationY>
+        <connector>
+            <targetReference>myDecision7</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.AccountId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>inputDataType</name>
+                <value>
+                    <stringValue>Boolean</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue># people in PM organization</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>operatorDataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Boolean</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>people_in_PM_organization__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
         <inputAssignments>
             <processMetadataValues>
                 <name>dataType</name>

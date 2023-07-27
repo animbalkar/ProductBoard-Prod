@@ -23392,8 +23392,10 @@ ISPICKVAL( Most_Important_area_of_the_product__c, &quot;&quot; )||
 ISPICKVAL(  Use_Case__c , &quot;&quot; )||
 ISPICKVAL(  Product_Type__c , &quot;&quot; )||
 ISBLANK(What_is_the_customer_using_PB_for__c)||
-ISBLANK( Current_State__c ), 
-Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;))
+ISBLANK( Current_State__c ),
+Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;)),
+$User.Division &lt;&gt; &quot;Product Assist&quot;
+
 ))</errorConditionFormula>
         <errorMessage>Fields required before moving to Stage 2: Identify Pain,  Champion, Positive Outcomes, Negative Consequences, Current State, Future state, Primary Product Type, Primary Product type details, Use Case and Use Case Details. [OP03_9]</errorMessage>
     </validationRules>
@@ -23403,7 +23405,6 @@ Not(IsPIckVal($User.Team__c, &quot;System/Automation&quot;))
         <description>Required fields need to be filled out before moving to Stage 3 or higher.</description>
         <errorConditionFormula>AND(
 ISCHANGED(StageName),
- ARR__c &gt; 5000,
 IsPickVal(Type,&quot;New Business&quot;)||
 IsPickVal(Type,&quot;Expansion - Upsell&quot;),
 Stage_Numeric__c &gt; 2,
@@ -23637,7 +23638,6 @@ Not(IsClosed),
 NOT(RecordType.DeveloperName = &quot;Self Service&quot;),
 Stage_Numeric__c &gt;1,
 OR(
-CONTAINS(TEXT($User.Team__c),&quot;SDR&quot;),
 CONTAINS($UserRole.Name,&quot;SDR&quot;)))</errorConditionFormula>
         <errorDisplayField>StageName</errorDisplayField>
         <errorMessage>SDR&apos;s cannot move to stage 2.</errorMessage>
