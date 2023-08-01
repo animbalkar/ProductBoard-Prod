@@ -400,6 +400,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Product_Feature_Gap_Details__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Legal_Security_Privacy_Issues_Details__c</field>
             </layoutItems>
         </layoutColumns>
