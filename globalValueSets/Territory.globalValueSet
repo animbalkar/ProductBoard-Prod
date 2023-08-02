@@ -301,14 +301,14 @@
         <label>SMB-EM-Austria-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-Benelux-Open</fullName>
+        <fullName>SMB-EM-Benelux-Assign</fullName>
         <default>false</default>
-        <label>SMB-EM-Benelux-Open</label>
+        <label>SMB-EM-Benelux-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-CEE-Open</fullName>
+        <fullName>SMB-EM-CEE-Assign</fullName>
         <default>false</default>
-        <label>SMB-EM-CEE-Open</label>
+        <label>SMB-EM-CEE-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-EM-France-Assign</fullName>
@@ -316,9 +316,9 @@
         <label>SMB-EM-France-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-Germany-Assign</fullName>
+        <fullName>SMB-EM-DACH-Assign</fullName>
         <default>false</default>
-        <label>SMB-EM-Germany-Assign</label>
+        <label>SMB-EM-DACH-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-EM-Iberia-Assign</fullName>
@@ -326,19 +326,19 @@
         <label>SMB-EM-Iberia-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-Israel-Open</fullName>
+        <fullName>SMB-EM-Israel-Assign</fullName>
         <default>false</default>
-        <label>SMB-EM-Israel-Open</label>
+        <label>SMB-EM-Israel-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-Nordics-Open</fullName>
+        <fullName>SMB-EM-Nordics-Assign</fullName>
         <default>false</default>
-        <label>SMB-EM-Nordics-Open</label>
+        <label>SMB-EM-Nordics-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-Other-Open</fullName>
+        <fullName>SMB-EM-Other-Assign</fullName>
         <default>false</default>
-        <label>SMB-EM-Other-Open</label>
+        <label>SMB-EM-Other-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-EM-Switzerland-Assign</fullName>
@@ -346,9 +346,9 @@
         <label>SMB-EM-Switzerland-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-UKI-Open</fullName>
+        <fullName>SMB-EM-UKI-Assign</fullName>
         <default>false</default>
-        <label>SMB-EM-UKI-Open</label>
+        <label>SMB-EM-UKI-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-01-Assign</fullName>
@@ -401,9 +401,9 @@
         <label>SMB-NA-10-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-11-Assign</fullName>
+        <fullName>SMB-NA-11-Open</fullName>
         <default>false</default>
-        <label>SMB-NA-11-Assign</label>
+        <label>SMB-NA-11-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-12-Open</fullName>
@@ -491,16 +491,9 @@
         <label>SMB-World-RR-Open</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-Assign-G</fullName>
+        <fullName>SMB-EM-CZSK-Assign</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-NA-Assign-G</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-Assign-F</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-NA-Assign-F</label>
+        <label>SMB-EM-CZSK-Assign</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-Assign-E</fullName>
@@ -581,6 +574,18 @@
         <label>SMB-EM-02-Assign</label>
     </customValue>
     <customValue>
+        <fullName>SMB-NA-Assign-F</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-Assign-F</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-Assign-G</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-Assign-G</label>
+    </customValue>
+    <customValue>
         <fullName>SMB-NA-Open-H</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -623,6 +628,12 @@
         <label>EN-NA-07-Open</label>
     </customValue>
     <customValue>
+        <fullName>MM-EM-Nordics-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-EM-Nordics-Open</label>
+    </customValue>
+    <customValue>
         <fullName>MM-EM-GermanyAustria-Open</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -633,12 +644,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>MM-EM-Benelux-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-EM-Nordics-Open</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>MM-EM-Nordics-Open</label>
     </customValue>
     <description>Sales Geo Territories</description>
     <masterLabel>Territory</masterLabel>

@@ -566,6 +566,10 @@ Effort_Minutes__c &gt;= 40,&quot;High&quot;,
                 <controllingFieldValue>SFDC Reporting or Analysis Request</controllingFieldValue>
                 <valueName>System/Automation</valueName>
             </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>XDR or Sales Help</controllingFieldValue>
+                <valueName>SMB-SDR</valueName>
+            </valueSettings>
         </valueSet>
         <visibleLines>4</visibleLines>
     </fields>
@@ -694,6 +698,11 @@ Effort_Minutes__c &gt;= 40,&quot;High&quot;,
                     <default>false</default>
                     <label>Idea</label>
                 </value>
+                <value>
+                    <fullName>Open Territory Account Assignment Request</fullName>
+                    <default>false</default>
+                    <label>Open Territory Account Assignment Request</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>Salesforce Data Help</controllingFieldValue>
@@ -723,6 +732,10 @@ Effort_Minutes__c &gt;= 40,&quot;High&quot;,
                 <controllingFieldValue>Salesforce Data Help</controllingFieldValue>
                 <controllingFieldValue>Deal Help</controllingFieldValue>
                 <valueName>General Questions</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Salesforce Data Help</controllingFieldValue>
+                <valueName>Open Territory Account Assignment Request</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Deal Help</controllingFieldValue>
@@ -6828,6 +6841,10 @@ NOT(ISBLANK( Opportunity__c )),
             </values>
             <values>
                 <fullName>New Process%2FProcess Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open Territory Account Assignment Request</fullName>
                 <default>false</default>
             </values>
             <values>

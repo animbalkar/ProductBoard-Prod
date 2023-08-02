@@ -6941,11 +6941,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Benelux-Open</fullName>
+                <fullName>SMB-EM-Benelux-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-CEE-Open</fullName>
+                <fullName>SMB-EM-CEE-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-CZSK-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-DACH-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6953,23 +6961,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Germany-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-EM-Iberia-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Open</fullName>
+                <fullName>SMB-EM-Israel-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Nordics-Open</fullName>
+                <fullName>SMB-EM-Nordics-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Other-Open</fullName>
+                <fullName>SMB-EM-Other-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6977,7 +6981,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-UKI-Open</fullName>
+                <fullName>SMB-EM-UKI-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7021,7 +7025,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-11-Assign</fullName>
+                <fullName>SMB-NA-11-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8061,11 +8065,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Benelux-Open</fullName>
+                <fullName>SMB-EM-Benelux-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-CEE-Open</fullName>
+                <fullName>SMB-EM-CEE-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-CZSK-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-DACH-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8073,23 +8085,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Germany-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-EM-Iberia-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Open</fullName>
+                <fullName>SMB-EM-Israel-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Nordics-Open</fullName>
+                <fullName>SMB-EM-Nordics-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Other-Open</fullName>
+                <fullName>SMB-EM-Other-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8097,7 +8105,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-UKI-Open</fullName>
+                <fullName>SMB-EM-UKI-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8141,7 +8149,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-11-Assign</fullName>
+                <fullName>SMB-NA-11-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8529,15 +8537,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Benelux-Open</fullName>
+                <fullName>SMB-EM-Benelux-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-CEE-Open</fullName>
+                <fullName>SMB-EM-CEE-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Open</fullName>
+                <fullName>SMB-EM-CZSK-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-Israel-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8585,7 +8597,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-11-Assign</fullName>
+                <fullName>SMB-NA-11-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8892,11 +8904,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Benelux-Open</fullName>
+                <fullName>SMB-EM-Benelux-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-CEE-Open</fullName>
+                <fullName>SMB-EM-CEE-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-CZSK-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-DACH-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8904,23 +8924,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Germany-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-EM-Iberia-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Open</fullName>
+                <fullName>SMB-EM-Israel-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Nordics-Open</fullName>
+                <fullName>SMB-EM-Nordics-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Other-Open</fullName>
+                <fullName>SMB-EM-Other-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8928,7 +8944,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-UKI-Open</fullName>
+                <fullName>SMB-EM-UKI-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8972,7 +8988,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-11-Assign</fullName>
+                <fullName>SMB-NA-11-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10427,11 +10443,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Benelux-Open</fullName>
+                <fullName>SMB-EM-Benelux-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-CEE-Open</fullName>
+                <fullName>SMB-EM-CEE-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-CZSK-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-DACH-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10439,23 +10463,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Germany-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-EM-Iberia-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Open</fullName>
+                <fullName>SMB-EM-Israel-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Nordics-Open</fullName>
+                <fullName>SMB-EM-Nordics-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Other-Open</fullName>
+                <fullName>SMB-EM-Other-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10463,7 +10483,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-UKI-Open</fullName>
+                <fullName>SMB-EM-UKI-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10507,7 +10527,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-11-Assign</fullName>
+                <fullName>SMB-NA-11-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11547,11 +11567,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Benelux-Open</fullName>
+                <fullName>SMB-EM-Benelux-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-CEE-Open</fullName>
+                <fullName>SMB-EM-CEE-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-CZSK-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-DACH-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11559,23 +11587,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Germany-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-EM-Iberia-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Open</fullName>
+                <fullName>SMB-EM-Israel-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Nordics-Open</fullName>
+                <fullName>SMB-EM-Nordics-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Other-Open</fullName>
+                <fullName>SMB-EM-Other-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11583,7 +11607,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-UKI-Open</fullName>
+                <fullName>SMB-EM-UKI-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11627,7 +11651,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-11-Assign</fullName>
+                <fullName>SMB-NA-11-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12031,11 +12055,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Benelux-Open</fullName>
+                <fullName>SMB-EM-Benelux-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-CEE-Open</fullName>
+                <fullName>SMB-EM-CEE-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-CZSK-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-DACH-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12043,23 +12075,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Germany-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-EM-Iberia-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Open</fullName>
+                <fullName>SMB-EM-Israel-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Nordics-Open</fullName>
+                <fullName>SMB-EM-Nordics-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Other-Open</fullName>
+                <fullName>SMB-EM-Other-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12067,7 +12095,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-UKI-Open</fullName>
+                <fullName>SMB-EM-UKI-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12111,7 +12139,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-11-Assign</fullName>
+                <fullName>SMB-NA-11-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12426,11 +12454,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Benelux-Open</fullName>
+                <fullName>SMB-EM-Benelux-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-CEE-Open</fullName>
+                <fullName>SMB-EM-CEE-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-CZSK-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMB-EM-DACH-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12438,23 +12474,19 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Germany-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-EM-Iberia-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Israel-Open</fullName>
+                <fullName>SMB-EM-Israel-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Nordics-Open</fullName>
+                <fullName>SMB-EM-Nordics-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-Other-Open</fullName>
+                <fullName>SMB-EM-Other-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12462,7 +12494,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-EM-UKI-Open</fullName>
+                <fullName>SMB-EM-UKI-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12506,7 +12538,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-11-Assign</fullName>
+                <fullName>SMB-NA-11-Open</fullName>
                 <default>false</default>
             </values>
             <values>
