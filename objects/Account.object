@@ -13161,7 +13161,7 @@ TEXT($User.Team__c) &lt;&gt; &quot;Sales-Manager&quot;
     <validationRules>
         <fullName>AC001_Do_not_transfer_Holdback_Accounts</fullName>
         <active>true</active>
-        <description>To prevent transferring target accounts</description>
+        <description>To prevent transferring holdback accounts</description>
         <errorConditionFormula>Sales_Holdback__c  &amp;&amp; IsChanged( OwnerId )</errorConditionFormula>
         <errorDisplayField>Sales_Holdback__c</errorDisplayField>
         <errorMessage>Can&apos;t Transfer Holdback account ownership [AC001]</errorMessage>
