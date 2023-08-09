@@ -987,6 +987,10 @@
         <fields>Gong__Related_Contacts_json__c</fields>
         <relatedList>Gong__Gong_Call__c.Gong__Primary_Account__c</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>skilljar__Student__c.Account__c</relatedList>
+    </relatedLists>
     <relatedObjects>ParentId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
