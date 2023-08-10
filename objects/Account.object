@@ -6741,7 +6741,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-02-Assign</fullName>
+                <fullName>EN-NA-02-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6765,7 +6765,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-08-Assign</fullName>
+                <fullName>EN-NA-08-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6773,7 +6773,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-10-Open</fullName>
+                <fullName>EN-NA-10-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7865,7 +7865,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-02-Assign</fullName>
+                <fullName>EN-NA-02-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7889,7 +7889,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-08-Assign</fullName>
+                <fullName>EN-NA-08-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7897,7 +7897,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-10-Open</fullName>
+                <fullName>EN-NA-10-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8341,7 +8341,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-02-Assign</fullName>
+                <fullName>EN-NA-02-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8365,7 +8365,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-08-Assign</fullName>
+                <fullName>EN-NA-08-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8373,7 +8373,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-10-Open</fullName>
+                <fullName>EN-NA-10-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8704,7 +8704,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-02-Assign</fullName>
+                <fullName>EN-NA-02-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8728,7 +8728,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-08-Assign</fullName>
+                <fullName>EN-NA-08-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8736,7 +8736,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-10-Open</fullName>
+                <fullName>EN-NA-10-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10243,7 +10243,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-02-Assign</fullName>
+                <fullName>EN-NA-02-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10267,7 +10267,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-08-Assign</fullName>
+                <fullName>EN-NA-08-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10275,7 +10275,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-10-Open</fullName>
+                <fullName>EN-NA-10-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11367,7 +11367,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-02-Assign</fullName>
+                <fullName>EN-NA-02-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11391,7 +11391,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-08-Assign</fullName>
+                <fullName>EN-NA-08-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11399,7 +11399,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-10-Open</fullName>
+                <fullName>EN-NA-10-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11855,7 +11855,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-02-Assign</fullName>
+                <fullName>EN-NA-02-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11879,7 +11879,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-08-Assign</fullName>
+                <fullName>EN-NA-08-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11887,7 +11887,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-10-Open</fullName>
+                <fullName>EN-NA-10-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12250,7 +12250,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-02-Assign</fullName>
+                <fullName>EN-NA-02-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12278,7 +12278,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-08-Assign</fullName>
+                <fullName>EN-NA-08-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12286,7 +12286,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-10-Open</fullName>
+                <fullName>EN-NA-10-Assign</fullName>
                 <default>false</default>
             </values>
             <values>

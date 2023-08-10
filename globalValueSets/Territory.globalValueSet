@@ -46,9 +46,9 @@
         <label>EN-NA-01-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-02-Assign</fullName>
+        <fullName>EN-NA-02-Open</fullName>
         <default>false</default>
-        <label>EN-NA-02-Assign</label>
+        <label>EN-NA-02-Open</label>
     </customValue>
     <customValue>
         <fullName>EN-NA-03-Open</fullName>
@@ -81,9 +81,9 @@
         <label>EN-NA-07-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-08-Assign</fullName>
+        <fullName>EN-NA-08-Open</fullName>
         <default>false</default>
-        <label>EN-NA-08-Assign</label>
+        <label>EN-NA-08-Open</label>
     </customValue>
     <customValue>
         <fullName>EN-NA-09-Assign</fullName>
@@ -91,9 +91,9 @@
         <label>EN-NA-09-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-10-Open</fullName>
+        <fullName>EN-NA-10-Assign</fullName>
         <default>false</default>
-        <label>EN-NA-10-Open</label>
+        <label>EN-NA-10-Assign</label>
     </customValue>
     <customValue>
         <fullName>EN-NA-11-Assign</fullName>
