@@ -10333,11 +10333,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Opportunity.temp_projectSource__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Opportunity.test_project_status__c</field>
         <readable>false</readable>
     </fieldPermissions>

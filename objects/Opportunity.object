@@ -3864,17 +3864,6 @@ Stage_Num_Snapshot__c  &lt; 6))</formula>
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>temp_projectSource__c</fullName>
-        <externalId>false</externalId>
-        <label>temp_projectSource</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Account_Owner_Alias__c</fullName>
         <externalId>false</externalId>
         <formula>Account.Owner.Alias</formula>
@@ -8173,6 +8162,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Forecast</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Omitted</fullName>
                 <default>false</default>
             </values>
@@ -11277,6 +11270,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecast</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -14442,6 +14439,10 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Forecast</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Omitted</fullName>
                 <default>false</default>
             </values>
@@ -17498,6 +17499,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecast</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -20664,6 +20669,10 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Forecast</fullName>
                 <default>false</default>
             </values>
             <values>
