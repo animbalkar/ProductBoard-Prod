@@ -1121,6 +1121,17 @@ Document details in Special Terms field</inlineHelpText>
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>v1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>v2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <recordTypes>
         <fullName>Custom_Contract</fullName>
@@ -1270,6 +1281,17 @@ Document details in Special Terms field</inlineHelpText>
             </values>
             <values>
                 <fullName>In Approval Process</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>v1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>v2</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

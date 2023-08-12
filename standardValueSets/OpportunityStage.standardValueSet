@@ -42,7 +42,7 @@
         <default>false</default>
         <label>2.0 Consult</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
+        <forecastCategory>BestCase</forecastCategory>
         <probability>25</probability>
         <won>false</won>
     </standardValue>
@@ -71,7 +71,7 @@
         <default>false</default>
         <label>3.0 Prove</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
+        <forecastCategory>BestCase</forecastCategory>
         <probability>50</probability>
         <won>false</won>
     </standardValue>
@@ -80,7 +80,7 @@
         <default>false</default>
         <label>4.0 Proposal</label>
         <closed>false</closed>
-        <forecastCategory>BestCase</forecastCategory>
+        <forecastCategory>MostLikely</forecastCategory>
         <probability>60</probability>
         <won>false</won>
     </standardValue>
