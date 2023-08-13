@@ -41,12 +41,6 @@
         <label>Other</label>
     </customValue>
     <customValue>
-        <fullName>Usability</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Usability</label>
-    </customValue>
-    <customValue>
         <fullName>Does not meet ICP</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -119,6 +113,24 @@
         <label>Change Management</label>
     </customValue>
     <customValue>
+        <fullName>Alternate Need</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Alternate Need</label>
+    </customValue>
+    <customValue>
+        <fullName>Left Company</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Left Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Reason Missing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Reason Missing</label>
+    </customValue>
+    <customValue>
         <fullName>Deal execution</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -131,16 +143,10 @@
         <label>Unable to prove mission critical</label>
     </customValue>
     <customValue>
-        <fullName>Reason Missing</fullName>
+        <fullName>Usability</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Reason Missing</label>
-    </customValue>
-    <customValue>
-        <fullName>Alternate Need</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Alternate Need</label>
+        <label>Usability</label>
     </customValue>
     <customValue>
         <fullName>Performance</fullName>
@@ -177,12 +183,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Adoption (Usage)</label>
-    </customValue>
-    <customValue>
-        <fullName>Left Company</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Left Company</label>
     </customValue>
     <customValue>
         <fullName>Security</fullName>
