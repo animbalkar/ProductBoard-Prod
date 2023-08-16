@@ -119,12 +119,6 @@
         <label>Change Management</label>
     </customValue>
     <customValue>
-        <fullName>Reason Missing</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Reason Missing</label>
-    </customValue>
-    <customValue>
         <fullName>Deal execution</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -137,10 +131,16 @@
         <label>Unable to prove mission critical</label>
     </customValue>
     <customValue>
-        <fullName>Left Company</fullName>
+        <fullName>Reason Missing</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Left Company</label>
+        <label>Reason Missing</label>
+    </customValue>
+    <customValue>
+        <fullName>Alternate Need</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Alternate Need</label>
     </customValue>
     <customValue>
         <fullName>Performance</fullName>
@@ -179,10 +179,10 @@
         <label>Adoption (Usage)</label>
     </customValue>
     <customValue>
-        <fullName>Alternate Need</fullName>
+        <fullName>Left Company</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Alternate Need</label>
+        <label>Left Company</label>
     </customValue>
     <customValue>
         <fullName>Security</fullName>

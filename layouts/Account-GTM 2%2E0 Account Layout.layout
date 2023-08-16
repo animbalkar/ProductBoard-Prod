@@ -911,10 +911,10 @@
         <label>rampmetrics</label>
         <layoutColumns>
             <layoutItems>
-                <height>200</height>
+                <height>830</height>
                 <page>rm_forsf__rampmetrics_Account_rm_user</page>
                 <showLabel>false</showLabel>
-                <showScrollbars>false</showScrollbars>
+                <showScrollbars>true</showScrollbars>
                 <width>100%</width>
             </layoutItems>
             <layoutItems>
