@@ -20,6 +20,8 @@
                 <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Account.New_CSM_Alert_for_PSAs</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>52.0</apiVersion>
     <decisions>

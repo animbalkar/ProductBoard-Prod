@@ -23,6 +23,8 @@
                 <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Account.Alert_CMS_when_Acct_Owner_Changes</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>52.0</apiVersion>
     <decisions>

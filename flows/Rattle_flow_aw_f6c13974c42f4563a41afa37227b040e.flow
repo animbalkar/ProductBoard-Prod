@@ -8,6 +8,8 @@
         <actionName>Opportunity.R_f6c13974c42f4563a41afa37227b040e</actionName>
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <nameSegment>Opportunity.R_f6c13974c42f4563a41afa37227b040e</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <description>Rattle_Win Notification - Renewal</description>

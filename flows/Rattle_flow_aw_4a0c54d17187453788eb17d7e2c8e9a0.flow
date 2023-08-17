@@ -8,6 +8,8 @@
         <actionName>Opportunity.R_4a0c54d17187453788eb17d7e2c8e9a0</actionName>
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <nameSegment>Opportunity.R_4a0c54d17187453788eb17d7e2c8e9a0</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <description>Rattle_SDR New Trial</description>

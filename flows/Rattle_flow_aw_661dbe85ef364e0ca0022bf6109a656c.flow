@@ -8,6 +8,8 @@
         <actionName>Opportunity.R_661dbe85ef364e0ca0022bf6109a656c</actionName>
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <nameSegment>Opportunity.R_661dbe85ef364e0ca0022bf6109a656c</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <description>Rattle_Opportunity: Forecast Category Changed</description>

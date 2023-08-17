@@ -22,6 +22,8 @@
                 <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Case.CS_to_Case_Owner_New_Case_Assigned</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <decisions>

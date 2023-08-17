@@ -8,6 +8,8 @@
         <actionName>Opportunity.R_705a80e010c045d4887417c0dd9d80aa</actionName>
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <nameSegment>Opportunity.R_705a80e010c045d4887417c0dd9d80aa</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <description>Rattle_Opportunity Amount Decreased</description>

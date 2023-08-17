@@ -8,6 +8,8 @@
         <actionName>Opportunity.R_4fb526e1cfed4ccba11656969bcbff1f</actionName>
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <nameSegment>Opportunity.R_4fb526e1cfed4ccba11656969bcbff1f</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <description>Rattle_Opportunity: Stage Change Deals &gt; $50K</description>

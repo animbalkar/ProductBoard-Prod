@@ -8,6 +8,8 @@
         <actionName>Opportunity.R_f70fbaa3a07f45bba253730614e36712</actionName>
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <nameSegment>Opportunity.R_f70fbaa3a07f45bba253730614e36712</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <description>Rattle_SDR Opportunity Closed Won</description>

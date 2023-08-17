@@ -23,6 +23,8 @@
                 <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Case.SE_New_Resource_Request</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <processMetadataValues>
@@ -44,6 +46,8 @@
                 <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Case.SE_New_Resource_RequestEMEA</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <processMetadataValues>
@@ -68,6 +72,8 @@
                 <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Case.SA_New_Resource_Request</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <processMetadataValues>
@@ -89,6 +95,8 @@
                 <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Case.Value_Request_New_Resource_Request</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <processMetadataValues>
@@ -113,6 +121,8 @@
                 <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Case.CS_New_Resource_Request</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <processMetadataValues>
@@ -137,6 +147,8 @@
                 <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Case.CS_Security_Review_Request</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <processMetadataValues>
@@ -158,6 +170,8 @@
                 <elementReference>myVariable_current.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Case.SalesOps_Request_Email_Alert</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <decisions>

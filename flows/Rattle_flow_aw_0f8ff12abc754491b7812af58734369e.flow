@@ -8,6 +8,8 @@
         <actionName>Opportunity.R_0f8ff12abc754491b7812af58734369e</actionName>
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <nameSegment>Opportunity.R_0f8ff12abc754491b7812af58734369e</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <description>Rattle_SDR Opportunity Stage Change to 3, 4, or 5</description>

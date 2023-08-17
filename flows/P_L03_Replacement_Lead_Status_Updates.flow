@@ -62,6 +62,8 @@
                 <elementReference>myVariable_current</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>L_04_Invokable_Status_Changes</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>52.0</apiVersion>
     <decisions>

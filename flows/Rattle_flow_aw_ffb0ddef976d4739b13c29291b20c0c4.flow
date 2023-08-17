@@ -8,6 +8,8 @@
         <actionName>Opportunity.R_ffb0ddef976d4739b13c29291b20c0c4</actionName>
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <nameSegment>Opportunity.R_ffb0ddef976d4739b13c29291b20c0c4</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <description>Rattle_Win Notification Standard v2</description>

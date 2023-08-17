@@ -14,6 +14,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Opportunity.Alert_CS_Leads_of_new_High_Touch_Accounts</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>54.0</apiVersion>
     <description>Notifies Services team and High Touch CS team leader of new account for their BoB</description>
