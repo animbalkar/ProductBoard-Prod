@@ -271,6 +271,10 @@
                 <behavior>Edit</behavior>
                 <field>Vitally_Churn_Forecast__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Vitally_Churn_Predictability_Score__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

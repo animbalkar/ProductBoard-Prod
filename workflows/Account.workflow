@@ -446,72 +446,17 @@ or(
         <triggerType>onAllChanges</triggerType>
     </rules>
     <rules>
-        <fullName>Assign RM to APAC%2C EMEA%2C and AUNZ customers</fullName>
-        <actions>
-            <name>Update_RM_on_customer_account</name>
-            <type>FieldUpdate</type>
-        </actions>
-        <active>true</active>
-        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 and 6 and 7 and 8 and 9</booleanFilter>
-        <criteriaItems>
-            <field>Account.Account_ARR__c</field>
-            <operation>lessThan</operation>
-            <value>30000</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Account.Customer_Status__c</field>
-            <operation>contains</operation>
-            <value>customer</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Account.Renewal_Manager__c</field>
-            <operation>equals</operation>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Account.Region__c</field>
-            <operation>contains</operation>
-            <value>EMEA,APAC,AUNZ,Missing,Exclude,Blacklisted</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Account.Account_ARR__c</field>
-            <operation>greaterOrEqual</operation>
-            <value>10000</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Account.CSM_Team__c</field>
-            <operation>notContain</operation>
-            <value>ent</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Account.CSM_Team__c</field>
-            <operation>notContain</operation>
-            <value>comm</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Account.CSM_Team__c</field>
-            <operation>notContain</operation>
-            <value>other</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>Account.Projects_with_Contracts__c</field>
-            <operation>greaterThan</operation>
-            <value>0</value>
-        </criteriaItems>
-        <description>Assign RM to APAC, AUNZ, and EMEA customer accounts with ARR $10-$30k (+ &quot;other)</description>
-        <triggerType>onCreateOrTriggeringUpdate</triggerType>
-    </rules>
-    <rules>
         <fullName>Assign RM to NOAM %2B LATAM %2B Other Customers</fullName>
         <actions>
             <name>Update_RM_to</name>
             <type>FieldUpdate</type>
         </actions>
         <active>true</active>
-        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 and 7 and 8</booleanFilter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 and 7 and 8 and 9</booleanFilter>
         <criteriaItems>
             <field>Account.Account_ARR__c</field>
-            <operation>lessThan</operation>
-            <value>30000</value>
+            <operation>greaterOrEqual</operation>
+            <value>10000</value>
         </criteriaItems>
         <criteriaItems>
             <field>Account.Customer_Status__c</field>
@@ -547,8 +492,13 @@ or(
             <operation>notContain</operation>
             <value>comm</value>
         </criteriaItems>
+        <criteriaItems>
+            <field>Account.CSM_Team__c</field>
+            <operation>notContain</operation>
+            <value>other</value>
+        </criteriaItems>
         <description>Assign RMs to NOAM, LATAM and Other customer accounts with 10-$30k ARR.</description>
-        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <triggerType>onAllChanges</triggerType>
     </rules>
     <rules>
         <fullName>Billing Address Changed</fullName>
