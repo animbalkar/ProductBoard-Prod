@@ -122,6 +122,10 @@
                 <field>Bad_Account__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>NumberOfEmployees</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Max_Employees__c</field>
             </layoutItems>
@@ -847,6 +851,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>ID_Long__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CB_Employees__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
