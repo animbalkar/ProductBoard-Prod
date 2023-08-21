@@ -68,10 +68,10 @@
         <label>Replied</label>
     </customValue>
     <customValue>
-        <fullName>Interested</fullName>
+        <fullName>Needs Analysis</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Interested</label>
+        <label>Needs Analysis</label>
     </customValue>
     <customValue>
         <fullName>Not Interested</fullName>
@@ -80,52 +80,16 @@
         <label>Not Interested</label>
     </customValue>
     <customValue>
-        <fullName>Cold / Not Started</fullName>
+        <fullName>New</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Cold / Not Started</label>
+        <label>New</label>
     </customValue>
     <customValue>
-        <fullName>Negotiation/Review</fullName>
+        <fullName>Interested</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Negotiation/Review</label>
-    </customValue>
-    <customValue>
-        <fullName>Proposal/Price Quote</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Proposal/Price Quote</label>
-    </customValue>
-    <customValue>
-        <fullName>Perception Analysis</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Perception Analysis</label>
-    </customValue>
-    <customValue>
-        <fullName>ID. Decision Makers</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>ID. Decision Makers</label>
-    </customValue>
-    <customValue>
-        <fullName>Value Proposition</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Value Proposition</label>
-    </customValue>
-    <customValue>
-        <fullName>Closed Lost</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Closed Lost</label>
-    </customValue>
-    <customValue>
-        <fullName>Closed Won</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Closed Won</label>
+        <label>Interested</label>
     </customValue>
     <customValue>
         <fullName>Qualified</fullName>
@@ -134,22 +98,58 @@
         <label>Qualified</label>
     </customValue>
     <customValue>
-        <fullName>Needs Analysis</fullName>
+        <fullName>Closed Won</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Needs Analysis</label>
+        <label>Closed Won</label>
     </customValue>
     <customValue>
-        <fullName>New</fullName>
+        <fullName>Closed Lost</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>New</label>
+        <label>Closed Lost</label>
+    </customValue>
+    <customValue>
+        <fullName>Value Proposition</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Value Proposition</label>
+    </customValue>
+    <customValue>
+        <fullName>ID. Decision Makers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ID. Decision Makers</label>
+    </customValue>
+    <customValue>
+        <fullName>Perception Analysis</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Perception Analysis</label>
+    </customValue>
+    <customValue>
+        <fullName>Proposal/Price Quote</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Proposal/Price Quote</label>
+    </customValue>
+    <customValue>
+        <fullName>Negotiation/Review</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Negotiation/Review</label>
     </customValue>
     <customValue>
         <fullName>Prospecting</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Prospecting</label>
+    </customValue>
+    <customValue>
+        <fullName>Cold / Not Started</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cold / Not Started</label>
     </customValue>
     <masterLabel>Outreach Stages</masterLabel>
     <sorted>false</sorted>

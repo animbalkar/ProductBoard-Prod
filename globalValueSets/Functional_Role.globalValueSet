@@ -99,16 +99,16 @@
         <label>education</label>
     </customValue>
     <customValue>
-        <fullName>communications</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>communications</label>
-    </customValue>
-    <customValue>
         <fullName>consulting</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>consulting</label>
+    </customValue>
+    <customValue>
+        <fullName>communications</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>communications</label>
     </customValue>
     <description>https://docs.google.com/spreadsheets/d/1erIdqoy60JwLAnpb91EfoJV5YrXDnbwSaA-aqcBlw48/edit#gid=1561611259</description>
     <masterLabel>Functional Role</masterLabel>

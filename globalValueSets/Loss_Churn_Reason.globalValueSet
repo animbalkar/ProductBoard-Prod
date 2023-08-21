@@ -41,6 +41,42 @@
         <label>Other</label>
     </customValue>
     <customValue>
+        <fullName>Customer Experience</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Customer Experience</label>
+    </customValue>
+    <customValue>
+        <fullName>Feature Gap</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Feature Gap</label>
+    </customValue>
+    <customValue>
+        <fullName>Lack of Value (Outcomes)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lack of Value (Outcomes)</label>
+    </customValue>
+    <customValue>
+        <fullName>No Data</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>No Data</label>
+    </customValue>
+    <customValue>
+        <fullName>Performance</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Performance</label>
+    </customValue>
+    <customValue>
+        <fullName>Usability</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Usability</label>
+    </customValue>
+    <customValue>
         <fullName>Does not meet ICP</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -59,10 +95,10 @@
         <label>Non-Responsive/Ghosting</label>
     </customValue>
     <customValue>
-        <fullName>Sales declined</fullName>
+        <fullName>Reason Missing</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Sales declined</label>
+        <label>Reason Missing</label>
     </customValue>
     <customValue>
         <fullName>DM Declined</fullName>
@@ -101,10 +137,28 @@
         <label>Automatic - Space Deleted/Expired</label>
     </customValue>
     <customValue>
-        <fullName>Trial Loss Reason</fullName>
+        <fullName>No SOC II</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Trial Loss Reason</label>
+        <label>No SOC II</label>
+    </customValue>
+    <customValue>
+        <fullName>Security</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Security</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales declined</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sales declined</label>
+    </customValue>
+    <customValue>
+        <fullName>Left Company</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Left Company</label>
     </customValue>
     <customValue>
         <fullName>Change Management</fullName>
@@ -119,16 +173,10 @@
         <label>Alternate Need</label>
     </customValue>
     <customValue>
-        <fullName>Left Company</fullName>
+        <fullName>Trial Loss Reason</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Left Company</label>
-    </customValue>
-    <customValue>
-        <fullName>Reason Missing</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Reason Missing</label>
+        <label>Trial Loss Reason</label>
     </customValue>
     <customValue>
         <fullName>Deal execution</fullName>
@@ -143,58 +191,10 @@
         <label>Unable to prove mission critical</label>
     </customValue>
     <customValue>
-        <fullName>Usability</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Usability</label>
-    </customValue>
-    <customValue>
-        <fullName>Performance</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Performance</label>
-    </customValue>
-    <customValue>
-        <fullName>No Data</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>No Data</label>
-    </customValue>
-    <customValue>
-        <fullName>Lack of Value (Outcomes)</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Lack of Value (Outcomes)</label>
-    </customValue>
-    <customValue>
-        <fullName>Feature Gap</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Feature Gap</label>
-    </customValue>
-    <customValue>
-        <fullName>Customer Experience</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Customer Experience</label>
-    </customValue>
-    <customValue>
         <fullName>Adoption (Usage)</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Adoption (Usage)</label>
-    </customValue>
-    <customValue>
-        <fullName>Security</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Security</label>
-    </customValue>
-    <customValue>
-        <fullName>No SOC II</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>No SOC II</label>
     </customValue>
     <masterLabel>Loss/Churn Reason</masterLabel>
     <sorted>true</sorted>

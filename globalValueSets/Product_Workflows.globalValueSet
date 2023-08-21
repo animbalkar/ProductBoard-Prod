@@ -26,16 +26,16 @@
         <label>1. Intuition Driven</label>
     </customValue>
     <customValue>
-        <fullName>Modernizing (Agile)</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Modernizing (Agile)</label>
-    </customValue>
-    <customValue>
         <fullName>Waterfall</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Waterfall</label>
+    </customValue>
+    <customValue>
+        <fullName>Modernizing (Agile)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Modernizing (Agile)</label>
     </customValue>
     <customValue>
         <fullName>Modern</fullName>

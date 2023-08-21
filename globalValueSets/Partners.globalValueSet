@@ -21,6 +21,12 @@
         <label>Umbrage</label>
     </customValue>
     <customValue>
+        <fullName>Heap</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Heap</label>
+    </customValue>
+    <customValue>
         <fullName>Intercom</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -31,6 +37,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Slack</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Ventures</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Digital Ventures</label>
     </customValue>
     <customValue>
         <fullName>Tray.io</fullName>
@@ -45,28 +57,10 @@
         <label>Zendesk</label>
     </customValue>
     <customValue>
-        <fullName>Digital Ventures</fullName>
+        <fullName>Thiga (Consulting)</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Digital Ventures</label>
-    </customValue>
-    <customValue>
-        <fullName>Heap</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Heap</label>
-    </customValue>
-    <customValue>
-        <fullName>Atlassian</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Atlassian</label>
-    </customValue>
-    <customValue>
-        <fullName>AppCues</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>AppCues</label>
+        <label>Thiga (Consulting)</label>
     </customValue>
     <customValue>
         <fullName>Amplitude</fullName>
@@ -75,10 +69,16 @@
         <label>Amplitude</label>
     </customValue>
     <customValue>
-        <fullName>Thiga (Consulting)</fullName>
+        <fullName>AppCues</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Thiga (Consulting)</label>
+        <label>AppCues</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlassian</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Atlassian</label>
     </customValue>
     <masterLabel>Partners</masterLabel>
     <sorted>false</sorted>

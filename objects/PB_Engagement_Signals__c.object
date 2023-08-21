@@ -170,9 +170,9 @@
         <customTabListAdditionalFields>Smart_Touched_At__c</customTabListAdditionalFields>
         <excludedStandardButtons>New</excludedStandardButtons>
         <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
-        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
-        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
         <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
         <lookupDialogsAdditionalFields>Contact_ID__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Experiment_ID__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Experiment_Group__c</lookupDialogsAdditionalFields>

@@ -51,42 +51,6 @@
         <label>Telecommunication Services</label>
     </customValue>
     <customValue>
-        <fullName>Construction Materials</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Construction Materials</label>
-    </customValue>
-    <customValue>
-        <fullName>Consumer Durables &amp; Apparel</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Consumer Durables &amp; Apparel</label>
-    </customValue>
-    <customValue>
-        <fullName>Consumer Services</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Consumer Services</label>
-    </customValue>
-    <customValue>
-        <fullName>Diversified Consumer Services</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Diversified Consumer Services</label>
-    </customValue>
-    <customValue>
-        <fullName>Diversified Financial Services</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Diversified Financial Services</label>
-    </customValue>
-    <customValue>
-        <fullName>Diversified Financials</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Diversified Financials</label>
-    </customValue>
-    <customValue>
         <fullName>Energy Equipment &amp; Services</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -129,64 +93,10 @@
         <label>Insurance</label>
     </customValue>
     <customValue>
-        <fullName>Media</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Media</label>
-    </customValue>
-    <customValue>
-        <fullName>Commercial &amp; Professional Services</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Commercial &amp; Professional Services</label>
-    </customValue>
-    <customValue>
-        <fullName>Capital Goods</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Capital Goods</label>
-    </customValue>
-    <customValue>
-        <fullName>Banks</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Banks</label>
-    </customValue>
-    <customValue>
         <fullName>Automobiles &amp; Components</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Automobiles &amp; Components</label>
-    </customValue>
-    <customValue>
-        <fullName>Transportation</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Transportation</label>
-    </customValue>
-    <customValue>
-        <fullName>Technology Hardware &amp; Equipment</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Technology Hardware &amp; Equipment</label>
-    </customValue>
-    <customValue>
-        <fullName>Software &amp; Services</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Software &amp; Services</label>
-    </customValue>
-    <customValue>
-        <fullName>Semiconductors &amp; Semiconductor Equipment</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Semiconductors &amp; Semiconductor Equipment</label>
-    </customValue>
-    <customValue>
-        <fullName>Retailing</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Retailing</label>
     </customValue>
     <customValue>
         <fullName>Pharmaceuticals, Biotechnology &amp; Life Sciences</fullName>
@@ -199,6 +109,96 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Real Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Retailing</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Retailing</label>
+    </customValue>
+    <customValue>
+        <fullName>Semiconductors &amp; Semiconductor Equipment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Semiconductors &amp; Semiconductor Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Software &amp; Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Software &amp; Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology Hardware &amp; Equipment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Technology Hardware &amp; Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>Media</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Banks</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Banks</label>
+    </customValue>
+    <customValue>
+        <fullName>Capital Goods</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Capital Goods</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial &amp; Professional Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Commercial &amp; Professional Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Construction Materials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Construction Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer Durables &amp; Apparel</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consumer Durables &amp; Apparel</label>
+    </customValue>
+    <customValue>
+        <fullName>Consumer Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consumer Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Diversified Consumer Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Diversified Consumer Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Diversified Financial Services</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Diversified Financial Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Diversified Financials</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Diversified Financials</label>
     </customValue>
     <description>https://docs.google.com/spreadsheets/d/1erIdqoy60JwLAnpb91EfoJV5YrXDnbwSaA-aqcBlw48/edit#gid=1561611259</description>
     <masterLabel>Sector</masterLabel>

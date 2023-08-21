@@ -62,6 +62,24 @@
         <label>Unqualified</label>
     </customValue>
     <customValue>
+        <fullName>Qualified</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Qualified</label>
+    </customValue>
+    <customValue>
+        <fullName>Meeting Conducted</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Meeting Conducted</label>
+    </customValue>
+    <customValue>
+        <fullName>Meeting Booked</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Meeting Booked</label>
+    </customValue>
+    <customValue>
         <fullName>Unresponsive</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -84,24 +102,6 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>Demo</label>
-    </customValue>
-    <customValue>
-        <fullName>Meeting Conducted</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Meeting Conducted</label>
-    </customValue>
-    <customValue>
-        <fullName>Qualified</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Qualified</label>
-    </customValue>
-    <customValue>
-        <fullName>Meeting Booked</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Meeting Booked</label>
     </customValue>
     <masterLabel>Contact Status</masterLabel>
     <sorted>false</sorted>

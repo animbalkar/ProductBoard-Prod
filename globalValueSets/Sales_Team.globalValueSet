@@ -96,10 +96,16 @@
         <label>Partnerships</label>
     </customValue>
     <customValue>
-        <fullName>Sales-AE-Solution</fullName>
+        <fullName>Comm-CSM-Team</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Sales-AE-Solution</label>
+        <label>Comm-CSM-Team</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales-AE-Velocity</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sales-AE-Velocity</label>
     </customValue>
     <customValue>
         <fullName>CSM-4</fullName>
@@ -108,10 +114,10 @@
         <label>CSM-4</label>
     </customValue>
     <customValue>
-        <fullName>Comm-CSM-Team</fullName>
+        <fullName>CSM-3</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Comm-CSM-Team</label>
+        <label>CSM-3</label>
     </customValue>
     <customValue>
         <fullName>CSM-2</fullName>
@@ -126,22 +132,16 @@
         <label>CSM-1</label>
     </customValue>
     <customValue>
-        <fullName>Sales-AE-Velocity</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Sales-AE-Velocity</label>
-    </customValue>
-    <customValue>
         <fullName>Solution Architect</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>Solution Architect</label>
     </customValue>
     <customValue>
-        <fullName>CSM-3</fullName>
+        <fullName>Sales-AE-Solution</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>CSM-3</label>
+        <label>Sales-AE-Solution</label>
     </customValue>
     <masterLabel>Team</masterLabel>
     <sorted>false</sorted>
