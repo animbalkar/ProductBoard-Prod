@@ -113,8 +113,8 @@
                 <field>Invoiced_By__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Account_Billing_City__c</field>
+                <behavior>Edit</behavior>
+                <field>Type__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
@@ -175,14 +175,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Cancelled__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>StartDate</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>EndDate</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
