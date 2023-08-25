@@ -122,7 +122,7 @@
         <description>SalesOps Case Priority Alert</description>
         <protected>false</protected>
         <recipients>
-            <recipient>shreyasi.gadgil@productboard.com</recipient>
+            <recipient>harrison.tighe@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
@@ -134,7 +134,7 @@
         <description>SalesOps Request Email Alert</description>
         <protected>false</protected>
         <recipients>
-            <recipient>shreyasi.gadgil@productboard.com</recipient>
+            <recipient>harrison.tighe@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
