@@ -3748,8 +3748,11 @@ Max(0,(Year(CloseDate) - Year(Date_Transferred_to_2_0__c )) * 12  + month(CloseD
     <fields>
         <fullName>Renewal_Date_Check__c</fullName>
         <externalId>false</externalId>
-        <formula>IF(IsPickVal( Type,&quot;Renewal&quot;) &amp;&amp; Not(IsClosed),
-datevalue( Project__r.etl_subscription_end_date__c) - CloseDate,null)</formula>
+        <formula>IF(
+    IsPickVal( Type,&quot;Renewal&quot;) &amp;&amp; Not(IsClosed),
+    Project__r.ETL_Subscription_End__c - TODAY(),
+    null
+)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Renewal Date Check</label>
         <precision>18</precision>

@@ -78,6 +78,10 @@
                 <behavior>Readonly</behavior>
                 <field>CS_Tier__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Renewal_Date_Check__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
