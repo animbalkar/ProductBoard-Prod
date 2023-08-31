@@ -98,7 +98,6 @@
         <ccEmails>hubert@productboard.com,</ccEmails>
         <ccEmails>customersuccess@productboard.com,</ccEmails>
         <ccEmails>oxygen-revenue-aaaaaavft6pgjcfyrpvya5c6ia@productboard.slack.com,</ccEmails>
-        <ccEmails>lauren@productboard.com</ccEmails>
         <description>Deal Won Notification</description>
         <protected>false</protected>
         <recipients>
