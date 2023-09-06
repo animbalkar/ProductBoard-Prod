@@ -13300,10 +13300,6 @@
         <recordType>Contract.Credit_Card</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Contract-Custom Contract Layout</layout>
-        <recordType>Contract.Custom_Contract</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Contract_Product__c-Contract Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
