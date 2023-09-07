@@ -540,6 +540,10 @@
                 <behavior>Edit</behavior>
                 <field>Billing_Contact_Email__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Current_Contract__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
