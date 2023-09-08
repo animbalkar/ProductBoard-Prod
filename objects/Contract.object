@@ -698,16 +698,6 @@ Document details in Special Terms field</inlineHelpText>
         </valueSet>
     </fields>
     <fields>
-        <fullName>Test_Orders_Sum__c</fullName>
-        <externalId>false</externalId>
-        <label>Test - Orders Sum</label>
-        <summarizedField>Order.TotalAmount</summarizedField>
-        <summaryForeignKey>Order.ContractId</summaryForeignKey>
-        <summaryOperation>sum</summaryOperation>
-        <trackHistory>false</trackHistory>
-        <type>Summary</type>
-    </fields>
-    <fields>
         <fullName>Jira_Integration__c</fullName>
         <externalId>false</externalId>
         <formula>Opportunity__r.Jira_Integration__c</formula>

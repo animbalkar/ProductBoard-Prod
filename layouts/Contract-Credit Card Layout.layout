@@ -74,7 +74,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Test_Orders_Sum__c</field>
+                <field>Total_Contract_Value__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
