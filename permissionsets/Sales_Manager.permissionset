@@ -4,6 +4,11 @@
 Fields: LD Trigger</description>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Commercial_Target_Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Territory_Governance__c</field>
         <readable>true</readable>
     </fieldPermissions>
