@@ -55,37 +55,6 @@
                 <processMetadataValues>
                     <name>inputDataType</name>
                     <value>
-                        <stringValue>Currency</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>leftHandSideType</name>
-                    <value>
-                        <stringValue>Currency</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>operatorDataType</name>
-                    <value>
-                        <stringValue>Currency</stringValue>
-                    </value>
-                </processMetadataValues>
-                <processMetadataValues>
-                    <name>rightHandSideType</name>
-                    <value>
-                        <stringValue>Currency</stringValue>
-                    </value>
-                </processMetadataValues>
-                <leftValueReference>myVariable_current.ARR_New__c</leftValueReference>
-                <operator>GreaterThanOrEqualTo</operator>
-                <rightValue>
-                    <numberValue>10000.0</numberValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <processMetadataValues>
-                    <name>inputDataType</name>
-                    <value>
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
@@ -204,6 +173,37 @@
                 <operator>LessThanOrEqualTo</operator>
                 <rightValue>
                     <numberValue>30000.0</numberValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Currency</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.Account_Name__r.Account_ARR__c</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <numberValue>0.0</numberValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -388,8 +388,8 @@
             <label>P(P10)-2 Active Backend Stage Updates</label>
         </rules>
     </decisions>
-    <description>Update to Project Plan, Acct and CS Coach assign: PJ Updates to Coach ARR Threshold 1/31</description>
-    <interviewLabel>P_03_Project_Plan_Field_Updates-24_InterviewLabel</interviewLabel>
+    <description>Update to Project Plan, Acct and CS Coach assign: LO Updates to ARR threshold &lt; $30K Sept 11 2023</description>
+    <interviewLabel>P_03_Project_Plan_Field_Updates-25_InterviewLabel</interviewLabel>
     <label>[P(03)] Project Plan, Acct &amp; CS Coach assignments</label>
     <processMetadataValues>
         <name>ObjectType</name>
