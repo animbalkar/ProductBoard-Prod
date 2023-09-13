@@ -196,101 +196,6 @@
         <label>Missing-Unknown Error</label>
     </customValue>
     <customValue>
-        <fullName>MM-NA-01-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-01-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-02-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-02-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-03-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-03-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-04-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-04-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-05-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-05-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-06-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-06-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-07-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-07-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-08-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-08-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-09-Open</fullName>
-        <default>false</default>
-        <label>MM-NA-09-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-10-Open</fullName>
-        <default>false</default>
-        <label>MM-NA-10-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-11-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-11-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-11-Open</fullName>
-        <default>false</default>
-        <label>MM-NA-11-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-12-Open</fullName>
-        <default>false</default>
-        <label>MM-NA-12-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-13-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-13-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-14-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-14-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-15-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-15-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-16-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-16-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-NA-17-Assign</fullName>
-        <default>false</default>
-        <label>MM-NA-17-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-World-RR-Open</fullName>
-        <default>false</default>
-        <label>MM-World-RR-Open</label>
-    </customValue>
-    <customValue>
         <fullName>Placeholder</fullName>
         <default>false</default>
         <label>Placeholder</label>
@@ -351,9 +256,9 @@
         <label>SMB-EM-UKI-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-01-Assign</fullName>
+        <fullName>SMB-NA-01-Open</fullName>
         <default>false</default>
-        <label>SMB-NA-01-Assign</label>
+        <label>SMB-NA-01-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-02-Assign</fullName>
@@ -406,11 +311,6 @@
         <label>SMB-NA-11-Open</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-12-Open</fullName>
-        <default>false</default>
-        <label>SMB-NA-12-Open</label>
-    </customValue>
-    <customValue>
         <fullName>SMB-NA-13-Open</fullName>
         <default>false</default>
         <label>SMB-NA-13-Open</label>
@@ -426,11 +326,6 @@
         <label>SMB-NA-15-Open</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-16-Open</fullName>
-        <default>false</default>
-        <label>SMB-NA-16-Open</label>
-    </customValue>
-    <customValue>
         <fullName>SMB-NA-17-Assign</fullName>
         <default>false</default>
         <label>SMB-NA-17-Assign</label>
@@ -439,51 +334,6 @@
         <fullName>SMB-NA-18-Open</fullName>
         <default>false</default>
         <label>SMB-NA-18-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-19-Assign</fullName>
-        <default>false</default>
-        <label>SMB-NA-19-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-20-Open</fullName>
-        <default>false</default>
-        <label>SMB-NA-20-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-21-Assign</fullName>
-        <default>false</default>
-        <label>SMB-NA-21-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-22-Open</fullName>
-        <default>false</default>
-        <label>SMB-NA-22-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-23-Open</fullName>
-        <default>false</default>
-        <label>SMB-NA-23-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-24-Assign</fullName>
-        <default>false</default>
-        <label>SMB-NA-24-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-25-Open</fullName>
-        <default>false</default>
-        <label>SMB-NA-25-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-26-Assign</fullName>
-        <default>false</default>
-        <label>SMB-NA-26-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-27-Open</fullName>
-        <default>false</default>
-        <label>SMB-NA-27-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-World-RR-Open</fullName>
@@ -496,124 +346,40 @@
         <label>SMB-EM-CZSK-Assign</label>
     </customValue>
     <customValue>
-        <fullName>MM-EM-FranceSwitzerland-Assign</fullName>
+        <fullName>SMB-NA-23-Open</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>MM-EM-FranceSwitzerland-Assign</label>
+        <label>SMB-NA-23-Open</label>
     </customValue>
     <customValue>
-        <fullName>MM-EM-CEE-Open</fullName>
+        <fullName>SMB-NA-22-Open</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>MM-EM-CEE-Open</label>
+        <label>SMB-NA-22-Open</label>
     </customValue>
     <customValue>
-        <fullName>Vel-NA-10-Open</fullName>
+        <fullName>SMB-NA-21-Assign</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>Vel-NA-10-Open</label>
+        <label>SMB-NA-21-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-EM-02-Assign</fullName>
+        <fullName>SMB-NA-20-Open</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>SMB-EM-02-Assign</label>
+        <label>SMB-NA-20-Open</label>
     </customValue>
     <customValue>
-        <fullName>MM-EM-Nordics-Open</fullName>
+        <fullName>SMB-NA-19-Assign</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>MM-EM-Nordics-Open</label>
+        <label>SMB-NA-19-Assign</label>
     </customValue>
     <customValue>
-        <fullName>MM-EM-Benelux-Open</fullName>
+        <fullName>SMB-NA-16-Open</fullName>
         <default>false</default>
         <isActive>false</isActive>
-        <label>MM-EM-Benelux-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-EM-Open-A</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-EM-Open-A</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-EM-GermanyAustria-Open</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>MM-EM-GermanyAustria-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-EM-Israel-Open</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>MM-EM-Israel-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-Assign-B</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-NA-Assign-B</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-Assign-C</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-NA-Assign-C</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-Assign-D</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-NA-Assign-D</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-Assign-E</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-NA-Assign-E</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-Assign-F</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-NA-Assign-F</label>
-    </customValue>
-    <customValue>
-        <fullName>SMB-NA-Open-H</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-NA-Open-H</label>
-    </customValue>
-    <customValue>
-        <fullName>EN-EM-Brazil-Assign</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EN-EM-Brazil-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-EM-Brazil-Assign</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>MM-EM-Brazil-Assign</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-EM-UKI-Open</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>MM-EM-UKI-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>EN-NA-07-Open</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>EN-NA-07-Open</label>
-    </customValue>
-    <customValue>
-        <fullName>MM-EM-Other-Open</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>MM-EM-Other-Open</label>
+        <label>SMB-NA-16-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-EM-SA-Open</fullName>
@@ -640,10 +406,274 @@
         <label>SMB-EM-Assign-B</label>
     </customValue>
     <customValue>
+        <fullName>SMB-EM-Open-A</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-EM-Open-A</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-Open-H</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-Open-H</label>
+    </customValue>
+    <customValue>
         <fullName>SMB-NA-Assign-G</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>SMB-NA-Assign-G</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-Assign-F</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-Assign-F</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-Assign-E</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-Assign-E</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-Assign-D</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-Assign-D</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-Assign-C</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-Assign-C</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-Assign-B</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-Assign-B</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-EM-Israel-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-EM-Israel-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-EM-GermanyAustria-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-EM-GermanyAustria-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-EM-02-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-EM-02-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-11-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-11-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-17-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-17-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-16-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-16-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-15-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-15-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-14-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-14-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-13-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-13-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-EM-Nordics-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-EM-Nordics-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-EM-Benelux-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-EM-Benelux-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-12-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-12-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-11-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-11-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>EN-EM-Brazil-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EN-EM-Brazil-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-EM-Brazil-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-EM-Brazil-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-World-RR-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-World-RR-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>EN-NA-07-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EN-NA-07-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-10-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-10-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-09-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-09-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-08-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-08-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-07-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-07-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-06-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-06-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-05-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-05-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-04-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-04-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-03-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-03-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-02-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-02-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>Vel-NA-10-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Vel-NA-10-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-NA-01-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-NA-01-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-EM-CEE-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-EM-CEE-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-EM-FranceSwitzerland-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-EM-FranceSwitzerland-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-12-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-12-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-EM-UKI-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-EM-UKI-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>MM-EM-Other-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MM-EM-Other-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-27-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-27-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-26-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-26-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-25-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-25-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-24-Assign</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-24-Assign</label>
     </customValue>
     <description>Sales Geo Territories</description>
     <masterLabel>Territory</masterLabel>

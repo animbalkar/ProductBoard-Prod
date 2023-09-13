@@ -6824,82 +6824,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>MM-NA-01-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-02-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-03-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-04-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-05-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-06-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-07-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-08-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-09-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-10-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-13-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-14-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-15-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-16-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-17-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-World-RR-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Missing-Bad URL</fullName>
                 <default>false</default>
             </values>
@@ -6972,7 +6896,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-01-Assign</fullName>
+                <fullName>SMB-NA-01-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7016,10 +6940,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-13-Open</fullName>
                 <default>false</default>
             </values>
@@ -7032,51 +6952,11 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-16-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-17-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>SMB-NA-18-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-19-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-20-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-21-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-22-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-23-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-24-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-25-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-26-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-27-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7948,82 +7828,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>MM-NA-01-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-02-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-03-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-04-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-05-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-06-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-07-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-08-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-09-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-10-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-13-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-14-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-15-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-16-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-17-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-World-RR-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Missing-Bad URL</fullName>
                 <default>false</default>
             </values>
@@ -8096,7 +7900,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-01-Assign</fullName>
+                <fullName>SMB-NA-01-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8140,10 +7944,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-13-Open</fullName>
                 <default>false</default>
             </values>
@@ -8156,51 +7956,11 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-16-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-17-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>SMB-NA-18-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-19-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-20-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-21-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-22-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-23-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-24-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-25-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-26-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-27-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8420,82 +8180,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>MM-NA-01-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-02-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-03-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-04-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-05-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-06-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-07-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-08-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-09-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-10-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-13-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-14-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-15-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-16-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-17-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-World-RR-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Missing-Bad URL</fullName>
                 <default>false</default>
             </values>
@@ -8544,7 +8228,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-01-Assign</fullName>
+                <fullName>SMB-NA-01-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8588,10 +8272,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-13-Open</fullName>
                 <default>false</default>
             </values>
@@ -8600,51 +8280,11 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-16-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-17-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>SMB-NA-18-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-19-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-20-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-21-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-22-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-23-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-24-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-25-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-26-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-27-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8787,82 +8427,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>MM-NA-01-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-02-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-03-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-04-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-05-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-06-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-07-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-08-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-09-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-10-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-13-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-14-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-15-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-16-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-17-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-World-RR-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Missing-Bad URL</fullName>
                 <default>false</default>
             </values>
@@ -8935,7 +8499,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-01-Assign</fullName>
+                <fullName>SMB-NA-01-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8979,10 +8543,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-13-Open</fullName>
                 <default>false</default>
             </values>
@@ -8995,51 +8555,11 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-16-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-17-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>SMB-NA-18-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-19-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-20-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-21-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-22-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-23-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-24-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-25-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-26-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-27-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10326,82 +9846,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>MM-NA-01-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-02-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-03-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-04-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-05-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-06-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-07-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-08-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-09-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-10-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-13-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-14-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-15-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-16-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-17-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-World-RR-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Missing-Bad URL</fullName>
                 <default>false</default>
             </values>
@@ -10474,7 +9918,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-01-Assign</fullName>
+                <fullName>SMB-NA-01-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10518,10 +9962,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-13-Open</fullName>
                 <default>false</default>
             </values>
@@ -10534,51 +9974,11 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-16-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-17-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>SMB-NA-18-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-19-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-20-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-21-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-22-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-23-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-24-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-25-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-26-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-27-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11450,82 +10850,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>MM-NA-01-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-02-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-03-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-04-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-05-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-06-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-07-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-08-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-09-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-10-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-13-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-14-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-15-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-16-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-17-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-World-RR-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Missing-Bad URL</fullName>
                 <default>false</default>
             </values>
@@ -11598,7 +10922,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-01-Assign</fullName>
+                <fullName>SMB-NA-01-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11642,10 +10966,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-13-Open</fullName>
                 <default>false</default>
             </values>
@@ -11658,51 +10978,11 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-16-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-17-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>SMB-NA-18-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-19-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-20-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-21-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-22-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-23-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-24-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-25-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-26-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-27-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11938,82 +11218,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>MM-NA-01-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-02-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-03-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-04-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-05-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-06-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-07-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-08-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-09-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-10-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-13-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-14-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-15-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-16-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-17-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-World-RR-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Missing-Bad URL</fullName>
                 <default>false</default>
             </values>
@@ -12086,7 +11290,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-01-Assign</fullName>
+                <fullName>SMB-NA-01-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12130,10 +11334,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-13-Open</fullName>
                 <default>false</default>
             </values>
@@ -12146,51 +11346,11 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-16-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-17-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>SMB-NA-18-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-19-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-20-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-21-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-22-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-23-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-24-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-25-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-26-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-27-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12337,82 +11497,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>MM-NA-01-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-02-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-03-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-04-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-05-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-06-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-07-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-08-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-09-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-10-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-11-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-13-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-14-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-15-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-16-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-NA-17-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>MM-World-RR-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Missing-Bad URL</fullName>
                 <default>false</default>
             </values>
@@ -12485,7 +11569,7 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-01-Assign</fullName>
+                <fullName>SMB-NA-01-Open</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -12529,10 +11613,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-12-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-13-Open</fullName>
                 <default>false</default>
             </values>
@@ -12545,51 +11625,11 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>SMB-NA-16-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>SMB-NA-17-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>SMB-NA-18-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-19-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-20-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-21-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-22-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-23-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-24-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-25-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-26-Assign</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SMB-NA-27-Open</fullName>
                 <default>false</default>
             </values>
             <values>
