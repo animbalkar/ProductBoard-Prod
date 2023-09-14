@@ -3553,6 +3553,7 @@ NOT(ISBLANK( Opportunity__c )),
         <fullName>SOPS_Unassigned_Open_Cases_Post_Import</fullName>
         <columns>CASES.CASE_NUMBER</columns>
         <columns>Case_Requester__c</columns>
+        <columns>Requester_Region__c</columns>
         <columns>CASES.SUBJECT</columns>
         <columns>CASES.STATUS</columns>
         <columns>CASES.TYPE</columns>
@@ -3574,7 +3575,7 @@ NOT(ISBLANK( Opportunity__c )),
         <filters>
             <field>CORE.USERS.FIRST_NAME</field>
             <operation>notEqual</operation>
-            <value>Miles B,Lauren,Lika,Andrea,Shreyasi,Kevin,Lisa,Paula,Harrison</value>
+            <value>Lauren,Lika,Andrea,Shreyasi,Kevin,Lisa,Paula,Harrison,Maja</value>
         </filters>
         <filters>
             <field>CASES.CREATED_DATE_DATE_ONLY</field>
