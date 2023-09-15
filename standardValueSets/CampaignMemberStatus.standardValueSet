@@ -267,6 +267,11 @@
         <label>Accessed Content</label>
     </standardValue>
     <standardValue>
+        <fullName>Accessed Content Ungated</fullName>
+        <default>false</default>
+        <label>Accessed Content Ungated</label>
+    </standardValue>
+    <standardValue>
         <fullName>Accessed Content - Ungated</fullName>
         <default>false</default>
         <label>Accessed Content - Ungated</label>

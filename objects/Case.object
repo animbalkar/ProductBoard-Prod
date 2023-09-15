@@ -2802,6 +2802,7 @@ NOT(ISBLANK( Opportunity__c )),
     </listViews>
     <listViews>
         <fullName>SOPS_All_Open_Cases</fullName>
+        <columns>OWNER_NAME</columns>
         <columns>CASES.CASE_NUMBER</columns>
         <columns>CASES.SUBJECT</columns>
         <columns>CASES.TYPE</columns>
@@ -2811,7 +2812,6 @@ NOT(ISBLANK( Opportunity__c )),
         <columns>Requested_Resolution_Date__c</columns>
         <columns>Request_Type__c</columns>
         <columns>Implementation_Type__c</columns>
-        <columns>CORE.USERS.ALIAS</columns>
         <columns>CASES.STATUS</columns>
         <columns>Effort_Minutes__c</columns>
         <columns>Team__c</columns>
@@ -2828,7 +2828,13 @@ NOT(ISBLANK( Opportunity__c )),
             <operation>equals</operation>
             <value>0</value>
         </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>equals</operation>
+            <value>New,Planned,Working,Backlog,Waiting,On Hold,Escalated</value>
+        </filters>
         <label>!SOPS: All Open Cases</label>
+        <language>en_US</language>
     </listViews>
     <listViews>
         <fullName>SOPS_Open_Task_Cases</fullName>
