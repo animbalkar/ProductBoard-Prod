@@ -20,4 +20,10 @@
         <label>Activated</label>
         <groupingString>Activated</groupingString>
     </standardValue>
+    <standardValue>
+        <fullName>Expired</fullName>
+        <default>false</default>
+        <label>Expired</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
 </StandardValueSet>

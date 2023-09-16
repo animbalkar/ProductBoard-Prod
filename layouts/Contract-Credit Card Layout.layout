@@ -132,6 +132,10 @@
                 <behavior>Readonly</behavior>
                 <field>Account_Billing_City__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Auto_Renewal__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
