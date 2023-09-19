@@ -1029,6 +1029,13 @@ Document details in Special Terms field</inlineHelpText>
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Billing_Frequency__c</picklist>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Plan_Group__c</picklist>
             <values>
                 <fullName>Business</fullName>
@@ -1148,6 +1155,25 @@ Document details in Special Terms field</inlineHelpText>
             </values>
             <values>
                 <fullName>Standard MSA</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Billing_Frequency__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

@@ -83,6 +83,10 @@
                 <behavior>Readonly</behavior>
                 <field>Meeting_Completed__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Date_Equiv__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
