@@ -572,11 +572,6 @@
         <label>On-Demand</label>
     </standardValue>
     <standardValue>
-        <fullName>On List</fullName>
-        <default>false</default>
-        <label>On List</label>
-    </standardValue>
-    <standardValue>
         <fullName>Opened</fullName>
         <default>false</default>
         <label>Opened</label>
