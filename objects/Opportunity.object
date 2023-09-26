@@ -5541,52 +5541,51 @@ unfavorable to us
     ISPICKVAL(StageName, &quot;Closed Lost&quot;),
     Prior_ARR__c * -1,
     IF(
-        ISPICKVAL(StageName, &quot;Closed Won&quot;),
-        IF(
-            AND(
-                ISPICKVAL(StageName, &quot;Closed Won&quot;),
-                Prior_ARR__c &gt; Amount
-            ),
-            Amount - Prior_ARR__c,
-            IF(
-                ISPICKVAL(StageName, &quot;Closed Won&quot;),
-                0,
-                IF(
-                    NOT(ISPICKVAL(StageName, &quot;Closed Lost&quot;)),
-                    -1 * Vitally_Churn_Forecast__c,
-                    -1 * Vitally_Churn_Forecast__c
-                )
-            )
+        AND(
+            ISPICKVAL(StageName, &quot;Closed Won&quot;),
+            Prior_ARR__c &gt; Amount
         ),
+        Amount - Prior_ARR__c,
         IF(
-            CONTAINS(CSM_Renewal_Risk__c, &quot;Suspended&quot;),
-            Prior_ARR__c * -1,
+            ISPICKVAL(StageName, &quot;Closed Won&quot;),
+            0,
             IF(
-                CONTAINS(CSM_Renewal_Risk__c, &quot;Risk to&quot;),
-                -1 * Vitally_Churn_Forecast__c,
+                NOT(ISPICKVAL(StageName, &quot;Closed Lost&quot;)),
                 IF(
-                    AND(
-                        CONTAINS(Account.CSM_Team__c, &quot;Scale&quot;),
-                        ISBLANK(CSM_Renewal_Risk__c)
-                    ),
+                    CONTAINS(CSM_Renewal_Risk__c, &quot;Suspended&quot;),
+                    Prior_ARR__c * -1,
                     IF(
-                        Project_Vitally_Health_Score__c &gt; 67,
-                        Prior_ARR__c * -0.015,
+                        CONTAINS(CSM_Renewal_Risk__c, &quot;Risk to&quot;),
+                        -0.3 * Prior_ARR__c,
                         IF(
                             AND(
-                                Project_Vitally_Health_Score__c &gt; 45,
-                                Project_Vitally_Health_Score__c &lt; 68
+                                CONTAINS(Account.CSM_Team__c, &quot;Scale&quot;),
+                                ISBLANK(CSM_Renewal_Risk__c)
                             ),
-                            Prior_ARR__c * -0.06,
                             IF(
-                                Project_Vitally_Health_Score__c &lt; 46,
-                                Prior_ARR__c * -0.20,
-                                -1 * Vitally_Churn_Forecast__c
-                            )
+                                OR(
+                                    CSM_Renewal_Risk__c = &quot;Likely to renew&quot;,
+                                    Project_Vitally_Health_Score__c &gt; 67
+                                ),
+                                Prior_ARR__c * -0.015,
+                                IF(
+                                    AND(
+                                        Project_Vitally_Health_Score__c &gt; 45,
+                                        Project_Vitally_Health_Score__c &lt; 68
+                                    ),
+                                    Prior_ARR__c * -0.06,
+                                    IF(
+                                        Project_Vitally_Health_Score__c &lt; 46,
+                                        Prior_ARR__c * -0.20,
+                                        -1 * Vitally_Churn_Forecast__c
+                                    )
+                                )
+                            ),
+                            -1 * Vitally_Churn_Forecast__c
                         )
-                    ),
-                    -1 * Vitally_Churn_Forecast__c
-                )
+                    )
+                ),
+                -1 * Vitally_Churn_Forecast__c
             )
         )
     )
