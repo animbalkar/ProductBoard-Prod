@@ -5555,34 +5555,39 @@ unfavorable to us
                     CONTAINS(CSM_Renewal_Risk__c, &quot;Suspended&quot;),
                     Prior_ARR__c * -1,
                     IF(
-                        CONTAINS(CSM_Renewal_Risk__c, &quot;Risk to&quot;),
-                        -0.3 * Prior_ARR__c,
+                        CONTAINS(Account.CSM_Team__c, &quot;Scale&quot;),
                         IF(
-                            AND(
-                                CONTAINS(Account.CSM_Team__c, &quot;Scale&quot;),
-                                ISBLANK(CSM_Renewal_Risk__c)
-                            ),
+                            CONTAINS(CSM_Renewal_Risk__c, &quot;Risk&quot;),
+                            -0.3 * Prior_ARR__c,
                             IF(
-                                OR(
-                                    CSM_Renewal_Risk__c = &quot;Likely to renew&quot;,
-                                    Project_Vitally_Health_Score__c &gt; 67
-                                ),
-                                Prior_ARR__c * -0.015,
+                                CONTAINS(CSM_Renewal_Risk__c, &quot;Churn&quot;),
+                                Prior_ARR__c * -1,
                                 IF(
-                                    AND(
-                                        Project_Vitally_Health_Score__c &gt; 45,
-                                        Project_Vitally_Health_Score__c &lt; 68
-                                    ),
-                                    Prior_ARR__c * -0.06,
+                                    CONTAINS(CSM_Renewal_Risk__c, &quot;Contract&quot;),
+                                    -1 * Vitally_Churn_Forecast__c,
                                     IF(
-                                        Project_Vitally_Health_Score__c &lt; 46,
-                                        Prior_ARR__c * -0.20,
-                                        -1 * Vitally_Churn_Forecast__c
+                                        OR(
+                                            CSM_Renewal_Risk__c = &quot;Likely to renew&quot;,
+                                            Project_Vitally_Health_Score__c &gt; 67
+                                        ),
+                                        Prior_ARR__c * -0.015,
+                                        IF(
+                                            AND(
+                                                Project_Vitally_Health_Score__c &gt; 45,
+                                                Project_Vitally_Health_Score__c &lt; 68
+                                            ),
+                                            Prior_ARR__c * -0.06,
+                                            IF(
+                                                Project_Vitally_Health_Score__c &lt; 46,
+                                                Prior_ARR__c * -0.20,
+                                                -1 * Vitally_Churn_Forecast__c
+                                            )
+                                        )
                                     )
                                 )
-                            ),
-                            -1 * Vitally_Churn_Forecast__c
-                        )
+                            )
+                        ),
+                        -1 * Vitally_Churn_Forecast__c
                     )
                 ),
                 -1 * Vitally_Churn_Forecast__c
