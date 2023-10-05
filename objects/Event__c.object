@@ -209,9 +209,9 @@
         <columns>Description__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>NAME</field>
-            <operation>contains</operation>
-            <value>Deactivate</value>
+            <field>Event_Type__c</field>
+            <operation>equals</operation>
+            <value>Email</value>
         </filters>
         <label>All</label>
     </listViews>
