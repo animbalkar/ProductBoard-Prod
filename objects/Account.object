@@ -11417,10 +11417,6 @@ IF(
                 <default>false</default>
             </values>
             <values>
-                <fullName>EN-NA-06-Open</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>EN-NA-07-Assign</fullName>
                 <default>false</default>
             </values>

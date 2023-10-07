@@ -71,11 +71,6 @@
         <label>EN-NA-06-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-06-Open</fullName>
-        <default>false</default>
-        <label>EN-NA-06-Open</label>
-    </customValue>
-    <customValue>
         <fullName>EN-NA-07-Assign</fullName>
         <default>false</default>
         <label>EN-NA-07-Assign</label>
@@ -346,12 +341,6 @@
         <label>SMB-EM-CZSK-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-23-Open</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-NA-23-Open</label>
-    </customValue>
-    <customValue>
         <fullName>SMB-NA-22-Open</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -476,6 +465,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>MM-NA-11-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>EN-NA-06-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EN-NA-06-Open</label>
     </customValue>
     <customValue>
         <fullName>MM-NA-17-Assign</fullName>
@@ -634,12 +629,6 @@
         <label>MM-EM-FranceSwitzerland-Assign</label>
     </customValue>
     <customValue>
-        <fullName>SMB-NA-12-Open</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>SMB-NA-12-Open</label>
-    </customValue>
-    <customValue>
         <fullName>MM-EM-UKI-Open</fullName>
         <default>false</default>
         <isActive>false</isActive>
@@ -650,6 +639,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>MM-EM-Other-Open</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-12-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-12-Open</label>
     </customValue>
     <customValue>
         <fullName>SMB-NA-27-Open</fullName>
@@ -674,6 +669,12 @@
         <default>false</default>
         <isActive>false</isActive>
         <label>SMB-NA-24-Assign</label>
+    </customValue>
+    <customValue>
+        <fullName>SMB-NA-23-Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMB-NA-23-Open</label>
     </customValue>
     <description>Sales Geo Territories</description>
     <masterLabel>Territory</masterLabel>
