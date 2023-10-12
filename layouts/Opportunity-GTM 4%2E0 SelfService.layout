@@ -145,6 +145,10 @@
                 <behavior>Edit</behavior>
                 <field>Account_Employee_at_Creation__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Check_Project_Account__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
