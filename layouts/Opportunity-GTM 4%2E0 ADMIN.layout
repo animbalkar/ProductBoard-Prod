@@ -1132,13 +1132,6 @@
             <sortOrder>19</sortOrder>
         </platformActionListItems>
     </platformActionList>
-    <relatedContent>
-        <relatedContentItems>
-            <layoutItem>
-                <component>wits:newsPanel</component>
-            </layoutItem>
-        </relatedContentItems>
-    </relatedContent>
     <relatedLists>
         <fields>MemberName</fields>
         <fields>OppAccessLevel</fields>
