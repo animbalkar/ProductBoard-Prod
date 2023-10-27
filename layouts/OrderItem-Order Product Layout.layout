@@ -38,6 +38,10 @@
                 <behavior>Readonly</behavior>
                 <field>Monthly_Unit_Price__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>NRR__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
