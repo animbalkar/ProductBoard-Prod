@@ -6506,12 +6506,12 @@ OwnerId =  Account.Owner.SDR__r.Id</formula>
         <filters>
             <field>ACCOUNT.NAME</field>
             <operation>equals</operation>
-            <value>able</value>
+            <value>Symphony</value>
         </filters>
         <filters>
             <field>CONTACT.EMAIL</field>
             <operation>contains</operation>
-            <value>able.co</value>
+            <value>symphony.live</value>
         </filters>
         <label>Reassign Contacts</label>
     </listViews>
