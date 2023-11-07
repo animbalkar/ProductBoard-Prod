@@ -138,6 +138,7 @@
         <fields>Product2</fields>
         <fields>UnitPrice</fields>
         <fields>Order_Start_Date__c</fields>
+        <fields>Order_End_Date__c</fields>
         <fields>Contract_End_Date__c</fields>
         <fields>Monthly_Unit_Price__c</fields>
         <fields>Quantity</fields>

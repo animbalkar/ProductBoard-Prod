@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <excludeButtons>DataDotComAccountInsights</excludeButtons>
-    <excludeButtons>DataDotComClean</excludeButtons>
+    <excludeButtons>DataDotComCompanyHierarchy</excludeButtons>
     <excludeButtons>DisableCustomerPortalAccount</excludeButtons>
     <excludeButtons>DisablePartnerPortalAccount</excludeButtons>
     <excludeButtons>IncludeOffline</excludeButtons>
@@ -1064,13 +1063,13 @@
     <relatedLists>
         <fields>CONTRACT.CONTRACT_NUMBER</fields>
         <fields>CONTRACT.NAME</fields>
+        <fields>Type__c</fields>
         <fields>Contract_Start_Date__c</fields>
         <fields>Contract_End_Date__c</fields>
         <fields>CONTRACT.STATUS</fields>
         <fields>Active__c</fields>
         <fields>Contracted_ARR__c</fields>
         <fields>Project__c</fields>
-        <fields>Contract_gdrive_URL__c</fields>
         <fields>Contract_PB_ID__c</fields>
         <relatedList>RelatedContractList</relatedList>
         <sortField>Contract_Start_Date__c</sortField>
