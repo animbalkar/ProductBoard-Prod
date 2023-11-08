@@ -62,7 +62,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>EndDate__c</field>
+                <field>EndDate</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -139,12 +139,14 @@
         <fields>UnitPrice</fields>
         <fields>Order_Start_Date__c</fields>
         <fields>Order_End_Date__c</fields>
-        <fields>Contract_End_Date__c</fields>
         <fields>Monthly_Unit_Price__c</fields>
         <fields>Quantity</fields>
         <fields>Order_Term_Product__c</fields>
         <fields>Prorated_Line_AmountV2__c</fields>
+        <fields>TotalPrice</fields>
         <relatedList>RelatedOrderItemList</relatedList>
+        <sortField>Order_Start_Date__c</sortField>
+        <sortOrder>Desc</sortOrder>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>

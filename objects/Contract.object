@@ -1339,14 +1339,14 @@ TEXT(Status) = &quot;Activated&quot;)</errorConditionFormula>
     </validationRules>
     <validationRules>
         <fullName>Contracted_editors_cannot_be_0</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(Contracted_editors__c = 0, TEXT(Status) = &quot;Activated&quot;)</errorConditionFormula>
         <errorDisplayField>Contracted_editors__c</errorDisplayField>
         <errorMessage>Cannot be 0</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Contributors_limit_cannot_be_0</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>AND(Contributors_limit__c = 0, TEXT(Status) = &quot;Activated&quot;)</errorConditionFormula>
         <errorDisplayField>Contributors_limit__c</errorDisplayField>
         <errorMessage>Cannot be 0</errorMessage>
