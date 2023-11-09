@@ -61,12 +61,12 @@
                 <field>EffectiveDate</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>EndDate</field>
+                <behavior>Readonly</behavior>
+                <field>End_Date_R__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Contract_End_Date_1__c</field>
+                <behavior>Edit</behavior>
+                <field>EndDate</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
