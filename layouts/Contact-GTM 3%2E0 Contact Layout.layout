@@ -498,10 +498,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Community_qualification_date__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>CR_member_first_seen_date__c</field>
             </layoutItems>
             <layoutItems>
@@ -511,6 +507,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Impact_points_all_time__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sources__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

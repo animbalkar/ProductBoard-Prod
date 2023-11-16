@@ -46,12 +46,12 @@
         <label>EN-NA-01-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-02-Open</fullName>
+        <fullName>EN-NA-02-Assign</fullName>
         <default>false</default>
         <label>EN-NA-02-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-03-Open</fullName>
+        <fullName>EN-NA-03-Assign</fullName>
         <default>false</default>
         <label>EN-NA-03-Assign</label>
     </customValue>
@@ -76,7 +76,7 @@
         <label>EN-NA-07-Assign</label>
     </customValue>
     <customValue>
-        <fullName>EN-NA-08-Open</fullName>
+        <fullName>EN-NA-08-Assign</fullName>
         <default>false</default>
         <label>EN-NA-08-Assign</label>
     </customValue>

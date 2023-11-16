@@ -751,7 +751,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Community_qualification_date__c</field>
+                <field>Sources__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
