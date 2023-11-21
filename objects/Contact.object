@@ -436,17 +436,6 @@ please do not delete</description>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>F_Sort__c</fullName>
-        <externalId>false</externalId>
-        <formula>text(  Account.Customer_Status_Number__c  )+ &quot;-&quot; + TEXT(  Contact_Status_Number__c   ) + &quot;-&quot; + TEXT( CreatedDate )</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>[F] Sort</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Gender__c</fullName>
         <description>male/female</description>
         <externalId>false</externalId>

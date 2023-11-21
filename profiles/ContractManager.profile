@@ -4083,11 +4083,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contact.F_Sort__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Contact.Family_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
