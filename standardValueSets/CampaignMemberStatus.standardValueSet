@@ -562,6 +562,11 @@
         <label>No Showed</label>
     </standardValue>
     <standardValue>
+        <fullName>Not Attended</fullName>
+        <default>false</default>
+        <label>Not Attended</label>
+    </standardValue>
+    <standardValue>
         <fullName>On Demand</fullName>
         <default>false</default>
         <label>On Demand</label>
