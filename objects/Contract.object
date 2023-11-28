@@ -1166,7 +1166,7 @@ Document details in Special Terms field</inlineHelpText>
             </values>
             <values>
                 <fullName>12</fullName>
-                <default>false</default>
+                <default>true</default>
             </values>
             <values>
                 <fullName>3</fullName>

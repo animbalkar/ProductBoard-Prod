@@ -331,7 +331,6 @@
         <fields>ORDERS.TYPE</fields>
         <fields>ORDERS.STATUS</fields>
         <fields>ORDERS.EFFECTIVE_DATE</fields>
-        <fields>End_Date_R__c</fields>
         <fields>ORDERS.TOTAL_AMOUNT</fields>
         <relatedList>RelatedOrderList</relatedList>
     </relatedLists>
