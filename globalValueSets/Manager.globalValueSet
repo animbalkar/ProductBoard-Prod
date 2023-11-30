@@ -95,6 +95,11 @@
         <default>false</default>
         <label>Michael VanSickle</label>
     </customValue>
+    <customValue>
+        <fullName>Kyle Starr</fullName>
+        <default>false</default>
+        <label>Kyle Starr</label>
+    </customValue>
     <masterLabel>Manager</masterLabel>
     <sorted>true</sorted>
 </GlobalValueSet>
