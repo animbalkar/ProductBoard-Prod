@@ -97,10 +97,6 @@
                 <field>CB_Business_Classifications__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Lighthouse__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ICP__c</field>
             </layoutItems>
@@ -140,14 +136,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Region__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Named_Account__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Commercial_Target_Account__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -190,10 +178,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Fullcast_Node_H2_ReOrg__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Named_Account_TEMP__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
