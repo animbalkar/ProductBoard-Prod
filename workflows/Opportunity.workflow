@@ -177,7 +177,7 @@
             <type>owner</type>
         </recipients>
         <recipients>
-            <recipient>michael.vansickle@productboard.com</recipient>
+            <recipient>mike.mishler@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

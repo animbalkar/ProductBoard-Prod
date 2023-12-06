@@ -13172,6 +13172,14 @@
         <layout>Contact-Admin Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Contact-Admin Layout</layout>
+        <recordType>Contact.Default</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Contact-Admin Layout</layout>
+        <recordType>Contact.Partner</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ContactPointAddress-Contact Point Address Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

@@ -7558,6 +7558,67 @@ IF(
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Partner_Stage__c</picklist>
+            <values>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enablement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ramped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recruitment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exploring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Target</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Type__c</picklist>
+            <values>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketplace</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Equity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VC%2FIncubator</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Priority_Account__c</picklist>
             <values>
                 <fullName>P1</fullName>
@@ -8568,6 +8629,37 @@ IF(
             </values>
             <values>
                 <fullName>SMB-World-RR-Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Services__c</picklist>
+            <values>
+                <fullName>Digital Transformation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interim CPO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PB Implementation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PM Training %26 Coaching</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PMs for hire</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Strategy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Studio</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10580,6 +10672,67 @@ IF(
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Partner_Stage__c</picklist>
+            <values>
+                <fullName>Discovery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enablement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ramped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recruitment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exploring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Target</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Partner_Type__c</picklist>
+            <values>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketplace</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Equity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VC%2FIncubator</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Priority_Account__c</picklist>
             <values>
                 <fullName>P1</fullName>
@@ -11634,6 +11787,37 @@ IF(
             </values>
             <values>
                 <fullName>SMB-World-RR-Open</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Services__c</picklist>
+            <values>
+                <fullName>Digital Transformation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interim CPO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PB Implementation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PM Training %26 Coaching</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PMs for hire</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Strategy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Studio</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
