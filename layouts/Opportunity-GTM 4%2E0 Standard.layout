@@ -702,10 +702,6 @@
                 <field>SDR__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Other_SDR__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Success_Manager__c</field>
             </layoutItems>

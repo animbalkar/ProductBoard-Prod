@@ -32,11 +32,6 @@ Fields: LD Trigger</description>
         <field>Opportunity.Opportunity_In_Out__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.Other_SDR__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Sales Manager</label>
     <objectPermissions>

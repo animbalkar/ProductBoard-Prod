@@ -823,18 +823,6 @@ If(  CloseDate - Today () &lt; 0,True,false))</formula>
         <visibleLines>3</visibleLines>
     </fields>
     <fields>
-        <fullName>Other_SDR__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>Other SDR</label>
-        <referenceTo>User</referenceTo>
-        <relationshipName>Opportunities4</relationshipName>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Prior_ARR__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>ARR being renewed or replaced by the current opportunity</inlineHelpText>
