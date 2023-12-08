@@ -15,16 +15,6 @@
                 <identifier>desktopDashboards_embeddedDashboard</identifier>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>flavor</name>
-                    <value>list</value>
-                </componentInstanceProperties>
-                <componentName>home:newsPanel</componentName>
-                <identifier>home_newsPanel</identifier>
-            </componentInstance>
-        </itemInstances>
         <mode>Replace</mode>
         <name>top</name>
         <type>Region</type>
