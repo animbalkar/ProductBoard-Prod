@@ -116,22 +116,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>TS_Contact_Assigned_to_Person__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>TS_Contact_Assigned_to_SDR__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>TS_Contact_Assigned_to_Solution_Sales__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>TS_Contact_Assigned_to_Smart_Touch__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>TS_Segment_moved_to_Self_Service__c</field>
             </layoutItems>
             <layoutItems>
@@ -161,10 +145,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>TS_Lead_Created_Date__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>TS_Contact_Created_Date__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

@@ -1783,10 +1783,13 @@ IF(Today() - DQ_Last_Updated__c &gt; 183,&quot;Expired&quot; ,&quot;Completed&qu
     </fields>
     <fields>
         <fullName>Assigned_to_SDR__c</fullName>
+        <description>Can Be removed. referenced deleted field. current formula is a placeholder. previous was 
+
+NOT(IsNull(TS_Contact_Assigned_to_SDR__c ))</description>
         <externalId>false</externalId>
-        <formula>NOT(IsNull(TS_Contact_Assigned_to_SDR__c ))</formula>
+        <formula>False</formula>
         <inlineHelpText>Checks if there&apos;s a value in TS_Contact_Assigned_to_SDR__c</inlineHelpText>
-        <label>Assigned to SDR</label>
+        <label>Assigned to SDR (Delete)</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -3977,15 +3980,6 @@ X-4 (all w low score)</inlineHelpText>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>TS_Contact_Created_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>[TS] Contact Created Date</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
         <fullName>account6QAEndDate6sense__c</fullName>
         <description>The date the account was disqualified from 6QA status (YYYY-MM-DD).</description>
         <externalId>false</externalId>
@@ -4502,8 +4496,13 @@ Purchase - The buyer commits to a specific solution and justifies the reasons fo
     </fields>
     <fields>
         <fullName>Assigned_to_Solution_Sales__c</fullName>
+        <description>Field needs to be deleted. references old deleted field. 
+
+Old formula is 
+
+Not(IsBlank( TS_Contact_Assigned_to_Solution_Sales__c ))</description>
         <externalId>false</externalId>
-        <formula>Not(IsBlank( TS_Contact_Assigned_to_Solution_Sales__c ))</formula>
+        <formula>False</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Checks TS_Contact_Assigned_to_Solution_Sales__c field has a value</inlineHelpText>
         <label>Assigned to Solution Sales</label>
@@ -4512,10 +4511,15 @@ Purchase - The buyer commits to a specific solution and justifies the reasons fo
     </fields>
     <fields>
         <fullName>Assigned_to_Velocity_Sales__c</fullName>
+        <description>References old deleted field. new formula set to false so as to delete the other field. 
+
+old formula was: 
+
+not(IsNull( TS_Contact_Assigned_to_Smart_Touch__c ))</description>
         <externalId>false</externalId>
-        <formula>not(IsNull( TS_Contact_Assigned_to_Smart_Touch__c ))</formula>
+        <formula>False</formula>
         <inlineHelpText>Check if TS_Contact_Assigned_to_Smart_Touch__c field has value</inlineHelpText>
-        <label>Assigned to Velocity Sales</label>
+        <label>Assigned to Velocity Sales(To Be Delete)</label>
         <trackHistory>false</trackHistory>
         <type>Checkbox</type>
     </fields>
@@ -4641,16 +4645,6 @@ not(isblank( Smart_Touch_Signal_No_Activity__c )),
             <restricted>true</restricted>
             <valueSetName>Survey_Quant_Answers</valueSetName>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>TS_Contact_Assigned_to_SDR__c</fullName>
-        <description>Date the contact was assigned to SDR for the first time</description>
-        <externalId>false</externalId>
-        <label>[TS] Contact Assigned to SDR</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
     </fields>
     <fields>
         <fullName>mkto71_Acquisition_Program__c</fullName>
@@ -5175,16 +5169,6 @@ OwnerId =  Account.Owner.SDR__r.Id</formula>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>TS_Contact_Assigned_to_Person__c</fullName>
-        <description>Contact was re-assigned from technical user.</description>
-        <externalId>false</externalId>
-        <label>[TS] Contact Assigned to Person</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
         <fullName>Latest_Smart_Touch_Signal_Date__c</fullName>
         <externalId>false</externalId>
         <label>Latest Smart Touch Signal Date</label>
@@ -5469,16 +5453,6 @@ OwnerId =  Account.Owner.SDR__r.Id</formula>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>TS_Contact_Assigned_to_Smart_Touch__c</fullName>
-        <description>Date the contact was assigned to Smart Touch team.</description>
-        <externalId>false</externalId>
-        <label>[TS] Contact Assigned to Smart Touch</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
         <fullName>TS_Segment_moved_to_Solution_Sales__c</fullName>
         <description>Timestamps the date when the segment changes to Solution Sales for the first time.</description>
         <externalId>false</externalId>
@@ -5636,16 +5610,6 @@ OwnerId =  Account.Owner.SDR__r.Id</formula>
         <trackHistory>false</trackHistory>
         <type>Number</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>TS_Contact_Assigned_to_Solution_Sales__c</fullName>
-        <description>Date the contact was assigned to Solution Sales Team.</description>
-        <externalId>false</externalId>
-        <label>[TS] Contact Assigned to Solution Sales</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
     </fields>
     <fields>
         <fullName>Outreach_Current_Sequence_User_SFDC_ID__c</fullName>
