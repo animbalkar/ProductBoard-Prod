@@ -122,13 +122,17 @@
     </fields>
     <fields>
         <fullName>Lika_Name_First_Created_Date__c</fullName>
+        <description>Delete the field from the clearbit layout. referrs to an old field that is going to be deleted as that old field isnt on any page layout and is providing no seeable use. 
+
+Old Formula: 
+
+IF( left( cbit__Lead__r.Id ,1)=&quot;&quot;, cbit__Contact__r.Name_First_Created_Date__c, datevalue(cbit__Lead__r.CreatedDate))</description>
         <externalId>false</externalId>
-        <formula>IF( left( cbit__Lead__r.Id ,1)=&quot;&quot;, cbit__Contact__r.Name_First_Created_Date__c, datevalue(cbit__Lead__r.CreatedDate))</formula>
+        <formula>False</formula>
         <inlineHelpText>Lead or Contact first created date, lead created date if converted to contact</inlineHelpText>
-        <label>Name First Created Date</label>
-        <required>false</required>
+        <label>Name First Created Date (Delete)</label>
         <trackTrending>false</trackTrending>
-        <type>Date</type>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Lika_Record_Deleted__c</fullName>

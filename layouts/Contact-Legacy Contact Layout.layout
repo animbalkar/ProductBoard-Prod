@@ -116,18 +116,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>TS_Segment_moved_to_Self_Service__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>TS_Segment_moved_to_Smart_Touch__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>TS_Segment_moved_to_Solution_Sales__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>LD_Re_Trigger_Field__c</field>
             </layoutItems>
             <layoutItems>
@@ -141,10 +129,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>MKT_Inferred_State__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>TS_Lead_Created_Date__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

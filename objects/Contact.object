@@ -2509,8 +2509,9 @@ Case( Lower(Email_Domain_Parse__c) ,
     </fields>
     <fields>
         <fullName>Lead_Created_Date__c</fullName>
+        <description>Marked For deletion. Not being used. usage reports at 0% of all contacts</description>
         <externalId>false</externalId>
-        <label>Lead Created Date</label>
+        <label>Lead Created Date (Delete)</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2627,16 +2628,6 @@ Case( Lower(Email_Domain_Parse__c) ,
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Last Activity date on account, for list views</inlineHelpText>
         <label>Acct Last Activity</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>Admin_Test_Formula__c</fullName>
-        <externalId>false</externalId>
-        <formula>IF(TS_Lead_Created_Date__c-datevalue( CreatedDate )&lt;0,TS_Lead_Created_Date__c,datevalue( CreatedDate ))</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Admin Test Formula</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <type>Date</type>
@@ -3454,24 +3445,6 @@ lower(Seniority__c )
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>TS_Lead_Created_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>[TS] Lead Created Date</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>TS_Lead_Created_Time__c</fullName>
-        <externalId>false</externalId>
-        <label>[TS] Lead Created Time</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>DateTime</type>
-    </fields>
-    <fields>
         <fullName>View_customized_user__c</fullName>
         <externalId>false</externalId>
         <label>View customized user</label>
@@ -3886,14 +3859,16 @@ IF(ISPICKVAL(Business_Segment__c , &quot;3. Solution Sales&quot;), 3,0)))</formu
     </fields>
     <fields>
         <fullName>Name_First_Created_Date__c</fullName>
+        <description>We should consider deleting this as it just checks if the lead is older than the contact and uses that date, but this
+
+IF(TS_Lead_Created_Date__c-datevalue( CreatedDate )&lt;0,TS_Lead_Created_Date__c,datevalue( CreatedDate ))</description>
         <externalId>false</externalId>
-        <formula>IF(TS_Lead_Created_Date__c-datevalue( CreatedDate )&lt;0,TS_Lead_Created_Date__c,datevalue( CreatedDate ))</formula>
+        <formula>false</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Earliest Date Lead/Contact was first created</inlineHelpText>
-        <label>Name First Created Date</label>
-        <required>false</required>
+        <label>Name First Created Date (delete)</label>
         <trackHistory>false</trackHistory>
-        <type>Date</type>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>O_Current_Sequence_Name__c</fullName>
@@ -5275,16 +5250,6 @@ OwnerId =  Account.Owner.SDR__r.Id</formula>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>TS_Segment_moved_to_Smart_Touch__c</fullName>
-        <description>Timestamps the date when Business Segment changes to Smart Touch for the first time.</description>
-        <externalId>false</externalId>
-        <label>[TS] Segment moved to Smart Touch</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
         <fullName>Complexity_column_value_set_user__c</fullName>
         <externalId>false</externalId>
         <label>Complexity column value set user</label>
@@ -5350,16 +5315,6 @@ OwnerId =  Account.Owner.SDR__r.Id</formula>
         <trackHistory>false</trackHistory>
         <type>Number</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>TS_Segment_moved_to_Self_Service__c</fullName>
-        <description>Timestamps date when the &quot;Self Service&quot; segment is first achieved.</description>
-        <externalId>false</externalId>
-        <label>[TS] Segment moved to Self Service</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
     </fields>
     <fields>
         <fullName>accountNumericalReachScore6sense__c</fullName>
@@ -5451,26 +5406,6 @@ OwnerId =  Account.Owner.SDR__r.Id</formula>
         <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>TS_Segment_moved_to_Solution_Sales__c</fullName>
-        <description>Timestamps the date when the segment changes to Solution Sales for the first time.</description>
-        <externalId>false</externalId>
-        <label>[TS] Segment moved to Solution Sales</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>TS_Time_Smart_Touched_manual_first__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>Timestamp of when the contact was Smart Touched for the first time based on manually clicking the &quot;Smart Touched&quot; checkbox.</inlineHelpText>
-        <label>[TS] Time Smart Touched (manual, first)</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>DateTime</type>
     </fields>
     <fields>
         <fullName>Business_goal_column_value_set_user__c</fullName>

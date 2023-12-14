@@ -315,10 +315,6 @@
                 <field>Account_Owner_Same_as_Contact__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Admin_Test_Formula__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Admin_Test_Field__c</field>
             </layoutItems>

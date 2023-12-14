@@ -151,16 +151,6 @@
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
     <fieldUpdates>
-        <fullName>Timestamp_Smart_Touched_Time</fullName>
-        <field>TS_Time_Smart_Touched_manual_first__c</field>
-        <formula>now()</formula>
-        <name>Timestamp Smart Touched Time</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Formula</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
         <fullName>Update_Marketing_Opt_Out</fullName>
         <field>Marketing_Opt_Out__c</field>
         <literalValue>1</literalValue>
@@ -678,22 +668,6 @@ ISPICKVAL(LeadSource,&quot;&quot;))</formula>
         <formula>and(
 ischanged(Smart_Touch_Signal_No_Activity__c),
 not(isblank(Smart_Touch_Signal_No_Activity__c))
-)</formula>
-        <triggerType>onAllChanges</triggerType>
-    </rules>
-    <rules>
-        <fullName>%5BW%28C8%29%5D Timestamp Smart Touched Time</fullName>
-        <actions>
-            <name>Timestamp_Smart_Touched_Time</name>
-            <type>FieldUpdate</type>
-        </actions>
-        <actions>
-            <name>Workflow_Log_8</name>
-            <type>FieldUpdate</type>
-        </actions>
-        <active>false</active>
-        <formula>and( Smart_Touched_manual__c = True,
-Selected_to_Smart_Touch_Experiment_Group__c &lt;&gt; &quot;Control Group&quot;
 )</formula>
         <triggerType>onAllChanges</triggerType>
     </rules>
