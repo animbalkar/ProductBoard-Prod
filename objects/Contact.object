@@ -641,16 +641,6 @@ please do not delete</description>
         <type>DateTime</type>
     </fields>
     <fields>
-        <fullName>ZI_In_EU__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <inlineHelpText>ZoomInfo - person is European Union</inlineHelpText>
-        <label>ZI-In EU</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>isEditor__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -1437,18 +1427,6 @@ IF(Today() - DQ_Last_Updated__c &gt; 183,&quot;Expired&quot; ,&quot;Completed&qu
         </valueSet>
     </fields>
     <fields>
-        <fullName>ZI_Department__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>ZoomInfo Person&apos;s Department (e.gx Operations, Sales)</inlineHelpText>
-        <label>ZI-Department</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>isContributor__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
@@ -2094,17 +2072,6 @@ NOT(IsNull(TS_Contact_Assigned_to_SDR__c ))</description>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ZI_Company_Name__c</fullName>
-        <externalId>false</externalId>
-        <label>ZI-Company Name</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
@@ -2875,16 +2842,6 @@ lower(Seniority__c )
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>ZI_Company_Website__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>ZoomInfo company website</inlineHelpText>
-        <label>ZI-Company Website</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Url</type>
-    </fields>
-    <fields>
         <fullName>contactGrade6sense__c</fullName>
         <description>A measure of how engaged a person is with your first party sales and marketing tactics compared to previous buyers. Engagement activities of a person, along with historical opportunity history, are used by data science models to create this measure.</description>
         <externalId>false</externalId>
@@ -3204,18 +3161,6 @@ lower(Seniority__c )
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>ZI_Management_Level__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>ZoomInfo Management Level</inlineHelpText>
-        <label>ZI-Management Level</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>tmp_cb_Company_Name__c</fullName>
@@ -3638,17 +3583,6 @@ if(ISPICKVAL( Status , &quot;Qualified&quot;),5.2, */
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>ZI_Supplemental_Email__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>ZoomInfo Supplemental Email</inlineHelpText>
-        <label>ZI-Supplemental Email</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>mk_customer_fit_score__c</fullName>
         <externalId>false</externalId>
         <label>MK Customer Fit Score</label>
@@ -3762,18 +3696,6 @@ if(ISPICKVAL( Status , &quot;Qualified&quot;),5.2, */
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ZI_Company_ZoomInfo_ID__c</fullName>
-        <externalId>false</externalId>
-        <inlineHelpText>Company ZoomInfo ID</inlineHelpText>
-        <label>ZI-Company ZoomInfo ID</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
         <unique>false</unique>
     </fields>

@@ -4744,7 +4744,7 @@ Text(Campaign.Type)
     <fields>
         <fullName>tmp_Master_User_Email__c</fullName>
         <externalId>false</externalId>
-        <label>tmp Master User Email</label>
+        <label>tmp Master User Email(Delete)</label>
         <length>100</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

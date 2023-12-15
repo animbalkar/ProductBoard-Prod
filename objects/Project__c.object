@@ -303,7 +303,7 @@ Case ( Current_Backend_Stage__c,
     <fields>
         <fullName>ARR_New__c</fullName>
         <externalId>false</externalId>
-        <formula>IF( Current_Backend_Stage__c = &quot;Deleted&quot; || Current_Backend_Stage__c = &quot;Churned Customer&quot; || Current_Backend_Stage__c = &quot;Expired Contract&quot; , 0 ,
+        <formula>IF( Current_Backend_Stage__c = &quot;Deleted&quot; || Current_Backend_Stage__c = &quot;Churned Customer&quot; , 0 ,
 
 MRR__c * 12)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>

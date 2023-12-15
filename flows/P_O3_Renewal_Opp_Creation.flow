@@ -384,7 +384,7 @@
                 <leftValueReference>myVariable_current.Subscription_End_Date__c</leftValueReference>
                 <operator>GreaterThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>formula_13_myRule_12_4241368955</elementReference>
+                    <elementReference>formula_13_myRule_12_2886735535</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -498,7 +498,7 @@
                 <leftValueReference>myVariable_current.Subscription_End_Date__c</leftValueReference>
                 <operator>LessThan</operator>
                 <rightValue>
-                    <elementReference>formula_19_myRule_18_2889131188</elementReference>
+                    <elementReference>formula_19_myRule_18_6258352923</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -875,7 +875,7 @@
                 <leftValueReference>myVariable_current.Subscription_End_Date__c</leftValueReference>
                 <operator>GreaterThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>formula_13_myRule_12_4241368955</elementReference>
+                    <elementReference>formula_13_myRule_12_2886735535</elementReference>
                 </rightValue>
             </conditions>
             <connector>
@@ -1001,7 +1001,7 @@
                 <leftValueReference>myVariable_old.Subscription_End_Date__c</leftValueReference>
                 <operator>GreaterThanOrEqualTo</operator>
                 <rightValue>
-                    <elementReference>formula_14_myRule_12_pmetrule_7333816898</elementReference>
+                    <elementReference>formula_14_myRule_12_pmetrule_3595828749</elementReference>
                 </rightValue>
             </conditions>
             <label>Previously Met - Prev</label>
@@ -1124,7 +1124,7 @@
                 <leftValueReference>myVariable_old.Subscription_End_Date__c</leftValueReference>
                 <operator>LessThan</operator>
                 <rightValue>
-                    <elementReference>formula_20_myRule_18_pmetrule_0747593670</elementReference>
+                    <elementReference>formula_20_myRule_18_pmetrule_8327344768</elementReference>
                 </rightValue>
             </conditions>
             <label>Previously Met - Prev</label>
@@ -1138,7 +1138,7 @@
                 <stringValue>&quot;Space Provisioning: &quot; &amp; [Opportunity].Project__c.Project_Name_Short__c </stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_10_myRule_6_A1_1939653041</name>
+        <name>formula_10_myRule_6_A1_2287342867</name>
         <dataType>String</dataType>
         <expression>&quot;Space Provisioning: &quot; &amp; {!myVariable_current.Project__r.Project_Name_Short__c}</expression>
     </formulas>
@@ -1149,7 +1149,7 @@
                 <stringValue>TODAY()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_13_myRule_12_4241368955</name>
+        <name>formula_13_myRule_12_2886735535</name>
         <dataType>Date</dataType>
         <expression>TODAY()</expression>
     </formulas>
@@ -1160,7 +1160,7 @@
                 <stringValue>TODAY()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_14_myRule_12_pmetrule_7333816898</name>
+        <name>formula_14_myRule_12_pmetrule_3595828749</name>
         <dataType>Date</dataType>
         <expression>TODAY()</expression>
     </formulas>
@@ -1171,7 +1171,7 @@
                 <stringValue>&quot;Auto Created Case, Closed Lost Renewal Opp: &quot; &amp; [Opportunity].Name &amp; &quot;Space: &quot; &amp; [Opportunity].Project__c.Name</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_15_myWaitEvent_myWait_myRule_12_event_0_SA1_8917775814</name>
+        <name>formula_15_myWaitEvent_myWait_myRule_12_event_0_SA1_6607198752</name>
         <dataType>String</dataType>
         <expression>&quot;Auto Created Case, Closed Lost Renewal Opp: &quot; &amp; {!myVariable_current.Name} &amp; &quot;Space: &quot; &amp; {!myVariable_current.Project__r.Name}</expression>
     </formulas>
@@ -1182,7 +1182,7 @@
                 <stringValue>&quot;Space Deprovisioning - Closed Lost Renewal: &quot; &amp; [Opportunity].Project__c.Project_Name_Short__c</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_16_myWaitEvent_myWait_myRule_12_event_0_SA1_5456550285</name>
+        <name>formula_16_myWaitEvent_myWait_myRule_12_event_0_SA1_9250021092</name>
         <dataType>String</dataType>
         <expression>&quot;Space Deprovisioning - Closed Lost Renewal: &quot; &amp; {!myVariable_current.Project__r.Project_Name_Short__c}</expression>
     </formulas>
@@ -1193,7 +1193,7 @@
                 <stringValue>TODAY()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_19_myRule_18_2889131188</name>
+        <name>formula_19_myRule_18_6258352923</name>
         <dataType>Date</dataType>
         <expression>TODAY()</expression>
     </formulas>
@@ -1204,7 +1204,7 @@
                 <stringValue>TODAY()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_20_myRule_18_pmetrule_0747593670</name>
+        <name>formula_20_myRule_18_pmetrule_8327344768</name>
         <dataType>Date</dataType>
         <expression>TODAY()</expression>
     </formulas>
@@ -1215,7 +1215,7 @@
                 <stringValue>&quot;Auto Created Case, Closed Lost Renewal Opp: &quot; &amp; [Opportunity].Name &amp; &quot;Space: &quot; &amp; [Opportunity].Project__c.Name</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_21_myRule_18_A2_7121134696</name>
+        <name>formula_21_myRule_18_A2_4327650314</name>
         <dataType>String</dataType>
         <expression>&quot;Auto Created Case, Closed Lost Renewal Opp: &quot; &amp; {!myVariable_current.Name} &amp; &quot;Space: &quot; &amp; {!myVariable_current.Project__r.Name}</expression>
     </formulas>
@@ -1226,7 +1226,7 @@
                 <stringValue>&quot;Space Deprovisioning - Closed Lost Renewal: &quot; &amp; [Opportunity].Project__c.Project_Name_Short__c</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_22_myRule_18_A2_5141714277</name>
+        <name>formula_22_myRule_18_A2_0838776737</name>
         <dataType>String</dataType>
         <expression>&quot;Space Deprovisioning - Closed Lost Renewal: &quot; &amp; {!myVariable_current.Project__r.Project_Name_Short__c}</expression>
     </formulas>
@@ -1237,7 +1237,7 @@
                 <stringValue>Today ()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_3_myRule_1_A3_8334281169</name>
+        <name>formula_3_myRule_1_A3_1614461761</name>
         <dataType>Date</dataType>
         <expression>Today ()</expression>
     </formulas>
@@ -1248,7 +1248,7 @@
                 <stringValue>&quot;Created from Closed Won Opp: &quot; &amp; [Opportunity].Opp_ID_Long__c </stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_4_myRule_1_A1_2462213669</name>
+        <name>formula_4_myRule_1_A1_0350797628</name>
         <dataType>String</dataType>
         <expression>&quot;Created from Closed Won Opp: &quot; &amp; {!myVariable_current.Opp_ID_Long__c}</expression>
     </formulas>
@@ -1259,7 +1259,7 @@
                 <stringValue>now()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_8_myRule_6_A3_1106882061</name>
+        <name>formula_8_myRule_6_A3_5633199295</name>
         <dataType>DateTime</dataType>
         <expression>now()</expression>
     </formulas>
@@ -1271,12 +1271,12 @@
 &quot;Space: &quot; &amp; [Opportunity].Project__c.Name </stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_9_myRule_6_A1_3923353317</name>
+        <name>formula_9_myRule_6_A1_5702187497</name>
         <dataType>String</dataType>
         <expression>&quot;Auto Created Case, Closed Won Opp: &quot; &amp; {!myVariable_current.Name} &amp; 
 &quot;Space: &quot; &amp; {!myVariable_current.Project__r.Name}</expression>
     </formulas>
-    <interviewLabel>P_O3_Renewal_Opp_Creation-48_InterviewLabel</interviewLabel>
+    <interviewLabel>P_O3_Renewal_Opp_Creation-49_InterviewLabel</interviewLabel>
     <label>[P(O3)] - Space Provisioning &amp; Renewal Opp Creation - 2 - Oct 2022</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -1377,7 +1377,7 @@
             </processMetadataValues>
             <field>Description</field>
             <value>
-                <elementReference>formula_21_myRule_18_A2_7121134696</elementReference>
+                <elementReference>formula_21_myRule_18_A2_4327650314</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -1707,7 +1707,7 @@
             </processMetadataValues>
             <field>Subject</field>
             <value>
-                <elementReference>formula_22_myRule_18_A2_5141714277</elementReference>
+                <elementReference>formula_22_myRule_18_A2_0838776737</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -2431,7 +2431,7 @@
             </processMetadataValues>
             <field>Workflow_Log__c</field>
             <value>
-                <elementReference>formula_4_myRule_1_A1_2462213669</elementReference>
+                <elementReference>formula_4_myRule_1_A1_0350797628</elementReference>
             </value>
         </inputAssignments>
         <object>Contract</object>
@@ -2513,7 +2513,7 @@
             </processMetadataValues>
             <field>Description</field>
             <value>
-                <elementReference>formula_9_myRule_6_A1_3923353317</elementReference>
+                <elementReference>formula_9_myRule_6_A1_5702187497</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -2837,7 +2837,7 @@
             </processMetadataValues>
             <field>Subject</field>
             <value>
-                <elementReference>formula_10_myRule_6_A1_1939653041</elementReference>
+                <elementReference>formula_10_myRule_6_A1_2287342867</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -2955,7 +2955,7 @@
             </processMetadataValues>
             <field>Description</field>
             <value>
-                <elementReference>formula_15_myWaitEvent_myWait_myRule_12_event_0_SA1_8917775814</elementReference>
+                <elementReference>formula_15_myWaitEvent_myWait_myRule_12_event_0_SA1_6607198752</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -3285,7 +3285,7 @@
             </processMetadataValues>
             <field>Subject</field>
             <value>
-                <elementReference>formula_16_myWaitEvent_myWait_myRule_12_event_0_SA1_5456550285</elementReference>
+                <elementReference>formula_16_myWaitEvent_myWait_myRule_12_event_0_SA1_9250021092</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -3658,7 +3658,7 @@
             </processMetadataValues>
             <field>CloseDate</field>
             <value>
-                <elementReference>formula_3_myRule_1_A3_8334281169</elementReference>
+                <elementReference>formula_3_myRule_1_A3_1614461761</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -3979,7 +3979,7 @@
             </processMetadataValues>
             <field>Space_Provisioning_Case_Created_Date__c</field>
             <value>
-                <elementReference>formula_8_myRule_6_A3_1106882061</elementReference>
+                <elementReference>formula_8_myRule_6_A3_5633199295</elementReference>
             </value>
         </inputAssignments>
         <object>Opportunity</object>
@@ -4069,7 +4069,7 @@
         <object>Opportunity</object>
     </recordUpdates>
     <startElementReference>isChangedDecision2_myRule_1_StageName</startElementReference>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>cancelWaits</name>
         <dataType>String</dataType>
