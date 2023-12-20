@@ -1610,15 +1610,6 @@ IF(Max_Stage_Achieved__c &gt;= 0.2, &quot;Replied&quot;,&quot;No Reply&quot;)))<
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>True_Up_Date__c</fullName>
-        <externalId>false</externalId>
-        <label>True Up Date</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Date</type>
-    </fields>
-    <fields>
         <fullName>Workflow_Log__c</fullName>
         <externalId>false</externalId>
         <label>Workflow Log</label>
@@ -1653,56 +1644,6 @@ IF(Max_Stage_Achieved__c &gt;= 0.2, &quot;Replied&quot;,&quot;No Reply&quot;)))<
         <trackHistory>false</trackHistory>
         <type>Number</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Budget_Source__c</fullName>
-        <externalId>false</externalId>
-        <label>Budget Source</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>TBD</fullName>
-                    <default>false</default>
-                    <label>TBD</label>
-                </value>
-                <value>
-                    <fullName>Product</fullName>
-                    <default>false</default>
-                    <label>Product</label>
-                </value>
-                <value>
-                    <fullName>Marketing</fullName>
-                    <default>false</default>
-                    <label>Marketing</label>
-                </value>
-                <value>
-                    <fullName>Engineering</fullName>
-                    <default>false</default>
-                    <label>Engineering</label>
-                </value>
-                <value>
-                    <fullName>Sales</fullName>
-                    <default>false</default>
-                    <label>Sales</label>
-                </value>
-                <value>
-                    <fullName>Customer Success</fullName>
-                    <default>false</default>
-                    <label>Customer Success</label>
-                </value>
-                <value>
-                    <fullName>Analytics/Operations</fullName>
-                    <default>false</default>
-                    <label>Analytics/Operations</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>Champion_Name__c</fullName>
@@ -7756,37 +7697,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Budget_Source__c</picklist>
-            <values>
-                <fullName>Analytics%2FOperations</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Customer Success</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engineering</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>TBD</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Business_Model__c</picklist>
             <values>
                 <fullName>B2B</fullName>
@@ -10863,37 +10773,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Top down decision on new tools</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Budget_Source__c</picklist>
-            <values>
-                <fullName>Analytics%2FOperations</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Customer Success</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engineering</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>TBD</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -14045,37 +13924,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
         </picklistValues>
         <picklistValues>
-            <picklist>Budget_Source__c</picklist>
-            <values>
-                <fullName>Analytics%2FOperations</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Customer Success</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engineering</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>TBD</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>Business_Model__c</picklist>
             <values>
                 <fullName>B2B</fullName>
@@ -17092,37 +16940,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Top down decision on new tools</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Budget_Source__c</picklist>
-            <values>
-                <fullName>Analytics%2FOperations</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Customer Success</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engineering</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>TBD</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -20262,37 +20079,6 @@ Stamped by process builder at Opp Creation</description>
             </values>
             <values>
                 <fullName>Top down decision on new tools</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Budget_Source__c</picklist>
-            <values>
-                <fullName>Analytics%2FOperations</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Customer Success</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Engineering</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Marketing</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Product</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Sales</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>TBD</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

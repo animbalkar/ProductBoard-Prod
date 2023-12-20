@@ -8173,11 +8173,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Budget_Source__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Opportunity.Business_Model__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -10059,11 +10054,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Trial_Start_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.True_Up_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
