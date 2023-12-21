@@ -203,6 +203,7 @@ public class DataFactory_TEST {
 		opp.Subtype__c = 'System';
 		opp.Pricebook2Id = priceBook.Id;
 		opp.CloseDate = Date.today();
+		opp.Service_End_Date__c = Date.today();
 		Opportunity_DAO.insertOpportunity(opp);
 
 		// CONTACT ROLE

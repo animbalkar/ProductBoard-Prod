@@ -82,6 +82,10 @@
                 <behavior>Readonly</behavior>
                 <field>Renewal_Date_Check__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Approval_Status__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -98,10 +102,6 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>Vitally_Health_Category__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>RM_Forecast__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -152,10 +152,6 @@
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Approval_Status__c</field>
-            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Churn_Date__c</field>
@@ -727,8 +723,6 @@
         <fields>Contracted_NRR__c</fields>
         <fields>Contracted_MRR__c</fields>
         <fields>Contracted_editors__c</fields>
-        <fields>Contract_Start_Date__c</fields>
-        <fields>Contract_End_Date__c</fields>
         <relatedList>Contract.Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>

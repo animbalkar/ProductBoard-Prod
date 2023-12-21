@@ -85,6 +85,10 @@
                 <behavior>Edit</behavior>
                 <field>Deal_Cycle_Type__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Approval_Status__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -485,10 +489,6 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Approval_Status__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
                 <field>Subscription_Term__c</field>
             </layoutItems>
             <layoutItems>
@@ -855,8 +855,6 @@
         <fields>Contracted_NRR__c</fields>
         <fields>Contracted_MRR__c</fields>
         <fields>Contracted_editors__c</fields>
-        <fields>Contract_Start_Date__c</fields>
-        <fields>Contract_End_Date__c</fields>
         <relatedList>Contract.Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>

@@ -2330,7 +2330,7 @@ customer’s organization</inlineHelpText>
     <fields>
         <fullName>Approval_Status__c</fullName>
         <externalId>false</externalId>
-        <label>Sales/Renewal Ops Approval Status</label>
+        <label>Submit for Deal Approval</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -2345,9 +2345,14 @@ customer’s organization</inlineHelpText>
                     <label>Approved</label>
                 </value>
                 <value>
-                    <fullName>Rejected</fullName>
+                    <fullName>Submitted</fullName>
                     <default>false</default>
-                    <label>Rejected</label>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Documents Required</fullName>
+                    <default>false</default>
+                    <label>Documents Required</label>
                 </value>
                 <value>
                     <fullName>Draft</fullName>
@@ -2360,6 +2365,12 @@ customer’s organization</inlineHelpText>
                     <default>false</default>
                     <isActive>false</isActive>
                     <label>In Review</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Rejected</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -7681,7 +7692,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Rejected</fullName>
+                <fullName>Documents Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10761,7 +10776,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Rejected</fullName>
+                <fullName>Documents Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -13907,10 +13926,6 @@ Stamped by process builder at Opp Creation</description>
                 <fullName>Approved</fullName>
                 <default>false</default>
             </values>
-            <values>
-                <fullName>Rejected</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
         <picklistValues>
             <picklist>Bottoms_up_vs_Top_Down__c</picklist>
@@ -16928,7 +16943,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Rejected</fullName>
+                <fullName>Documents Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -20067,7 +20086,11 @@ Stamped by process builder at Opp Creation</description>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Rejected</fullName>
+                <fullName>Documents Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
