@@ -131,4 +131,9 @@
         <default>false</default>
         <label>6sense</label>
     </standardValue>
+    <standardValue>
+        <fullName>Champify</fullName>
+        <default>false</default>
+        <label>Champify</label>
+    </standardValue>
 </StandardValueSet>

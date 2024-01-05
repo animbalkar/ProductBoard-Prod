@@ -6074,6 +6074,10 @@ IF(
         <picklistValues>
             <picklist>AccountSource</picklist>
             <values>
+                <fullName>Champify</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Chat</fullName>
                 <default>false</default>
             </values>
@@ -9183,6 +9187,10 @@ IF(
         <label>Prospect</label>
         <picklistValues>
             <picklist>AccountSource</picklist>
+            <values>
+                <fullName>Champify</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Chat</fullName>
                 <default>false</default>

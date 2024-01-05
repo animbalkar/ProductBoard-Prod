@@ -325,6 +325,11 @@ NOT(ISPICKVAL(Status, &quot;Draft&quot;)))</formula>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
+                    <fullName>Enterprise Plus</fullName>
+                    <default>false</default>
+                    <label>Enterprise Plus</label>
+                </value>
+                <value>
                     <fullName>Enterprise</fullName>
                     <default>false</default>
                     <label>Enterprise</label>
@@ -516,6 +521,11 @@ NOT(ISPICKVAL(Status, &quot;Draft&quot;)))</formula>
                     <fullName>11</fullName>
                     <default>false</default>
                     <label>11</label>
+                </value>
+                <value>
+                    <fullName>12</fullName>
+                    <default>false</default>
+                    <label>12</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -1188,6 +1198,10 @@ Document details in Special Terms field</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Enterprise Plus</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Essentials</fullName>
                 <default>false</default>
             </values>
@@ -1236,6 +1250,10 @@ Document details in Special Terms field</inlineHelpText>
             </values>
             <values>
                 <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
                 <default>false</default>
             </values>
             <values>

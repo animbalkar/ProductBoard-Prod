@@ -8571,6 +8571,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
+                <fullName>Champify</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Chat</fullName>
                 <default>false</default>
             </values>
@@ -11686,6 +11690,10 @@ Stamped by process builder at Opp Creation</description>
         </picklistValues>
         <picklistValues>
             <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Champify</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Chat</fullName>
                 <default>false</default>
@@ -17854,6 +17862,10 @@ Stamped by process builder at Opp Creation</description>
         <picklistValues>
             <picklist>LeadSource</picklist>
             <values>
+                <fullName>Champify</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Chat</fullName>
                 <default>false</default>
             </values>
@@ -20996,6 +21008,10 @@ Stamped by process builder at Opp Creation</description>
         </picklistValues>
         <picklistValues>
             <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Champify</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>Chat</fullName>
                 <default>false</default>
