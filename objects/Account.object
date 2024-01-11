@@ -6732,6 +6732,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>EN-EM-Switzerland-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-EM-UKI-Open</fullName>
                 <default>false</default>
             </values>
@@ -7793,6 +7797,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>EN-EM-Switzerland-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-EM-UKI-Open</fullName>
                 <default>false</default>
             </values>
@@ -8153,6 +8161,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>EN-EM-Switzerland-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-NA-01-Assign</fullName>
                 <default>false</default>
             </values>
@@ -8389,6 +8401,10 @@ IF(
             </values>
             <values>
                 <fullName>EN-EM-Other-Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EN-EM-Switzerland-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9846,6 +9862,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>EN-EM-Switzerland-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-EM-UKI-Open</fullName>
                 <default>false</default>
             </values>
@@ -10911,6 +10931,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>EN-EM-Switzerland-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-EM-UKI-Open</fullName>
                 <default>false</default>
             </values>
@@ -11279,6 +11303,10 @@ IF(
                 <default>false</default>
             </values>
             <values>
+                <fullName>EN-EM-Switzerland-Assign</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-EM-UKI-Open</fullName>
                 <default>false</default>
             </values>
@@ -11551,6 +11579,10 @@ IF(
             </values>
             <values>
                 <fullName>EN-EM-Other-Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EN-EM-Switzerland-Assign</fullName>
                 <default>false</default>
             </values>
             <values>
