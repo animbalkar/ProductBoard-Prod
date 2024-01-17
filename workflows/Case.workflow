@@ -164,7 +164,7 @@
         <description>Value Request: New Resource Request</description>
         <protected>false</protected>
         <recipients>
-            <recipient>carolyn.thompson@productboard.com</recipient>
+            <recipient>eric.ren@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
