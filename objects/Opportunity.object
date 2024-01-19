@@ -23131,7 +23131,13 @@ DATEVALUE (CreatedDate) &gt;= DATE (2019,08,01)
         <active>true</active>
         <errorConditionFormula>Contains( $User.Department ,&quot;Sales&quot;)
  &amp;&amp; ISPICKVAL( StageName, &quot;Closed Won&quot;) &amp;&amp;
-NOT(ISPICKVAL( Approval_Status__c, &quot;Approved&quot; )) &amp;&amp;  (IsBlank(Date_Self_Service_Subscribed__c ))</errorConditionFormula>
+NOT(ISPICKVAL( Approval_Status__c, &quot;Approved&quot; )) &amp;&amp;  (IsBlank(Date_Self_Service_Subscribed__c )) &amp;&amp;
+NOT($Profile.Name = &quot;System Administrator&quot;) &amp;&amp;
+ IF(
+        RecordType.DeveloperName = &apos;Renewal&apos;,
+        Prior_ARR__c &lt;&gt; Amount,
+        TRUE
+    )</errorConditionFormula>
         <errorMessage>Need Sales Ops approval to close win an opportunity [OP03-13]</errorMessage>
     </validationRules>
     <validationRules>
@@ -23193,7 +23199,13 @@ $Profile.Name &lt;&gt; &quot;System Administrator&quot;
         <active>true</active>
         <errorConditionFormula>Contains( $User.Department ,&quot;Customer Success&quot;)
  &amp;&amp; ISPICKVAL( StageName, &quot;Closed Won&quot;) &amp;&amp;
-NOT(ISPICKVAL( Approval_Status__c, &quot;Approved&quot; )) &amp;&amp; (IsBlank(Date_Self_Service_Subscribed__c ))</errorConditionFormula>
+NOT(ISPICKVAL( Approval_Status__c, &quot;Approved&quot; )) &amp;&amp; (IsBlank(Date_Self_Service_Subscribed__c )) &amp;&amp; 
+NOT($Profile.Name = &quot;System Administrator&quot;) &amp;&amp;
+ IF(
+        RecordType.DeveloperName = &apos;Renewal&apos;,
+        Prior_ARR__c &lt;&gt; Amount,
+        TRUE
+    )</errorConditionFormula>
         <errorMessage>Need Sales Ops approval to close win an opportunity [OP03-13]</errorMessage>
     </validationRules>
     <validationRules>

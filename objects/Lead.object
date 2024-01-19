@@ -2014,7 +2014,8 @@ please do not delete</description>
         <description>Looks at the employee count and country and returns segment value based on criteria at a given point in time. This is the primary segment field.</description>
         <externalId>false</externalId>
         <formula>IF(Max_Account_Employees__c &lt; 1,&quot;Unknown&quot;,
-IF(Max_Account_Employees__c &lt; 1001,&quot;SMB&quot;,&quot;EN&quot;))</formula>
+    IF(Max_Account_Employees__c &gt;= 1 &amp;&amp; Max_Account_Employees__c &lt;= 99, &quot;ESB&quot;,
+        IF(Max_Account_Employees__c &gt;= 100 &amp;&amp; Max_Account_Employees__c &lt; 1001,&quot;SMB&quot;,&quot;EN&quot;)))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <inlineHelpText>Segmentation by # of Employees in a Company, Source: Clearbit
 NOAM + RoW
