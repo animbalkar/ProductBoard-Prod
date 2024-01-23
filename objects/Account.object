@@ -5884,6 +5884,7 @@ IF(
         <columns>Account_Tier__c</columns>
         <columns>Account_ARR__c</columns>
         <columns>Project_ARR__c</columns>
+        <columns>Territory_Governance__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>Customer_Status__c</field>
@@ -6703,6 +6704,10 @@ IF(
         </picklistValues>
         <picklistValues>
             <picklist>Geo_Territory__c</picklist>
+            <values>
+                <fullName>EN-APAC</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>EN-EM-Benelux-Open</fullName>
                 <default>false</default>
@@ -7769,6 +7774,10 @@ IF(
         <picklistValues>
             <picklist>ReOrg_Territory__c</picklist>
             <values>
+                <fullName>EN-APAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-EM-Benelux-Open</fullName>
                 <default>false</default>
             </values>
@@ -8141,6 +8150,10 @@ IF(
         <picklistValues>
             <picklist>Sales_Territory_2021__c</picklist>
             <values>
+                <fullName>EN-APAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-EM-Benelux-Open</fullName>
                 <default>false</default>
             </values>
@@ -8375,6 +8388,10 @@ IF(
         </picklistValues>
         <picklistValues>
             <picklist>Sales_territory__c</picklist>
+            <values>
+                <fullName>EN-APAC</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>EN-EM-Benelux-Open</fullName>
                 <default>false</default>
@@ -9834,6 +9851,10 @@ IF(
         <picklistValues>
             <picklist>Geo_Territory__c</picklist>
             <values>
+                <fullName>EN-APAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-EM-Benelux-Open</fullName>
                 <default>false</default>
             </values>
@@ -10903,6 +10924,10 @@ IF(
         <picklistValues>
             <picklist>ReOrg_Territory__c</picklist>
             <values>
+                <fullName>EN-APAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-EM-Benelux-Open</fullName>
                 <default>false</default>
             </values>
@@ -11275,6 +11300,10 @@ IF(
         <picklistValues>
             <picklist>Sales_Territory_2021__c</picklist>
             <values>
+                <fullName>EN-APAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EN-EM-Benelux-Open</fullName>
                 <default>false</default>
             </values>
@@ -11553,6 +11582,10 @@ IF(
         </picklistValues>
         <picklistValues>
             <picklist>Sales_territory__c</picklist>
+            <values>
+                <fullName>EN-APAC</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>EN-EM-Benelux-Open</fullName>
                 <default>false</default>
