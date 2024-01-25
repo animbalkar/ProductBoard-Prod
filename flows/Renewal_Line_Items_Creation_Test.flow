@@ -5,7 +5,7 @@
         <name>Add_Date_to_Line_Item</name>
         <label>Add Date to Line Item</label>
         <locationX>138</locationX>
-        <locationY>1271</locationY>
+        <locationY>1187</locationY>
         <assignmentItems>
             <assignToReference>caR_OpportunityLineItem.OpportunityId</assignToReference>
             <operator>Assign</operator>
@@ -49,7 +49,7 @@
         <name>Add_record_to_a_Collection</name>
         <label>Add record to a Collection</label>
         <locationX>138</locationX>
-        <locationY>1379</locationY>
+        <locationY>1295</locationY>
         <assignmentItems>
             <assignToReference>varR_OpportunityLineItems</assignToReference>
             <operator>Add</operator>
@@ -65,7 +65,7 @@
         <name>Check_Opportunity_Stage</name>
         <label>Check Opportunity Stage</label>
         <locationX>380</locationX>
-        <locationY>623</locationY>
+        <locationY>539</locationY>
         <defaultConnectorLabel>Lost &amp; Open</defaultConnectorLabel>
         <rules>
             <name>Closed_Won</name>
@@ -129,7 +129,7 @@
         <name>Does_Line_Item_Found</name>
         <label>Does Line Item Found?</label>
         <locationX>182</locationX>
-        <locationY>1055</locationY>
+        <locationY>971</locationY>
         <defaultConnectorLabel>No Line Item Found</defaultConnectorLabel>
         <rules>
             <name>Line_Item_Found</name>
@@ -150,11 +150,8 @@
     <decisions>
         <name>Record_Type_Null_Check</name>
         <label>Record Type Null Check</label>
-        <locationX>380</locationX>
+        <locationX>567</locationX>
         <locationY>431</locationY>
-        <defaultConnector>
-            <targetReference>Check_Opportunity_Stage</targetReference>
-        </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>RRecordtypeNullCheck</name>
@@ -172,7 +169,8 @@
             <label>RRecordtypeNullCheck</label>
         </rules>
     </decisions>
-    <description>LO updates - updated Record-triggered flow start - added only when a stage name is changed and stage = Closed Won</description>
+    <description>LO updates - updated Record-triggered flow start - added only when a stage name is changed and stage = Closed Won
+Enehano updates - exclude Self Service Opportunity type from the flow</description>
     <environments>Default</environments>
     <formulas>
         <description>Adds Renewal Year + &quot;Renewal&quot; + Account Name</description>
@@ -196,7 +194,7 @@
         <name>Line_Items</name>
         <label>Line Items</label>
         <locationX>50</locationX>
-        <locationY>1163</locationY>
+        <locationY>1079</locationY>
         <collectionReference>Get_Line_Items</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -229,14 +227,14 @@
         <name>Create_Line_Items</name>
         <label>Create Line Items</label>
         <locationX>50</locationX>
-        <locationY>1571</locationY>
+        <locationY>1487</locationY>
         <inputReference>varR_OpportunityLineItems</inputReference>
     </recordCreates>
     <recordCreates>
         <name>Create_Renewal_Opportunity</name>
         <label>Create Renewal Opportunity</label>
         <locationX>182</locationX>
-        <locationY>731</locationY>
+        <locationY>647</locationY>
         <connector>
             <targetReference>Update_Workflow_Log</targetReference>
         </connector>
@@ -343,7 +341,7 @@
         <name>Get_Line_Items</name>
         <label>Get Line Items</label>
         <locationX>182</locationX>
-        <locationY>947</locationY>
+        <locationY>863</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Does_Line_Item_Found</targetReference>
@@ -370,7 +368,7 @@
     <recordLookups>
         <name>Get_Renewal_Record_Type_ID</name>
         <label>Get Renewal Record Type ID</label>
-        <locationX>380</locationX>
+        <locationX>567</locationX>
         <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -401,7 +399,7 @@
         <name>Update_Workflow_Log</name>
         <label>Update Workflow Log</label>
         <locationX>182</locationX>
-        <locationY>839</locationY>
+        <locationY>755</locationY>
         <connector>
             <targetReference>Get_Line_Items</targetReference>
         </connector>
@@ -414,7 +412,7 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>254</locationX>
+        <locationX>441</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Get_Renewal_Record_Type_ID</targetReference>
@@ -432,6 +430,13 @@
             <operator>EqualTo</operator>
             <value>
                 <stringValue>Closed Won</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Opportunity_Record_Type_Name__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Self Service</stringValue>
             </value>
         </filters>
         <object>Opportunity</object>
