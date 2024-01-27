@@ -95,29 +95,10 @@
     </alerts>
     <alerts>
         <fullName>Deal_Won_Notification</fullName>
-        <ccEmails>hubert@productboard.com,</ccEmails>
-        <ccEmails>customersuccess@productboard.com,</ccEmails>
-        <ccEmails>oxygen-revenue-aaaaaavft6pgjcfyrpvya5c6ia@productboard.slack.com,</ccEmails>
         <description>Deal Won Notification</description>
         <protected>false</protected>
         <recipients>
             <type>owner</type>
-        </recipients>
-        <recipients>
-            <recipient>CSM_Manager_Tier_3_4</recipient>
-            <type>role</type>
-        </recipients>
-        <recipients>
-            <recipient>CSM_Tier_3_4</recipient>
-            <type>role</type>
-        </recipients>
-        <recipients>
-            <recipient>Head_of_Sales</recipient>
-            <type>role</type>
-        </recipients>
-        <recipients>
-            <field>SDR__c</field>
-            <type>userLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>Internal_Notifications/Opp_Won_Alert_New</template>
