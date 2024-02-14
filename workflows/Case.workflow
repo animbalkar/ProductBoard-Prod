@@ -122,7 +122,11 @@
         <description>SalesOps Case Priority Alert</description>
         <protected>false</protected>
         <recipients>
-            <recipient>harrison.tighe@productboard.com</recipient>
+            <recipient>lauren@productboard.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>michael.ackley@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
@@ -134,7 +138,7 @@
         <description>SalesOps Request Email Alert</description>
         <protected>false</protected>
         <recipients>
-            <recipient>harrison.tighe@productboard.com</recipient>
+            <recipient>lauren@productboard.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
