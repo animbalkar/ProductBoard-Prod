@@ -11,7 +11,7 @@
         <label>EN-EM-CEE-Open</label>
     </customValue>
     <customValue>
-        <fullName>EN-EM-FranceSwitzerland-Assign</fullName>
+        <fullName>EN-EM-France-Assign</fullName>
         <default>false</default>
         <label>EN-EM-France-Assign</label>
     </customValue>
