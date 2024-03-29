@@ -2,18 +2,23 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Call</fullName>
-        <default>false</default>
-        <label>Call</label>
+        <fullName>Low</fullName>
+        <default>true</default>
+        <label>Low</label>
     </standardValue>
     <standardValue>
-        <fullName>Meeting</fullName>
+        <fullName>Medium</fullName>
         <default>false</default>
-        <label>Meeting</label>
+        <label>Medium</label>
     </standardValue>
     <standardValue>
-        <fullName>Other</fullName>
+        <fullName>High</fullName>
         <default>false</default>
-        <label>Other</label>
+        <label>High</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Critical</fullName>
+        <default>false</default>
+        <label>Critical</label>
     </standardValue>
 </StandardValueSet>

@@ -2,28 +2,23 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Call</fullName>
+        <fullName>Resolved</fullName>
         <default>false</default>
-        <label>Call</label>
+        <label>Resolved</label>
     </standardValue>
     <standardValue>
-        <fullName>Email</fullName>
+        <fullName>Submitted</fullName>
         <default>false</default>
-        <label>Email</label>
+        <label>Submitted</label>
     </standardValue>
     <standardValue>
-        <fullName>Meeting</fullName>
+        <fullName>Reviewed</fullName>
         <default>false</default>
-        <label>Meeting</label>
+        <label>Reviewed</label>
     </standardValue>
     <standardValue>
-        <fullName>Send Letter/Quote</fullName>
+        <fullName>Commented</fullName>
         <default>false</default>
-        <label>Send Letter/Quote</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>Other</label>
+        <label>Commented</label>
     </standardValue>
 </StandardValueSet>

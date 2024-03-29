@@ -9,21 +9,15 @@
         <groupingString>InApproval</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>Draft</fullName>
-        <default>false</default>
-        <label>Draft</label>
-        <groupingString>Draft</groupingString>
-    </standardValue>
-    <standardValue>
         <fullName>Activated</fullName>
         <default>false</default>
         <label>Activated</label>
         <groupingString>Activated</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>Expired</fullName>
+        <fullName>Draft</fullName>
         <default>false</default>
-        <label>Expired</label>
-        <groupingString>Activated</groupingString>
+        <label>Draft</label>
+        <groupingString>Draft</groupingString>
     </standardValue>
 </StandardValueSet>

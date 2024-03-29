@@ -127,7 +127,8 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>true</enableFeeds>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
         <searchResultsAdditionalFields>User</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CreatedDate</searchResultsAdditionalFields>

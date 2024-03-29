@@ -128,6 +128,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadSelect</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>PRICEBOOK2.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>PRICEBOOK2.DESCRIPTION</customTabListAdditionalFields>
@@ -147,13 +148,4 @@
         <searchResultsAdditionalFields>PRICEBOOK2.IS_ACTIVE</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadSelect</sharingModel>
-    <listViews>
-        <fullName>All_Price_Books</fullName>
-        <columns>PRICEBOOK2.NAME</columns>
-        <columns>PRICEBOOK2.DESCRIPTION</columns>
-        <columns>PRICEBOOK2.LAST_UPDATE</columns>
-        <columns>PRICEBOOK2.IS_ACTIVE</columns>
-        <filterScope>Everything</filterScope>
-        <label>All Price Books</label>
-    </listViews>
 </CustomObject>

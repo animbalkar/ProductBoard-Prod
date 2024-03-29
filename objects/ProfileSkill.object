@@ -155,7 +155,8 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>true</enableFeeds>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>UserCount</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>UserCount</lookupDialogsAdditionalFields>

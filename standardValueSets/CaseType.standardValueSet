@@ -7,73 +7,13 @@
         <label>Problem</label>
     </standardValue>
     <standardValue>
-        <fullName>Customer Setup</fullName>
-        <default>false</default>
-        <label>Customer Setup</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Question</fullName>
-        <default>false</default>
-        <label>Question</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Lead Routing</fullName>
-        <default>false</default>
-        <label>Lead Routing</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Sales Credit Request</fullName>
-        <default>false</default>
-        <label>Sales Credit Request</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Data Request</fullName>
-        <default>false</default>
-        <label>Data Request</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Process</fullName>
-        <default>false</default>
-        <label>Process</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Report+Analytics</fullName>
-        <default>false</default>
-        <label>Report+Analytics</label>
-    </standardValue>
-    <standardValue>
         <fullName>Feature Request</fullName>
         <default>false</default>
         <label>Feature Request</label>
     </standardValue>
     <standardValue>
-        <fullName>Resource Request</fullName>
+        <fullName>Question</fullName>
         <default>false</default>
-        <label>Resource Request</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Renewals</fullName>
-        <default>false</default>
-        <label>Renewals</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Sales Credit Request - Monthly Deal</fullName>
-        <default>false</default>
-        <label>Sales Credit Request - Monthly Deal</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Salesforce Data Help</fullName>
-        <default>false</default>
-        <label>Salesforce Data Help</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Deal Help</fullName>
-        <default>false</default>
-        <label>Deal Help</label>
-    </standardValue>
-    <standardValue>
-        <fullName>System Help</fullName>
-        <default>false</default>
-        <label>System Help</label>
+        <label>Question</label>
     </standardValue>
 </StandardValueSet>

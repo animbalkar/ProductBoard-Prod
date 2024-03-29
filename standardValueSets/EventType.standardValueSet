@@ -21,14 +21,4 @@
         <default>false</default>
         <label>Call</label>
     </standardValue>
-    <standardValue>
-        <fullName>Reference event</fullName>
-        <default>false</default>
-        <label>Reference event</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Deal Progression</fullName>
-        <default>false</default>
-        <label>Deal Progression</label>
-    </standardValue>
 </StandardValueSet>

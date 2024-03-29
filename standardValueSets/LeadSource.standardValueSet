@@ -2,138 +2,58 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Chat</fullName>
+        <fullName>Advertisement</fullName>
         <default>false</default>
-        <label>Chat</label>
+        <label>Advertisement</label>
     </standardValue>
     <standardValue>
-        <fullName>Conference</fullName>
+        <fullName>Employee Referral</fullName>
         <default>false</default>
-        <label>Conference</label>
+        <label>Employee Referral</label>
     </standardValue>
     <standardValue>
-        <fullName>Field Event</fullName>
+        <fullName>External Referral</fullName>
         <default>false</default>
-        <label>Field Event</label>
+        <label>External Referral</label>
     </standardValue>
     <standardValue>
-        <fullName>Historic Acquisition</fullName>
+        <fullName>Partner</fullName>
         <default>false</default>
-        <label>Historic Acquisition</label>
+        <label>Partner</label>
     </standardValue>
     <standardValue>
-        <fullName>Inbound</fullName>
+        <fullName>Public Relations</fullName>
         <default>false</default>
-        <label>Inbound</label>
+        <label>Public Relations</label>
     </standardValue>
     <standardValue>
-        <fullName>Online Advertising</fullName>
+        <fullName>Seminar - Internal</fullName>
         <default>false</default>
-        <label>Online Advertising</label>
+        <label>Seminar - Internal</label>
     </standardValue>
     <standardValue>
-        <fullName>Organic Search</fullName>
+        <fullName>Seminar - Partner</fullName>
         <default>false</default>
-        <label>Organic Search</label>
+        <label>Seminar - Partner</label>
     </standardValue>
     <standardValue>
-        <fullName>Organic Social</fullName>
+        <fullName>Trade Show</fullName>
         <default>false</default>
-        <label>Organic Social</label>
+        <label>Trade Show</label>
     </standardValue>
     <standardValue>
-        <fullName>Paid Social</fullName>
+        <fullName>Web</fullName>
         <default>false</default>
-        <label>Paid Social</label>
+        <label>Web</label>
     </standardValue>
     <standardValue>
-        <fullName>Portal</fullName>
+        <fullName>Word of mouth</fullName>
         <default>false</default>
-        <label>Portal</label>
+        <label>Word of mouth</label>
     </standardValue>
     <standardValue>
-        <fullName>Purchased List</fullName>
+        <fullName>Other</fullName>
         <default>false</default>
-        <label>Purchased List</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Referral</fullName>
-        <default>false</default>
-        <label>Referral</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Sales Generated</fullName>
-        <default>false</default>
-        <label>Sales Generated</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Syndicated Content</fullName>
-        <default>false</default>
-        <label>Syndicated Content</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Team Member Invite</fullName>
-        <default>false</default>
-        <label>Team Member Invite</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Unknown</fullName>
-        <default>false</default>
-        <label>Unknown</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Webinar</fullName>
-        <default>false</default>
-        <label>Webinar</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Website Direct</fullName>
-        <default>false</default>
-        <label>Website Direct</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Website Referral</fullName>
-        <default>false</default>
-        <label>Website Referral</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Intercom</fullName>
-        <default>false</default>
-        <label>Intercom</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Community</fullName>
-        <default>false</default>
-        <label>Community</label>
-    </standardValue>
-    <standardValue>
-        <fullName>LeadGenius</fullName>
-        <default>false</default>
-        <label>LeadGenius</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Apollo</fullName>
-        <default>false</default>
-        <label>Apollo</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Slintel</fullName>
-        <default>false</default>
-        <label>Slintel</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Cognism</fullName>
-        <default>false</default>
-        <label>Cognism</label>
-    </standardValue>
-    <standardValue>
-        <fullName>6sense</fullName>
-        <default>false</default>
-        <label>6sense</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Champify</fullName>
-        <default>false</default>
-        <label>Champify</label>
+        <label>Other</label>
     </standardValue>
 </StandardValueSet>
